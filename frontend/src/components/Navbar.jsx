@@ -33,7 +33,7 @@ const Example = (props) => {
         {/* First dropdown */}
 
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
+          <Nav className="mr-auto text-center" navbar>
             <NavItem>
               <NavLink href="/catagories/">Kategorier</NavLink>
             </NavItem>
@@ -52,10 +52,14 @@ const Example = (props) => {
         {/* second dropdown */}
 
         <Collapse isOpen={isOpen2} navbar>
+          {/* text-center works but not text-right  */}
+          <Nav className="mr-auto text-center text-md-right" navbar>
+
           <div>test</div>
           <div>test</div>
           <div>test</div>
-          <div>test</div>
+          <div>Lägg till en lista +</div>
+          </Nav>
         </Collapse>
 
 
