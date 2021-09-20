@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import FirebaseTest from './FirebaseTest';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <Navbar />
       </header>
       <main>
+        <FirebaseTest/>
 
       </main>
       <footer>
