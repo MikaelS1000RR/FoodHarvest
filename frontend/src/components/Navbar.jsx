@@ -27,36 +27,10 @@ const Example = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
         <NavbarToggler onClick={() => setIsOpen2(!isOpen2)} />
 
-        <Collapse isOpen2={isOpen2} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-        </Collapse>
+        {/* First dropdown */}
 
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -86,6 +60,17 @@ const Example = (props) => {
           </Nav>
           <NavbarText>Simple Text</NavbarText>
         </Collapse>
+
+        {/* second dropdown */}
+
+        <Collapse isOpen={isOpen2} navbar>
+          <div>test</div>
+          <div>test</div>
+          <div>test</div>
+          <div>test</div>
+        </Collapse>
+
+
       </Navbar>
     </div>
   );
