@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import FirebaseTest from './FirebaseTest';
 
+
 function App() {
   return (
     <div className="App">
