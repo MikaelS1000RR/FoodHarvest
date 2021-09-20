@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import {
   Collapse,
   Navbar,
@@ -15,7 +14,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-const TheNavbar = (props) => {
+const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -31,11 +30,11 @@ const TheNavbar = (props) => {
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">FoodHarvest</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                ❤️ Välj lista
+                Options
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
@@ -51,11 +50,11 @@ const TheNavbar = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          {/* <NavbarText>Simple Text</NavbarText> */}
+          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
   );
 }
 
-export default TheNavbar;
+export default Example;
