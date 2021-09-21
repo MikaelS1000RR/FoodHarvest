@@ -2,13 +2,13 @@ import React from "react";
 import FavoriteButton from "./FavoriteButton";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText } = props;
+  const { product, classNames, buttonText, isFavorite } = props;
 
 
   return (
     <div className={classNames}>
       <div className={"card text-center"} style={styles.container}>
-        <FavoriteButton styles={styles.favorite} productId={product.id}/>
+        <FavoriteButton styles={styles.favorite} productId={product.id} isFavorite={isFavorite} />
         <div className="card-img-top" style={styles.image}>
           <img
             className=""
