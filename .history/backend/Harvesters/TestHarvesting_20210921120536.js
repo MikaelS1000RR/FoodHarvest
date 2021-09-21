@@ -31,7 +31,7 @@ module.exports = class TestHarvesting {
       await WillysScrubber.scrubAll(frystFagel)
     );*/
 
-    console.log("Test harvesting and scrubbing done!" + ' ' + JSON.stringify(frystFagel));
+    console.log("Test harvesting and scrubbing done!" + ' ' + frystFagel.);
   }
 
 };

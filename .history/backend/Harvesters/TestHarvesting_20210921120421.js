@@ -22,7 +22,7 @@ module.exports = class TestHarvesting {
 
     
 
-    //writeToFile("willys-categories.json", categories);
+    writeToFile("willys-categories.json", categories);
     //writeToFile("willys-fryst-fagel.json", frystFagel);
 
     // Test of scrubber
@@ -31,7 +31,7 @@ module.exports = class TestHarvesting {
       await WillysScrubber.scrubAll(frystFagel)
     );*/
 
-    console.log("Test harvesting and scrubbing done!" + ' ' + JSON.stringify(frystFagel));
+    console.log("Test harvesting and scrubbing done!" + ' ' + frystFagel);
   }
 
 };

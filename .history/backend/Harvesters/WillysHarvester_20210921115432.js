@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 
+
 module.exports = class WillysHarvester {
   static bustCache() {
     return "?avoidCache=" + (Math.random() + "").split(".")[1];
@@ -12,11 +13,9 @@ module.exports = class WillysHarvester {
 
   static async getProducts(categoryURL) {
     let raw = await fetch('https://www.willys.se/c/'
-      + categoryURL + this.bustCache() + '&size=20');
+      + categoryURL + this.bustCache() + '&size=10000');
     return (await raw.json()).results;
   }
-
-
 
 
 };
