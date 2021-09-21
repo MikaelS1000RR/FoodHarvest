@@ -1,4 +1,4 @@
-
+import * as fs from 'fs'
 import WillysHarvester from './WillysHarvester.js'
 
 

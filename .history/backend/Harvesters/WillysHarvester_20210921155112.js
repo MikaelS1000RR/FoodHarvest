@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+import fetch from 'nop'
 
 export class WillysHarvester {
   static bustCache() {

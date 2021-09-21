@@ -1,11 +1,11 @@
-
+import * as fs from 'fs'
 import WillysHarvester from './WillysHarvester.js'
 
 
 export class TestHarvesting {
   static async test() {
     // write to file for now (goal: write to DB instead)
-  
+  *
 
     // let categories = await WillysHarvester.getProducts();
     let frystFagel = await WillysHarvester.getProducts(
