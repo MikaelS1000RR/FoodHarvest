@@ -1,4 +1,9 @@
 import ProductCard from "../components/ProductCard";
+import React, { useState } from 'react';
+import DetailModal from "../components/DetailModal";
+
+
+
 
 const Home = () => {
 
@@ -27,15 +32,22 @@ const Home = () => {
     },
   ];
 
+    const [isOpen, setIsOpen] = useState(false)
+
+
+
   return (
     <div className="container" style={styles.container}>
       <div className="row">
         {products.map(p =>
+
           <ProductCard
-            product={p}
-            classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
-            buttonText="Lägg till" />)
+          product={p}
+          classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
+            buttonText="Lägg till" />
+        )
         }
+        <DetailModal open={isOpen} onClick={()=> setIsOpen(true)}/>
       </div>
     </div>
    );

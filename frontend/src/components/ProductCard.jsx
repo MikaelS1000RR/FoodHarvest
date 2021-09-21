@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+
 
 import {
   Card,
@@ -13,6 +14,7 @@ import {
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText } = props;
+
 
 
   return (
@@ -32,6 +34,7 @@ const ProductCard = (props) => {
           <div className="btn btn-primary" style={styles.button}>{buttonText}</div>
         </div>
       </div>
+
     </div>
   );
 };
