@@ -11,46 +11,69 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText,
+  Dropdown
 } from 'reactstrap';
 
 const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [hamburgerMenu, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!hamburgerMenu);
 
-  const toggle = () => setIsOpen(!isOpen);
-
+  const [chooseListDropDown, setChooseListDropDown] = useState(false);
+  const toggleChooseListDropDown = () => {
+     setChooseListDropDown(!chooseListDropDown);
+  }
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+
+
+        <Nav className="mr-auto" navbar>
+           <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
+             <DropdownToggle caret>
+               ❤️ Välj lista
+             </DropdownToggle>
+             <DropdownMenu>
+               <div>Grönsaker</div>
+               <div>test</div>
+               <div>test</div>
+               <div>Lägg till en lista +</div>
+             </DropdownMenu>
+           </Dropdown>
+         </Nav>
+
+
+        
+        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
         <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+        <Collapse isOpen={hamburgerMenu} navbar>
           <Nav className="mr-auto" navbar>
+            <div>!!!Inte inloggad</div>
+            {/* not logged in */}
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/catagories/">Kategorier</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="/login/">Logga in</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="/register/">Registrera dig</NavLink>
+            </NavItem>
+            {/* Logged in */}
+            <div>!!!När inloggad</div>
+            <NavItem>
+              <NavLink href="/myProductListPage/">Inköpslistor</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/catagories/">Kategorier</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/myProfile/">Mina sidor</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Logga ut</NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
