@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import {
   Collapse,
   Navbar,
@@ -11,6 +12,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  Dropdown,
   NavbarText
 } from 'reactstrap';
 
@@ -19,16 +21,87 @@ const Example = (props) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  // -----------------------------------------
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const toggleDropdown = () => setDropdownOpen(prevState => !prevState);
+
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+      <Navbar color="primary" light expand="md">
+        {/* <NavbarToggler onClick={toggle} /> */}
+        {/* <Collapse isOpen={isOpen} navbar> */}
           <Nav className="mr-auto" navbar>
-            
+            <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
+              <DropdownToggle caret>
+                ≡
+              </DropdownToggle>
+              <DropdownMenu>
+                <div>Inte inloggad</div>
+                 {/* not logged in */}
+                <NavItem>
+                  <NavLink href="/catagories/">Kategorier</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/login/">Logga in</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/register/">Registrera dig</NavLink>
+                </NavItem>
+                {/* Logged in */}
+                <div>När inloggad</div>
+                <NavItem>
+                  <NavLink href="myProductListPage">Inköpslistor</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/catagories/">Kategorier</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="myProfile">Mina sidor</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/">Logga ut</NavLink>
+                </NavItem>
+              </DropdownMenu>
+            </Dropdown>
           </Nav>
-        </Collapse>
+        {/* </Collapse> */}
+        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
+        {/* Second dropdown */}
+        <Nav className="mr-auto" navbar>
+          <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
+            <DropdownToggle caret>
+              ≡
+            </DropdownToggle>
+            <DropdownMenu>
+              <div>Inte inloggad</div>
+              {/* not logged in */}
+              <NavItem>
+                <NavLink href="/catagories/">Kategorier</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/login/">Logga in</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/register/">Registrera dig</NavLink>
+              </NavItem>
+              {/* Logged in */}
+              <div>När inloggad</div>
+              <NavItem>
+                <NavLink href="myProductListPage">Inköpslistor</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/catagories/">Kategorier</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="myProfile">Mina sidor</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/">Logga ut</NavLink>
+              </NavItem>
+            </DropdownMenu>
+          </Dropdown>
+        </Nav>
       </Navbar>
     </div>
   );
@@ -107,9 +180,9 @@ export default Example;
 //             <NavItem>
 //               <NavLink href="/">Logga ut</NavLink>
 //             </NavItem>
-            
+
 //           </Nav>
-          
+
 //         </Collapse>
 
 //         {/* second dropdown */}
