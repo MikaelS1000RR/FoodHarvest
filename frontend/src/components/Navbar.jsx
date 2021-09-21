@@ -34,6 +34,7 @@ const Example = (props) => {
 
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto text-center" navbar>
+            {/* not logged in */}
             <NavItem>
               <NavLink href="/catagories/">Kategorier</NavLink>
             </NavItem>
@@ -43,7 +44,20 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/register/">Registrera dig</NavLink>
             </NavItem>
-            {/* Add more links */}
+            {/* Logged in */}
+            <div>Inloggad</div>
+            <NavItem>
+              <NavLink href="myProductListPage">Inköpslistor</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/catagories/">Kategorier</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="myProfile">Mina sidor</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/">Logga ut</NavLink>
+            </NavItem>
             
           </Nav>
           
