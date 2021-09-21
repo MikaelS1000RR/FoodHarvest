@@ -26,12 +26,12 @@ const Example = (props) => {
   }
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="primary" light expand="md">
 
 
         <Nav className="mr-auto" navbar>
            <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
-             <DropdownToggle caret>
+             <DropdownToggle color="warning" caret>
                ❤️ Välj lista
              </DropdownToggle>
              <DropdownMenu>
@@ -45,7 +45,7 @@ const Example = (props) => {
 
 
         
-        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
+        <NavbarBrand className="text-white" href="/">FoodHarvest</NavbarBrand>
         <NavbarToggler onClick={toggleHamburgerMenu} />
         <Collapse isOpen={hamburgerMenu} navbar>
           <Nav className="mr-auto" navbar>
