@@ -18,7 +18,8 @@ const ProductCard = (props) => {
           />
         </div>
         <div className="card-body">
-          <h5 className="card-title">{product.displayName}</h5>
+          <h5 className="card-title">{product.productName}</h5>
+          <p className="card-title">{product.brand + ' ' + product.quantity + product.quantityUnit}</p>
           <h3>{product.price}</h3>
           <div className="btn btn-primary" style={styles.button}>
             {buttonText}
@@ -35,7 +36,7 @@ const styles = {
   container: {
     background: "white",
     width: "100%",
-    height: "300px"
+    minHeight: "300px"
   },
   button: {
     width: "80%",
@@ -43,7 +44,7 @@ const styles = {
   },
   image: {
     width: "100%",
-    height: "50%",
+    height: "150px",
     verticalAlign: "middle",
     display: "flex",
     content: {
