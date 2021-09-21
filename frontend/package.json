@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.1",
     "firebase": "^9.0.2",
+    "firebase-admin": "^9.11.1",
     "react": "^17.0.2",
     "react-amazing-proxy": "^1.0.63",
     "react-dom": "^17.0.2",
