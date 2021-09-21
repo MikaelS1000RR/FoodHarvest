@@ -18,9 +18,11 @@ const ProductCard = (props) => {
           />
         </div>
         <div className="card-body">
-          <h5 className="card-title">{product.productName}</h5>
-          <p className="card-title">{product.brand + ' ' + product.quantity + product.quantityUnit}</p>
-          <h3>{product.price}</h3>
+          <div>
+            <h5 className="card-title">{product.productName}</h5>
+            <p className="card-title">{product.brand + ' ' + product.quantity + product.quantityUnit}</p>
+          </div>
+          <h3>{product.price}kr</h3>
           <div className="btn btn-primary" style={styles.button}>
             {buttonText}
           </div>
@@ -36,10 +38,14 @@ const styles = {
   container: {
     background: "white",
     width: "100%",
-    minHeight: "300px"
+    minHeight: "400px",
+    display: "flex",
+    flexFlow: "row wrap",
+    justifyContent: "flex-start"
   },
   button: {
     width: "80%",
+    minWidth: "100%",
     borderRadius: "100px",
   },
   image: {

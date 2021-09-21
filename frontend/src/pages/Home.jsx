@@ -1,5 +1,5 @@
 import ProductCard from "../components/Home/ProductCard";
-import data from '../testData.js'
+import data from '../testData.js' // will be removed when real data is fetched
 
 const Home = () => {
 
