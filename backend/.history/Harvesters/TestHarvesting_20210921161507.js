@@ -16,7 +16,9 @@ export class TestHarvesting {
 
 
     
+
+
     console.log("Test harvesting and scrubbing done!" + ' ' + JSON.stringify(frystFagel));
   }
 
-}
+};

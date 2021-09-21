@@ -16,7 +16,19 @@ export class TestHarvesting {
 
 
     
+
+    
+
+    //writeToFile("willys-categories.json", categories);
+    //writeToFile("willys-fryst-fagel.json", frystFagel);
+
+    // Test of scrubber
+   /* writeToFile(
+      "willys-fryst-fagel-scrubbed.json",
+      await WillysScrubber.scrubAll(frystFagel)
+    );*/
+
     console.log("Test harvesting and scrubbing done!" + ' ' + JSON.stringify(frystFagel));
   }
 
-}
+};
