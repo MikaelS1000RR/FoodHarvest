@@ -16,12 +16,13 @@ import {
 } from 'reactstrap';
 
 const Example = (props) => {
-  const [hamburgerMenu, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!hamburgerMenu);
+  const [hamburgerMenu, setHamburgerMenu] = useState(false);
+  const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
 
   const [chooseListDropDown, setChooseListDropDown] = useState(false);
   const toggleChooseListDropDown = () => {
-     setChooseListDropDown(!chooseListDropDown);
+    setHamburgerMenu(false);
+    setChooseListDropDown(!chooseListDropDown);
   }
   return (
     <div>
@@ -45,7 +46,7 @@ const Example = (props) => {
 
         
         <NavbarBrand href="/">FoodHarvest</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggleHamburgerMenu} />
         <Collapse isOpen={hamburgerMenu} navbar>
           <Nav className="mr-auto" navbar>
             <div>!!!Inte inloggad</div>
