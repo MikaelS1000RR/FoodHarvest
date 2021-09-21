@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import FirebaseTest from './FirebaseTest';
+import FirebaseTest from './database/test-FS-render-data';
 
 
 function App() {
