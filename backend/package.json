@@ -3,5 +3,6 @@
     "express": "^4.17.1",
     "express-session": "^1.17.2",
     "firebase": "^9.0.2"
-  }
+  },
+  "type": "module"
 }
