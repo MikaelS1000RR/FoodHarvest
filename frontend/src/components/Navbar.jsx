@@ -18,17 +18,21 @@ const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
 
-
-  // const toggle = () => setIsOpen(!isOpen);
-  // const toggle2 = () => setIsOpen2(!isOpen2);
-
+  const open1 = () => {
+    setIsOpen(!isOpen);
+    setIsOpen2(false);
+  }
+  const open2 = () => {
+    setIsOpen2(!isOpen2);
+    setIsOpen(false);
+  }
 
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarToggler onClick={() => setIsOpen(!isOpen)} />
+        <NavbarToggler onClick={open1} />
         <NavbarBrand href="/">FoodHarvest</NavbarBrand>
-        <NavbarToggler onClick={() => setIsOpen2(!isOpen2)} />
+        <NavbarToggler onClick={open2} />
 
         {/* First dropdown */}
 
