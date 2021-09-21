@@ -17,59 +17,30 @@ import {
 } from 'reactstrap';
 
 const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   // -----------------------------------------
 
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const toggleDropdown = () => setDropdownOpen(prevState => !prevState);
+  const [navDropdownOpen, setDropdownOpen] = useState(false);
+  const toggleNavDropdown = () => {
+    setDropdownOpen(!navDropdownOpen);
+  }
+
+  const [chooseListDropDown, setChooseListDropDown] = useState(false);
+  const toggleChooseListDropDown = () => {
+    setChooseListDropDown(!chooseListDropDown);
+  }
+
 
   return (
     <div>
       <Navbar color="primary" light expand="md">
         {/* <NavbarToggler onClick={toggle} /> */}
         {/* <Collapse isOpen={isOpen} navbar> */}
-          <Nav className="mr-auto" navbar>
-            <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
-              <DropdownToggle caret>
-                ≡
-              </DropdownToggle>
-              <DropdownMenu>
-                <div>Inte inloggad</div>
-                 {/* not logged in */}
-                <NavItem>
-                  <NavLink href="/catagories/">Kategorier</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/login/">Logga in</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/register/">Registrera dig</NavLink>
-                </NavItem>
-                {/* Logged in */}
-                <div>När inloggad</div>
-                <NavItem>
-                  <NavLink href="myProductListPage">Inköpslistor</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/catagories/">Kategorier</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="myProfile">Mina sidor</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/">Logga ut</NavLink>
-                </NavItem>
-              </DropdownMenu>
-            </Dropdown>
-          </Nav>
-        {/* </Collapse> */}
-        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
-        {/* Second dropdown */}
         <Nav className="mr-auto" navbar>
-          <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
+          <Dropdown isOpen={navDropdownOpen} toggle={toggleNavDropdown}>
             <DropdownToggle caret>
               ≡
             </DropdownToggle>
@@ -88,17 +59,33 @@ const Example = (props) => {
               {/* Logged in */}
               <div>När inloggad</div>
               <NavItem>
-                <NavLink href="myProductListPage">Inköpslistor</NavLink>
+                <NavLink href="/myProductListPage/">Inköpslistor</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/catagories/">Kategorier</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="myProfile">Mina sidor</NavLink>
+                <NavLink href="/myProfile/">Mina sidor</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/">Logga ut</NavLink>
               </NavItem>
+            </DropdownMenu>
+          </Dropdown>
+        </Nav>
+        {/* </Collapse> */}
+        <NavbarBrand href="/">FoodHarvest</NavbarBrand>
+        {/* Second dropdown */}
+        <Nav className="mr-auto" navbar>
+          <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
+            <DropdownToggle caret>
+              ❤️ Välj lista
+            </DropdownToggle>
+            <DropdownMenu>
+              <div>test</div>
+              <div>test</div>
+              <div>test</div>
+              <div>Lägg till en lista +</div>
             </DropdownMenu>
           </Dropdown>
         </Nav>
