@@ -45,7 +45,7 @@ const Example = (props) => {
               <NavLink href="/register/">Registrera dig</NavLink>
             </NavItem>
             {/* Logged in */}
-            <div>Inloggad</div>
+            <div>När inloggad</div>
             <NavItem>
               <NavLink href="myProductListPage">Inköpslistor</NavLink>
             </NavItem>
