@@ -1,15 +1,5 @@
 import React from "react";
-
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-  PaginationLink,
-} from "reactstrap";
+import FavoriteButton from "./FavoriteButton";
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText } = props;
@@ -18,10 +8,11 @@ const ProductCard = (props) => {
   return (
     <div className={classNames}>
       <div className={"card text-center"} style={styles.container}>
+        <FavoriteButton styles={styles.favorite} productId={product.id}/>
         <div className="card-img-top" style={styles.image}>
           <img
             className=""
-            style={styles.image.image}
+            style={styles.image.content}
             src={product.imageUrl}
             alt={product.imageUrl}
           />
@@ -29,7 +20,9 @@ const ProductCard = (props) => {
         <div className="card-body">
           <h5 className="card-title">{product.displayName}</h5>
           <h3>{product.price}</h3>
-          <div className="btn btn-primary" style={styles.button}>{buttonText}</div>
+          <div className="btn btn-primary" style={styles.button}>
+            {buttonText}
+          </div>
         </div>
       </div>
     </div>
@@ -53,11 +46,21 @@ const styles = {
     height: "50%",
     verticalAlign: "middle",
     display: "flex",
-    image: {
+    content: {
       objectFit: "contain",
       maxWidth: "100%",
       maxHeight: "100%",
       margin: "0 auto"
     },
   },
+  favorite: {
+    container: {
+      hover: "pointer"
+    },
+    icon: {
+      position: "absolute",
+      top: 0,
+      left: 0
+    }
+  }
 };
