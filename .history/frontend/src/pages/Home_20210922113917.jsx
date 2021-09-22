@@ -5,6 +5,7 @@ const Home = () => {
 
   return (
     <div className="container" style={styles.container}>
+<<<<<<< HEAD
       <div className="row gy-3">
         {data.products.map(p =>
           <ProductCard
@@ -17,6 +18,12 @@ const Home = () => {
    );
 }
  
+=======
+    </div>
+  );
+}
+
+>>>>>>> develop
 export default Home;
 
 const styles = {
@@ -24,4 +31,8 @@ const styles = {
     minWidth: "100vw",
     background: "pink"
   },
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> develop

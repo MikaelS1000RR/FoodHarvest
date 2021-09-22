@@ -24,4 +24,8 @@ const styles = {
     minWidth: "100vw",
     background: "pink"
   },
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> develop
