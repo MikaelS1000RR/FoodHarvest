@@ -1,4 +1,5 @@
 const Home = () => {
+<<<<<<< HEAD
 
   return (
     <div className="container" style={styles.container}>
@@ -14,3 +15,11 @@ const styles = {
     background: "pink"
   },
 };
+=======
+  return (
+    <div>this is home</div>
+   );
+}
+ 
+export default Home;
+>>>>>>> develop
