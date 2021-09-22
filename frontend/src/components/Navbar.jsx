@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -44,35 +45,30 @@ const Example = (props) => {
          </Nav>
 
 
-        
-        <NavbarBrand className="text-white" href="/">FoodHarvest</NavbarBrand>
+        <Link to="/">
+          <NavbarBrand className="text-white">FoodHarvest</NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggleHamburgerMenu} />
         <Collapse isOpen={hamburgerMenu} navbar>
           <Nav className="mr-auto" navbar className="text-white">
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
             <NavItem>
-              <NavLink href="/catagories/" className="text-white">Kategorier</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/login/" className="text-white">Logga in</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/register/" className="text-white">Registrera dig</NavLink>
+              <Link to="/catagories/" className="text-white">Kategorier</Link>
             </NavItem>
             {/* Logged in */}
             <div>!!!När inloggad</div>
             <NavItem>
-              <NavLink href="/myProductListPage/" className="text-white">Inköpslistor</NavLink>
+              <Link to="/myProductListPage/" className="text-white">Inköpslistor</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/catagories/" className="text-white">Kategorier</NavLink>
+              <Link to="/catagories/" className="text-white">Kategorier</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/myProfile/" className="text-white">Mina sidor</NavLink>
+              <Link to="/myProfile/" className="text-white">Mina sidor</Link>
             </NavItem>
             <NavItem>
-              <NavLink href="/" className="text-white">Logga ut</NavLink>
+              <Link to="/" className="text-white">Logga ut</Link>
             </NavItem>
           </Nav>
         </Collapse>
