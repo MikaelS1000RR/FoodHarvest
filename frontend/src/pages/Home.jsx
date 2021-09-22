@@ -1,4 +1,4 @@
-import ProductCard from "../components/Home/ProductCard";
+import ProductCard from "../components/home/ProductCard";
 import data from '../testData.js' // will be removed when real data is fetched
 
 const Home = () => {
