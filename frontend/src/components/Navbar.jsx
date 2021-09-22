@@ -45,7 +45,7 @@ const Example = (props) => {
          </Nav>
 
 
-        <Link to="/">
+        <Link to="/" style={styles.link}>
           <NavbarBrand className="text-white">FoodHarvest</NavbarBrand>
         </Link>
         <NavbarToggler onClick={toggleHamburgerMenu} />
@@ -54,21 +54,21 @@ const Example = (props) => {
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
             <NavItem>
-              <Link to="/catagories/" className="text-white">Kategorier</Link>
+              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
             {/* Logged in */}
             <div>!!!När inloggad</div>
             <NavItem>
-              <Link to="/myProductLists/" className="text-white">Inköpslistor</Link>
+              <Link to="/myProductLists/" className="text-white" style={styles.link}>Inköpslistor</Link>
             </NavItem>
             <NavItem>
-              <Link to="/catagories/" className="text-white">Kategorier</Link>
+              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
             <NavItem>
-              <Link to="/myProfile/" className="text-white">Mina sidor</Link>
+              <Link to="/myProfile/" className="text-white" style={styles.link}>Mina sidor</Link>
             </NavItem>
             <NavItem>
-              <Link to="/" className="text-white">Logga ut</Link>
+              <Link to="/" className="text-white" style={styles.link}>Logga ut</Link>
             </NavItem>
           </Nav>
         </Collapse>
@@ -78,3 +78,10 @@ const Example = (props) => {
 }
 
 export default Example;
+
+const styles = {
+  link: {
+    textDecoration: 'none'
+  }
+  
+}
