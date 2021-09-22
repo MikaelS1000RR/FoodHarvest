@@ -50,7 +50,7 @@ const Example = (props) => {
         </Link>
         <NavbarToggler onClick={toggleHamburgerMenu} />
         <Collapse isOpen={hamburgerMenu} navbar>
-          <Nav className="mr-auto" navbar className="text-white">
+          <Nav className="mr-auto" navbar style={styles.nav}>
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
             <NavItem>
@@ -81,7 +81,18 @@ export default Example;
 
 const styles = {
   link: {
-    textDecoration: 'none'
+    textDecoration: 'none',
+    height: "100",
+    padding: "10px",
+    display: "flex",
+    justifyContent: "right"
+
+  },
+  nav: {
+    display: "flex",
+    justifyContent: "right",
+    flex: "1"
+    
   }
   
 }
