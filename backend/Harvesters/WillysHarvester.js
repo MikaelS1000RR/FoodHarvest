@@ -5,6 +5,9 @@ export class WillysHarvester {
     return "?avoidCache=" + (Math.random() + "").split(".")[1];
   }
 
+
+
+//Getting all basic categories in Willys
   static async getCategories() {
     let raw = await fetch(
       "https://www.willys.se/leftMenu/categorytree" + this.bustCache()
@@ -12,6 +15,8 @@ export class WillysHarvester {
     return await raw.json();
   }
 
+
+  //Getting products in one specific category
   static async getProducts(categoryURL) {
     let raw = await fetch(
       "https://www.willys.se/c/" +
@@ -23,6 +28,17 @@ export class WillysHarvester {
   }
 
 
-  // now loop basic categories and getProducts for each category...
-  // how would you write this?
+  //Getting all products from all categories
+  static async getAllProducts(categories) {
+
+    let allProductsOfWillys = [];
+    
+    for (var i = 0; i < categories.length; i++) {
+      let category = categories[i]; //Getting each category
+      let productsOfCategory = await this.getProducts(category.url);
+       allProductsOfWillys.push(productsOfCategory);
+      
+    }
+    return allProductsOfWillys;
+  }
 }
