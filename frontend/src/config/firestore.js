@@ -15,3 +15,14 @@ let config = {
 firebase.initializeApp(config);
 
 export default firebase.firestore();
+
+/*
+
+To reach data in firestore, 
+  1. import firestore from './firestore'; 
+  2. use this function:
+
+    firestore.collection('nameOfCollection').onSnapshot(
+      (snapshot) => {...}
+
+*/

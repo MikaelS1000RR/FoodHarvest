@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import firestore from './firestore';
+import firestore from '../config/firestore';
 
-const Products = () => {
+const GetDataFirestore = () => {
   // Set default as null so we
   // know if it's still loading
   const [products, setproducts] = useState(null);
@@ -14,8 +14,7 @@ const Products = () => {
     listenForproducts();
   }, []);
 
-  // Use firestore to listen for changes within
-  // our newly created collection
+  // Use firestore to listen for changes within collection
   const listenForproducts = () => {
     firestore.collection('test-products').onSnapshot(
       (snapshot) => {
@@ -47,6 +46,7 @@ const Products = () => {
       return <div>There's no products yet...</div>;
     };
 
+    console.log(products)
     // Otherwise we'll render the products.
     // Using index as key 🙈
     return products.map(({ brand, foodType, price }, index) => (
@@ -62,4 +62,4 @@ const Products = () => {
   return renderproducts();
 };
 
-export default Products;
+export default GetDataFirestore;

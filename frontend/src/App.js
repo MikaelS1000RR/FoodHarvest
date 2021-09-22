@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
-import FirebaseTest from './database/test-FS-render-data';
+import GetDataFromCollectionTest from './testCommunicateWithDb/getDataFirestore';
+import SaveDataToCollectionTest from './testCommunicateWithDb/addDataFirestore';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <FirebaseTest/>
-
+        <GetDataFromCollectionTest/>
+        <SaveDataToCollectionTest/>
       </main>
       <footer>
 
