@@ -11,7 +11,6 @@ function App() {
         </header>
         <main>
           <LoginModal />
-          <p>Hej</p>
         </main>
         <footer>
 

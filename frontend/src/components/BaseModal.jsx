@@ -1,4 +1,4 @@
-import { Button, Modal, ModalBody, ModalFooter } from "reactstrap";
+import { Modal, ModalBody, ModalFooter } from "reactstrap";
 
 const BaseModal = (props) => {
   const { isOpen, toggle, title, content, footerContent } = props;
@@ -17,13 +17,14 @@ const BaseModal = (props) => {
         </div>
         <ModalBody>
           {content}
-        </ModalBody>
-      <ModalFooter>
-        {footerContent}
-          <Button color="secondary" onClick={toggle}>
-            Close
-          </Button>
-        </ModalFooter>
+      </ModalBody>
+      {footerContent
+        ?
+        <ModalFooter>
+            footerContent
+          </ModalFooter>
+        :
+        null}
       </Modal>
   );
 }
