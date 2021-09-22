@@ -59,7 +59,7 @@ const Example = (props) => {
             {/* Logged in */}
             <div>!!!När inloggad</div>
             <NavItem>
-              <Link to="/myProductListPage/" className="text-white">Inköpslistor</Link>
+              <Link to="/myProductLists/" className="text-white">Inköpslistor</Link>
             </NavItem>
             <NavItem>
               <Link to="/catagories/" className="text-white">Kategorier</Link>
