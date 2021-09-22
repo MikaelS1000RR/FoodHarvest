@@ -3,7 +3,7 @@
 const express = require('express');
 const app = express();
 app.use(express.static('frontend')); // if doesn't work then try ../frontend 
-app.listen(3000, () => console.log('Listening on port 3000'));
+app.listen(4000, () => console.log('Listening on port 3000'));
 
 
 // Use firebase
