@@ -23,9 +23,21 @@ async function getTestData() {
 
 getTestData();
 
-// getTestData2() {
-//   app.get("/rest/:model", async (req, res) => {
-
-
+// app.get("/rest/:model", async (req, res) => {
+//   let model = models[req.params.model];
+//   if (req.params.model === "apartments") {
+//     let docs = await model
+//       .find()
+//       .populate(["amenities", "ownerId"])
+//       .exec();
+//     res.json(docs);
+//     return;
 //   }
-// }
+//   if (req.params.model === "bookings") {
+//     let docs = await model
+//       .find()
+//       .populate(["userId", "apartmentId"])
+//       .exec(); 
+//     res.json(docs);
+//     return;
+//   }
