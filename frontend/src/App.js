@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoginModalContextProvider from './contexts/LoginModalContextProvider';
+import ModalContextProvider from './contexts/ModalContextProvider';
 import Home from './pages/Home';
-import LoginModal from './components/LoginModal';
+import LoginModal from './components/modals/LoginModal';
+import RegisterModal from './components/modals/RegisterModal';
 import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <LoginModalContextProvider>
+      <ModalContextProvider>
         <Router>
           <header className="App-header">
             <Navbar />
@@ -18,12 +19,13 @@ function App() {
             </Switch>
 
             <LoginModal />
+            <RegisterModal />
           </main>
           <footer>
 
           </footer>
         </Router>
-      </LoginModalContextProvider>
+      </ModalContextProvider>
     </div>
   );
 }
