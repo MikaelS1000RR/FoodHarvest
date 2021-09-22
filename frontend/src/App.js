@@ -1,20 +1,28 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import LoginModalContextProvider from './contexts/LoginModalContextProvider';
+import Home from './pages/Home';
 import LoginModal from './components/LoginModal';
 import Navbar from './components/Navbar';
-import LoginModalContextProvider from './contexts/LoginModalContextProvider';
 
 function App() {
   return (
     <div className="App">
       <LoginModalContextProvider>
-        <header className="App-header">
-          <Navbar />
-        </header>
-        <main>
-          <LoginModal />
-        </main>
-        <footer>
+        <Router>
+          <header className="App-header">
+            <Navbar />
+          </header>
+          <main>
+            <Switch>
+              <Route exact path="/" component={Home} />
+            </Switch>
 
-        </footer>
+            <LoginModal />
+          </main>
+          <footer>
+
+          </footer>
+        </Router>
       </LoginModalContextProvider>
     </div>
   );
