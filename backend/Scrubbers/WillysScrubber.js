@@ -41,7 +41,7 @@ export class WillysScrabber extends Scrubber {
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" + productCode + WillysHarvester.bustCache()
     );
-
-    return await raw.json();
+      let formatted = await raw.json();
+    return formatted.ean;
   }
 }

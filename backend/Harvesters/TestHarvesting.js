@@ -6,10 +6,8 @@ export class TestHarvesting {
   static async test() {
     
     let rawData = await WillysHarvester.getCategories();
-    let rawProduct = await WillysScrabber.getEan("101283860_KG");
-   
     let categories = rawData.children; //Getting all BASIC categories of willys
-    console.log('ean  is', rawProduct.ean);
+ 
 
     // write to file for now (goal: write to DB instead)
     function writeToFile(fileName, data) {
