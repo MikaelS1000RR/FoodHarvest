@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import firestore from '../config/firestore';
+import firestore from '../db_config_frontend/firestore';
 
 const GetDataFirestore = () => {
   // Set default as null so we

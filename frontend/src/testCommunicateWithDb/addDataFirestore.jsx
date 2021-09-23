@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import firestore from '../config/firestore';
+import firestore from '../db_config_frontend/firestore';
 
 const AddDataFirestore = () => {
   // Initial item contains empty strings
