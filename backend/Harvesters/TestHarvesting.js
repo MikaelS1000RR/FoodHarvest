@@ -16,7 +16,7 @@ export class TestHarvesting {
     
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
     
-   // writeToFile("willys-all-products.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
+     writeToFile("willys-all-products.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
 
     
 

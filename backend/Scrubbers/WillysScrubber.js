@@ -35,7 +35,11 @@ export class WillysScrabber extends Scrubber {
     // preferences <List>
     ean: (x) => this.getEan(x.code),
     store: (x) => "Willys",
+    savings: (x) => x.savingsAmount,
+    discountType: (x) => x.campaignType
   };
+
+
 
   static async getEan(productCode) {
     let raw = await fetch(

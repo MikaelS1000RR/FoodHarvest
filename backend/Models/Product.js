@@ -1,19 +1,19 @@
 module.exports = class Product{
-  constructor(id, categoriesId, preferencesId, productName, price, quantity, quantityUnit, comparisonUnit, comparisonPrice, brand, storeId,
-    discountId, imageUrl, ean) {
+  constructor(id, productName, price, quantity, comparisonPrice, brand,
+    imageUrl,  category, ean, store, savings, discountType) {
+    
     this.id = id;
-    this.categoriesId = categoriesId;
-    this.preferencesId = preferencesId;
     this.productName = productName;
     this.price = price;
     this.quantity = quantity;
-    this.quantityUnit = quantityUnit;
-    this.comparisonUnit = comparisonUnit;
     this.comparisonPrice = comparisonPrice;
     this.brand = brand;
-    this.storeId = storeId;
-    this.discountId = discountId;
     this.imageUrl = imageUrl;
-    this.ean = eans;
+    this.category = category; 
+    this.ean = ean;
+    this.store = store; 
+    this.savings = savings;
+    this.discountType = discountType; 
+
   }
 }
