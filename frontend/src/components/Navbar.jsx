@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useModal } from "../contexts/ModalContextProvider";
+import { useModal } from "../contexts/ModalContext";
 import { Link } from 'react-router-dom';
 import {
   Button,

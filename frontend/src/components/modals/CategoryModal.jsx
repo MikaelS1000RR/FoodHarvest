@@ -1,7 +1,7 @@
 import { Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
 import { useCategory } from "../../contexts/CategoryContext";
-import { useModal } from "../../contexts/ModalContextProvider";
+import { useModal } from "../../contexts/ModalContext";
 
 const CategoryModal = () => {
   const title = "Kategorier";

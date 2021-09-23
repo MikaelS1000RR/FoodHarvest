@@ -6,7 +6,7 @@ export const useModal = () => {
   return useContext(ModalContext);
 }
 
-const ModalContextProvider = (props) => {
+const ModalProvider = (props) => {
   // for login modal
   const [showLoginModal, setShowLoginModal] = useState(false);
   const toggleLoginModal = () => {
@@ -42,4 +42,4 @@ const ModalContextProvider = (props) => {
   );
 }
 
-export default ModalContextProvider;
+export default ModalProvider;

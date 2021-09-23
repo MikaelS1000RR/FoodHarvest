@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Form, Button } from "reactstrap";
-import { useModal } from "../../contexts/ModalContextProvider";
+import { useModal } from "../../contexts/ModalContext";
 import BaseModal from "../base/BaseModal";
 
 const LoginModal = () => {

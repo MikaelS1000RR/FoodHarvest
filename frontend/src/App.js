@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ModalContextProvider from './contexts/ModalContextProvider';
+import ModalProvider from './contexts/ModalContext';
 import CategoryProvider from './contexts/CategoryContext';
 import Home from './pages/Home';
 import LoginModal from './components/modals/LoginModal';
@@ -16,7 +16,7 @@ import CategoryModal from './components/modals/CategoryModal';
 function App() {
   return (
     <div className="App">
-      <ModalContextProvider>
+      <ModalProvider>
         <CategoryProvider>
       <Router>
         <header className="App-header">
@@ -40,7 +40,7 @@ function App() {
           <footer></footer>
         </Router>
         </CategoryProvider>
-      </ModalContextProvider>
+      </ModalProvider>
     </div>
   );
 }
