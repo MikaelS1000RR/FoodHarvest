@@ -3,16 +3,16 @@ import { auth } from "../database_config/firestore";
 
 const AuthContext = createContext();
 
-export const useAuth = () =>{
+export const useAuth = () => {
   return useContext(AuthContext);
 }
 
 const AuthProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState();
 
-const signup = (email, password) => {
- return auth.createUserWithEmailAndPassword(email, password);
-};
+  const signup = (email, password) => {
+    return auth.createUserWithEmailAndPassword(email, password);
+  };
 
   useEffect(() => {
     const unsubsribe = auth.onAuthStateChanged(user => {
@@ -33,7 +33,7 @@ const signup = (email, password) => {
     <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
-   );
+  );
 }
- 
+
 export default AuthProvider;

@@ -13,6 +13,19 @@ const RegisterModal = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const { signup } = useAuth();
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (password !== confirmPassword) {
+      console.log("Wrong password and confirm password")
+    }
+    try {
+      await signup(email, password);
+    } catch {
+      console.log("Failed to register");
+    }
+  }
+
   const register = (event) => {
     event.preventDefault();
     // send request to backend here
