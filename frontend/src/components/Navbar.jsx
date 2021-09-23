@@ -18,7 +18,7 @@ import {
   Dropdown
 } from 'reactstrap';
 
-const Example = (props) => {
+const Navigationbar = (props) => {
   const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext)
 
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
@@ -95,7 +95,7 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default Navigationbar;
 
 const styles = {
   link: {
