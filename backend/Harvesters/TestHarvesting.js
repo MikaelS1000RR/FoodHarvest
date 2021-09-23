@@ -1,6 +1,6 @@
 import fs from 'fs'
 import { WillysHarvester } from "./WillysHarvester.js";
-import { WillysScrabber } from "../Scrubbers/WillysScrubber.js";
+import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
 
 export class TestHarvesting {
   static async test() {
@@ -16,7 +16,12 @@ export class TestHarvesting {
     
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
     
-     writeToFile("willys-all-products.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
+     //writeToFile("willys-all-products.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
+    
+    let scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
+    writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
+
+    
 
     
 
