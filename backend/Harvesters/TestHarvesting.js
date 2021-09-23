@@ -1,7 +1,7 @@
 import fs from "fs";
 import { WillysHarvester } from "./WillysHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
-import { FirebaseHandler } from "../FirebaseHandler.js";
+import { FirebaseHandler } from "../Firebase/FirebaseHandler.js";
 
 export class TestHarvesting {
   static async test() {
