@@ -66,7 +66,6 @@ const styles = {
   link: {
     textDecoration: 'none',
     height: "100",
-    padding: "10px",
     display: "flex",
     justifyContent: "right"
 
