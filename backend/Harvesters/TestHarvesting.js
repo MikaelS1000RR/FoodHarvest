@@ -1,9 +1,18 @@
 import fs from "fs";
 import { WillysHarvester } from "./WillysHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
+import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class TestHarvesting {
   static async test() {
+
+
+    let stores = FirebaseHandler.getStoresFirestore();
+    console.log('stores are', stores);
+
+
+
+
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
