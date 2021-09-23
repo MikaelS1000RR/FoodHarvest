@@ -44,6 +44,7 @@ const RegisterModal = () => {
       <div class="mb-3">
         <input
           type="password"
+          minLength="6"
           className="form-control"
           placeholder="Lösenord"
           onChange={(data) => {
