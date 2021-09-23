@@ -1,6 +1,5 @@
-module.exports = class Category{
-  constructor(id, categoryName) {
-    this.id = id;
+module.exports = class Category {
+  constructor( categoryName) {
     this.categoryName = categoryName;
   }
-}
+};

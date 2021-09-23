@@ -16,10 +16,13 @@ export class TestHarvesting {
     
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
     
-     //writeToFile("willys-all-products.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
+    // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
     
-    let scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
-    writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
+    let scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys[0]);
+    writeToFile("willys-scrubbed-products", scrubbedProducts);
+    
+
+    //writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
 
     
 
