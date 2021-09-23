@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import LoginModal from './components/modals/LoginModal';
 import RegisterModal from './components/modals/RegisterModal';
 import Navbar from './components/Navbar';
+import FirebaseTest from './test/test-FS-render-data';
 import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
@@ -22,6 +23,7 @@ function App() {
           <Navbar />
         </header>
         <main>
+          <FirebaseTest />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/catagories/" component={Catagories} />
@@ -35,9 +37,7 @@ function App() {
               <RegisterModal />
               <CategoryModal />
           </main>
-          <footer>
-
-          </footer>
+          <footer></footer>
         </Router>
         </CategoryContextProvider>
       </ModalContextProvider>
