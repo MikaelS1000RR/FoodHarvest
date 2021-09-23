@@ -26,13 +26,13 @@ const RegisterModal = () => {
     }
   }
 
-  const register = (event) => {
-    event.preventDefault();
-    // send request to backend here
-  };
+  // const register = (event) => {
+  //   event.preventDefault();
+  //   // send request to backend here
+  // };
 
   const form = (
-    <Form onSubmit={register}>
+    <Form onSubmit={handleSubmit}>
       <div class="mb-3">
         <input
           type="text"
