@@ -11,6 +11,7 @@ const RegisterModal = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const { signup } = useAuth();
+  const [userExists, setUserExist] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,9 +19,10 @@ const RegisterModal = () => {
     if (password === confirmPassword) {
       try {
         await signup(email, password);
+        setUserExist(false);
         toggleRegisterModal();
       } catch {
-        console.log("Failed to register");
+        setUserExist(true);
       }
     }
   }
@@ -61,6 +63,7 @@ const RegisterModal = () => {
           required
         />
       </div>
+      { userExists && <h2>The email is already in use</h2>}
       <Button color="primary" type="submit">
         Registrera
       </Button>
