@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { LoginModalContext } from "../contexts/LoginModalContextProvider";
 import { Link } from 'react-router-dom';
 import {
+  Button,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -17,6 +19,8 @@ import {
 } from 'reactstrap';
 
 const Example = (props) => {
+  const { toggleLoginModal } = useContext(LoginModalContext)
+
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
 
@@ -28,8 +32,6 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="primary" light expand="md">
-
-
         <Nav className="mr-auto" navbar>
            <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
              <DropdownToggle color="warning" caret>
@@ -54,6 +56,17 @@ const Example = (props) => {
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
             <NavItem>
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleLoginModal}
+              >
+                Logga in
+              </Button>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/register/" className="text-white">
+                Registrera dig
+              </NavLink>
               <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
             {/* Logged in */}

@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import LoginModalContextProvider from './contexts/LoginModalContextProvider';
 import Home from './pages/Home';
+import LoginModal from './components/LoginModal';
+import Navbar from './components/Navbar';
 import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
@@ -10,6 +12,7 @@ import Page404 from './pages/Page404';
 function App() {
   return (
     <div className="App">
+      <LoginModalContextProvider>
       <Router>
         <header className="App-header">
           <Navbar />
@@ -24,11 +27,13 @@ function App() {
 
           </Switch>
 
-        </main>
-        <footer>
+            <LoginModal />
+          </main>
+          <footer>
 
-        </footer>
-      </Router>
+          </footer>
+        </Router>
+      </LoginModalContextProvider>
     </div>
   );
 }
