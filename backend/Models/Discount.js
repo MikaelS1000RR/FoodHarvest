@@ -1,6 +1,5 @@
 export class Discount{
-  constructor(id, discountType, quantityToBeBought, displayPrice, savings, percentageSavings, isMemberDiscount) {
-    this.id = id;
+  constructor( discountType, quantityToBeBought, displayPrice, savings, percentageSavings, isMemberDiscount) {
     this.discountType = discountType;
     this.quantityToBeBought = quantityToBeBought;
     this.discountType = discountType;

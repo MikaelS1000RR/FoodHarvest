@@ -1,6 +1,6 @@
 export class Preference{
-  constructor(id, preferenceName) {
-    this.id = id;
+  constructor(preferenceName) {
+
     this.preferenceName = preferenceName;
   }
 }

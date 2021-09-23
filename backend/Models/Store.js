@@ -1,6 +1,6 @@
 export class Store{
-  constructor(id, storeName, logoUrl) {
-    this.id = id;
+  constructor(storeName, logoUrl) {
+   
     this.storeName = storeName;
     this.logoUrl = logoUrl;
   }
