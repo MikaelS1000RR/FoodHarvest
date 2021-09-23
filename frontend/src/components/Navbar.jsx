@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { ModalContext } from "../contexts/ModalContextProvider";
 import { Link } from 'react-router-dom';
 import {
+  Button,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -16,7 +18,9 @@ import {
   Dropdown
 } from 'reactstrap';
 
-const Example = (props) => {
+const Navigationbar = (props) => {
+  const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext)
+
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
 
@@ -28,8 +32,6 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="primary" light expand="md">
-
-
         <Nav className="mr-auto" navbar>
            <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
              <DropdownToggle color="warning" caret>
@@ -54,6 +56,22 @@ const Example = (props) => {
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
             <NavItem>
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleLoginModal}
+              >
+                Logga in
+              </Button>
+            </NavItem>
+            <NavItem>
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleRegisterModal}
+              >
+                Registrera dig
+              </Button>
+              </NavItem>
+              <NavItem>
               <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
             {/* Logged in */}
@@ -77,7 +95,7 @@ const Example = (props) => {
   );
 }
 
-export default Example;
+export default Navigationbar;
 
 const styles = {
   link: {
