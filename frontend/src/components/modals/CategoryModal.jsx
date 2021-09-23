@@ -1,6 +1,6 @@
 import { Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
-import { useCategory } from "../../contexts/CategoryContextProvider";
+import { useCategory } from "../../contexts/CategoryContext";
 import { useModal } from "../../contexts/ModalContextProvider";
 
 const CategoryModal = () => {
@@ -9,11 +9,13 @@ const CategoryModal = () => {
   const { showCategoryModal, toggleCategoryModal } = useModal();
 
   const categoryButtonList = (
-    <>
-      {categories.map(c => categoryButton(c.name))}
-    </>
+    <div className="container" style={styles.container}>
+      {categories.length > 0
+        ? categories.map(c => categoryButton(c.name))
+        : null
+      }
+    </div>
   );
-  console.log("kategorier", categories);
 
   return (
     <BaseModal isOpen={showCategoryModal} toggle={toggleCategoryModal} content={categoryButtonList} title={title} />
@@ -23,4 +25,12 @@ const CategoryModal = () => {
 export default CategoryModal;
 
 // mini component
-const categoryButton = (content) => { return <Button>{content}</Button> };
+const categoryButton = (content) => {
+  return (
+      <Button className="m-1" color="primary">{content}</Button>
+  );
+}
+
+const styles = {
+
+}
