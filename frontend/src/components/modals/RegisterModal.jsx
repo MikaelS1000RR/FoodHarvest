@@ -18,6 +18,7 @@ const RegisterModal = () => {
     if (password === confirmPassword) {
       try {
         await signup(email, password);
+        toggleRegisterModal();
       } catch {
         console.log("Failed to register");
       }
