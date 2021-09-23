@@ -8,14 +8,15 @@ const LoginModal = () => {
   const { toggleLoginModal, showLoginModal } = useContext(ModalContext);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { signup } = useAuth();
+  const { login } = useAuth();
 
   
   const handleSubmit = async (e) => {
     e.preventDefault();
 
       try {
-        await signup(email, password);
+        const user = await login(email, password);
+        console.log(user);
       } catch {
       }
   }
