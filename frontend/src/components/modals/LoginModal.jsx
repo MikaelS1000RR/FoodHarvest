@@ -2,20 +2,27 @@ import { useState } from "react";
 import { Form, Button } from "reactstrap";
 import { useModal } from "../../contexts/ModalContext";
 import BaseModal from "../base/BaseModal";
+import { useAuth } from "../../contexts/AuthContext";
 
 const LoginModal = () => {
   const { toggleLoginModal, showLoginModal } = useModal();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const { signup } = useAuth();
+
   
-  const login = (event) => {
-    event.preventDefault();
-    // send request to backend here
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+      try {
+        await signup(email, password);
+      } catch {
+      }
   }
 
   const form = (
-    <Form onSubmit={login}>
-      <div className="mb-3">
+    <Form onSubmit={handleSubmit}>
+      <div class="mb-3">
         <input
           type="email"
           className="form-control"
