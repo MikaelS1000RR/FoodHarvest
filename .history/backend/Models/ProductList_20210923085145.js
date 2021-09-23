@@ -1,4 +1,4 @@
-export class ProductList{
+module.exports = class ProductList{
   constructor(id, listName, totalPrice, shopName, products) {
     this.id = id;
     this.listName = listName;

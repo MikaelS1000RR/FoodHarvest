@@ -1,4 +1,4 @@
-export class Discount{
+module.exports = class Discount{
   constructor(id, discountType, quantityToBeBought, displayPrice, savings, percentageSavings, isMemberDiscount) {
     this.id = id;
     this.discountType = discountType;
