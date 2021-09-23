@@ -1,6 +1,10 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useContext } from "react";
 
 export const ModalContext = createContext();
+
+export const useModal = () => {
+  return useContext(ModalContext);
+}
 
 const ModalContextProvider = (props) => {
   // for login modal
@@ -13,6 +17,11 @@ const ModalContextProvider = (props) => {
   const toggleRegisterModal = () => {
     setShowRegisterModal(!showRegisterModal);
   };
+  // for categories modal
+  const [showCategoryModal, setShowCategoryModal] = useState(false);
+  const toggleCategoryModal = () => {
+    setShowCategoryModal(!showCategoryModal);
+  };
 
   const values = {
     showLoginModal,
@@ -21,6 +30,9 @@ const ModalContextProvider = (props) => {
     showRegisterModal,
     setShowRegisterModal,
     toggleRegisterModal,
+    showCategoryModal,
+    setShowCategoryModal,
+    toggleCategoryModal,
   };
 
   return (

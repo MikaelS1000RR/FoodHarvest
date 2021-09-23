@@ -1,5 +1,5 @@
-import React, { useState, useContext } from 'react';
-import { ModalContext } from "../contexts/ModalContextProvider";
+import React, { useState } from 'react';
+import { useModal } from "../contexts/ModalContextProvider";
 import { Link } from 'react-router-dom';
 import {
   Button,
@@ -9,17 +9,13 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  NavbarText,
   Dropdown
 } from 'reactstrap';
 
 const Navigationbar = (props) => {
-  const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext)
+  const { toggleLoginModal, toggleRegisterModal, toggleCategoryModal } = useModal()
 
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
@@ -33,19 +29,21 @@ const Navigationbar = (props) => {
     <div>
       <Navbar color="primary" light expand="md">
         <Nav className="mr-auto" navbar>
-           <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
-             <DropdownToggle color="warning" caret>
-               ❤️ Välj lista
-             </DropdownToggle>
-             <DropdownMenu>
-               <div>Grönsaker</div>
-               <div>test</div>
-               <div>test</div>
-               <div>Lägg till en lista +</div>
-             </DropdownMenu>
-           </Dropdown>
-         </Nav>
-
+          <Dropdown
+            isOpen={chooseListDropDown}
+            toggle={toggleChooseListDropDown}
+          >
+            <DropdownToggle color="warning" caret>
+              ❤️ Välj lista
+            </DropdownToggle>
+            <DropdownMenu>
+              <div>Grönsaker</div>
+              <div>test</div>
+              <div>test</div>
+              <div>Lägg till en lista +</div>
+            </DropdownMenu>
+          </Dropdown>
+        </Nav>
 
         <Link to="/" style={styles.link}>
           <NavbarBrand className="text-white">FoodHarvest</NavbarBrand>
@@ -55,7 +53,7 @@ const Navigationbar = (props) => {
           <Nav className="mr-auto" navbar style={styles.nav}>
             <div>!!!Inte inloggad</div>
             {/* not logged in */}
-            <NavItem>
+            <NavItem style={styles.link}>
               <Button
                 className="text-white bg-transparent btn-outline-primary"
                 onClick={toggleLoginModal}
@@ -63,30 +61,55 @@ const Navigationbar = (props) => {
                 Logga in
               </Button>
             </NavItem>
-            <NavItem>
+            <NavItem style={styles.link}>
               <Button
                 className="text-white bg-transparent btn-outline-primary"
                 onClick={toggleRegisterModal}
               >
                 Registrera dig
               </Button>
-              </NavItem>
-              <NavItem>
-              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
+            <NavItem style={styles.link}>
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleCategoryModal}
+              >
+                Kategorier
+              </Button>
+            </NavItem>
+
             {/* Logged in */}
             <div>!!!När inloggad</div>
-            <NavItem>
-              <Link to="/myProductLists/" className="text-white" style={styles.link}>Inköpslistor</Link>
+            <NavItem style={styles.link}>
+              <Link
+                to="/myProductLists/"
+                className="text-white btn"
+                style={styles.link}
+              >
+                Inköpslistor
+              </Link>
+            </NavItem>
+            <NavItem style={styles.link}>
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleCategoryModal}
+              >
+                Kategorier
+              </Button>
             </NavItem>
             <NavItem>
-              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
+              <Link
+                to="/myProfile/"
+                className="text-white btn"
+                style={styles.link}
+              >
+                Mina sidor
+              </Link>
             </NavItem>
             <NavItem>
-              <Link to="/myProfile/" className="text-white" style={styles.link}>Mina sidor</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/" className="text-white" style={styles.link}>Logga ut</Link>
+              <Link to="/" className="text-white btn" style={styles.link}>
+                Logga ut
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
@@ -101,7 +124,6 @@ const styles = {
   link: {
     textDecoration: 'none',
     height: "100",
-    padding: "10px",
     display: "flex",
     justifyContent: "right"
 

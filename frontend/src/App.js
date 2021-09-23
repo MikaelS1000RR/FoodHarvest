@@ -8,12 +8,15 @@ import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
 import Page404 from './pages/Page404';
+import CategoryContextProvider from './contexts/CategoryContextProvider';
+import CategoryModal from './components/modals/CategoryModal';
 
 
 function App() {
   return (
     <div className="App">
       <ModalContextProvider>
+        <CategoryContextProvider>
       <Router>
         <header className="App-header">
           <Navbar />
@@ -29,12 +32,14 @@ function App() {
           </Switch>
 
             <LoginModal />
-            <RegisterModal />
+              <RegisterModal />
+              <CategoryModal />
           </main>
           <footer>
 
           </footer>
         </Router>
+        </CategoryContextProvider>
       </ModalContextProvider>
     </div>
   );
