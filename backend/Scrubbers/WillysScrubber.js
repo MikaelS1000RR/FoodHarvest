@@ -31,7 +31,7 @@ export class WillysScrabber extends Scrubber {
     comparisonPrice: (x) => x.comparePrice,
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.image.url,
-    // categories <List>
+    category: x => x.category,
     // preferences <List>
     ean: (x) => this.getEan(x.code),
     store: (x) => "Willys",

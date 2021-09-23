@@ -30,7 +30,15 @@ export class WillysHarvester {
 
     for (var i = 0; i < categories.length; i++) {
       let category = categories[i]; //Getting each category
-      let productsOfCategory = await this.getProducts(category.url);
+      let productsOfCategory = await this.getProducts(category.url); //All products of the soecific cateogry
+
+
+      //Changing category of each product in a specific category
+      for (let i = 0; i < productsOfCategory.length; i++){
+       productsOfCategory[i].category = category.url;
+      }
+
+      //Pushing products into one array
       allProductsOfWillys.push(productsOfCategory);
     }
     return allProductsOfWillys;
