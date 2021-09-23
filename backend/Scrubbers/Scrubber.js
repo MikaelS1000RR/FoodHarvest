@@ -5,6 +5,7 @@ export class Scrubber {
        for (let key in tschema) {
            let scrubFunc = tschema[key];
            scrubbed[key] = await scrubFunc(product);
+          
        }
        return scrubbed;
     }
