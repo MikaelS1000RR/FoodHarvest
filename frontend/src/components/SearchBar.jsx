@@ -5,12 +5,11 @@ const SearchBar = () => {
   return (
     <Form>
       <FormGroup>
-        <Label for="exampleSearch">Search</Label>
         <Input
           type="search"
           name="search"
           id="exampleSearch"
-          placeholder="search placeholder"
+          placeholder="Sök efter mat"
         />
       </FormGroup>
     </Form>
