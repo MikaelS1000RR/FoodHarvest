@@ -17,6 +17,7 @@ const LoginModal = () => {
       try {
         const user = await login(email, password);
         console.log(user);
+        toggleLoginModal();
       } catch {
       }
   }
