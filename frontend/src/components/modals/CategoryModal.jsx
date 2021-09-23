@@ -11,9 +11,12 @@ const CategoryModal = () => {
   const categoryButtonList = (
     <div className="container" style={styles.container}>
       {categories.length > 0
-        ? categories.map(c => categoryButton(c.name))
-        : null
-      }
+        ? categories.map((c) => (
+            <Button className="m-1" color="primary">
+              {c.name}
+            </Button>
+          ))
+        : null}
     </div>
   );
 
@@ -23,13 +26,6 @@ const CategoryModal = () => {
 }
  
 export default CategoryModal;
-
-// mini component
-const categoryButton = (content) => {
-  return (
-      <Button className="m-1" color="primary">{content}</Button>
-  );
-}
 
 const styles = {
 
