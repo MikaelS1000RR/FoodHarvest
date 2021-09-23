@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import { Form, Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
 import { ModalContext } from "../../contexts/ModalContextProvider";
+import { useAuth } from "../../contexts/AuthContext";
 
 const RegisterModal = () => {
   
@@ -10,6 +11,7 @@ const RegisterModal = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const { signup } = useAuth();
 
   const register = (event) => {
     event.preventDefault();

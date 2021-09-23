@@ -9,12 +9,14 @@ import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
 import Page404 from './pages/Page404';
+import AuthProvider from './contexts/AuthContext';
 
 
 function App() {
   return (
     <div className="App">
       <ModalContextProvider>
+        <AuthProvider>
         <Router>
           <header className="App-header">
             <Navbar />
@@ -34,6 +36,7 @@ function App() {
           </main>
           <footer></footer>
         </Router>
+        </AuthProvider>
       </ModalContextProvider>
     </div>
   );
