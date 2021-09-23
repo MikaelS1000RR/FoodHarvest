@@ -5,7 +5,7 @@ module.exports = {
   openInBrowser: true,
   // path to your own backend api
   // (set to empty string if yo don't have an internal JS-based api)
-  pathToAPI: '../backend/index',
+  pathToAPI: '../backend/app',
   // the host for your backend api 
   // set to another machine if your api is not local  
   hostForAPI: 'localhost',

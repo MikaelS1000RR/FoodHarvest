@@ -1,10 +1,10 @@
 import { useContext, useState } from "react";
 import { Form, Button } from "reactstrap";
-import { LoginModalContext } from "../contexts/LoginModalContextProvider";
-import BaseModal from "./BaseModal";
+import { ModalContext } from "../../contexts/ModalContextProvider";
+import BaseModal from "../base/BaseModal";
 
 const LoginModal = () => {
-  const { toggleLoginModal, showLoginModal } = useContext(LoginModalContext);
+  const { toggleLoginModal, showLoginModal } = useContext(ModalContext);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   
@@ -25,6 +25,7 @@ const LoginModal = () => {
           onChange={(data) => {
             setEmail(data.target.value);
           }}
+          required
         />
       </div>
       <div class="mb-3">
@@ -36,6 +37,7 @@ const LoginModal = () => {
           onChange={(data) => {
             setPassword(data.target.value);
           }}
+          required
         />
       </div>
       <Button color="primary" type="submit">
