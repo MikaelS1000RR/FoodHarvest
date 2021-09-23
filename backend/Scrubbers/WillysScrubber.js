@@ -32,7 +32,7 @@ export class WillysScrubber extends Scrubber {
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
     category: (x) => x.category, //scrubb all categories- matspar?
-    // preferences <List> //labels in Willys
+    preferences: (x) => x.labels,
     ean: (x) => this.getEan(x.code),
     store: (x) => "Willys",
     savings: (x) => x.savingsAmount,
