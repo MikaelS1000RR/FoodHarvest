@@ -1,26 +1,21 @@
-import React, { useState, useContext } from 'react';
-import { ModalContext } from "../contexts/ModalContextProvider";
+import React, { useState } from 'react';
+import { useAuth } from '../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 import {
-  Button,
   Collapse,
   Navbar,
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  NavbarText,
   Dropdown
 } from 'reactstrap';
+import GuestNav from './GuestNav';
+import UserNav from './UserNav';
 
 const Navigationbar = (props) => {
-  const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext)
-
+  const { currentUser } = useAuth();
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
 
@@ -46,48 +41,18 @@ const Navigationbar = (props) => {
            </Dropdown>
          </Nav>
 
-
         <Link to="/" style={styles.link}>
           <NavbarBrand className="text-white">FoodHarvest</NavbarBrand>
         </Link>
+
         <NavbarToggler onClick={toggleHamburgerMenu} />
+
         <Collapse isOpen={hamburgerMenu} navbar>
           <Nav className="mr-auto" navbar style={styles.nav}>
-            <div>!!!Inte inloggad</div>
-            {/* not logged in */}
-            <NavItem>
-              <Button
-                className="text-white bg-transparent btn-outline-primary"
-                onClick={toggleLoginModal}
-              >
-                Logga in
-              </Button>
-            </NavItem>
-            <NavItem>
-              <Button
-                className="text-white bg-transparent btn-outline-primary"
-                onClick={toggleRegisterModal}
-              >
-                Registrera dig
-              </Button>
-              </NavItem>
-              <NavItem>
-              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
-            </NavItem>
-            {/* Logged in */}
-            <div>!!!När inloggad</div>
-            <NavItem>
-              <Link to="/myProductLists/" className="text-white" style={styles.link}>Inköpslistor</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/myProfile/" className="text-white" style={styles.link}>Mina sidor</Link>
-            </NavItem>
-            <NavItem>
-              <Link to="/" className="text-white" style={styles.link}>Logga ut</Link>
-            </NavItem>
+            {currentUser
+              ? <UserNav styles={styles} />
+              : <GuestNav styles={styles} />
+            }
           </Nav>
         </Collapse>
       </Navbar>
@@ -110,7 +75,5 @@ const styles = {
     display: "flex",
     justifyContent: "right",
     flex: "1"
-    
   }
-  
 }

@@ -64,7 +64,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      { userExists && <h2>The email is already in use</h2>}
+      {userExists && <h2>The email is already in use</h2>}
       <Button color="primary" type="submit">
         Registrera
       </Button>
