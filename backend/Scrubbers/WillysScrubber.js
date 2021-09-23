@@ -1,6 +1,8 @@
 import fetch from 'node-fetch'
 import { Scrubber } from './Scrubber.js'
 import { WillysHarvester } from '../Harvesters/WillysHarvester.js'
+import { FirebaseHandler } from "../FirebaseHandler.js";
+import {Store} from '../Models/Store.js'
 
 export class WillysScrubber extends Scrubber {
   static translateSchema = {
@@ -13,7 +15,7 @@ export class WillysScrubber extends Scrubber {
     category: (x) => x.category, //scrubb all categories- matspar?
     preferences: (x) => x.labels,
     ean: (x) => this.getEan(x.code),
-    store: (x) => "Willys",
+    store: (x) =>this.getStore(),
     savings: (x) => x.savingsAmount,
     discountType: (x) => x.campaignType,
   };
@@ -26,5 +28,13 @@ export class WillysScrubber extends Scrubber {
     );
     let formatted = await raw.json();
     return formatted.ean;
+  }
+
+  static async getStore() {
+    const willysStore = new Store(
+      "Willys",
+      "https://digitalatjanster.se/wp-content/uploads/2020/04/willys-logo.png"
+    );
+    return willysStore;
   }
 }

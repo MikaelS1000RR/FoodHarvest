@@ -1,7 +1,7 @@
 import fs from "fs";
 import { WillysHarvester } from "./WillysHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
-import { FirebaseHandler } from "../FirebaseHandler.js";
+
 
 export class TestHarvesting {
   static async test() {
@@ -9,8 +9,7 @@ export class TestHarvesting {
 
 
 
-    let stores = await FirebaseHandler.getStores();
-    console.log('stores are', stores);
+   
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
@@ -19,15 +18,15 @@ export class TestHarvesting {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
 
-    //let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
+    let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
 
     // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
 
-    /*let scrubbedProducts = await WillysScrubber.scrubAll(
+    let scrubbedProducts = await WillysScrubber.scrubAll(
       allProductsOfWillys[0]
-    );*/  
+    );
     //This will be saved in databse later
-    // writeToFile("willys-scrubbed-products", scrubbedProducts);
+    writeToFile("willys-scrubbed-products", scrubbedProducts);
 
     //writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
   }
