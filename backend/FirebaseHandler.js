@@ -10,4 +10,14 @@ export class FirebaseHandler {
     console.log(stores);
     return stores;
   }
+
+  static async getCategories() {
+    let querySnapshot = await firestore.collection("categories").get();
+    let categories = [];
+    querySnapshot.forEach((document) => {
+      categories.push(document.data());
+    });
+    
+    return categories;
+  }
 }

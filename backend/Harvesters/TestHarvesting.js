@@ -26,7 +26,7 @@ export class TestHarvesting {
       allProductsOfWillys[0]
     );
     //This will be saved in databse later
-    writeToFile("willys-scrubbed-products", scrubbedProducts);
+    //writeToFile("willys-scrubbed-products", scrubbedProducts);
 
     //writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
   }

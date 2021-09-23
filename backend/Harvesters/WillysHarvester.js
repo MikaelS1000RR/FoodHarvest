@@ -1,4 +1,5 @@
 import fetch from 'node-fetch'
+import { FirebaseHandler } from '../FirebaseHandler.js';
 
 export class WillysHarvester {
   static bustCache() {
@@ -27,6 +28,8 @@ export class WillysHarvester {
   //Getting all products from all categories
   static async getAllProducts(categories) {
     let allProductsOfWillys = [];
+    let categoriesOfDb = await FirebaseHandler.getCategories();
+   
 
     for (var i = 0; i < categories.length; i++) {
       let category = categories[i]; //Getting each category
