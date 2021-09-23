@@ -1,6 +1,7 @@
-import firestore from "./database_config/firestore.js";
+
 import express from "express";
 import path from "path";
+import { TestHarvesting } from "./Harvesters/TestHarvesting.js";
 
 const app = express();
 // const __dirname = path.resolve();
@@ -9,6 +10,8 @@ app.use(express.json());
 
 app.use(express.static("frontend")); // if doesn't work then try ../frontend
 // app.use(express.static(path.join(__dirname, "./www")));
+
+TestHarvesting.test();
 
 app.listen(3000, () => console.log("Listening on port 3000"));
 
@@ -23,17 +26,18 @@ app.listen(3000, () => console.log("Listening on port 3000"));
 //   console.log(data);
 // }
 
-async function getTestData() {
+/*async function getTestData() {
   let querySnapshot = await firestore
-    .collection("test-products")
+    .collection("stores")
     .get();
   let data = [];
   querySnapshot.forEach((document) => {
     data.push(document.data());
   });
   console.log(data);
-  console.log("Here************************")
+
 }
+*/
 
 // function writeTestData() {
 //   const foodItem = {
