@@ -1,12 +1,11 @@
-import ProductCard from "../components/home/ProductCard";
+import ProductCard from "../components/Home/ProductCard";
 import data from '../testData.js' // will be removed when real data is fetched
-import SearchBar from "../components/SearchBar";
 
 const Home = () => {
 
   return (
     <div className="container" style={styles.container}>
-      <SearchBar/>
+<<<<<<< HEAD
       <div className="row gy-3">
         {data.products.map(p =>
           <ProductCard
@@ -19,6 +18,12 @@ const Home = () => {
    );
 }
  
+=======
+    </div>
+  );
+}
+
+>>>>>>> develop
 export default Home;
 
 const styles = {
@@ -26,4 +31,8 @@ const styles = {
     minWidth: "100vw",
     background: "pink"
   },
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> develop
