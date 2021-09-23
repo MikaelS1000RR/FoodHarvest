@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import {
-  NavItem
-} from "reactstrap";
+import { NavItem, Button } from "reactstrap";
+import { useModal } from "../contexts/ModalContext";
 
 const UserNav = (props) => {
   const { styles } = props;
+  const { toggleCategoryModal } = useModal()
+
   return (
     <>
       <NavItem>
@@ -12,10 +13,13 @@ const UserNav = (props) => {
           Inköpslistor
         </Link>
       </NavItem>
-      <NavItem>
-        <Link to="/catagories/" className="text-white" style={styles.link}>
+      <NavItem style={styles.link}>
+        <Button
+          className="text-white bg-transparent btn-outline-primary"
+          onClick={toggleCategoryModal}
+        >
           Kategorier
-        </Link>
+        </Button>
       </NavItem>
       <NavItem>
         <Link to="/myProfile/" className="text-white" style={styles.link}>

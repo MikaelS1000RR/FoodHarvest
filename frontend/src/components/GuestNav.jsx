@@ -1,13 +1,19 @@
-import { useContext } from "react";
-import { ModalContext } from "../contexts/ModalContextProvider";
 import { Button, NavItem } from "reactstrap";
-import { Link } from "react-router-dom";
+import { useModal } from "../contexts/ModalContext";
 
 const GuestNav = (props) => {
   const { styles } = props;
-  const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext);
+  const { toggleLoginModal, toggleRegisterModal, toggleCategoryModal } = useModal()
   return (
     <>
+      <NavItem style={styles.link}>
+        <Button
+          className="text-white bg-transparent btn-outline-primary"
+          onClick={toggleCategoryModal}
+        >
+          Kategorier
+        </Button>
+      </NavItem>
       <NavItem>
         <Button
           className="text-white bg-transparent btn-outline-primary"
@@ -23,11 +29,6 @@ const GuestNav = (props) => {
         >
           Registrera dig
         </Button>
-      </NavItem>
-      <NavItem>
-        <Link to="/catagories/" className="text-white" style={styles.link}>
-          Kategorier
-        </Link>
       </NavItem>
     </>
   );
