@@ -1,32 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import FavoriteButton from "./FavoriteButton";
+import DetailModal from "../DetailModal";
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText, isFavorite } = props;
 
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={classNames}>
       <div className={"card text-center"} style={styles.container}>
-        <FavoriteButton styles={styles.favorite} productId={product.id} isFavorite={isFavorite} />
+        <FavoriteButton
+          styles={styles.favorite}
+          productId={product.id}
+          isFavorite={isFavorite}
+        />
         <div className="card-img-top" style={styles.image}>
-          <img
-            className=""
-            style={styles.image.content}
-            src={product.imageUrl}
-            alt={product.imageUrl}
-          />
-        </div>
-        <div className="card-body">
-          <div>
-            <h5 className="card-title">{product.productName}</h5>
-            <p className="card-title">{product.brand + ' ' + product.quantity + product.quantityUnit}</p>
-          </div>
-          <h3>{product.price}kr</h3>
-          <div className="btn btn-primary" style={styles.button}>
-            {buttonText}
+          <div className="openModal" onClick={() => setIsOpen(true)}>
+            {isOpen && <DetailModal closeModal={setIsOpen} />}
+            <img
+              className=""
+              style={styles.image.content}
+              src={product.imageUrl}
+              alt={product.imageUrl}
+            />
           </div>
         </div>
+          <div className="card-body">
+            <div>
+              <h5 className="card-title">{product.productName}</h5>
+              <p className="card-title">
+                {product.brand + " " + product.quantity + product.quantityUnit}
+              </p>
+            </div>
+            <h3>{product.price}kr</h3>
+            <div className="btn btn-primary" style={styles.button}>
+              {buttonText}
+            </div>
+          </div>
       </div>
     </div>
   );
