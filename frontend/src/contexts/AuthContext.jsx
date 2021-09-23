@@ -8,7 +8,7 @@ export const useAuth = () => {
 }
 
 const AuthProvider = ({ children }) => {
-  const [currentUser, setCurrentUser] = useState();
+  const [currentUser, setCurrentUser] = useState(null);
 
   const signup = (email, password) => {
     return auth.createUserWithEmailAndPassword(email, password);

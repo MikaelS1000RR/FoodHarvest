@@ -1,12 +1,12 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { Form, Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
-import { ModalContext } from "../../contexts/ModalContextProvider";
+import { useModal } from "../../contexts/ModalContext";
 import { useAuth } from "../../contexts/AuthContext";
 
 const RegisterModal = () => {
   
-  const { showRegisterModal, toggleRegisterModal } = useContext(ModalContext)
+  const { showRegisterModal, toggleRegisterModal } = useModal()
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -41,7 +41,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="password"
           minLength="6"
@@ -53,7 +53,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="password"
           className="form-control"
