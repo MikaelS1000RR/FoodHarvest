@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import firestore from './firestore';
+import firestore from '../database_config/firestore';
 
 const Products = () => {
   // Set default as null so we

@@ -14,6 +14,6 @@ let config = {
 };
 firebase.initializeApp(config);
 
-let db = firebase.firestore();
+let firestore = firebase.firestore();
 
-export default db;
+export default firestore;

@@ -1,4 +1,4 @@
-import db from "./database.js";
+import firestore from "./database_config/firestore.js";
 import express from "express";
 import path from "path";
 
@@ -7,37 +7,54 @@ const app = express();
 
 app.use(express.json());
 
-// app.use(static("frontend")); // if doesn't work then try ../frontend
+app.use(express.static("frontend")); // if doesn't work then try ../frontend
 // app.use(express.static(path.join(__dirname, "./www")));
 
 app.listen(3000, () => console.log("Listening on port 3000"));
 
+// async function getTestData() {
+//   let querySnapshot = await firestore.collection("test-products").where("category", "==", "Fisk").get();
+//   let data = [];
+//   querySnapshot.forEach((document) => {
+  //   let doc = document.data();
+  // doc.ref = document.id
+//     data.push(doc);   +doc.id
+//   });
+//   console.log(data);
+// }
+
 async function getTestData() {
-  let querySnapshot = await db.collection("test-products").get();
+  let querySnapshot = await firestore
+    .collection("test-products")
+    .get();
   let data = [];
   querySnapshot.forEach((document) => {
     data.push(document.data());
   });
   console.log(data);
+  console.log("Here************************")
 }
 
-getTestData();
+// function writeTestData() {
+//   const foodItem = {
+//     brand: "Mjau",
+//     category: "Kattmat",
+//     foodType: "Lax i sås",
+//     price: "400",
+//   };
+//   firestore.collection("test-products").doc().set(foodItem);
+// }
 
-// app.get("/rest/:model", async (req, res) => {
-//   let model = models[req.params.model];
-//   if (req.params.model === "apartments") {
-//     let docs = await model
-//       .find()
-//       .populate(["amenities", "ownerId"])
-//       .exec();
-//     res.json(docs);
-//     return;
-//   }
-//   if (req.params.model === "bookings") {
-//     let docs = await model
-//       .find()
-//       .populate(["userId", "apartmentId"])
-//       .exec(); 
-//     res.json(docs);
-//     return;
-//   }
+// function getTestData2() {
+//   const foods = firestore.collection("test-products");
+//   const queryRef = foods.where("category", "==", "Fisk");
+//   console.log(queryRef);
+// }
+
+// writeTestData();
+// getTestData();
+
+// getTestData();
+
+
+console.log("End of code*************")
