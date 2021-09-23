@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { LoginModalContext } from "../contexts/LoginModalContextProvider";
+import { ModalContext } from "../contexts/ModalContextProvider";
 import { Link } from 'react-router-dom';
 import {
   Button,
@@ -19,7 +19,7 @@ import {
 } from 'reactstrap';
 
 const Example = (props) => {
-  const { toggleLoginModal } = useContext(LoginModalContext)
+  const { toggleLoginModal, toggleRegisterModal } = useContext(ModalContext)
 
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
@@ -64,9 +64,14 @@ const Example = (props) => {
               </Button>
             </NavItem>
             <NavItem>
-              <NavLink href="/register/" className="text-white">
+              <Button
+                className="text-white bg-transparent btn-outline-primary"
+                onClick={toggleRegisterModal}
+              >
                 Registrera dig
-              </NavLink>
+              </Button>
+              </NavItem>
+              <NavItem>
               <Link to="/catagories/" className="text-white" style={styles.link}>Kategorier</Link>
             </NavItem>
             {/* Logged in */}
