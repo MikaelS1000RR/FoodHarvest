@@ -9,11 +9,13 @@ const UserNav = (props) => {
   const { logout } = useAuth();
   return (
     <>
-      <NavItem>
+      <Button
+        className="text-white bg-transparent btn-outline-primary"
+        >
         <Link to="/myProductLists/" className="text-white" style={styles.link}>
           Inköpslistor
         </Link>
-      </NavItem>
+      </Button>
       <NavItem style={styles.link}>
         <Button
           className="text-white bg-transparent btn-outline-primary"
@@ -22,11 +24,13 @@ const UserNav = (props) => {
           Kategorier
         </Button>
       </NavItem>
-      <NavItem>
+      <Button
+        className="text-white bg-transparent btn-outline-primary"
+      >
         <Link to="/myProfile/" className="text-white" style={styles.link}>
           Mina sidor
         </Link>
-      </NavItem>
+      </Button>
       <NavItem>
         <Link to="/" className="text-white" style={styles.link}>
           <Button className="text-white bg-transparent btn-outline-primary" onClick={logout}>Logga ut</Button>

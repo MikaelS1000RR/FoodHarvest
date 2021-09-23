@@ -27,7 +27,7 @@ function App() {
                 <Navbar />
               </header>
               <main>
-                <FirebaseTest />
+                {/* <FirebaseTest /> */}
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/catagories/" component={Catagories} />
