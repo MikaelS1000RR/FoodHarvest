@@ -7,10 +7,11 @@ import { useAuth } from "../../contexts/AuthContext";
 const RegisterModal = () => {
   
   const { showRegisterModal, toggleRegisterModal } = useModal()
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const { signup } = useAuth();
+  const { signup, updateDisplayName } = useAuth();
   const [userExists, setUserExist] = useState(false);
 
   const handleSubmit = async (e) => {
@@ -19,6 +20,7 @@ const RegisterModal = () => {
     if (password === confirmPassword) {
       try {
         await signup(email, password);
+        await updateDisplayName(name);
         setUserExist(false);
         toggleRegisterModal();
       } catch {
@@ -29,6 +31,17 @@ const RegisterModal = () => {
 
   const form = (
     <Form onSubmit={handleSubmit}>
+      <div class="mb-3">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Namn"
+          onChange={(data) => {
+            setName(data.target.value);
+          }}
+          required
+        />
+      </div>
       <div class="mb-3">
         <input
           type="email"
