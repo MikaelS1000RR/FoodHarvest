@@ -2,11 +2,13 @@ import { Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
 import { useCategory } from "../../contexts/CategoryContext";
 import { useModal } from "../../contexts/ModalContext";
+import { useParams } from "react-router-dom";
 
 const CategoryModal = () => {
   const title = "Kategorier";
   const { categories } = useCategory();
   const { showCategoryModal, toggleCategoryModal } = useModal();
+  const { name } = useParams();
 
   const categoryButtonList = (
     <div className="container" style={styles.container}>
