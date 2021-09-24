@@ -3,17 +3,19 @@ import BaseModal from "../base/BaseModal";
 import { useCategory } from "../../contexts/CategoryContext";
 import { useModal } from "../../contexts/ModalContext";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router";
 
 const CategoryModal = () => {
   const title = "Kategorier";
   const { categories } = useCategory();
   const { showCategoryModal, toggleCategoryModal } = useModal();
+  const { name } = useParams();
 
   const categoryButtonList = (
     <div className="container" style={styles.container}>
       {categories.length > 0
         ? categories.map((c) => (
-          <Link to="/catagories">
+          <Link to={`/catagories/${c.name}`}>
           <Button className="m-1" color="primary" onClick={toggleCategoryModal}>
               {c.name}
             </Button>
