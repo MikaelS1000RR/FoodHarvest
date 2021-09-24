@@ -8,7 +8,9 @@
     "comparisonPrice": "19,98 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h08/h29/8915566362654/07340083434983.jpg_1491425490919_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -37,7 +39,9 @@
     "comparisonPrice": "79,95 kr",
     "brand": "Prime Patrol",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6b/h16/10422797893662/2359752400001_1597955714863_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -66,7 +70,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h49/hb1/11191376674846/7313940027031_1612946725732_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -101,7 +107,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h21/h87/9153750892574/7313940027048_1528923038159_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -136,7 +144,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he4/hf3/9090476769310/07313940027000.jpg_1521151805740_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "7313940027000",
     "store": {
@@ -161,7 +171,9 @@
     "comparisonPrice": "79,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb8/hda/8962017656862/07340083455858.jpg_1503560149443_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -196,7 +208,9 @@
     "comparisonPrice": "28,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6c/h04/9112928256030/7340083462207_1523912159311_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -231,7 +245,9 @@
     "comparisonPrice": "28,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h03/h6e/9112929239070/7340083462238_1523912181903_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -266,7 +282,9 @@
     "comparisonPrice": "28,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hdb/h1b/9112928911390/7340083462221_1523912178437_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -301,7 +319,9 @@
     "comparisonPrice": "133,17 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he3/h1f/8893279043614/07340083452093.jpg_1484776237924_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -336,7 +356,9 @@
     "comparisonPrice": "54,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h86/h58/9374222254110/2359730100008_1550505672925_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -368,7 +390,9 @@
     "comparisonPrice": "129,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h80/hfc/9374197612574/2359634700007_1550504449533_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -403,7 +427,9 @@
     "comparisonPrice": "135,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h93/h7d/9327319384094/2359632700009_1546900860764_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -438,7 +464,9 @@
     "comparisonPrice": "57,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha0/hb1/9374202003486/2307984000001_1550504747529_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -470,7 +498,9 @@
     "comparisonPrice": "49,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcd/h12/9327459467294/2307981200008_1546901463636_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -502,7 +532,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h41/hce/9327367847966/2307983900005_1546901161338_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -537,7 +569,9 @@
     "comparisonPrice": "155,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h94/h06/9374221598750/2359633700008_1550505664575_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -572,7 +606,9 @@
     "comparisonPrice": "49,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha7/h99/9374196826142/2359634300009_1550504441611_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -604,7 +640,9 @@
     "comparisonPrice": "41,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc2/h3c/9822541709342/2359715300003_1580806236668_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -636,7 +674,9 @@
     "comparisonPrice": "139,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h59/h1d/8862120771614/02382460200007.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -671,7 +711,9 @@
     "comparisonPrice": "28,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hfb/h0e/9112928583710/7340083462214_1523912174319_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -706,7 +748,9 @@
     "comparisonPrice": "78,50 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf0/h93/8857474531358/07340083434723.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -744,7 +788,9 @@
     "comparisonPrice": "79,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h35/h32/8857471647774/07340083434716.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -782,7 +828,9 @@
     "comparisonPrice": "104,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h82/had/8857469550622/07340083434709.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -820,7 +868,9 @@
     "comparisonPrice": "103,87 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hd2/hf5/11999318867998/7340045502057_1629410759104_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -852,7 +902,9 @@
     "comparisonPrice": "103,87 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h86/ha0/11999319261214/7340045503764_1629410761034_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -884,7 +936,9 @@
     "comparisonPrice": "156,50 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0a/h96/11999319588894/7340045507663_1629410762941_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -916,7 +970,9 @@
     "comparisonPrice": "81,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h37/ha1/8919638540318/02355021900005.jpg_1492686702623_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -948,7 +1004,9 @@
     "comparisonPrice": "97,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0a/hb5/8920152506398/02355022200005.jpg_1492783277380_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -980,7 +1038,9 @@
     "comparisonPrice": "93,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf1/h13/8920163483678/02355022400009.jpg_1492785058490_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1012,7 +1072,9 @@
     "comparisonPrice": "67,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hdc/hd2/8919640178718/07340045504129.jpg_1492686728642_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1044,7 +1106,9 @@
     "comparisonPrice": "85,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4b/hea/8919640834078/07340045504228.jpg_1492686733103_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1076,7 +1140,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h80/h44/8919639195678/02355022100008.jpg_1492686715087_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1108,7 +1174,9 @@
     "comparisonPrice": "107,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h77/h6c/8920154865694/07340045504167.jpg_1492783290472_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1140,7 +1208,9 @@
     "comparisonPrice": "119,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he0/h02/8920155848734/07340045504242.jpg_1492783293822_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1172,7 +1242,9 @@
     "comparisonPrice": "119,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbb/hdd/8957135224862/07340045509933.jpg_1502706367912_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1204,7 +1276,9 @@
     "comparisonPrice": "147,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h16/hbc/8920160862238/07340045506048.jpg_1492784471146_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1236,7 +1310,9 @@
     "comparisonPrice": "119,36 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h94/h00/8920168595486/07340045509544.jpg_1492787481393_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1277,7 +1353,9 @@
     "comparisonPrice": "102,22 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h51/heb/9381657280542/7340083471230_1551130868868_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1309,7 +1387,9 @@
     "comparisonPrice": "76,95 kr",
     "brand": "Fåddman",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h82/hde/8861741056030/2381229000001.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2381229000001",
     "store": {
@@ -1334,7 +1414,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Fåddman",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hd6/hb4/8861742104606/02381229200005.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2381229200005",
     "store": {
@@ -1359,7 +1441,9 @@
     "comparisonPrice": "123,48 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h11/h8c/8894860787742/07340083451652.jpg_1485273620712_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1391,7 +1475,9 @@
     "comparisonPrice": "155,44 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he8/h9b/8928997933086/07340083437571.jpg_1495112470631_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1423,7 +1509,9 @@
     "comparisonPrice": "109,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h21/h84/8928997244958/07340083437564.jpg_1495112459190_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1455,7 +1543,9 @@
     "comparisonPrice": "112,38 kr",
     "brand": "Ingelstakalkon",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h76/hf7/8870174916638/07331044060501.jpg_1471727030983_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1490,7 +1580,9 @@
     "comparisonPrice": "114,14 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5b/h98/9247594905630/7340045507885_1538776557147_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1522,7 +1614,9 @@
     "comparisonPrice": "114,14 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7c/h8b/9247594577950/7340045507557_1538776533607_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1554,7 +1648,9 @@
     "comparisonPrice": "147,96 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8b/h44/9247597199390/7340045508585_1538776859512_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1586,7 +1682,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3b/h37/8881777836062/02320719100005.jpg_1480405813771_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1618,7 +1716,9 @@
     "comparisonPrice": "94,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hac/h2c/8881777508382/02320644400003.jpg_1480405806867_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -1650,7 +1750,9 @@
     "comparisonPrice": "114,88 kr",
     "brand": "Bosarps",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1b/h89/9116878110750/7300327553009_1524355584202_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1685,7 +1787,9 @@
     "comparisonPrice": "84,00 kr",
     "brand": "Danish Crown",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2c/h50/10246975062046/2385900400005_1592985661528_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2385900400005",
     "store": {
@@ -1710,7 +1814,9 @@
     "comparisonPrice": "129,00 kr",
     "brand": "Reko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9b/ha2/8966885834782/02380101600001.jpg_1504524029025_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1745,7 +1851,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Reko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hca/h19/8977768382494/02380100600002.jpg_1506430227976_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1780,7 +1888,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Reko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbd/h49/8977767530526/02380100300001.jpg_1506430216715_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1815,7 +1925,9 @@
     "comparisonPrice": "259,00 kr",
     "brand": "Reko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc0/h0f/8977763598366/02380100800006.jpg_1506429916582_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1850,7 +1962,9 @@
     "comparisonPrice": "279,00 kr",
     "brand": "Reko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0c/h98/8966885507102/02380100900003.jpg_1504524021543_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -1885,7 +1999,9 @@
     "comparisonPrice": "78,69 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h12/ha9/10458662633502/7300323185006_1598873762016_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -1914,7 +2030,9 @@
     "comparisonPrice": "104,88 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h02/hfb/8862453628958/07300323182005.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -1943,7 +2061,9 @@
     "comparisonPrice": "129,43 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h29/hf6/12016286924830/7300321372002_1629895821376_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -1972,7 +2092,9 @@
     "comparisonPrice": "142,38 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h88/h9d/12016287416350/7300321374006_1629895823345_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -2004,7 +2126,9 @@
     "comparisonPrice": "54,50 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3f/hc8/12095229788190/7300321505004_1632132629276_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2039,7 +2163,9 @@
     "comparisonPrice": "148,34 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbc/h95/8856736694302/07300321216009.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -2071,7 +2197,9 @@
     "comparisonPrice": "129,43 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2a/h98/11417895370782/7300321373009_1616598068783_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2100,7 +2228,9 @@
     "comparisonPrice": "69,94 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8d/hf2/11381543993374/7340083488467_1616016975135_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2129,7 +2259,9 @@
     "comparisonPrice": "55,50 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc2/h48/8915866976286/07340083410956.jpg_1491489956853_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2158,7 +2290,9 @@
     "comparisonPrice": "57,07 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb2/hc6/9886674845726/7340083475962_1583358647774_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2187,7 +2321,9 @@
     "comparisonPrice": "48,50 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcd/h25/8915382632478/07340083434976.jpg_1491382935027_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2216,7 +2352,9 @@
     "comparisonPrice": "185,00 kr",
     "brand": "Ingelsta",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9b/hbe/8937567584286/02366056000004.jpg_1497449162069_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2251,7 +2389,9 @@
     "comparisonPrice": "49,95 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h84/h5a/8856484773918/02313364000004.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2313364000004",
     "store": {
@@ -2276,7 +2416,9 @@
     "comparisonPrice": "92,79 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h02/h66/9521873649694/7340083455827_1562670065179_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2305,7 +2447,9 @@
     "comparisonPrice": "44,95 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hd3/h39/8927611715614/07340083455834.jpg_1494804351087_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2334,7 +2478,9 @@
     "comparisonPrice": "39,95 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h62/hd9/8907795333150/07340083457418.jpg_1489136767224_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -2363,7 +2509,9 @@
     "comparisonPrice": "85,64 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h19/h5b/9653235351582/7340083478253_1572507354542_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -2395,7 +2543,9 @@
     "comparisonPrice": "129,92 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6f/h9d/9559328718878/7313940267543_1566483158254_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2433,7 +2583,9 @@
     "comparisonPrice": "82,11 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8a/hd5/10454881140766/7313940095535_1598734003329_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2468,7 +2620,9 @@
     "comparisonPrice": "129,92 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h35/hda/9559424466974/7313940267574_1566491420670_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2506,7 +2660,9 @@
     "comparisonPrice": "155,56 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h66/heb/9559398842398/7313940580123_1566489673687_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2541,7 +2697,9 @@
     "comparisonPrice": "102,71 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9a/hb7/9334454321182/7313940580154_1547488800178_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2576,7 +2734,9 @@
     "comparisonPrice": "110,53 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h07/hf9/9559398449182/7313940580093_1566489668268_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2611,7 +2771,9 @@
     "comparisonPrice": "69,90 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h05/h68/9559460184094/7313940574900_1566494851953_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2646,7 +2808,9 @@
     "comparisonPrice": "102,71 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hda/hf3/9334453993502/7313940580147_1547488784792_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2681,7 +2845,9 @@
     "comparisonPrice": "69,90 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h34/h4b/9559329046558/7313940574504_1566483160450_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2716,7 +2882,9 @@
     "comparisonPrice": "69,90 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha4/h40/9559329374238/7313940574603_1566483163786_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2751,7 +2919,9 @@
     "comparisonPrice": "69,90 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc5/h33/9559329701918/7313940580024_1566483173548_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2786,7 +2956,9 @@
     "comparisonPrice": "99,86 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0c/h96/9559494852638/7313940580055_1566496315556_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2821,7 +2993,9 @@
     "comparisonPrice": "132,67 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hfd/haa/9559328325662/7313940026188_1566483147812_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2859,7 +3033,9 @@
     "comparisonPrice": "131,28 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha3/hd0/9250244558878/7340045508189_1539099418308_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -2897,7 +3073,9 @@
     "comparisonPrice": "285,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5d/hd6/9250232434718/2355002300008_1539097867789_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2929,7 +3107,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hda/h70/9250243837982/2355019500002_1539099373926_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2964,7 +3144,9 @@
     "comparisonPrice": "249,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h93/he8/8921913851934/02355008000001.jpg_1493278209217_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -2999,7 +3181,9 @@
     "comparisonPrice": "195,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hfe/h0d/8920171741214/02355001900001.jpg_1492788064041_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3034,7 +3218,9 @@
     "comparisonPrice": "439,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcf/hd4/8922230063134/02355008900004.jpg_1493326230467_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3069,7 +3255,9 @@
     "comparisonPrice": "219,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8b/hbb/8921917784094/02355008200005.jpg_1493278821209_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3104,7 +3292,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha0/h20/8922229407774/02355008100008.jpg_1493326214761_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3139,7 +3329,9 @@
     "comparisonPrice": "134,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1b/h26/8920171020318/02355034800002.jpg_1492787792065_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3171,7 +3363,9 @@
     "comparisonPrice": "239,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3c/h60/9250243379230/2355017000009_1539099357324_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3206,7 +3400,9 @@
     "comparisonPrice": "285,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha5/hd1/9250216378398/2355002700006_1539096369252_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3241,7 +3437,9 @@
     "comparisonPrice": "219,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0e/hc8/9250232893470/2355004000005_1539097885173_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3273,7 +3471,9 @@
     "comparisonPrice": "259,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h03/h26/8921915359262/02355007900005.jpg_1493278516308_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3305,7 +3505,9 @@
     "comparisonPrice": "339,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h12/h07/8920163811358/02355026000007.jpg_1492785065020_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3337,7 +3539,9 @@
     "comparisonPrice": "219,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf6/ha6/8920160206878/02355025600000.jpg_1492784463701_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3372,7 +3576,9 @@
     "comparisonPrice": "185,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hde/h58/8920169054238/02355002000007.jpg_1492787764441_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3407,7 +3613,9 @@
     "comparisonPrice": "349,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h15/h4b/8920164139038/02355026600009.jpg_1492785075334_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3439,7 +3647,9 @@
     "comparisonPrice": "119,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb6/hb1/10556827467806/2355034700005_1601323837256_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3474,7 +3684,9 @@
     "comparisonPrice": "119,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2f/h2b/8922229735454/02355008400009.jpg_1493326227760_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3509,7 +3721,9 @@
     "comparisonPrice": "111,90 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6e/hca/9019464908830/07340062472067.jpg_1512412626720_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -3550,7 +3764,9 @@
     "comparisonPrice": "115,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2e/h20/8862545117214/02313715200008.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -3591,7 +3807,9 @@
     "comparisonPrice": "119,90 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc2/h69/9019444920350/07340062471565.jpg_1512411133428_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -3632,7 +3850,9 @@
     "comparisonPrice": "99,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7b/h5d/8916724744222/02355005500009.jpg_1491814872277_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3664,7 +3884,9 @@
     "comparisonPrice": "119,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbe/h2b/8919635853342/02355011700004.jpg_1492686666566_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3699,7 +3921,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4f/h14/8919635197982/02355011100002.jpg_1492686662798_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3731,7 +3955,9 @@
     "comparisonPrice": "99,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h98/h5b/8920172724254/02355027900009.jpg_1492788077337_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3763,7 +3989,9 @@
     "comparisonPrice": "79,95 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h13/h86/10494602543134/2355034600008_1599732007172_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3798,7 +4026,9 @@
     "comparisonPrice": "86,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4e/h54/8916711899166/02355004200009.jpg_1491809771463_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3830,7 +4060,9 @@
     "comparisonPrice": "109,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2f/h21/8919635525662/02355011300006.jpg_1492686664607_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3865,7 +4097,9 @@
     "comparisonPrice": "99,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he2/h45/8917737373726/02355009600002.jpg_1492009220113_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3897,7 +4131,9 @@
     "comparisonPrice": "105,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6f/h39/8916914012190/02355000100006.jpg_1491834906867_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3929,7 +4165,9 @@
     "comparisonPrice": "84,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h55/h95/8919636836382/02355012400002.jpg_1492686679128_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3961,7 +4199,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb5/haf/8916725071902/02355005600006.jpg_1491814874295_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -3993,7 +4233,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Nybergs Deli",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h98/ha7/10592965885982/2371545100004_1602156940161_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4025,7 +4267,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Nybergs Deli",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h19/h82/9072607756318/02371585300006.jpg_1519116339753_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4057,7 +4301,9 @@
     "comparisonPrice": "99,00 kr",
     "brand": "Nybergs Deli",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf4/h94/10074849935390/2371580900003_1588716341095_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4089,7 +4335,9 @@
     "comparisonPrice": "94,00 kr",
     "brand": "Nybergs Deli",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha9/h8c/9072607428638/02371582300009.jpg_1519116334318_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4121,7 +4369,9 @@
     "comparisonPrice": "166,55 kr",
     "brand": "Texas Longhorn",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h76/h8b/9419747983390/7330836311159_1553995856959_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "glutenfree"
@@ -4150,7 +4400,9 @@
     "comparisonPrice": "124,88 kr",
     "brand": "Nonna Elide",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hce/h18/9692513107998/7340012500536_1574667077338_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "glutenfree"
@@ -4182,7 +4434,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0b/he4/9598897127454/7300324052000_1569134771380_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4217,7 +4471,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4c/h0d/9663317868574/7300324051003_1573131959534_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4252,7 +4508,9 @@
     "comparisonPrice": "229,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8d/hab/9019442298910/02313713100003.jpg_1512411063754_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4296,7 +4554,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h16/h28/9019424014366/02313717800008.jpg_1512409861776_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4340,7 +4600,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha4/h58/9019441905694/02313712500002.jpg_1512411049962_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4381,7 +4643,9 @@
     "comparisonPrice": "339,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h11/h75/9692579889182/2313711200002_1574672173416_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4422,7 +4686,9 @@
     "comparisonPrice": "319,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h27/h83/9019407237150/02313711000008.jpg_1512408350346_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4463,7 +4729,9 @@
     "comparisonPrice": "559,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9c/h3b/9674474553374/2313717700001_1573743656242_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4504,7 +4772,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6d/hb8/9019442626590/02313716200007.jpg_1512411067557_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -4548,7 +4818,9 @@
     "comparisonPrice": "122,11 kr",
     "brand": "Happy Chef",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1a/h29/12104896610334/7392055040340_1632223622647_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -4580,7 +4852,9 @@
     "comparisonPrice": "122,11 kr",
     "brand": "Happy Chef",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hfa/h35/12104896282654/7392055040326_1632223618956_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -4612,7 +4886,9 @@
     "comparisonPrice": "319,00 kr",
     "brand": "Farmers",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcc/haa/8861672898590/2359743100002.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359743100002",
     "store": {
@@ -4637,7 +4913,9 @@
     "comparisonPrice": "329,00 kr",
     "brand": "Farmers",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h59/hfc/8861673160734/2359743200009.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359743200009",
     "store": {
@@ -4662,7 +4940,9 @@
     "comparisonPrice": "229,00 kr",
     "brand": "Farmers",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf7/h2c/8857556844574/02359741900000.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359741900000",
     "store": {
@@ -4687,7 +4967,9 @@
     "comparisonPrice": "349,00 kr",
     "brand": "Farmers",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h60/h8f/8857553698846/02359741700006.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359741700006",
     "store": {
@@ -4712,7 +4994,9 @@
     "comparisonPrice": "179,00 kr",
     "brand": "Farmers",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h03/h52/9295751151646/2359741600009_1543574123407_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359741600009",
     "store": {
@@ -4737,7 +5021,9 @@
     "comparisonPrice": "155,00 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5e/hf3/8909698334750/02359752100000.jpg_1489679458761_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359752100000",
     "store": {
@@ -4762,7 +5048,9 @@
     "comparisonPrice": "95,00 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h83/h43/11353214648350/2359765300008_1615541421329_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359765300008",
     "store": {
@@ -4787,7 +5075,9 @@
     "comparisonPrice": "289,00 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h52/hce/11353441239070/2359763700008_1615543519606_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359763700008",
     "store": {
@@ -4812,7 +5102,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0f/he5/8909698793502/02359752200007.jpg_1489679492136_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359752200007",
     "store": {
@@ -4837,7 +5129,9 @@
     "comparisonPrice": "105,00 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc3/hc0/11353200492574/2359765400005_1615541116965_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359765400005",
     "store": {
@@ -4862,7 +5156,9 @@
     "comparisonPrice": "147,38 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8a/h46/9555028705310/7313940027116_1566328548121_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4894,7 +5190,9 @@
     "comparisonPrice": "117,90 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h09/h4e/9555028967454/7313940027109_1566328113112_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4926,7 +5224,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4b/hc1/9134001422366/2307139100006_1526446273644_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4958,7 +5258,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb5/ha7/9821886808094/2307116100005_1580773516603_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -4993,7 +5295,9 @@
     "comparisonPrice": "123,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he8/h8c/11693528973342/7300322664007_1621425965243_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5031,7 +5335,9 @@
     "comparisonPrice": "92,79 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbf/h48/12095236210718/7300322557002_1632136830173_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5066,7 +5372,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hdd/h74/12089490866206/7300322544002_1631865318767_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5101,7 +5409,9 @@
     "comparisonPrice": "89,93 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h68/h91/11718614122526/7300322510007_1621925168904_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5136,7 +5446,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcd/hb0/9019463139358/02313732000001.jpg_1512412593461_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -5180,7 +5492,9 @@
     "comparisonPrice": "329,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h86/h1d/9019424342046/02313721300006.jpg_1512409872469_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -5224,7 +5538,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hae/h6b/9995761352734/2359762500005_1586729125879_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -5268,7 +5584,9 @@
     "comparisonPrice": "145,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h00/h46/9019425194014/02313724200006.jpg_1512409901748_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -5309,7 +5627,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Garant Eko",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1e/h61/9995761680414/2359762600002_1586729127378_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "ecological"
@@ -5350,7 +5670,9 @@
     "comparisonPrice": "53,90 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h14/h2a/11554272870430/7300327138008_1618925439769_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5388,7 +5710,9 @@
     "comparisonPrice": "185,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h21/h59/11787079122974/2330003800009_1623247247642_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5420,7 +5744,9 @@
     "comparisonPrice": "99,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h33/h6e/9438982733854/2355014200006_1555495575718_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355014200006",
     "store": {
@@ -5445,7 +5771,9 @@
     "comparisonPrice": "499,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2d/hc1/10247265648670/2320275400007_1592989266942_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2320275400007",
     "store": {
@@ -5470,7 +5798,9 @@
     "comparisonPrice": "539,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h50/h38/10832202039326/2320286300006_1606895122976_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5502,7 +5832,9 @@
     "comparisonPrice": "235,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h76/h2a/10832201252894/2320408600007_1606895118907_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5534,7 +5866,9 @@
     "comparisonPrice": "112,23 kr",
     "brand": "Danish Crown",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h79/h73/10383736209438/2381907700001_1597048224727_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -5563,7 +5897,9 @@
     "comparisonPrice": "23,97 kr",
     "brand": "Eldorado",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h87/h8e/8861988913182/07340083444128.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -5592,7 +5928,9 @@
     "comparisonPrice": "329,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4c/hc5/9100553224222/2355036700003_1522244718513_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355036700003",
     "store": {
@@ -5617,7 +5955,9 @@
     "comparisonPrice": "179,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he8/hf8/9097588146206/2355036600006_1522053936619_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355036600006",
     "store": {
@@ -5642,7 +5982,9 @@
     "comparisonPrice": "329,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hdc/hb4/9097587818526/2355036500009_1522053930950_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355036500009",
     "store": {
@@ -5667,7 +6009,9 @@
     "comparisonPrice": "268,57 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hfe/h6f/11482765099038/7340083488306_1617799854029_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "7340083488306",
     "store": {
@@ -5692,7 +6036,9 @@
     "comparisonPrice": "254,28 kr",
     "brand": "Prime",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hbb/hf1/11482934247454/7340083488290_1617800754891_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "7340083488290",
     "store": {
@@ -5717,7 +6063,9 @@
     "comparisonPrice": "209,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8b/h59/9146088718366/2359733500003_1527846024405_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359733500003",
     "store": {
@@ -5742,7 +6090,9 @@
     "comparisonPrice": "289,00 kr",
     "brand": "Naturkött",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2f/hc0/8855472308254/02373712100008.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2373712100008",
     "store": {
@@ -5767,7 +6117,9 @@
     "comparisonPrice": "132,67 kr",
     "brand": "Kitchen Joy",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h23/hd5/8865933000734/08855702007961.jpg_1464787277223_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -5796,7 +6148,9 @@
     "comparisonPrice": "148,34 kr",
     "brand": "Kitchen Joy",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h01/hcd/8857083609118/8858984830081.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -5825,7 +6179,9 @@
     "comparisonPrice": "189,00 kr",
     "brand": "Pul",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hcc/h56/9146129612830/2359751700003_1527847820661_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359751700003",
     "store": {
@@ -5850,7 +6206,9 @@
     "comparisonPrice": "209,00 kr",
     "brand": "Pul",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha6/h34/9146124107806/2359751800000_1527847516036_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359751800000",
     "store": {
@@ -5875,7 +6233,9 @@
     "comparisonPrice": "131,28 kr",
     "brand": "Jojjen",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hd3/h1e/9737870540830/7393287772252_1576722096425_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5907,7 +6267,9 @@
     "comparisonPrice": "131,28 kr",
     "brand": "Jojjen",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf2/h48/9717590655006/7393287772245_1575841625064_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5939,7 +6301,9 @@
     "comparisonPrice": "269,00 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5f/h16/10282643914782/2313417000005_1594022411127_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -5971,7 +6335,9 @@
     "comparisonPrice": "123,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h20/he2/11693529366558/7300328123003_1621425967276_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6009,7 +6375,9 @@
     "comparisonPrice": "79,93 kr",
     "brand": "Qibbla Halal",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3b/hd4/8854525247518/07330989000962.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "glutenfree"
@@ -6041,7 +6409,9 @@
     "comparisonPrice": "103,90 kr",
     "brand": "Ingelstakalkon",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h24/h9f/9019520286750/07331044081001.jpg_1512418623231_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6079,7 +6449,9 @@
     "comparisonPrice": "122,11 kr",
     "brand": "Ingelstakalkon",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h97/h91/9019520679966/07331044081100.jpg_1512418631137_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6117,7 +6489,9 @@
     "comparisonPrice": "239,00 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha3/hbb/10832237101086/2320760300003_1606895371766_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6149,7 +6523,9 @@
     "comparisonPrice": "155,36 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he1/he0/10832225304606/7300208946005_1606895287503_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6181,7 +6557,9 @@
     "comparisonPrice": "166,56 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h51/hd6/10832225632286/7300208936006_1606895289394_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "7300208936006",
     "store": {
@@ -6206,7 +6584,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Ingelstakalkon",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h4f/h58/10454842212382/2366013700008_1598733365144_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6244,7 +6624,9 @@
     "comparisonPrice": "126,21 kr",
     "brand": "Tulip",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb0/hb9/9717611102238/5707196250978_1575842184921_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "5707196250978",
     "store": {
@@ -6269,7 +6651,9 @@
     "comparisonPrice": "133,22 kr",
     "brand": "Tulip",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h6a/hf7/9410403762206/5707196221008_1553248251083_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -6298,7 +6682,9 @@
     "comparisonPrice": "123,90 kr",
     "brand": "Tulip",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0a/h2a/8956878389278/05707196212068.jpg_1502659266990_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "keyhole"
@@ -6327,7 +6713,9 @@
     "comparisonPrice": "119,90 kr",
     "brand": "Tulip",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0b/h65/10274370420766/5707196263602_1593690918290_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "5707196263602",
     "store": {
@@ -6352,7 +6740,9 @@
     "comparisonPrice": "39,95 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h64/h74/11602765643806/2330079900009_1619694025014_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6384,7 +6774,9 @@
     "comparisonPrice": "772,50 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h71/h3b/10267336769566/2313101300008_1593517249768_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2313101300008",
     "store": {
@@ -6409,7 +6801,9 @@
     "comparisonPrice": "219,00 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h62/hb5/10274369372190/2313113100009_1593690905809_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6441,7 +6835,9 @@
     "comparisonPrice": "169,00 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hae/h43/9854996054046/2313112500008_1582124756180_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2313112500008",
     "store": {
@@ -6466,7 +6862,9 @@
     "comparisonPrice": "127,15 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h01/ha1/10755541893150/7313940522857_1605595825033_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6501,7 +6899,9 @@
     "comparisonPrice": "127,15 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha0/h0d/10755549954078/7313940522864_1605596123241_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6536,7 +6936,9 @@
     "comparisonPrice": "94,50 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1f/h9b/9574151716894/7313940011566_1567504583584_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6571,7 +6973,9 @@
     "comparisonPrice": "41,25 kr",
     "brand": "Ami",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf9/h9f/8862310629406/05907803063285.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -6600,7 +7004,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Jm Chark",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hc4/hee/11727119908894/2379318900004_1622039430801_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2379318900004",
     "store": {
@@ -6625,7 +7031,9 @@
     "comparisonPrice": "99,93 kr",
     "brand": "Qibbla Halal",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h22/h75/9401303007262/7330989002522_1552578073272_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "glutenfree"
@@ -6657,7 +7065,9 @@
     "comparisonPrice": "97,00 kr",
     "brand": "Qibbla Halal",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7f/h08/9950005166110/2384123100006_1585570261638_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2384123100006",
     "store": {
@@ -6682,7 +7092,9 @@
     "comparisonPrice": "125,00 kr",
     "brand": "Qibbla Halal",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h75/h27/9949979475998/2384123200003_1585569966171_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2384193200002",
     "store": {
@@ -6707,7 +7119,9 @@
     "comparisonPrice": "39,97 kr",
     "brand": "Qibbla Halal",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2c/h8d/8862548787230/07330989004243.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -6742,7 +7156,9 @@
     "comparisonPrice": "99,83 kr",
     "brand": "Dafgårds",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h22/h03/9554984796190/7310960038436_1566340963610_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -6771,7 +7187,9 @@
     "comparisonPrice": "79,95 kr",
     "brand": "Danish Crown",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h47/h74/9285820710942/2385900300008_1542750339178_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2385900300008",
     "store": {
@@ -6796,7 +7214,9 @@
     "comparisonPrice": "79,95 kr",
     "brand": "Danish Crown",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0e/h1f/9285821104158/2385903700003_1542750346095_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2385903700003",
     "store": {
@@ -6821,7 +7241,9 @@
     "comparisonPrice": "199,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5f/h44/8856983797790/2359730800007.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359730800007",
     "store": {
@@ -6846,7 +7268,9 @@
     "comparisonPrice": "125,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h0f/h0a/9146089570334/2359749800005_1527846148402_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359749800005",
     "store": {
@@ -6871,7 +7295,9 @@
     "comparisonPrice": "359,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h71/h55/9790746165278/2365602800006_1579524631163_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2365602800006",
     "store": {
@@ -6896,7 +7322,9 @@
     "comparisonPrice": "109,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h99/h9b/8857335267358/2359733200002.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359733200002",
     "store": {
@@ -6921,7 +7349,9 @@
     "comparisonPrice": "119,00 kr",
     "brand": "Affco",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h60/hfe/8857334480926/2368571500007.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359733300009",
     "store": {
@@ -6946,7 +7376,9 @@
     "comparisonPrice": "39,95 kr",
     "brand": "Moab",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5f/h4b/9354613555230/2362991900003_1548924359185_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -6978,7 +7410,9 @@
     "comparisonPrice": "36,32 kr",
     "brand": "Rose",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8b/hed/11101830807582/5760725114554_1611610865516_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "frozen"
@@ -7007,7 +7441,9 @@
     "comparisonPrice": "109,90 kr",
     "brand": "Scan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5a/h3a/11106685485086/7300207693009_1611670509103_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7039,7 +7475,9 @@
     "comparisonPrice": "153,90 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hf1/h3c/10393803554846/7340062404044_1597237243792_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7071,7 +7509,9 @@
     "comparisonPrice": "119,90 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he8/ha3/10288257892382/7340062411561_1594128022447_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7103,7 +7543,9 @@
     "comparisonPrice": "97,90 kr",
     "brand": "Smak Av Gotlan",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3a/h7c/11683036495902/7340062420082_1621262153250_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7135,7 +7577,9 @@
     "comparisonPrice": "74,95 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h5e/h8b/11602487836702/2330048600008_1619690774939_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7167,7 +7611,9 @@
     "comparisonPrice": "69,95 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h58/h18/11602077057054/2330044000000_1619688657833_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7199,7 +7645,9 @@
     "comparisonPrice": "89,00 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h8c/h5f/11602078498846/2330044200004_1619688659787_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7231,7 +7679,9 @@
     "comparisonPrice": "88,39 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h2b/h41/10168954126366/7340045509599_1591011026815_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "7340045509599",
     "store": {
@@ -7256,7 +7706,9 @@
     "comparisonPrice": "77,95 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h56/h81/11304030732318/2359765200001_1614774929803_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2359765200001",
     "store": {
@@ -7281,7 +7733,9 @@
     "comparisonPrice": "66,95 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb1/h84/9438820007966/2355022800007_1555491064904_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355022800007",
     "store": {
@@ -7306,7 +7760,9 @@
     "comparisonPrice": "69,95 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha5/ha0/9440479805470/2355022700000_1555584076180_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355022700000",
     "store": {
@@ -7331,7 +7787,9 @@
     "comparisonPrice": "82,00 kr",
     "brand": null,
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h78/h41/9440493600798/2355022500006_1555584973538_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2355022500006",
     "store": {
@@ -7356,7 +7814,9 @@
     "comparisonPrice": "159,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hea/hac/9854185668638/2332807700004_1582101350612_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7391,7 +7851,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he6/h27/9856696614942/2332809000003_1582199161562_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7426,7 +7888,9 @@
     "comparisonPrice": "57,67 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/he3/h5d/9597864935454/7300327772004_1569008436273_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7461,7 +7925,9 @@
     "comparisonPrice": "57,67 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hb7/h06/9598658248734/7300327771007_1569077489279_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7496,7 +7962,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h12/h7e/9592294408222/2332812100004_1568681778807_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7531,7 +7999,9 @@
     "comparisonPrice": "175,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hca/h11/9599491309598/2332807000005_1569217228093_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7566,7 +8036,9 @@
     "comparisonPrice": "94,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hee/hf6/9632130891806/2332818400009_1571207119457_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7598,7 +8070,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9a/hc3/9591014227998/2332813000006_1568634973225_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7633,7 +8107,9 @@
     "comparisonPrice": "57,95 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h1c/hb9/9849599098910/2332784700004_1581946838125_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7665,7 +8141,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h12/h54/11475743014942/2332813100003_1617696030186_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7700,7 +8178,9 @@
     "comparisonPrice": "149,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7c/hc5/9695223676958/2332812700006_1574753451688_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7735,7 +8215,9 @@
     "comparisonPrice": "49,95 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7e/he1/10872663703582/2332017000000_1606296612221_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7767,7 +8249,9 @@
     "comparisonPrice": "57,67 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h00/h95/9598025793566/7300327773001_1569015647770_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7802,7 +8286,9 @@
     "comparisonPrice": "145,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/hec/h48/9735558660126/2332804000008_1576656934694_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7837,7 +8323,9 @@
     "comparisonPrice": "44,95 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha3/h45/9641916301342/2332017000000_1571834059064_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7869,7 +8357,9 @@
     "comparisonPrice": "121,59 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha7/hbd/8857067880478/07313940012648.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7901,7 +8391,9 @@
     "comparisonPrice": "121,59 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h9a/hdd/8857070501918/07313940012617.jpg_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7933,7 +8425,9 @@
     "comparisonPrice": "64,95 kr",
     "brand": "Ingelstakalkon",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/ha6/h9e/8870178914334/02385810100002.jpg_1471727136191_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -7971,7 +8465,9 @@
     "comparisonPrice": "119,00 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h34/h41/11602438357022/2330045900002_1619690461839_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8003,7 +8499,9 @@
     "comparisonPrice": "469,00 kr",
     "brand": "Dalsjöfors",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h94/h4c/11602117820446/2330044500005_1619688957887_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8035,7 +8533,9 @@
     "comparisonPrice": "127,15 kr",
     "brand": "Jm Chark",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h00/h0c/11682978005022/2379317500007_1621261552726_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [],
     "ean": "2379317500007",
     "store": {
@@ -8060,7 +8560,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h34/h16/12071141277726/7300324057005_1631269845011_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8095,7 +8597,9 @@
     "comparisonPrice": "181,67 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h03/h31/11889274388510/7313940011856_1625738739522_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8130,7 +8634,9 @@
     "comparisonPrice": "129,90 kr",
     "brand": "Garant",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h55/h9b/11996054585374/7340083491030_1629357934597_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8162,7 +8668,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h3a/h01/12071141933086/7300324059009_1631269852435_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8194,7 +8702,9 @@
     "comparisonPrice": "121,59 kr",
     "brand": "Guldfågeln",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h63/h23/11889274781726/7313940012686_1625738742148_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8226,7 +8736,9 @@
     "comparisonPrice": "94,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h7f/h79/11888873635870/2332762300004_1625733033336_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8258,7 +8770,9 @@
     "comparisonPrice": "155,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h86/ha9/11886849327134/2332810800005_1625667064306_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8290,7 +8804,9 @@
     "comparisonPrice": "155,00 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h26/hb7/11886849720350/2332815500009_1625667073190_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"
@@ -8325,7 +8841,9 @@
     "comparisonPrice": "189,75 kr",
     "brand": "Kronfågel",
     "imageUrl": "https://d2rfo6yapuixuu.cloudfront.net/h54/h09/12071141605406/7300324058002_1631269847652_master_axfood_100",
-    "category": "this is gonna be category",
+    "category": {
+      "categoryName": "Kött, Fågel & Chark"
+    },
     "preferences": [
       {
         "preferenceName": "swedish_flag"

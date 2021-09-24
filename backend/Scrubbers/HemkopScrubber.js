@@ -19,7 +19,7 @@ export class HemkopScrubber extends Scrubber {
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
 
-    category: (x) => "this is gonna be category", //This is gonna be a list??
+    category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
     ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),

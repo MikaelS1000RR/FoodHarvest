@@ -16,6 +16,7 @@ export class TestHarvesting {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
     
+   
 
     // write to file for now (goal: write to DB instead)
     function writeToFile(fileName, data) {
