@@ -14,6 +14,7 @@ import Page404 from "./pages/Page404";
 import LoginModal from "./components/modals/LoginModal";
 import RegisterModal from "./components/modals/RegisterModal";
 import CategoryModal from "./components/modals/CategoryModal";
+import AddListModal from "./components/modals/AddListModal";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
                   <LoginModal />
                   <RegisterModal />
                   <CategoryModal />
+                  <AddListModal />
                 </main>
                 <footer></footer>
               </Router>

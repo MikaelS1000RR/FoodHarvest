@@ -23,6 +23,11 @@ const ProductListProvider = (props) => {
     setProductLists(data);
   }
 
+  const addProductList = (newProductList) => {
+    
+    return true;
+  }
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
@@ -41,7 +46,8 @@ const ProductListProvider = (props) => {
     currentProductList,
     setCurrentProductList,
     productLists,
-    fetchProductLists
+    fetchProductLists,
+    addProductList
   }
 
   return (
