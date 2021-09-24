@@ -23,9 +23,9 @@ export class TestHarvesting {
 
 
 
-    let allProductsOfHemkopInArr = await HemkopHarvester.getAllProducts(categories)
-    let allProductsOfHemkop=allProductsOfHemkopInArr[0]
-    writeToFile("hemkop-all-products.json", allProductsOfHemkop)
+    let allProductsOfHemkop = await HemkopHarvester.getAllProducts(categories)
+ 
+   
 
 
 
