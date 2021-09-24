@@ -2,6 +2,7 @@ import { Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
 import { useCategory } from "../../contexts/CategoryContext";
 import { useModal } from "../../contexts/ModalContext";
+import { Link } from "react-router-dom";
 
 const CategoryModal = () => {
   const title = "Kategorier";
@@ -12,9 +13,11 @@ const CategoryModal = () => {
     <div className="container" style={styles.container}>
       {categories.length > 0
         ? categories.map((c) => (
-            <Button className="m-1" color="primary">
+          <Link to="/catagories">
+          <Button className="m-1" color="primary" onClick={toggleCategoryModal}>
               {c.name}
             </Button>
+          </Link>
           ))
         : null}
     </div>
