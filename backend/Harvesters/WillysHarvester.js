@@ -34,14 +34,14 @@ export class WillysHarvester {
   //Getting all products from all categories
   static async getAllProducts(categories) {
     let allProductsOfWillys = [];
-    let categoriesOfDb = await FirebaseHandler.getCategories();
+    
    
 
     for (var i = 0; i < categories.length; i++) {
       let category = categories[i]; //Getting each category
       let productsOfCategory = await this.getProducts(category.url); //All products of the soecific cateogry
 
-              let categoryFromDb=''
+            
       //Changing category of each product in a specific category
       for (let i = 0; i < productsOfCategory.length; i++){
        
