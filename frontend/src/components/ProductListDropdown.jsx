@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useProductList } from "../contexts/ProductListContext";
 import {
   DropdownToggle,
   DropdownMenu,
@@ -7,30 +8,33 @@ import {
 } from "reactstrap";
 
 const ProductListDropdown = (props) => {
+  const { currentProductList, setCurrentProductList, productLists } = useProductList()
   const { setMenu } = props;
   const [isOpen, setIsOpen] = useState(false);
-  const [currentList, setCurrentList] = useState(null)
   const toggle = () => {
     setMenu(false);
     setIsOpen(!isOpen);
   }
 
-  const selectList = (e) => {
-    console.log(e.target.value);
-    setCurrentList(e.target.value);
-  }
-
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
       <DropdownToggle color="warning" caret>
-        {currentList ? currentList : "❤️ Välj lista"}
+        {currentProductList ? currentProductList.name : "❤️ Välj lista"}
       </DropdownToggle>
       <DropdownMenu>
-        {currentList ? <DropdownItem header>Välj lista</DropdownItem> : null}
-        <DropdownItem>Välj lista</DropdownItem>
-        <DropdownItem value="click moi!" onClick={selectList}>
-          Click me
-        </DropdownItem>
+        {currentProductList ? (
+          <DropdownItem header>Välj lista</DropdownItem>
+        ) : null}
+        {productLists
+          ? productLists.map((list) => (
+              <DropdownItem
+                key={list.id}
+                onClick={() => setCurrentProductList(list)}
+              >
+                {list.name}
+              </DropdownItem>
+            ))
+          : null}
         <DropdownItem divider></DropdownItem>
         <DropdownItem>
           <span className="material-icons">add</span>

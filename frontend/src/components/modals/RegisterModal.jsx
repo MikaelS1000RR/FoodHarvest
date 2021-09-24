@@ -29,7 +29,7 @@ const RegisterModal = () => {
 
   const form = (
     <Form onSubmit={handleSubmit}>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="email"
           className="form-control"

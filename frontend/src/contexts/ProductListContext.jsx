@@ -1,5 +1,6 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
 import firestore from "../database_config/firestore";
+import { auth } from "../database_config/firestore"
 
 const ProductListContext = createContext();
 
@@ -12,8 +13,7 @@ const ProductListProvider = (props) => {
   const [productLists, setProductLists] = useState(null);
 
   const fetchProductLists = async (userId) => {
-
-    const ref = await firestore.collection('product-lists');
+    const ref = firestore.collection('product-lists');
     const query = await ref.where('uid', '==', userId).get();
     let data = [];
     query.forEach((doc) => {
@@ -22,6 +22,20 @@ const ProductListProvider = (props) => {
     setCurrentProductList(data[0]);
     setProductLists(data);
   }
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user != null) {
+        fetchProductLists(user.uid)
+      }
+      else {
+        console.log("user logged out");
+        setCurrentProductList(null);
+        setProductLists(null);
+      }
+    });
+    return unsubscribe;
+  }, []);
 
   const values = {
     currentProductList,
