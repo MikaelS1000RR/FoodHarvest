@@ -1,4 +1,3 @@
-import CategoryModal from "../components/modals/CategoryModal";
 
 const Catagories = (props) => {
   console.log(props)
