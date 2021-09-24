@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import {
   DropdownToggle,
   DropdownMenu,
@@ -24,15 +23,19 @@ const ProductListDropdown = (props) => {
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
       <DropdownToggle color="warning" caret>
-        { currentList ? currentList : "❤️ Välj lista" }
+        {currentList ? currentList : "❤️ Välj lista"}
       </DropdownToggle>
       <DropdownMenu>
-        { currentList ? <DropdownItem header>Välj lista</DropdownItem> : null }
+        {currentList ? <DropdownItem header>Välj lista</DropdownItem> : null}
         <DropdownItem>Välj lista</DropdownItem>
-        <DropdownItem value="click moi!" onClick={selectList}>Click me</DropdownItem>
+        <DropdownItem value="click moi!" onClick={selectList}>
+          Click me
+        </DropdownItem>
         <DropdownItem divider></DropdownItem>
-        <DropdownItem><span className="material-icons">add</span> Lägg till lista</DropdownItem>
-
+        <DropdownItem>
+          <span className="material-icons">add</span>
+          Lägg till lista
+        </DropdownItem>
       </DropdownMenu>
     </Dropdown>
   );

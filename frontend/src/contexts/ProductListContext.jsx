@@ -11,13 +11,23 @@ const ProductListProvider = (props) => {
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
-  const fetchProductLists = (userId) => {
-    // firestore.collection('product')
+  const fetchProductLists = async (userId) => {
+
+    const ref = await firestore.collection('product-lists');
+    const query = await ref.where('uid', '==', userId).get();
+    let data = [];
+    query.forEach((doc) => {
+      data.push({id: doc.id, ...doc.data()})
+    })
+    setCurrentProductList(data[0]);
+    setProductLists(data);
   }
 
   const values = {
     currentProductList,
-    setCurrentProductList  
+    setCurrentProductList,
+    productLists,
+    fetchProductLists
   }
 
   return (
