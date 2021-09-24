@@ -23,8 +23,21 @@ const ProductListProvider = (props) => {
     setProductLists(data);
   }
 
-  const addProductList = (newProductList) => {
-    
+  const addProductList = async (list) => {
+    const newProductList = {
+      uid: list.uid,
+      name: list.name
+    }
+    try {
+      const docRef = await firestore.collection('product-lists').doc().add(newProductList);
+      console.log(docRef);
+      console.log("look up");
+    }
+    catch {
+      console.log("adding list failed");
+      return false;
+    }
+    fetchProductLists(newProductList.uid);
     return true;
   }
 
