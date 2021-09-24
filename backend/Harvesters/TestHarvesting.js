@@ -16,12 +16,17 @@ export class TestHarvesting {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
     
+
+ 
+    
+    
    
 
     // write to file for now (goal: write to DB instead)
     function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
+
 
 
 
@@ -32,7 +37,9 @@ export class TestHarvesting {
 let scrubbedProducts = await HemkopScrubber.scrubAll(
   allProductsOfHemkop[0])
     
-    writeToFile("hemkop-scrubbed.json", scrubbedProducts);
+    FirebaseHandler.postProduct(scrubbedProducts[0]);
+    
+   // writeToFile("hemkop-scrubbed.json", scrubbedProducts);
 
 
 
