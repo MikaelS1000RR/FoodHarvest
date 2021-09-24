@@ -19,17 +19,13 @@ export class TestHarvesting {
 
     // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
 
+
+    //Scrubbing all products
    let scrubbedProducts = await WillysScrubber.scrubAll(
       allProductsOfWillys[0]
     );
 
-   
-
-    //This will be saved in databse later
-    //writeToFile("willys-scrubbed-products", scrubbedProducts);
-
-    //writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
-
-    FirebaseHandler.postProducts(scrubbedProducts[0]);
+//Posting scrubbed products into db
+    FirebaseHandler.postProducts(scrubbedProducts);
   }
 }
