@@ -8,11 +8,14 @@ import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
 import Page404 from './pages/Page404';
+import DetailModal from './components/DetailModal';
+import ProductInfoProvider from './contexts/ProductInfoContext';
 
 
 function App() {
   return (
     <div className="App">
+      <ProductInfoProvider>
       <ModalContextProvider>
         <Router>
           <header className="App-header">
@@ -28,12 +31,14 @@ function App() {
               <Route path="*" component={Page404} />
             </Switch>
 
+            <DetailModal />
             <LoginModal />
             <RegisterModal />
           </main>
           <footer></footer>
         </Router>
       </ModalContextProvider>
+      </ProductInfoProvider>
     </div>
   );
 }

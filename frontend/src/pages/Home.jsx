@@ -20,7 +20,7 @@ const Home = () => {
         // the necessary info we need. Then push
         // it into our array
         const allproducts = [];
-        snapshot.forEach((doc) => allproducts.push(doc.data()));
+        snapshot.forEach((doc) => allproducts.push({ id: doc.id, ...doc.data() }));
 
         // Set the collected array as our state
         setproducts(allproducts);

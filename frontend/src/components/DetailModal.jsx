@@ -2,28 +2,36 @@ import React from "react";
 import { useContext } from "react";
 import { ModalContext } from "../contexts/ModalContextProvider";
 import BaseModal from "./base/BaseModal";
+import { useProductInfo } from "../contexts/ProductInfoContext";
 
 
-const DetailModal = (props) => {
-  const { product, index } = props;
+const DetailModal = () => {
   const { toggleDetailModal, showDetailModal } = useContext(ModalContext);
+  const { currentProduct } = useProductInfo();
 
-  const info = (
-    <div key={ index }>
+  let info = (<div></div>)
+  
+  if (currentProduct === null || currentProduct === undefined) {
+    info = (<div> Loading </div>)
+  }
+  else {
+        info = (
+          <div key={currentProduct.id}>
+            <div>
+              <img src={currentProduct.image} alt={currentProduct.image} />
+            </div>
+            <div>
+              <h4>
+                {currentProduct.foodType} {currentProduct.brand}
+              </h4>
               <div>
-            <img
-              src={product.image}
-              alt={product.image}
-            />
-        </div>
-        <div>
-        <h4>{product.foodType} { product.brand }</h4>
-          <div>
-          <p>{ product.brand }</p>
-        </div>
-        </div>
-    </div>
-  )
+                <p>{currentProduct.brand}</p>
+              </div>
+            </div>
+          </div>
+        );
+  }
+
   
   const footer = (
               <div>
@@ -32,7 +40,7 @@ const DetailModal = (props) => {
   )
   
     return (
-      <BaseModal isOpen={showDetailModal} toggle={toggleDetailModal} content={info} footerContent={footer } title={product.foodType} />
+      <BaseModal isOpen={showDetailModal} toggle={toggleDetailModal} content={info} footerContent={footer }/>
    );
 }
 

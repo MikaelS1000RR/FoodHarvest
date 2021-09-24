@@ -2,11 +2,13 @@ import React, { useContext } from "react";
 import FavoriteButton from "./FavoriteButton";
 import { ModalContext } from "../../contexts/ModalContextProvider";
 import DetailModal from "../DetailModal";
+import { useProductInfo } from "../../contexts/ProductInfoContext";
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText, isFavorite, index } = props;
 
   const { toggleDetailModal } = useContext(ModalContext);
+  const { setCurrentProduct } = useProductInfo();
 
   return (
     <div className={classNames} index={index}>
@@ -16,7 +18,10 @@ const ProductCard = (props) => {
           productId={product.id}
           isFavorite={isFavorite}
         />
-        <div className="openModal" onClick={toggleDetailModal}>
+        <div className="openModal" onClick={() => {
+          setCurrentProduct(product) 
+          toggleDetailModal()
+        }}>
           <div className="card-img-top" style={styles.image}>
             <img
               className=""
