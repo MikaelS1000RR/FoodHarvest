@@ -3,6 +3,7 @@ import { WillysHarvester } from "./WillysHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "../FirebaseHandler.js";
 import { HemkopHarvester } from "./HemkopHarvester.js";
+import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js";
 
 export class TestHarvesting {
   static async test() {
@@ -27,7 +28,10 @@ export class TestHarvesting {
  
    
 
-
+let scrubbedProducts = await HemkopScrubber.scrubAll(
+  allProductsOfHemkop[0])
+    
+    writeToFile("hemkop-scrubbed.json", scrubbedProducts);
 
 
 
