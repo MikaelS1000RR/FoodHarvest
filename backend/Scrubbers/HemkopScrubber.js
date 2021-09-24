@@ -29,7 +29,8 @@ export class HemkopScrubber extends Scrubber {
 
 
   static async getDiscount(productCode) {
-   let type=null
+    let type = null
+    let quantityToBeBought=null
     let raw = await fetch(
       "https://www.hemkop.se/axfood/rest/p/" +
         productCode +
@@ -38,11 +39,14 @@ export class HemkopScrubber extends Scrubber {
     let formatted = await raw.json();
     if (formatted.potentialPromotions.length != 0) {
       
-    type=formatted.potentialPromotions[0].campaignType
+      type = formatted.potentialPromotions[0].campaignType
+      quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
+     
     }
     let discount = new Discount(
         
       type,
+      quantityToBeBought,
       formatted.price,
       formatted.savingsAmount,
       Math.round((parseInt(formatted.savingsAmount) / parseInt(formatted.priceNoUnit)) * 100),
