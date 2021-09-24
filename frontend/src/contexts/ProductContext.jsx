@@ -15,7 +15,7 @@ const ProductProvider = (props) => {
   }, []);
 
   const fetchProducts = () => {
-    firestore.collection('test-products').onSnapshot(
+    firestore.collection('products').onSnapshot(
       (snapshot) => {
         const docs = [];
         snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
