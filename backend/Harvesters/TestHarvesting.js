@@ -6,10 +6,6 @@ import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
 export class TestHarvesting {
   static async test() {
 
-
-
-
-   
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
