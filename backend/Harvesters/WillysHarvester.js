@@ -79,7 +79,6 @@ export class WillysHarvester {
         }
         if (category.url.includes("vegetariskt")) {
        
-          
              productsOfCategory[i].category =
                this.setCategory("Övrigt");
         }

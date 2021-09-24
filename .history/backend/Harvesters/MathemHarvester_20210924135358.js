@@ -1,0 +1,46 @@
+import fetch from 'node-fetch'
+import { FirebaseHandler } from '../FirebaseHandler.js'
+import { Category } from '../Models/Category.js'
+
+export class MathemHarvester {
+    static bustCache() {
+        return "?avoidCache=" + (Math.random() + "").split(".")[1];
+    }
+
+
+    static async getProducts(categoryURL) {
+        let raw = await fetch(
+            "https://api.mathem.io/product-search/noauth/search/products/10/weeklydiscounts?size=18&index=0&storeId=10&keyword=" +
+           categoryURL + this.bustCache() + "&size=10000"
+        );
+        return await raw.json();
+    }
+
+    static setCategory(categoryName) {
+        let newCategory = new Category(categoryName);
+        return newCategory;
+      }
+
+     static async getCategories(products) {
+        let allProductsOfMathem = [];
+        let productsOfDb = await FirebaseHandler.getCategories();
+        
+        
+        for (let i = 0; i < products.length; i++) {
+            let product = products[i];
+            let categoryOfProducts = await this.getProducts(product.url);
+            let productFromDb = ''
+            
+            for(let i = 0; i < categoryOfProducts.length; i++) {
+                console.log('reached here...')
+
+                if (product.url.includes("kott")) {
+                    categoryOfProducts[i].product = this.setCategory("Kött, Fågel & Chark");
+                  }
+            }
+            allProductsOfMathem.push(categoryOfProducts)
+        }
+     }
+
+
+}
