@@ -5,7 +5,7 @@ import AuthProvider from './contexts/AuthContext';
 
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import FirebaseTest from './test/test-FS-render-data';
+
 import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
@@ -27,7 +27,6 @@ function App() {
                 <Navbar />
               </header>
               <main>
-                {/* <FirebaseTest /> */}
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/catagories/" component={Catagories} />
