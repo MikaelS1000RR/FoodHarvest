@@ -1,6 +1,7 @@
 import fs from "fs";
 import { WillysHarvester } from "./WillysHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
+import { FirebaseHandler } from "../FirebaseHandler.js";
 
 
 export class TestHarvesting {
@@ -18,12 +19,17 @@ export class TestHarvesting {
 
     // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
 
-    let scrubbedProducts = await WillysScrubber.scrubAll(
+   let scrubbedProducts = await WillysScrubber.scrubAll(
       allProductsOfWillys[0]
     );
+
+   
+
     //This will be saved in databse later
     //writeToFile("willys-scrubbed-products", scrubbedProducts);
 
-    writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
+    //writeToFile("willys-all-scrubbed-products.json", scrubbedProducts);
+
+    FirebaseHandler.postProducts(scrubbedProducts[0]);
   }
 }

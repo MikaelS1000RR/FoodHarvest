@@ -16,6 +16,7 @@ export class Scrubber {
             for (let product of products) {
                 scrubbed.push(await this.scrubOne(product));
             }
+            console.log('scrubbing products done!');
             return scrubbed;
         }
 }
