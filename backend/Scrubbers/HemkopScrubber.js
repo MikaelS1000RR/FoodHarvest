@@ -23,17 +23,34 @@ export class HemkopScrubber extends Scrubber {
     preferences: (x) => this.setPreferences(x.labels),
     ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    discount: (x) =>
-      new Discount(
-        null,
-        null,
-        x.price,
-        x.savingsAmount,
-        Math.round((parseInt(x.savingsAmount) / parseInt(x.priceNoUnit)) * 100),
-        false
-      ),
+    discount: (x) =>this.getDiscount(x.code)
+     
   };
 
+
+  static async getDiscount(productCode) {
+   let type=null
+    let raw = await fetch(
+      "https://www.hemkop.se/axfood/rest/p/" +
+        productCode +
+        WillysHarvester.bustCache()
+    );
+    let formatted = await raw.json();
+    if (formatted.potentialPromotions.length != 0) {
+      
+    type=formatted.potentialPromotions[0].campaignType
+    }
+    let discount = new Discount(
+        
+      type,
+      formatted.price,
+      formatted.savingsAmount,
+      Math.round((parseInt(formatted.savingsAmount) / parseInt(formatted.priceNoUnit)) * 100),
+      false
+    );
+     
+    return discount
+  }
 
   //Getting store
   static async getStore() {
