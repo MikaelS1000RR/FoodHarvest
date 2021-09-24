@@ -1,7 +1,8 @@
 import { useContext } from "react";
-import { Button } from "reactstrap";
+import { Button, Row } from "reactstrap";
 import { useProduct } from "../contexts/ProductContext";
 import ProductCard from "../components/home/ProductCard";
+import { Container } from "reactstrap";
 
 
 const Catagories = (props) => {
@@ -13,15 +14,25 @@ const Catagories = (props) => {
   return (
     <div>
       Catagories + {props.match.params.name}
+      <Container
+      >
 
-      {products.length > 0
-        ? products.map((p) => (
-          <ProductCard key={p.id} product={p}/>
-        ))
-        : null}
+        <Row>
+          {products.length > 0
+            ? products.map((p) => (
+              <ProductCard key={p.id} product={p} classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} />
+            ))
+            : null}
+        </Row>
+      </Container>
     </div>
-    
-   );
+  );
 }
- 
+
 export default Catagories;
+
+const styles = {
+  catagoryItems: {
+
+  }
+}
