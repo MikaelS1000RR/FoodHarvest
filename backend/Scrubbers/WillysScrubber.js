@@ -2,24 +2,56 @@ import fetch from 'node-fetch'
 import { Scrubber } from './Scrubber.js'
 import { WillysHarvester } from '../Harvesters/WillysHarvester.js'
 import { FirebaseHandler } from "../FirebaseHandler.js";
-import {Store} from '../Models/Store.js'
+import { Store } from '../Models/Store.js'
+import { Preference } from "../Models/Preference.js"
+import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
   static translateSchema = {
     productName: (x) => x.name,
-    price: (x) => x.price,
-    quantity: (x) => x.displayVolume,
-    comparisonPrice: (x) => x.comparePrice,
+    price: (x) => x.priceNoUnit,
+    quantity: (x) => x.displayVolume, //300g
+
+    quantityUnit: (x) => this.setQuantityUnit(x.displayVolume),
+    comparisonUnit: (x) => x.comparePriceUnit, //kg
+    comparisonPrice: (x) => x.comparePrice, //86.9 kr
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
-    category: (x) => x.category, //scrubb all categories- matspar?
-    preferences: (x) => x.labels,
+
+    category: (x) => x.category, //This is gonna be a list??
+    preferences: (x) => this.setPreferences(x.labels),
     ean: (x) => this.getEan(x.code),
-    store: (x) =>this.getStore(),
-    savings: (x) => x.savingsAmount,
-    discountType: (x) => x.campaignType,
+    store: (x) => this.getStore(),
+    //discount: (x) => this.setDiscount(x.code),
   };
 
+  static async setQuantityUnit(quantity) {
+    if (quantity.charAt(quantity.length - 2) === "k") {
+      return "kg";
+    } else {
+      return "g";
+    }
+  }
+  //Setting discount for a product
+  static async setDiscount(productCode) {
+    let raw = await fetch(
+      "https://www.willys.se/axfood/rest/p/" +
+        productCode +
+        WillysHarvester.bustCache()
+    );
+    let formatted = await raw.json();
+    let newDiscount = new Discount(
+      formatted.campaignType, //Discount type
+      null, //quantity to be bought
+      formatted.price, //display price
+      formatted.savingsAmount, //savings
+      Math.round((formatted.savingsAmount / formatted.price) * 100), //savings in percentage
+      false //member discount
+    );
+    return newDiscount;
+  }
+
+  //Getting ean for a product
   static async getEan(productCode) {
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" +
@@ -30,11 +62,22 @@ export class WillysScrubber extends Scrubber {
     return formatted.ean;
   }
 
+  //Setting store as Willys
   static async getStore() {
     const willysStore = new Store(
       "Willys",
       "https://digitalatjanster.se/wp-content/uploads/2020/04/willys-logo.png"
     );
     return willysStore;
+  }
+
+  //Setting preferences for a product
+  static async setPreferences(preferences) {
+    let arrPreferences = [];
+    for (let i = 0; i < preferences.length; i++) {
+      let newPreference = new Preference(preferences[i]);
+      arrPreferences.push(newPreference);
+    }
+    return arrPreferences;
   }
 }
