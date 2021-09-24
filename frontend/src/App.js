@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ModalProvider from './contexts/ModalContext';
 import CategoryProvider from './contexts/CategoryContext';
 import AuthProvider from './contexts/AuthContext';
+import ProductProvider from './contexts/ProductContext';
 
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <ModalProvider>
         <CategoryProvider>
+          <ProductProvider>
           <AuthProvider>
             <Router>
               <header className="App-header">
@@ -46,6 +48,7 @@ function App() {
               <footer></footer>
             </Router>
           </AuthProvider>
+          </ProductProvider>
         </CategoryProvider>
       </ModalProvider>
     </div>

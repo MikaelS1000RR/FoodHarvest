@@ -3,7 +3,7 @@ import firestore from '../database_config/firestore'
 
 const ProductContext = createContext();
 
-export const useCategory = () => {
+export const useProduct = () => {
   return useContext(ProductContext);
 };
 
@@ -15,7 +15,7 @@ const ProductProvider = (props) => {
   }, []);
 
   const fetchProducts = () => {
-    firestore.collection('products').onSnapshot(
+    firestore.collection('test-products').onSnapshot(
       (snapshot) => {
         const docs = [];
         snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
