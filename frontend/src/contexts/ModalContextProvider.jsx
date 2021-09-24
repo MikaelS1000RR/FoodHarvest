@@ -13,6 +13,11 @@ const ModalContextProvider = (props) => {
   const toggleRegisterModal = () => {
     setShowRegisterModal(!showRegisterModal);
   };
+    // for product detail modal
+  const [showDetailModal, setShowDetailModal] = useState(false);
+  const toggleDetailModal = () => {
+    setShowDetailModal(!showDetailModal);
+  };
 
   const values = {
     showLoginModal,
@@ -21,6 +26,9 @@ const ModalContextProvider = (props) => {
     showRegisterModal,
     setShowRegisterModal,
     toggleRegisterModal,
+    showDetailModal,
+    setShowDetailModal,
+    toggleDetailModal
   };
 
   return (

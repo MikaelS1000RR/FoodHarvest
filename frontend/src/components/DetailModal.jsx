@@ -1,55 +1,54 @@
 import React from "react";
+import { useContext } from "react";
+import { ModalContext } from "../contexts/ModalContextProvider";
+import BaseModal from "./base/BaseModal";
 
-function DetailModal({ closeModal }) {
-  
-  return (
-    <div className="modalBackground" style={styles.container}>
-      <div className="modalContainer" style={styles.secondContainer}>
-        <button
-          type="button"
-          className="btn-close"
-          aria-label="Close"
-          onClick={() => closeModal(false)}
-        ></button>
-        <div className="title">
-          <h4>Product details</h4>
-          <div className="body">
-            <p>jsankjasnkdj alksndlkn lklkkln</p>
-          </div>
+
+const DetailModal = (props) => {
+  const { product, index } = props;
+  const { toggleDetailModal, showDetailModal } = useContext(ModalContext);
+
+  const info = (
+    <div key={ index }>
+              <div>
+            <img
+              src={product.image}
+              alt={product.image}
+            />
+        </div>
+        <div>
+        <h4>{product.foodType} { product.brand }</h4>
           <div>
+          <p>{ product.brand }</p>
+        </div>
+        </div>
+    </div>
+  )
+  
+  const footer = (
+              <div>
             <footer>footer</footer>
           </div>
-        </div>
-      </div>
-    </div>
-  );
+  )
+  
+    return (
+      <BaseModal isOpen={showDetailModal} toggle={toggleDetailModal} content={info} footerContent={footer } title={product.foodType} />
+   );
 }
 
 export default DetailModal;
 
-const styles = {
-  container: {
-    position: "fixed",
-    zIndex: "999999",
-    top: "0",
-    left: "0",
-    width: "100vw",
-    height: "100vh",
-    background: "rgba(0, 0, 0, 0.5)",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  secondContainer: {
-    width: "50rem",
-    height: "50rem",
-    borderRadius: "12px",
-    background: "white",
-    boxShadow: "0 0 30px 0 rgba(0, 0, 0, 0.25)",
-    padding: "25px",
-    maxWidth: "calc(100vw - 2rem)",
-    maxHeight: "calc(100vh - 2rem)",
-    overflowY: "auto",
-    position: "relative",
-  }
-};
+// const styles = {
+//   secondContainer: {
+//     width: "50rem",
+//     height: "50rem",
+//     borderRadius: "12px",
+//     background: "white",
+//     boxShadow: "0 0 30px 0 rgba(0, 0, 0, 0.25)",
+//     padding: "25px",
+//     maxWidth: "calc(100vw - 2rem)",
+//     maxHeight: "calc(100vh - 2rem)",
+//     overflowY: "auto",
+//     position: "relative",
+//   }
+// };

@@ -1,44 +1,43 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import FavoriteButton from "./FavoriteButton";
+import { ModalContext } from "../../contexts/ModalContextProvider";
 import DetailModal from "../DetailModal";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText, isFavorite } = props;
+  const { product, classNames, buttonText, isFavorite, index } = props;
 
-  const [isOpen, setIsOpen] = useState(false);
+  const { toggleDetailModal } = useContext(ModalContext);
 
   return (
-    <div className={classNames}>
+    <div className={classNames} index={index}>
       <div className={"card text-center"} style={styles.container}>
         <FavoriteButton
           styles={styles.favorite}
           productId={product.id}
           isFavorite={isFavorite}
         />
-        <div className="card-img-top" style={styles.image}>
-          <div className="openModal" onClick={() => setIsOpen(true)}>
-            {isOpen && <DetailModal closeModal={setIsOpen} />}
+        <div className="openModal" onClick={toggleDetailModal}>
+          <div className="card-img-top" style={styles.image}>
             <img
               className=""
               style={styles.image.content}
-              src={product.imageUrl}
-              alt={product.imageUrl}
+              src={product.image}
+              alt={product.image}
             />
           </div>
-        </div>
           <div className="card-body">
             <div>
-              <h5 className="card-title">{product.productName}</h5>
-              <p className="card-title">
-                {product.brand + " " + product.quantity + product.quantityUnit}
-              </p>
+              <h5 className="card-title">{product.foodType}</h5>
+              <p className="card-title">{product.brand}</p>
             </div>
             <h3>{product.price}kr</h3>
-            <div className="btn btn-primary" style={styles.button}>
-              {buttonText}
-            </div>
           </div>
+        </div>
+        <div className="btn btn-primary" style={styles.button}>
+          {buttonText}
+        </div>
       </div>
+      <DetailModal product={product} index={index} />
     </div>
   );
 };
@@ -47,12 +46,13 @@ export default ProductCard;
 
 const styles = {
   container: {
+    cursor: "pointer",
     background: "white",
     width: "100%",
     minHeight: "400px",
     display: "flex",
     flexFlow: "row wrap",
-    justifyContent: "flex-start"
+    justifyContent: "flex-start",
   },
   button: {
     width: "80%",
@@ -68,17 +68,17 @@ const styles = {
       objectFit: "contain",
       maxWidth: "100%",
       maxHeight: "100%",
-      margin: "0 auto"
+      margin: "0 auto",
     },
   },
   favorite: {
     container: {
-      hover: "pointer"
+      hover: "pointer",
     },
     icon: {
       position: "absolute",
       top: 0,
-      left: 0
-    }
-  }
+      left: 0,
+    },
+  },
 };
