@@ -10,14 +10,15 @@ export class TestHarvesting {
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
-     let categoriesOfMathem = await MathemHarvester.getCategories() 
-     let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem);
-     
-    
+   //  let categoriesOfMathem = await MathemHarvester.getCategories() // Categories of Mathem
   //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
+     
+    let rawMat = await MathemHarvester.getCategories();
+    let bob = await 
+    
+
    
     
-       console.log(productsOfMathem)
      
     // let cat = rawMat.children;
     
@@ -28,7 +29,7 @@ export class TestHarvesting {
     
     //let mathemData = await MathemHarvester.getProducts(cat);
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
-    
+
    
   
 

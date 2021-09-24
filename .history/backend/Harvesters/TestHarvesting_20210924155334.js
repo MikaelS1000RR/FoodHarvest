@@ -28,7 +28,7 @@ export class TestHarvesting {
     
     //let mathemData = await MathemHarvester.getProducts(cat);
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
-    
+
    
   
 

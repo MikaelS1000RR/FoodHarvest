@@ -10,15 +10,13 @@ export class TestHarvesting {
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
-     let categoriesOfMathem = await MathemHarvester.getCategories() 
-     let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem);
-     
-    
+   //  let categoriesOfMathem = await MathemHarvester.getCategories() // Categories of Mathem
   //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
-   
-    
-       console.log(productsOfMathem)
      
+    let rawMat = await MathemHarvester.getCategories();
+    let cat = rawMat
+    
+    
     // let cat = rawMat.children;
     
     // write to file for now (goal: write to DB instead)
@@ -28,9 +26,10 @@ export class TestHarvesting {
     
     //let mathemData = await MathemHarvester.getProducts(cat);
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
-    
+
    
   
+    console.log(productsOfMathem)
 
 
     // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)

@@ -16,10 +16,10 @@ export class MathemHarvester {
 
     static async getProducts(categoryURL) {
         let raw = await fetch(
-            "https://api.mathem.io/product-search/noauth/search/products/10/weeklydiscounts?size=18&index=0&storeId=10&keyword=" +
+            "https://api.mathem./c/" +
            categoryURL + this.bustCache() + "&size=10000"
         );
-        return await raw.json();
+        return (await raw.json()).results;
     }
 
     //https://api.mathem.io/product-search/noauth/search/products/10/weeklydiscounts?size=18&index=0&storeId=10&keyword=
@@ -143,6 +143,7 @@ export class MathemHarvester {
 
 
           }
+
                   allProductsOfMathem.push(productsOfCategory);
 
             }
