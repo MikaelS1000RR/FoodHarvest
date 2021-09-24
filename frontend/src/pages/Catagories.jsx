@@ -14,9 +14,7 @@ const Catagories = (props) => {
   return (
     <div>
       Catagories + {props.match.params.name}
-      <Container
-      >
-
+      <Container>
         <Row>
           {products.length > 0
             ? products.map((p) => (
