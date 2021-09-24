@@ -12,11 +12,12 @@ const CategoryModal = () => {
     <div className="container" style={styles.container}>
       {categories.length > 0
         ? categories.map((c) => (
-            <Button className="m-1" color="primary">
+            <Button className="m-1" color="primary" id={c.id}>
               {c.name}
             </Button>
           ))
-        : null}
+        : null
+      }
     </div>
   );
 
