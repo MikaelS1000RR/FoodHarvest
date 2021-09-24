@@ -1,6 +1,10 @@
-const Catagories = () => {
+import CategoryModal from "../components/modals/CategoryModal";
+
+const Catagories = (props) => {
+  console.log(props)
   return (
-    <div>Catagories</div>
+    <div>Catagories + { props.match.params.name }</div>
+    
    );
 }
  
