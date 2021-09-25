@@ -17,8 +17,9 @@ export class HemkopHarvester {
     let raw = await fetch(
       "https://www.hemkop.se/c/" +
         categoryURL +
-        WillysHarvester.bustCache() +
-        "&size=10000"
+      WillysHarvester.bustCache()
+      //+
+        //"&size=10"
     );
     return (await raw.json()).results;
   }
