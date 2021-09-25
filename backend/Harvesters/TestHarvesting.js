@@ -17,15 +17,17 @@ export class TestHarvesting {
 
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
 
-    // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
+    //writeToFile("willys-all-products1.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
 
 
     //Scrubbing all products
    let scrubbedProducts = await WillysScrubber.scrubAll(
-      allProductsOfWillys[0]
+      allProductsOfWillys
     );
 
+    writeToFile("willys-all-products1.json", scrubbedProducts);
+
 //Posting scrubbed products into db
-    FirebaseHandler.postProducts(scrubbedProducts);
+    //FirebaseHandler.postProducts(scrubbedProducts);
   }
 }

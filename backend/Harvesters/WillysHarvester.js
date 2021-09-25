@@ -21,7 +21,7 @@ export class WillysHarvester {
       "https://www.willys.se/c/" +
         categoryURL +
         this.bustCache() +
-        "&size=10000"
+        "&size=20"
     );
     return (await raw.json()).results;
   }
@@ -153,6 +153,7 @@ export class WillysHarvester {
       //Pushing products into one array
     
     }
+    console.log('harvesting of willys is done!');
     return allProductsOfWillys;
   }
 
