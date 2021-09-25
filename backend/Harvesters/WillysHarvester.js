@@ -146,12 +146,12 @@ export class WillysHarvester {
         }
 
         
-        
+          allProductsOfWillys.push(productsOfCategory[i]);
        //productsOfCategory[i].category = category.url;
       }
 
       //Pushing products into one array
-      allProductsOfWillys.push(productsOfCategory);
+    
     }
     return allProductsOfWillys;
   }
