@@ -49,8 +49,7 @@ export class WillysHarvester {
       for (let i = 0; i < productsOfCategory.length; i++){
        
        productsOfCategory[i].category=Category.scrubCategories(category.title, categoriesOfDb)
-    productsOfCategory[i].actualCategory=category.title
-        
+  
           allProductsOfWillys.push(productsOfCategory[i]);
        //productsOfCategory[i].category = category.url;
       }
