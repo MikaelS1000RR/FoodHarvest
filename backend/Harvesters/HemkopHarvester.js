@@ -102,9 +102,10 @@ export class HemkopHarvester {
           productsOfCategory[i].category =
             this.setCategory("Kiosk & Tidningar");
         }
+        allProductsOfHemkop.push(productsOfCategory[i]);
       }
 
-      allProductsOfHemkop.push(productsOfCategory);
+      
     }
     console.log("harvesting all products from hemkop is done!");
     return allProductsOfHemkop;

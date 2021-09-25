@@ -1,7 +1,8 @@
 export class Scrubber {
     static async scrubOne(product) {
        let scrubbed = {};
-       let tschema = this.translateSchema;
+        let tschema = this.translateSchema;
+        console.log('scrubbing ', product.code);
        for (let key in tschema) {
            let scrubFunc = tschema[key];
            scrubbed[key] = await scrubFunc(product);

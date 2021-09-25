@@ -31,13 +31,16 @@ export class TestHarvesting {
 
 
     let allProductsOfHemkop = await HemkopHarvester.getAllProducts(categories)
+    /* writeToFile("all-products.json", allProductsOfHemkop) */
  
    
 
 let scrubbedProducts = await HemkopScrubber.scrubAll(
-  allProductsOfHemkop[0])
+  allProductsOfHemkop)
     
-    FirebaseHandler.postProduct(scrubbedProducts[0]);
+    writeToFile("all-products.json", scrubbedProducts)
+    
+    //FirebaseHandler.postProduct(scrubbedProducts[0]);
     
    // writeToFile("hemkop-scrubbed.json", scrubbedProducts);
 
