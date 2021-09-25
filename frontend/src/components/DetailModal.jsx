@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import { ModalContext } from "../contexts/ModalContextProvider";
+import { ModalContext } from "../contexts/ModalContext";
 import BaseModal from "./base/BaseModal";
 import { useProductInfo } from "../contexts/ProductInfoContext";
 
@@ -46,17 +46,3 @@ const DetailModal = () => {
 
 export default DetailModal;
 
-// const styles = {
-//   secondContainer: {
-//     width: "50rem",
-//     height: "50rem",
-//     borderRadius: "12px",
-//     background: "white",
-//     boxShadow: "0 0 30px 0 rgba(0, 0, 0, 0.25)",
-//     padding: "25px",
-//     maxWidth: "calc(100vw - 2rem)",
-//     maxHeight: "calc(100vh - 2rem)",
-//     overflowY: "auto",
-//     position: "relative",
-//   }
-// };

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import FavoriteButton from "./FavoriteButton";
-import { ModalContext } from "../../contexts/ModalContextProvider";
+import { ModalContext } from "../../contexts/ModalContext";
 import DetailModal from "../DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 
