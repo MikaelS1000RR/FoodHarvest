@@ -28,6 +28,10 @@ export class FirebaseHandler {
 
 
 
+
+
+
+
   //posting all products to db
   static postProducts(products) {
    
