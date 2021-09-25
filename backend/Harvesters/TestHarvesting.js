@@ -16,6 +16,7 @@ export class TestHarvesting {
     }
 
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
+   
 
     //writeToFile("willys-all-products1.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
 
@@ -25,7 +26,9 @@ export class TestHarvesting {
       allProductsOfWillys
     );
 
-    writeToFile("willys-all-products1.json", scrubbedProducts);
+  
+
+   writeToFile("willys-all-products1.json", scrubbedProducts);
 
 //Posting scrubbed products into db
     //FirebaseHandler.postProducts(scrubbedProducts);

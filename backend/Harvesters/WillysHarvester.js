@@ -18,11 +18,14 @@ export class WillysHarvester {
   //Getting products in one specific category
   static async getProducts(categoryURL) {
     let raw = await fetch(
-      "https://www.willys.se/c/" +
-        categoryURL +
-        this.bustCache() +
-        "&size=20"
+      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=2200"
+      //Max amount of items per category is 2124 (skafferi) so the max size will be 2200, ca 18k items in Willys
+      //Dryck -1016
+      //halsa-och-skonhet - 1077
+      //skafferi - 2124
+      //mejeri-ost-och-agg- 1125
     );
+   
     return (await raw.json()).results;
   }
 
@@ -39,9 +42,9 @@ export class WillysHarvester {
 
     for (var i = 0; i < categories.length; i++) {
       let category = categories[i]; //Getting each category
-      let productsOfCategory = await this.getProducts(category.url); //All products of the soecific cateogry
+      let productsOfCategory = await this.getProducts(category.url); //All products of the specific cateogry
 
-              let categoryFromDb=''
+            console.log('harvesting category :'+ category.url + 'items in this category: ' + productsOfCategory.length);
       //Changing category of each product in a specific category
       for (let i = 0; i < productsOfCategory.length; i++){
        
