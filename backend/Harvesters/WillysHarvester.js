@@ -18,7 +18,7 @@ export class WillysHarvester {
   //Getting products in one specific category
   static async getProducts(categoryURL) {
     let raw = await fetch(
-      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=2200"
+      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=1"
       //Max amount of items per category is 2124 (skafferi) so the max size will be 2200, ca 18k items in Willys
       //Dryck -1016
       //halsa-och-skonhet - 1077
@@ -44,110 +44,12 @@ export class WillysHarvester {
       let category = categories[i]; //Getting each category
       let productsOfCategory = await this.getProducts(category.url); //All products of the specific cateogry
 
-            console.log('harvesting category :'+ category.url + 'items in this category: ' + productsOfCategory.length);
+  
       //Changing category of each product in a specific category
       for (let i = 0; i < productsOfCategory.length; i++){
        
-       
-        if (category.url.includes("kott")) {
-          productsOfCategory[i].category = this.setCategory("Kött, Fågel & Chark");
-        }
-        if (category.url.includes("frukt")) {
-       
-           productsOfCategory[i].category = this.setCategory("Frukt & Grönt");
-        }
-         if (category.url.includes("mejeri")) {
-           
-           productsOfCategory[i].category =
-             this.setCategory("Mejeri, Ost & Ägg");
-        }
-         if (category.url.includes("skafferi")) {
-           
-            productsOfCategory[i].category = this.setCategory("Skafferi");
-        }
-         if (category.url.includes("brod")) {
-         
-               productsOfCategory[i].category =
-                 this.setCategory("Bröd & Bageri");
-        }
-         if (category.url.includes("fryst")) {
-          
-             productsOfCategory[i].category = this.setCategory("Övrigt");
-        }
-        if (category.url.includes("fisk")) {
-          
-          
-             productsOfCategory[i].category =
-               this.setCategory("Fisk & Skaldjur");
-        }
-        if (category.url.includes("vegetariskt")) {
-       
-          
-             productsOfCategory[i].category =
-               this.setCategory("Övrigt");
-        }
-        if (category.url.includes("glass")) {
-         
-           productsOfCategory[i].category = this.setCategory(
-             "Glass, Godis & Snacks"
-           );
-        }
-        if (category.url.includes("dryck")) {
-        
-          
-           productsOfCategory[i].category = this.setCategory(
-             "Dryck"
-           );
-        }
-        if (category.url.includes("fardigmat")) {
-         
-           productsOfCategory[i].category = this.setCategory(
-             "Färdigmat & Sallader"
-           );
-        }
-        if (category.url.includes("barn")) {
-          
-           productsOfCategory[i].category = this.setCategory(
-             "Barn"
-           );
-        }
-        if (category.url.includes("blommor")) {
-         
-           productsOfCategory[i].category =
-             this.setCategory("Blommor & Växter");
-        }
-        if (category.url.includes("hem")) {
-          
-          
-           productsOfCategory[i].category = this.setCategory("Hem & Hushåll");
-        }
-        if (category.url.includes("halsa")) {
-         
-             productsOfCategory[i].category =
-               this.setCategory("Skönhet & Hälsa");
-        }
-        if (category.url.includes("apotek")) {
-         
-           productsOfCategory[i].category = this.setCategory("Skönhet & Hälsa");
-        }
-        if (category.url.includes("husdjur")) {
-        
-           productsOfCategory[i].category = this.setCategory("Djur");
-        }
-        if (category.url.includes("tobak")) {
-        
-           productsOfCategory[i].category =
-             this.setCategory("Kiosk & Tidningar");
-        }
-        if (category.url.includes("tandare")) {
-           productsOfCategory[i].category =
-             this.setCategory("Kiosk & Tidningar");
-        }
-        if (category.url.includes("lotter")) {
-           productsOfCategory[i].category =
-             this.setCategory("Kiosk & Tidningar");
-        }
-
+       productsOfCategory[i].category=Category.scrubCategories(category.title, categoriesOfDb)
+    productsOfCategory[i].actualCategory=category.title
         
           allProductsOfWillys.push(productsOfCategory[i]);
        //productsOfCategory[i].category = category.url;
