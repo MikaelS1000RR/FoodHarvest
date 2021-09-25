@@ -1,23 +1,36 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { Form, Button } from "reactstrap";
 import BaseModal from "../base/BaseModal";
-import { ModalContext } from "../../contexts/ModalContextProvider";
+import { useModal } from "../../contexts/ModalContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 const RegisterModal = () => {
   
-  const { showRegisterModal, toggleRegisterModal } = useContext(ModalContext)
+  const { showRegisterModal, toggleRegisterModal } = useModal()
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const { signup, updateDisplayName } = useAuth();
+  const [userExists, setUserExist] = useState(false);
 
-  const register = (event) => {
-    event.preventDefault();
-    // send request to backend here
-  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (password === confirmPassword) {
+      try {
+        await signup(email, password);
+        await updateDisplayName(name);
+        setUserExist(false);
+        toggleRegisterModal();
+      } catch {
+        setUserExist(true);
+      }
+    }
+  }
 
   const form = (
-    <Form onSubmit={register}>
+    <Form onSubmit={handleSubmit}>
       <div class="mb-3">
         <input
           type="text"
@@ -41,9 +54,10 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="password"
+          minLength="6"
           className="form-control"
           placeholder="Lösenord"
           onChange={(data) => {
@@ -52,7 +66,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="password"
           className="form-control"
@@ -63,6 +77,7 @@ const RegisterModal = () => {
           required
         />
       </div>
+      {userExists && <h2>The email is already in use</h2>}
       <Button color="primary" type="submit">
         Registrera
       </Button>

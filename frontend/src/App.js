@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ModalContextProvider from './contexts/ModalContextProvider';
+import ModalProvider from './contexts/ModalContext';
+import CategoryProvider from './contexts/CategoryContext';
+import AuthProvider from './contexts/AuthContext';
+
 import Home from './pages/Home';
-import LoginModal from './components/modals/LoginModal';
-import RegisterModal from './components/modals/RegisterModal';
 import Navbar from './components/Navbar';
+
 import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
@@ -11,12 +13,18 @@ import Page404 from './pages/Page404';
 import DetailModal from './components/DetailModal';
 import ProductInfoProvider from './contexts/ProductInfoContext';
 
+import LoginModal from './components/modals/LoginModal';
+import RegisterModal from './components/modals/RegisterModal';
+import CategoryModal from './components/modals/CategoryModal';
+
 
 function App() {
   return (
     <div className="App">
-      <ProductInfoProvider>
-      <ModalContextProvider>
+   <ModalProvider>
+        <CategoryProvider>
+          <AuthProvider>  
+  <ProductInfoProvider>
         <Router>
           <header className="App-header">
             <Navbar />
@@ -34,11 +42,14 @@ function App() {
             <DetailModal />
             <LoginModal />
             <RegisterModal />
+            <CategoryModal />
           </main>
           <footer></footer>
         </Router>
-      </ModalContextProvider>
-      </ProductInfoProvider>
+       </ProductInfoProvider>
+       </AuthProvider>
+        </CategoryProvider>
+      </ModalProvider>
     </div>
   );
 }

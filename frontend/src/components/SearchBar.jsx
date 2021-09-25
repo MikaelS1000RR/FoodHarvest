@@ -22,7 +22,5 @@ export default SearchBar;
 const styles = {
   form: {
     padding: "10px",
-    display: "flex",
-    justifyContent: "center"
   }
 }
