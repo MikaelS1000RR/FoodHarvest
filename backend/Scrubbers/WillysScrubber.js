@@ -96,11 +96,13 @@ export class WillysScrubber extends Scrubber {
 
   //Setting preferences for a product
   static async setPreferences(preferences) {
-    let arrPreferences = [];
-    for (let i = 0; i < preferences.length; i++) {
-      let newPreference = new Preference(preferences[i]);
-      arrPreferences.push(newPreference);
+    if (preferences.length != 0) {
+       let result = Preference.scrubPreferences(preferences);
+       return result;
+  }
+ 
+    else {
+      return null
     }
-    return arrPreferences;
   }
 }

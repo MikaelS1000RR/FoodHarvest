@@ -29,6 +29,7 @@ export class TestHarvesting {
   
 
    writeToFile("willys-all-products1.json", scrubbedProducts); 
+   
 
 //Posting scrubbed products into db
     //FirebaseHandler.postProducts(scrubbedProducts);

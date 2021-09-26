@@ -28,6 +28,15 @@ export class FirebaseHandler {
 
 
 
+  static async getPreferences() {
+     let querySnapshot = await firestore.collection("preferences").get();
+     let preferences = [];
+     querySnapshot.forEach((document) => {
+       preferences.push(document.data());
+     });
+
+     return preferences;
+  }
 
 
 

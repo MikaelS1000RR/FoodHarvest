@@ -31,7 +31,7 @@ export class Category {
           let newCategory = {
             name: dbCategories[i].name
           }
-          console.log('returning ', newCategory);
+        
           foundCategory = true;
           return newCategory
         }
@@ -42,7 +42,7 @@ export class Category {
 
     //If matching category was not found we give it category "Övrigt"
     if (!foundCategory) {
-      console.log('returning övrigt');
+     
       let newCategory = {
         name: "Övrigt"
       }
