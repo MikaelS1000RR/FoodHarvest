@@ -26,12 +26,14 @@ export class TestHarvesting {
       allProductsOfWillys
     );
 
+   
+
   
 
-   writeToFile("willys-all-products1.json", scrubbedProducts); 
+
    
 
 //Posting scrubbed products into db
-    //FirebaseHandler.postProducts(scrubbedProducts);
+    FirebaseHandler.postProduct(scrubbedProducts[0]);
   }
 }
