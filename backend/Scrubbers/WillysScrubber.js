@@ -22,15 +22,7 @@ export class WillysScrubber extends Scrubber {
     preferences: (x) => this.setPreferences(x.labels),
     ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    discount: (x) =>
-      new Discount(
-       null,
-        null,
-        x.price,
-        x.savingsAmount,
-        Math.round((parseInt(x.savingsAmount) / parseInt(x.priceNoUnit)) * 100),
-        false
-      ),
+    discount: (x) =>this.setDiscount(x.code)
   };
 
   static async setQuantityUnit(quantity) {
@@ -43,25 +35,33 @@ export class WillysScrubber extends Scrubber {
 
   
   static async setDiscount(productCode) {
+    let type = null
+    let quantityToBeBought=null
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" +
       productCode +
       WillysHarvester.bustCache()
     );
     let formatted = await raw.json();
-    
-    if (formatted.potentialPromotions.length != 0) {
-      let newDiscount = new Discount(
-        formatted.potentialPromotions[0].campaignType,
-      )
-      discountType = formatted.potentialPromotions[0].campaignType;
-    
-    }
-    else {
-      return null;
-      
-    }
   
+      if (formatted.potentialPromotions.length != 0) {
+        type = formatted.potentialPromotions[0].campaignType;
+        quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
+      }
+      let discount = new Discount(
+        type,
+        quantityToBeBought,
+        formatted.price,
+        formatted.savingsAmount,
+        Math.round(
+          (parseFloat(formatted.savingsAmount) /
+            parseFloat(formatted.priceNoUnit)) *
+            100
+        ),
+        false
+    );
+   
+      return discount;
   
 
   }
