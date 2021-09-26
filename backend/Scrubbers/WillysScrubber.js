@@ -41,10 +41,8 @@ export class WillysScrubber extends Scrubber {
     }
   }
 
-  /*
-  static async setDiscountType(productCode) {
-    let discountType = ""
-    if (productCode !="101262976_ST") { 
+  
+  static async setDiscount(productCode) {
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" +
       productCode +
@@ -53,19 +51,20 @@ export class WillysScrubber extends Scrubber {
     let formatted = await raw.json();
     
     if (formatted.potentialPromotions.length != 0) {
-      console.log("[0] is", formatted.potentialPromotions[0]);
-      console.log("type is", formatted.potentialPromotions[0].campaignType);
+      let newDiscount = new Discount(
+        formatted.potentialPromotions[0].campaignType,
+      )
       discountType = formatted.potentialPromotions[0].campaignType;
     
     }
     else {
-      discountType = null;
+      return null;
       
     }
-  }
   
-    return discountType;
-  }*/
+  
+
+  }
 
 
   //Getting ean for a product
@@ -96,11 +95,13 @@ export class WillysScrubber extends Scrubber {
 
   //Setting preferences for a product
   static async setPreferences(preferences) {
+
+    //If product has any references then scrub them
     if (preferences.length != 0) {
        let result = Preference.scrubPreferences(preferences);
        return result;
   }
- 
+ //If not, return null
     else {
       return null
     }

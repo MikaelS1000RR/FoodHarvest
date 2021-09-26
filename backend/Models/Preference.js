@@ -5,10 +5,12 @@ export class Preference{
   }
 
 
+
+  //Scrub preferences
   static scrubPreferences(storePreferencesArr) {
     let newPreferencesArr = []
    
-    console.log('store preferences are ', storePreferencesArr);
+ 
     
       for (let j = 0; j < storePreferencesArr.length; j++)
       {
@@ -71,6 +73,8 @@ export class Preference{
     if (newPreferencesArr.length != 0) {
        return newPreferencesArr;
     }
+
+    //If none of preferences match, return null
     else {
       return null
     }
