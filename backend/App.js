@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(express.static("frontend")); // if doesn't work then try ../frontend
+// app.use(express.static("frontend")); // if doesn't work then try ../frontend
 // app.use(express.static(path.join(__dirname, "./www")));
 
 app.listen(3000, () => console.log("Listening on port 3000"));
