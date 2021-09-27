@@ -26,14 +26,7 @@ export class TestHarvesting {
       allProductsOfWillys
     );
 
-   
-
-  
-
-
-   
-
 //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts[0]);
+    FirebaseHandler.postProduct(scrubbedProducts);
   }
 }

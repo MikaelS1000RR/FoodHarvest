@@ -43,40 +43,43 @@ export class FirebaseHandler {
 
   //Another way to post products
 
-  static postProduct(product) {
-    let productToPost = {
-      productName: product.productName,
-      price: product.price,
-      quantity: product.quantity,
-      quantityUnit: product.quantityUnit,
-      comparisonUnit: product.comparisonUnit,
-      comparisonPrice: product.comparisonPrice,
-      brand: product.brand,
-      imageUrl: product.imageUrl,
-      category: product.category,
-      preferences: product.preferences,
-      ean: product.ean,
-      store: {
-        name: product.store.storeName,
-        logoUrl: product.store.logoUrl,
-      },
-      discount: {
-        discountType: product.discount.discountType,
-        quantityToBeBought: product.discount.quantityToBeBought,
-        displayPrice: product.discount.displayPrice,
-        savings: product.discount.savings,
-        percentageSavings: product.discount.percentageSavings,
-        isMemberDiscount: product.discount.isMemberDiscount
-      },
-    };
-    firestore.collection("test-products").doc().set(productToPost);
+  static postProduct(products) {
+    for (let i = 0; i < products.length; i++) {
+      let product = products[i];
+      let productToPost = {
+        productName: product.productName,
+        price: product.price,
+        quantity: product.quantity,
+        quantityUnit: product.quantityUnit,
+        comparisonUnit: product.comparisonUnit,
+        comparisonPrice: product.comparisonPrice,
+        brand: product.brand,
+        imageUrl: product.imageUrl,
+        category: product.category,
+        preferences: product.preferences,
+        ean: product.ean,
+        store: {
+          name: product.store.storeName,
+          logoUrl: product.store.logoUrl,
+        },
+        discount: {
+          discountType: product.discount.discountType,
+          quantityToBeBought: product.discount.quantityToBeBought,
+          displayPrice: product.discount.displayPrice,
+          savings: product.discount.savings,
+          percentageSavings: product.discount.percentageSavings,
+          isMemberDiscount: product.discount.isMemberDiscount
+        },
+      };
+      firestore.collection("test-products").doc().set(productToPost);
+    }
     console.log('posted product in db!');
   }
 
 
 
   //posting all products to db
-  static postProducts(products) {
+/*   static postProducts(products) {
    
     for (let i = 0; i < products.length; i++) {
       let product = products[i]
@@ -101,5 +104,5 @@ export class FirebaseHandler {
     }
 
     console.log("product posting completed!");
-  }
-}
+  }*/
+} 
