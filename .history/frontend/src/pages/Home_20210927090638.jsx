@@ -42,8 +42,8 @@ const Home = () => {
         <div className="row gy-3">
           {products.map((p, index) => (
             <ProductCard
-              index={index}
-              key={index}
+             key={}
+            index={index}
               product={p}
               classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
               buttonText="Lägg till"

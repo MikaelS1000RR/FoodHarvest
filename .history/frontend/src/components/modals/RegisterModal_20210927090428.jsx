@@ -42,7 +42,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div className="mb-3">
+      <div class="mb-3">
         <input
           type="email"
           className="form-control"
