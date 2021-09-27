@@ -1,4 +1,5 @@
 import firestore from "./database_config/firestore.js";
+import { Preference } from "./Models/Preference.js";
 import { Product } from "./Models/Product.js";
 
 export class FirebaseHandler {
@@ -43,6 +44,19 @@ export class FirebaseHandler {
     return id;
   }
 
+  static async getIdByName(collection, name) {
+    let docs = await firestore
+      .collection(collection)
+      .where("name", "==", name)
+      .get();
+    let id = "";
+    docs.forEach((doc) => {
+      id = doc.id;
+    });
+
+    return id;
+  }
+
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
@@ -77,10 +91,12 @@ export class FirebaseHandler {
         comparisonPrice: product.comparisonPrice,
         brand: product.brand,
         imageUrl: product.imageUrl,
-        category: product.category,
-        preferences: product.preferences,
+        category:  this.getOneRef(),
+        preferences: getRefs(product.preferences),
         ean: product.ean,
-        store:  firestore.doc('stores/' + await this.getStoreId(product.store.storeName)),
+        store: firestore.doc(
+          "stores/" + (await this.getStoreId(product.store.storeName))
+        ),
         discount: {
           discountType: product.discount.discountType,
           quantityToBeBought: product.discount.quantityToBeBought,
@@ -94,4 +110,15 @@ export class FirebaseHandler {
     }
     console.log("posted product in db!");
   }
-} 
+}
+
+const getRefs = (collection, docs) => {
+  let refs = [];
+  if (docs != null && docs.length > 0) { 
+    for (let doc of docs) {
+      let ref = firestore.doc(collection + "/" + await this.getIdByName(collection, doc.name))
+      refs.push(ref)
+    }
+  }
+  return refs;
+}

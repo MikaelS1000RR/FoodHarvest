@@ -15,7 +15,7 @@ export class TestHarvesting {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
 
-  let allProductsOfWillys = await WillysHarvester.getAllProducts([categories[0]]); //This is all products of Willys
+  let allProductsOfWillys = await WillysHarvester.getAllProducts([categories[2]]); //This is all products of Willys
   
 
 
