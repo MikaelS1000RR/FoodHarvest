@@ -41,32 +41,6 @@ export class WillysScrubber extends Scrubber {
     }
   }
 
-  /*
-  static async setDiscountType(productCode) {
-    let discountType = ""
-    if (productCode !="101262976_ST") { 
-    let raw = await fetch(
-      "https://www.willys.se/axfood/rest/p/" +
-      productCode +
-      WillysHarvester.bustCache()
-    );
-    let formatted = await raw.json();
-    
-    if (formatted.potentialPromotions.length != 0) {
-      console.log("[0] is", formatted.potentialPromotions[0]);
-      console.log("type is", formatted.potentialPromotions[0].campaignType);
-      discountType = formatted.potentialPromotions[0].campaignType;
-    
-    }
-    else {
-      discountType = null;
-      
-    }
-  }
-  
-    return discountType;
-  }*/
-
 
   //Getting ean for a product
   static async getEan(productCode) {

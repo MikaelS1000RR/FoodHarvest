@@ -20,7 +20,7 @@ export class MathemHarvester {
         );
         return await raw.json();
     }
-// https://api.mathem.io/product-search/noauth/search/query?size=25&index=0&storeId=10
+
     //https://api.mathem.io/product-search/noauth/search/products/10/weeklydiscounts?size=18&index=0&storeId=10&keyword=
 
     static setCategory(categoryName) {

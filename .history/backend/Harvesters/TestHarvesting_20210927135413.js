@@ -10,27 +10,27 @@ export class TestHarvesting {
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
-      let rawDataMatHem = await MathemHarvester.getCategories();
-      let cats = await rawDataMatHem.categories;
-      
-      // let productsOfMathem = await MathemHarvester.getProducts();
+     let categoriesOfMathem = await MathemHarvester.getCategories() 
+      let cat = categoriesOfMathem.products;
+    // let productsOfMathem = await MathemHarvester.getProducts();
      
     
-   //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
+  //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
    
+    
   
-    // let cat = rawMat.children;
+  // let cat = rawMat.children;
   
   // write to file for now (goal: write to DB instead)
   function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
   }
   
+  //let mathemData = await MathemHarvester.getProducts(cat);
   let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
- // let mathemData = await MathemHarvester.getAllProducts(cat);
-  // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
+  let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
     
-   console.log(cats);
+   console.log(productsOfMathem);
   
 
 

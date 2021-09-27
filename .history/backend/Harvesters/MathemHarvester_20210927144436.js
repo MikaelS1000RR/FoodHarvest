@@ -16,7 +16,7 @@ export class MathemHarvester {
 
     static async getProducts(categoryURL) {
         let raw = await fetch(
-            "https://api.mathem.io/varor/" + categoryURL + this.bustCache() + "&size=10000"
+            "https://api.mathem.io/c/" + categoryURL + this.bustCache() + "&size=10000"
         );
         return await raw.json();
     }

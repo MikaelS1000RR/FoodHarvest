@@ -7,13 +7,5 @@ import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 
 export class MathemScrubber extends Scrubber {
-    static translateSchema = {
-        productName: (x) => x.name,
-        price: (x) => x.price,
-        quantity: (x) => x.quantity,
-        quantityUnit: (x) => x.unit,
-        comparisonUnit: (x) => x.comparisonUnit,
-        comparisonPrice: (x) => x.comparisonPrice,
-    //    brand: (x) => 
-    }
+    
 }

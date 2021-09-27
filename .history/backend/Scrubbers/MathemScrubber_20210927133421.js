@@ -13,7 +13,6 @@ export class MathemScrubber extends Scrubber {
         quantity: (x) => x.quantity,
         quantityUnit: (x) => x.unit,
         comparisonUnit: (x) => x.comparisonUnit,
-        comparisonPrice: (x) => x.comparisonPrice,
-    //    brand: (x) => 
+        comparisonPrice: (x) => x.comparisonPrice 
     }
 }

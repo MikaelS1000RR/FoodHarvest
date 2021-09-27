@@ -18,9 +18,9 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/varor/" + categoryURL + this.bustCache() + "&size=10000"
         );
-        return await raw.json();
+        return (await raw.json()).results;
     }
-// https://api.mathem.io/product-search/noauth/search/query?size=25&index=0&storeId=10
+
     //https://api.mathem.io/product-search/noauth/search/products/10/weeklydiscounts?size=18&index=0&storeId=10&keyword=
 
     static setCategory(categoryName) {
@@ -141,7 +141,7 @@ export class MathemHarvester {
 
           }
                 
-              allProductsOfMathem.push(productsOfCategory);
+          allProductsOfMathem.push(productsOfCategory);
 
             }
 
