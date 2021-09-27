@@ -6,13 +6,12 @@ import ProductListProvider from "./contexts/ProductListContext";
 import ProductInfoProvider from './contexts/ProductInfoContext';
 
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
-
 import Catagories from './pages/Catagories';
 import MyProductLists from './pages/MyProductLists';
 import MyProfile from './pages/MyProfile';
 import Page404 from './pages/Page404';
 
+import Navbar from './components/Navbar';
 import LoginModal from './components/modals/LoginModal';
 import RegisterModal from './components/modals/RegisterModal';
 import CategoryModal from './components/modals/CategoryModal';
