@@ -24,7 +24,7 @@ const LoginModal = () => {
 
   const form = (
     <Form onSubmit={handleSubmit}>
-      <div className="mb-3">
+      <div class="mb-3">
         <input
           type="email"
           className="form-control"

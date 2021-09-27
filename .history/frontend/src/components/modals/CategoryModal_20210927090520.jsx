@@ -12,7 +12,7 @@ const CategoryModal = () => {
     <div className="container" style={styles.container}>
       {categories.length > 0
         ? categories.map((c) => (
-            <Button className="m-1" color="primary" key={c.id}>
+            <Button className="m-1" color="primary" key={}>
               {c.name}
             </Button>
           ))
