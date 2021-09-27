@@ -12,7 +12,7 @@ let data = {
       brand: "Garant",
     },
     {
-      id: "eiongbiOGBVoawd0",
+      id: "aiongbiOGBVoawd0",
       productName: "Potatis3",
       imageUrl:
         "https://www.coca-cola.se/content/dam/one/se/sv/products/coca-cola-lemon-px1500.jpg",
@@ -22,7 +22,7 @@ let data = {
       brand: "Garant",
     },
     {
-      id: "eiongbiOGBVoawd0",
+      id: "qiongbiOGBVoawd0",
       productName: "Potatis2",
       imageUrl:
         "https://www.hejsamtalonline.se/wp-content/uploads/2020/06/Hej-logo-favicon.png",
@@ -32,7 +32,7 @@ let data = {
       brand: "Garant",
     },
     {
-      id: "eiongbiOGBVoawd0",
+      id: "biongbiOGBVoawd0",
       productName: "Potatis32",
       imageUrl:
         "https://www.hb.se/globalassets/global/akademi-3/blockbilder-761/bildblockhej-bara-grafik.jpg?quality=95&mode=min&v=259891",
