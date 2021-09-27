@@ -15,7 +15,10 @@ const ProductProvider = (props) => {
   }, []);
 
   const fetchProducts = () => {
-    firestore.collection('products').onSnapshot(
+    console.log("NOTHING FOUND")
+    firestore.collection('products')
+      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}' )
+      .onSnapshot(
       (snapshot) => {
         const docs = [];
         snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
