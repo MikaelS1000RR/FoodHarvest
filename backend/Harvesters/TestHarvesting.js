@@ -7,7 +7,7 @@ import { FirebaseHandler } from "../FirebaseHandler.js";
 export class TestHarvesting {
   static async test() {
 
-    let rawData = await WillysHarvester.getCategories();
+   /*  let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
     // write to file for now (goal: write to DB instead)
@@ -27,6 +27,7 @@ export class TestHarvesting {
     );
 
 //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts);
+    FirebaseHandler.postProduct(scrubbedProducts); */
+    console.log(await FirebaseHandler.getPreferenceId("Fairtrade"));
   }
 }

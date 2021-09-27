@@ -4,38 +4,45 @@ import { Product } from "./Models/Product.js";
 export class FirebaseHandler {
 
   //Getting stores from db
-  static async getStores() {
-    let querySnapshot = await firestore.collection("stores").get();
-    let stores = [];
-    querySnapshot.forEach((document) => {
-      stores.push(document.data());
+  static async getStoreId(storeName) {
+    let store = await firestore.collection("stores").where('name', '==', storeName).get()
+    let id=''
+    store.forEach((doc) => {
+      id=doc.id
     });
-    console.log(stores);
-    return stores;
+    
+    
+    return id;
   }
 
 
   //Getting categories from db
-  static async getCategories() {
-    let querySnapshot = await firestore.collection("categories").get();
-    let categories = [];
-    querySnapshot.forEach((document) => {
-      categories.push(document.data());
-    });
-    
-    return categories;
+  static async getCategoryId(categoryName) {
+     let category = await firestore
+       .collection("categories")
+       .where("name", "==", categoryName)
+       .get();
+     let id = "";
+     category.forEach((doc) => {
+       id = doc.id;
+     });
+
+     return id;
   }
 
 
 
-  static async getPreferences() {
-     let querySnapshot = await firestore.collection("preferences").get();
-     let preferences = [];
-     querySnapshot.forEach((document) => {
-       preferences.push(document.data());
-     });
+  static async getPreferenceId(preferenceName) {
+      let preference = await firestore
+        .collection("preferences")
+        .where("name", "==", preferenceName)
+        .get();
+      let id = "";
+      preference.forEach((doc) => {
+        id = doc.id;
+      });
 
-     return preferences;
+      return id;
   }
 
 
