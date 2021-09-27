@@ -17,8 +17,7 @@ const ProductProvider = (props) => {
   const fetchProducts = () => {
     console.log("NOTHING FOUND")
     firestore.collection('products')
-      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
-      .limit(10)
+      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}' )
       .onSnapshot(
       (snapshot) => {
         const docs = [];
