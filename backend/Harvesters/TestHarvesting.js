@@ -7,7 +7,7 @@ import { FirebaseHandler } from "../FirebaseHandler.js";
 export class TestHarvesting {
   static async test() {
 
-   /*  let rawData = await WillysHarvester.getCategories();
+    let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
 
     // write to file for now (goal: write to DB instead)
@@ -15,10 +15,8 @@ export class TestHarvesting {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
 
-  let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
-   
-
-    //writeToFile("willys-all-products1.json", allProductsOfWillys);  //Write all products to file if needed (it takes kinda long time)
+  let allProductsOfWillys = await WillysHarvester.getAllProducts([categories[0]]); //This is all products of Willys
+  
 
 
     //Scrubbing all products
@@ -26,8 +24,9 @@ export class TestHarvesting {
       allProductsOfWillys
     );
 
+
 //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts); */
-    console.log(await FirebaseHandler.getPreferenceId("Fairtrade"));
+    FirebaseHandler.postProduct(scrubbedProducts);
+   
   }
 }
