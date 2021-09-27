@@ -9,7 +9,7 @@ export class MathemHarvester {
 
     static async getCategories() {
         let raw = await fetch(
-            "https://api.mathem.io/product-search/noauth/search/query?size=10&index=0&storeId=10" 
+            "https://api.mathem.io/ecom-navigation/noauth/v3/menu/10" + this.bustCache()
         );
         return await raw.json();
     }

@@ -31,7 +31,8 @@ export class TestHarvesting {
   // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
   let allProductsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem)
     
-   console.log(rawDataMathem.products);
+   console.log(  let allProductsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem)
+   );
   
 
 
