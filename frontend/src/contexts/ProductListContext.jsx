@@ -29,9 +29,8 @@ const ProductListProvider = (props) => {
       name: list.name
     }
     try {
-      const docRef = await firestore.collection('product-lists').doc().add(newProductList);
-      console.log(docRef);
-      console.log("look up");
+      // using set() at the moment to add product to collection
+      const docRef = await firestore.collection('product-lists').doc().set(newProductList);
     }
     catch {
       console.log("adding list failed");
