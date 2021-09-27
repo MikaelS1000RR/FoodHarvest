@@ -31,7 +31,7 @@ const RegisterModal = () => {
 
   const form = (
     <Form onSubmit={handleSubmit}>
-      <div className="mb-3">
+      <div class="mb-3">
         <input
           type="text"
           className="form-control"
@@ -42,7 +42,7 @@ const RegisterModal = () => {
           required
         />
       </div>
-      <div className="mb-3">
+      <div class="mb-3">
         <input
           type="email"
           className="form-control"
