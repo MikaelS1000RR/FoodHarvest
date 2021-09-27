@@ -1,12 +1,12 @@
 import React from "react";
 import { useContext } from "react";
-import { ModalContext } from "../contexts/ModalContext";
 import BaseModal from "./base/BaseModal";
 import { useProductInfo } from "../contexts/ProductInfoContext";
+import { useModal } from "../contexts/ModalContext";
 
 
 const DetailModal = () => {
-  const { toggleDetailModal, showDetailModal } = useContext(ModalContext);
+  const { toggleDetailModal, showDetailModal } = useModal();
   const { currentProduct } = useProductInfo();
 
   let info = (<div></div>)
@@ -40,7 +40,7 @@ const DetailModal = () => {
   )
   
     return (
-      <BaseModal isOpen={showDetailModal} toggle={toggleDetailModal} content={info} footerContent={footer }/>
+      <BaseModal isOpen={showDetailModal} toggle={toggleDetailModal} content={info} footerContent={footer}/>
    );
 }
 

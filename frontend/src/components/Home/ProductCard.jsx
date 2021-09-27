@@ -1,13 +1,12 @@
-import React, { useContext } from "react";
 import FavoriteButton from "./FavoriteButton";
-import { ModalContext } from "../../contexts/ModalContext";
 import DetailModal from "../DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
+import { useModal } from "../../contexts/ModalContext";
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText, isFavorite, index } = props;
 
-  const { toggleDetailModal } = useContext(ModalContext);
+  const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
 
   return (

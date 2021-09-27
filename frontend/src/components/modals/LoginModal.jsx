@@ -15,8 +15,7 @@ const LoginModal = () => {
     e.preventDefault();
 
       try {
-        const user = await login(email, password);
-        console.log(user);
+        await login(email, password);
         toggleLoginModal();
       } catch {
       }

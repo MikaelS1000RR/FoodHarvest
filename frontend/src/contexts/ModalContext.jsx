@@ -1,6 +1,6 @@
 import { createContext, useState, useContext } from "react";
 
-export const ModalContext = createContext();
+const ModalContext = createContext();
 
 export const useModal = () => {
   return useContext(ModalContext);
@@ -27,6 +27,11 @@ const ModalProvider = (props) => {
   const toggleCategoryModal = () => {
     setShowCategoryModal(!showCategoryModal);
   };
+  // for add new product list modal
+  const [showAddListModal, setShowAddListModal] = useState(false);
+  const toggleAddListModal = () => {
+    setShowAddListModal(!showAddListModal);
+  };
 
   const values = {
     showLoginModal,
@@ -41,6 +46,9 @@ const ModalProvider = (props) => {
     showCategoryModal,
     setShowCategoryModal,
     toggleCategoryModal,
+    showAddListModal,
+    setShowAddListModal,
+    toggleAddListModal,
   };
 
   return (
