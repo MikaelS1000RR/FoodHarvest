@@ -91,7 +91,9 @@ export class FirebaseHandler {
         comparisonPrice: product.comparisonPrice,
         brand: product.brand,
         imageUrl: product.imageUrl,
-        category:  this.getOneRef(),
+        category: firestore.doc(
+          "categories/" + (await this.getCategoryId(product.category.name))
+        ),
         preferences: getRefs(product.preferences),
         ean: product.ean,
         store: firestore.doc(
@@ -112,7 +114,7 @@ export class FirebaseHandler {
   }
 }
 
-const getRefs = (collection, docs) => {
+const getRefs = async (collection, docs) => {
   let refs = [];
   if (docs != null && docs.length > 0) { 
     for (let doc of docs) {
@@ -121,4 +123,13 @@ const getRefs = (collection, docs) => {
     }
   }
   return refs;
+}
+const getOneRef = async (collection, doc, property) => {
+  if (doc != null) {
+    console.log(doc);
+    console.log(doc[property]);
+    let ref = firestore.doc(collection + "/" + await this.getIdByName(collection, doc[property]))
+    return ref;
+  }
+  return null;
 }
