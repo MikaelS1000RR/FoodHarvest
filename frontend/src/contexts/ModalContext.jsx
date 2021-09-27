@@ -17,6 +17,11 @@ const ModalProvider = (props) => {
   const toggleRegisterModal = () => {
     setShowRegisterModal(!showRegisterModal);
   };
+  // for product detail modal
+  const [showDetailModal, setShowDetailModal] = useState(false);
+  const toggleDetailModal = () => {
+    setShowDetailModal(!showDetailModal);
+  }
   // for categories modal
   const [showCategoryModal, setShowCategoryModal] = useState(false);
   const toggleCategoryModal = () => {
@@ -35,6 +40,9 @@ const ModalProvider = (props) => {
     showRegisterModal,
     setShowRegisterModal,
     toggleRegisterModal,
+    showDetailModal,
+    setShowDetailModal,
+    toggleDetailModal,
     showCategoryModal,
     setShowCategoryModal,
     toggleCategoryModal,
@@ -50,4 +58,4 @@ const ModalProvider = (props) => {
   );
 }
 
-export default ModalProvider;
+  export default ModalProvider;

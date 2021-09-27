@@ -3,17 +3,20 @@ import ModalProvider from "./contexts/ModalContext";
 import CategoryProvider from "./contexts/CategoryContext";
 import AuthProvider from "./contexts/AuthContext";
 import ProductListProvider from "./contexts/ProductListContext";
+import ProductInfoProvider from './contexts/ProductInfoContext';
 
-import Home from "./pages/Home";
-import Navbar from "./components/Navbar";
-import Catagories from "./pages/Catagories";
-import MyProductLists from "./pages/MyProductLists";
-import MyProfile from "./pages/MyProfile";
-import Page404 from "./pages/Page404";
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
 
-import LoginModal from "./components/modals/LoginModal";
-import RegisterModal from "./components/modals/RegisterModal";
-import CategoryModal from "./components/modals/CategoryModal";
+import Catagories from './pages/Catagories';
+import MyProductLists from './pages/MyProductLists';
+import MyProfile from './pages/MyProfile';
+import Page404 from './pages/Page404';
+
+import LoginModal from './components/modals/LoginModal';
+import RegisterModal from './components/modals/RegisterModal';
+import CategoryModal from './components/modals/CategoryModal';
+import DetailModal from './components/DetailModal';
 import AddListModal from "./components/modals/AddListModal";
 
 function App() {
@@ -23,6 +26,7 @@ function App() {
         <ModalProvider>
           <CategoryProvider>
             <ProductListProvider>
+                <ProductInfoProvider>
               <Router>
                 <header className="App-header">
                   <Navbar />
@@ -39,7 +43,7 @@ function App() {
                     <Route exact path="/myProfile/" component={MyProfile} />
                     <Route path="*" component={Page404} />
                   </Switch>
-
+                  <DetailModal />
                   <LoginModal />
                   <RegisterModal />
                   <CategoryModal />
@@ -47,6 +51,7 @@ function App() {
                 </main>
                 <footer></footer>
               </Router>
+                     </ProductInfoProvider>
             </ProductListProvider>
           </CategoryProvider>
         </ModalProvider>

@@ -19,6 +19,11 @@ const AuthProvider = ({ children }) => {
   const logout = () => {
     return auth.signOut();
   }
+  const updateDisplayName = (displayName) => {
+    return auth.currentUser.updateProfile({
+      displayName: displayName
+    })
+  }
 
   useEffect(() => {
     console.log("in useeffect");
@@ -37,7 +42,8 @@ const AuthProvider = ({ children }) => {
     currentUser,
     login,
     logout,
-    signup
+    signup,
+    updateDisplayName
   }
   return (
     <AuthContext.Provider value={value}>
