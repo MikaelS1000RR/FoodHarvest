@@ -3,7 +3,7 @@ import { Button, Row } from "reactstrap";
 import { useProduct } from "../contexts/ProductContext";
 import ProductCard from "../components/home/ProductCard";
 import { Container } from "reactstrap";
-
+import ProductContext from "../contexts/ProductContext";
 
 const Catagories = (props) => {
   // console.log(props)
@@ -13,6 +13,7 @@ const Catagories = (props) => {
   return (
     <div>
       Catagories + {props.match.params.name}
+      <ProductContext prop={ props.match.params.name }/>
       <Container>
         <Row>
           {products.length > 0
