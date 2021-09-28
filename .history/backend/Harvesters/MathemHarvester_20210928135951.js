@@ -9,17 +9,14 @@ export class MathemHarvester {
 
     static async getCategories() {
         let raw = await fetch(
-            "https://api.mathem.io/ecom-navigation/noauth/category/16" 
+            " https://api.mathem.io/ecom-navigation/noauth/category/16" 
         );
         return await raw.json();
     }
 
     static async getProducts(categoryURL) {
-        let getProducts = [];
         let raw = await fetch(
-            "https://api.mathem.io/product-search/noauth/categorylist/" 
-            + categoryURL + 
-            "?storeId=16&productSizePerCategory=50&categorySize=20"
+            "https://api.mathem.io/product-search/noauth/categorylist/" + categoryURL + this.bustCache() + "&size=10000"
         );
         return await raw.json();
     }

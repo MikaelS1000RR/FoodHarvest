@@ -38,7 +38,7 @@ export class Scrubber {
                     console.log(ex);;
                 }
             
-            
+
 
             }
             console.log('scrubbing products done!');

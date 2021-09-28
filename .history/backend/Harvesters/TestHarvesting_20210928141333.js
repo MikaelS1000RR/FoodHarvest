@@ -34,7 +34,7 @@ export class TestHarvesting {
   //let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
  // let mathemData = await MathemHarvester.getAllProducts(cat);
   // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
-  //let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
+  let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
     
   
 

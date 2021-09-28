@@ -32,13 +32,13 @@ export class Scrubber {
             }
              
                 try {
-                    scrubbed.push(await this.scrubOne(product));
+                    scrubbed.push(await this.scrubOne(products));
                 }
                 catch (ex) {
                     console.log(ex);;
                 }
             
-            
+
 
             }
             console.log('scrubbing products done!');

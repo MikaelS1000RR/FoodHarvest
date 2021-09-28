@@ -11,31 +11,28 @@ export class TestHarvesting {
     // let rawData = await WillysHarvester.getCategories();
     // let categories = rawData.children; //Getting all BASIC categories of willys
 
-      let categories = await MathemHarvester.getCategories();
-      let cat = await categories[0];
-      let bob = await MathemHarvester.getProducts(cat.id);
-
-      let productsOfMathem = bob.products; // Mathem Products
+      let rawDataMathem = await MathemHarvester.getCategories();
+      let productsOfMathem = await rawDataMathem.products; // Mathem Products
       
       // let productsOfMathem = await MathemHarvester.getProducts();
      
     
    //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
    
-   console.log(bob);
   
     // let cat = rawMat.children;
   
   // write to file for now (goal: write to DB instead)
-  // function writeToFile(fileName, data) {
-  //   fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-  // }
+  function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+  }
   
   //let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
  // let mathemData = await MathemHarvester.getAllProducts(cat);
   // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
-  //let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
+  let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
     
+   console.log(productsOfMathem);
   
 
     // let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
@@ -48,9 +45,9 @@ export class TestHarvesting {
   //   );
  
 
-//     let scrubbedMathemProducts = await MathemScrubber.scrubAll(productsOfMathem[0])
-// //Posting scrubbed products into db
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll(productsOfMathem[0])
+//Posting scrubbed products into db
     
-//     FirebaseHandler.postProducts(scrubbedMathemProducts);
+    FirebaseHandler.postProducts(scrubbedMathemProducts);
   }
 }

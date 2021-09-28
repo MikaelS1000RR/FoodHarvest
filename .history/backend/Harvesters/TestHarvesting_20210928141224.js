@@ -27,14 +27,14 @@ export class TestHarvesting {
     // let cat = rawMat.children;
   
   // write to file for now (goal: write to DB instead)
-  // function writeToFile(fileName, data) {
-  //   fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-  // }
+  function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+  }
   
   //let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
  // let mathemData = await MathemHarvester.getAllProducts(cat);
   // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
-  //let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
+  let allProductsOfMathem = await MathemHarvester.overWriteProducts(productsOfMathem)
     
   
 
