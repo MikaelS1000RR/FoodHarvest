@@ -1,12 +1,12 @@
 
 import express from "express";
 import path from "path";
-import { TestHarvesting } from "./Harvesters/TestHarvesting.js";
+import { Harvesting } from "./Harvesting.js";
 
 const app = express();
 
 app.use(express.json());
 
-TestHarvesting.test();
+Harvesting.test();
 
 app.listen(3000, () => console.log("Listening on port 3000"));
