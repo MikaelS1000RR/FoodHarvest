@@ -1,11 +1,11 @@
 import fs from "fs";
-import { WillysHarvester } from "./WillysHarvester.js";
-import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
-import { FirebaseHandler } from "../FirebaseHandler.js";
+import { WillysHarvester } from "./Harvesters/WillysHarvester.js";
+import { WillysScrubber } from "./Scrubbers/WillysScrubber.js";
+import { FirebaseHandler } from "./FirebaseHandler.js";
 
 
-export class TestHarvesting {
-  static async test() {
+export class Harvesting {
+  static async run() {
 
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
@@ -17,11 +17,9 @@ export class TestHarvesting {
     }
 
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
-  
-
 
     //Scrubbing all products
-   let scrubbedProducts = await WillysScrubber.scrubAll(
+    let scrubbedProducts = await WillysScrubber.scrubAll(
       allProductsOfWillys
     );
   
