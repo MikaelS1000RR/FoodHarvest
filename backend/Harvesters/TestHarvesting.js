@@ -26,7 +26,7 @@ export class TestHarvesting {
  
 
 //Posting scrubbed products into db
-  FirebaseHandler.postProduct(scrubbedProducts);
+ // FirebaseHandler.postProduct(scrubbedProducts);
 
    
    

@@ -20,9 +20,9 @@ export class WillysScrubber extends Scrubber {
 
     category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
-    ean: (x) => this.getEan(x.code),
+    //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    discount: (x) =>this.setDiscount(x.code)
+    //discount: (x) =>this.setDiscount(x.code)
   };
 
   static async setQuantityUnit(quantity) {

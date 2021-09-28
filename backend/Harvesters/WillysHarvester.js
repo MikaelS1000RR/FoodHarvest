@@ -48,7 +48,7 @@ export class WillysHarvester {
       productsOfCategory[i].category=Category.scrubCategories(category.title, categoriesOfDb)
   
           allProductsOfWillys.push(productsOfCategory[i]);
-       //productsOfCategory[i].category = category.url;
+      
       }
     
     }
