@@ -9,15 +9,18 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
   const [products, setProducts] = useState([]);
-
+  console.log(props.prop, "props")
   useEffect(() => {
-    fetchProducts();
+    fetchProducts(props);
   }, []);
+//      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
-  const fetchProducts = () => {
+  const fetchProducts = (props) => {
+    console.log(props.prop, "props")
+
     firestore.collection('products')
       .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
-      .limit(20)
+      .limit(10)
       .onSnapshot(
       (snapshot) => {
         const docs = [];
