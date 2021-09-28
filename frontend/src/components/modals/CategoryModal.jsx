@@ -14,12 +14,13 @@ const CategoryModal = () => {
       {categories.length > 0
         ? categories.map((c) => (
           <Link to={`/catagories/${c.name}`} key={c.id}>
-          <Button className="m-1" color="primary" onClick={toggleCategoryModal}>
+            <Button className="m-1" color="primary" key={c.id} id={c.id} onClick={toggleCategoryModal}>
               {c.name}
             </Button>
           </Link>
           ))
-        : null}
+        : null
+      }
     </div>
   );
 

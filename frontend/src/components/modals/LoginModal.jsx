@@ -15,8 +15,7 @@ const LoginModal = () => {
     e.preventDefault();
 
       try {
-        const user = await login(email, password);
-        console.log(user);
+        await login(email, password);
         toggleLoginModal();
       } catch {
       }
@@ -24,7 +23,7 @@ const LoginModal = () => {
 
   const form = (
     <Form onSubmit={handleSubmit}>
-      <div class="mb-3">
+      <div className="mb-3">
         <input
           type="email"
           className="form-control"

@@ -26,10 +26,10 @@ const AuthProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    const unsubsribe = auth.onAuthStateChanged(user => {
+    const unsubscribe = auth.onAuthStateChanged(user => {
       setCurrentUser(user);
     })
-    return unsubsribe;
+    return unsubscribe;
   }, [])
 
   auth.onAuthStateChanged(user => {

@@ -13,33 +13,19 @@ import {
 } from 'reactstrap';
 import GuestNav from './GuestNav';
 import UserNav from './UserNav';
+import ProductListDropdown from './ProductListDropdown';
 
 const Navigationbar = (props) => {
   const { currentUser } = useAuth();
   const [hamburgerMenu, setHamburgerMenu] = useState(false);
   const toggleHamburgerMenu = () => setHamburgerMenu(!hamburgerMenu);
 
-  const [chooseListDropDown, setChooseListDropDown] = useState(false);
-  const toggleChooseListDropDown = () => {
-    setHamburgerMenu(false);
-    setChooseListDropDown(!chooseListDropDown);
-  }
   return (
     <div>
       <Navbar color="primary" light expand="md">
         <Nav className="mr-auto" navbar>
-           <Dropdown isOpen={chooseListDropDown} toggle={toggleChooseListDropDown}>
-             <DropdownToggle color="warning" caret>
-               ❤️ Välj lista
-             </DropdownToggle>
-             <DropdownMenu>
-               <div>Grönsaker</div>
-               <div>test</div>
-               <div>test</div>
-               <div>Lägg till en lista +</div>
-             </DropdownMenu>
-           </Dropdown>
-         </Nav>
+          <ProductListDropdown setMenu={setHamburgerMenu}/>
+        </Nav>
 
         <Link to="/" style={styles.link}>
           <NavbarBrand className="text-white">FoodHarvest</NavbarBrand>
