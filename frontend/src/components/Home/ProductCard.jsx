@@ -25,8 +25,8 @@ const ProductCard = (props) => {
             <img
               className=""
               style={styles.image.content}
-              src={product.image}
-              alt={product.image}
+              src={product.imageUrl}
+              alt={product.imageUrl}
             />
           </div>
           <div className="card-body">

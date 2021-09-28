@@ -8,36 +8,24 @@ export const useProduct = () => {
 };
 
 const ProductProvider = (props) => {
-  const [products, setProducts] = useState([]);
-  console.log(props.prop, "props")
-  useEffect(() => {
-    // fetchProducts(props);
-  }, []);
-//      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
-  const fetchProducts = (props) => {
-    console.log(props, "props i ProductContext")
-    // const myRequest = JSON.stringify(props.prop);
-    // console.log(myRequest, "myRequest");
-    // console.log(`{"categoryName":${myRequest}}`,"this is the fetch")
-    // console.log('{"categoryName":"Kött, Fågel & Chark"}', "this is the fetch2")
-
-    // firestore.collection('products')
-    //   .where("category", "==", `{"categoryName":${myRequest}}`)
-    //   .limit(5)
-    //   .onSnapshot(
-    //   (snapshot) => {
-    //     const docs = [];
-    //     snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
-    //     setProducts(docs)
-    //   }
-    // )
+  const fetchProductsByCategory = async (categoryRef) => {
+    const docs = [];
+    let snapshot = await firestore
+      .collection("test-products-willys")
+      .where("category", "==", categoryRef)
+      .limit(1)
+      .get();
+    
+    snapshot.forEach((doc) => {          
+      docs.push({ id: doc.id, ...doc.data() })
+      }
+    );
+    return docs;
   };
 
   const values = {
-    products,
-    fetchProducts,
-
+    fetchProductsByCategory,
   };
 
   return (
