@@ -1,9 +1,8 @@
-import ProductCard from "../components/home/ProductCard";
-import data from '../testData.js' // will be removed when real data is fetched
+import ProductCard from "../components/search/ProductCard";
 import React from "react";
-import SearchBar from "../components/SearchBar";
 import firestore from '../database_config/firestore';
 import { useState, useEffect } from 'react';
+import LandingPage from "../components/search/LandingPage";
 
 const Home = () => {
 
@@ -38,7 +37,7 @@ const Home = () => {
   else {
     return (
       <div className="container" style={styles.container}>
-        <SearchBar />
+        <LandingPage/>
         <div className="row gy-3">
           {products.map((p, index) => (
             <ProductCard
