@@ -4,6 +4,7 @@ import { Category } from '../Models/Category.js'
 
 export class MathemHarvester {
   
+
     static async getCategories() {
         let raw = await fetch(
             "https://api.mathem.io/ecom-navigation/noauth/category/16" 
@@ -32,6 +33,7 @@ export class MathemHarvester {
                 let products = underCategories[j].products;
                 console.log(products)
                 productStorage = [...productStorage, ...products];
+                
             }
         }
 

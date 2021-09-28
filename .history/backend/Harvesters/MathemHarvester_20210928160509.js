@@ -32,6 +32,7 @@ export class MathemHarvester {
                 let products = underCategories[j].products;
                 console.log(products)
                 productStorage = [...productStorage, ...products];
+                
             }
         }
 

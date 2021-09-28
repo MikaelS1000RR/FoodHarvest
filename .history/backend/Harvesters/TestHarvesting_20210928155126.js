@@ -13,18 +13,16 @@ export class TestHarvesting {
 
       // Categories 
       let categories = await MathemHarvester.getCategories();
-      console.log('reached ', categories.length)
-      let getProducts = await MathemHarvester.getProductsFromCategories([categories[0]]);
+
+      let getProducts = await MathemHarvester.getProductsFromCategories(categories);
       
       // let productsOfMathem = await MathemHarvester.getProducts();
      
 
-     
-      
     
    //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
    
-   console.log(getProducts[0]);
+   //console.log(getProducts);
   
     // let cat = rawMat.children;
   

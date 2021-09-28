@@ -3,7 +3,10 @@ import { FirebaseHandler } from '../FirebaseHandler.js'
 import { Category } from '../Models/Category.js'
 
 export class MathemHarvester {
-  
+    // static bustCache() {
+    //     return "?avoidCache=" + (Math.random() + "").split(".")[1];
+    // }
+
     static async getCategories() {
         let raw = await fetch(
             "https://api.mathem.io/ecom-navigation/noauth/category/16" 
@@ -30,8 +33,9 @@ export class MathemHarvester {
             let underCategories = await this.getProducts(product.id)
             for(let j = 0; j < underCategories.length; j++) {
                 let products = underCategories[j].products;
-                console.log(products)
+                console.log()
                 productStorage = [...productStorage, ...products];
+                
             }
         }
 
