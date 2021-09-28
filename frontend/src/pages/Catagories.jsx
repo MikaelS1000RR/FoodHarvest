@@ -9,7 +9,7 @@ const Catagories = (props) => {
   // console.log(props)
   const title = "Produkter";
   const { products } = useProduct();
-  console.log(products);
+  console.log(products, "products");
   return (
     <div>
       Catagories + {props.match.params.name}

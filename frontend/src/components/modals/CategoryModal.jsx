@@ -15,7 +15,6 @@ const CategoryModal = () => {
         ? categories.map((c) => (
           <Link to={`/catagories/${c.name}`} key={c.id}>
             <Button className="m-1" color="primary" key={c.id} id={c.id} onClick={toggleCategoryModal}>
-              {c.id}
               {c.name}
             </Button>
           </Link>
