@@ -31,17 +31,33 @@ export class FirebaseHandler {
     return id;
   }
 
-  static async getPreferenceId(preferenceName) {
-    let preference = await firestore
-      .collection("preferences")
-      .where("name", "==", preferenceName)
-      .get();
-    let id = "";
-    preference.forEach((doc) => {
-      id = doc.id;
-    });
+  static async getReferencesPreferencesIds(preferenceArr) {
+    let preferenceRefArr = [];
+    
+    if (preferenceArr != null) {
+    
+      for (preferenceObj of preferenceArr) {
+   
+        let preference = await firestore
+          .collection("preferences")
+          .where("name", "==", preferenceObj.name)
+          .get();
+      
+        let id = "";
+        preference.forEach((doc) => {
+          id = doc.id;
+        });
 
-    return id;
+        preferenceRefArr.push(firestore.doc("preferences/" + id));
+      }
+
+   
+
+      
+    }
+
+    return preferenceRefArr;
+   
   }
 
   static async getIdByName(collection, name) {
@@ -94,7 +110,7 @@ export class FirebaseHandler {
         category: firestore.doc(
           "categories/" + (await this.getCategoryId(product.category.name))
         ),
-        preferences: getRefs(product.preferences),
+        preferences: this.getReferencesPreferencesIds(product.preferences),
         ean: product.ean,
         store: firestore.doc(
           "stores/" + (await this.getStoreId(product.store.storeName))
@@ -108,7 +124,8 @@ export class FirebaseHandler {
           isMemberDiscount: product.discount.isMemberDiscount,
         },
       };
-      firestore.collection("test-products-willys").doc().set(productToPost);
+      console.log(productToPost);
+      //firestore.collection("test-products-willys").doc().set(productToPost);
     }
     console.log("posted product in db!");
   }

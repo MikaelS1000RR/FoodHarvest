@@ -18,7 +18,7 @@ export class WillysHarvester {
   //Getting products in one specific category
   static async getProducts(categoryURL) {
     let raw = await fetch(
-      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=10"
+      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=1"
       //Max amount of items per category is 2124 (skafferi) so the max size will be 2200, ca 18k items in Willys
     );
    
@@ -34,7 +34,7 @@ export class WillysHarvester {
   static async getAllProducts(categories) {
   
     let allProductsOfWillys = [];
-    let categoriesOfDb = await FirebaseHandler.getCategories();
+    //let categoriesOfDb = await FirebaseHandler.getCategories();
    
 
     for (var i = 0; i < categories.length; i++) {
@@ -45,7 +45,7 @@ export class WillysHarvester {
       //Changing category of each product in a specific category
       for (let i = 0; i < productsOfCategory.length; i++){
        
-       productsOfCategory[i].category=Category.scrubCategories(category.title, categoriesOfDb)
+      // productsOfCategory[i].category=Category.scrubCategories(category.title, categoriesOfDb)
   
           allProductsOfWillys.push(productsOfCategory[i]);
        //productsOfCategory[i].category = category.url;

@@ -13,7 +13,8 @@ export class Scrubber {
     }
 
         // Scrub a whole array of products
-        static async scrubAll(products) {
+    static async scrubAll(products) {
+            
             let scrubbed = [];
             for (let product of products) {
                 try {

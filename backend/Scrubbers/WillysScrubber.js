@@ -69,9 +69,9 @@ export class WillysScrubber extends Scrubber {
 
   //Getting ean for a product
   static async getEan(productCode) {
-    let wrongCodeArr = ["101180234_ST", "101344098_ST", "101259124_ST"];
+   
     for (let i = 0; i < wrongCodeArr.length; i++) {
-    if (productCode != wrongCodeArr[i]) {
+   
       let raw = await fetch(
         "https://www.willys.se/axfood/rest/p/" +
         productCode +
@@ -79,7 +79,7 @@ export class WillysScrubber extends Scrubber {
       );
       let formatted = await raw.json();
       return formatted.ean;
-    }
+    
   }
     return null
   }

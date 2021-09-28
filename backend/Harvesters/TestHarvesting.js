@@ -15,7 +15,9 @@ export class TestHarvesting {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
 
-  let allProductsOfWillys = await WillysHarvester.getAllProducts([categories[2]]); //This is all products of Willys
+  let allProductsOfWillys = await WillysHarvester.getAllProducts([
+    categories[2],
+  ]); //This is all products of Willys
   
 
 
@@ -26,7 +28,9 @@ export class TestHarvesting {
 
 
 //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts);
+  FirebaseHandler.postProduct(scrubbedProducts);
+
+   
    
   }
 }
