@@ -24,11 +24,14 @@ export class Harvesting {
     );
   
 
-  //Posting scrubbed products into db
+    wr
+
+ 
+
+//Posting scrubbed products into db
  // FirebaseHandler.postProduct(scrubbedProducts);
 
    
+   
   }
-
-
 }
