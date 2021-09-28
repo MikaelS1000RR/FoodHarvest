@@ -19,7 +19,7 @@ export class MathemScrubber extends Scrubber {
         imageUrl: (x) => x.images,
         category: (x) => x.category,
         preferences: (x) => x.preferences,
-        ean: (x) => x.gtin,
+        ean: (x) => this.getEan(x.code),
         store: (x) => x.shops.name,
         discount: (x) => x.discount
     }
