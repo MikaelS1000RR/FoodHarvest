@@ -5,7 +5,7 @@ import { FirebaseHandler } from "./FirebaseHandler.js";
 
 
 export class Harvesting {
-  static async test() {
+  static async run() {
 
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children; //Getting all BASIC categories of willys
