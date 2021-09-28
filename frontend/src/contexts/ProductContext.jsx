@@ -16,11 +16,14 @@ const ProductProvider = (props) => {
 //      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
   const fetchProducts = (props) => {
-    console.log(props.prop, "props")
+    console.log(props.prop, "props i ProductContext")
+    const myRequest = JSON.stringify(props.prop);
+    console.log(myRequest, "myRequest");
+    console.log(`{"categoryName":${myRequest}}`,"this is the fetch")
 
     firestore.collection('products')
-      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
-      .limit(10)
+      .where("category", "==", `{categoryName":${myRequest}}`)
+      .limit(5)
       .onSnapshot(
       (snapshot) => {
         const docs = [];
