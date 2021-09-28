@@ -125,7 +125,7 @@ export class FirebaseHandler {
         },
       };
       console.log(productToPost);
-      //firestore.collection("test-products-willys").doc().set(productToPost);
+      firestore.collection("test-products-willys").doc().set(productToPost);
     }
     console.log("posted product in db!");
   }

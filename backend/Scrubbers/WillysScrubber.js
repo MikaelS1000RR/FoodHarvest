@@ -70,7 +70,7 @@ export class WillysScrubber extends Scrubber {
   //Getting ean for a product
   static async getEan(productCode) {
    
-    for (let i = 0; i < wrongCodeArr.length; i++) {
+  
    
       let raw = await fetch(
         "https://www.willys.se/axfood/rest/p/" +
@@ -80,8 +80,7 @@ export class WillysScrubber extends Scrubber {
       let formatted = await raw.json();
       return formatted.ean;
     
-  }
-    return null
+  
   }
 
   //Setting store as Willys
