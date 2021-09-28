@@ -21,7 +21,8 @@ export class MathemScrubber extends Scrubber {
         preferences: (x) => x.preferences,
         ean: (x) => this.getEan(x.code),
         store: (x) => x.shops.name,
-        discount: (x) => x.discount
+        discount: (x
+
     }
 
     static async getEan(productCode) {

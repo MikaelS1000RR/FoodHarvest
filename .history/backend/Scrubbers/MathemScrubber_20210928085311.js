@@ -19,9 +19,7 @@ export class MathemScrubber extends Scrubber {
         imageUrl: (x) => x.images,
         category: (x) => x.category,
         preferences: (x) => x.preferences,
-        ean: (x) => this.getEan(x.code),
-        store: (x) => x.shops.name,
-        discount: (x) => x.discount
+        ean: (x) => 
     }
 
     static async getEan(productCode) {
@@ -29,10 +27,6 @@ export class MathemScrubber extends Scrubber {
             "https://api.mathem.io/product-search/noauth/search/query?size=1003&index=0&storeId=10&searchType=recommended" 
             + productCode + MathemHarvester.bustCache()
         );
-        let formatted = await raw.json();
-        return formatted.ean; 
+        let formatted = await raw.json()
     }
-
-
-
 }

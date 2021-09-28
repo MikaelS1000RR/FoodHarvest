@@ -5,7 +5,6 @@ import { FirebaseHandler } from "../FirebaseHandler.js";
 import { Store } from '../Models/Store.js'
 import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
-import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
 
 export class MathemScrubber extends Scrubber {
     static translateSchema = {
@@ -19,20 +18,8 @@ export class MathemScrubber extends Scrubber {
         imageUrl: (x) => x.images,
         category: (x) => x.category,
         preferences: (x) => x.preferences,
-        ean: (x) => this.getEan(x.code),
-        store: (x) => x.shops.name,
-        discount: (x) => x.discount
+        category: (x) => x.category,
+        gtin: (x) => 
+
     }
-
-    static async getEan(productCode) {
-        let raw = await fetch(
-            "https://api.mathem.io/product-search/noauth/search/query?size=1003&index=0&storeId=10&searchType=recommended" 
-            + productCode + MathemHarvester.bustCache()
-        );
-        let formatted = await raw.json();
-        return formatted.ean; 
-    }
-
-
-
 }

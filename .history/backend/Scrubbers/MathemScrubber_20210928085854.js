@@ -21,7 +21,7 @@ export class MathemScrubber extends Scrubber {
         preferences: (x) => x.preferences,
         ean: (x) => this.getEan(x.code),
         store: (x) => x.shops.name,
-        discount: (x) => x.discount
+        
     }
 
     static async getEan(productCode) {
@@ -32,7 +32,4 @@ export class MathemScrubber extends Scrubber {
         let formatted = await raw.json();
         return formatted.ean; 
     }
-
-
-
 }
