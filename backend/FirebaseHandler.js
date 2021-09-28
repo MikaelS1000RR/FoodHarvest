@@ -7,18 +7,18 @@ export class FirebaseHandler {
 
   // gets the reference id from db
   static getIdByProperty = async (collection, key, property) => {
-    console.log(key + " " + property);
-    let docs = await firestore
+    let querySnapshot = await firestore
       .collection(collection)
       .where(key, "==", property)
       .get();
-    console.log("document");
-    console.log(docs);
-    console.log("document end");
-    docs.forEach((doc) => {
-      console.log("id", doc.id);
-      return doc.id;
+    let id = "";
+    querySnapshot.forEach((doc) => {
+      if (doc.id) {
+        id = doc.id;
+        return;
+      }
     });
+    return id;
   }
 
   // returns the reference of the document in the collection, key is the name of property
@@ -26,10 +26,8 @@ export class FirebaseHandler {
     let property = doc[key];
     if (doc != null && property) {
       let id = await this.getIdByProperty(collection, key, property);
-      console.log(id);
-      if (id) { 
+      if (id) {
         let ref = firestore.doc(collection + "/" + id);
-        console.log(ref);
         return ref;
       }
     }
@@ -87,7 +85,7 @@ export class FirebaseHandler {
         category: await this.getOneRef(product.category, "categories", "name"),
         preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
         ean: product.ean,
-        store: await this.getOneRef(product.store, "stores", "storeName"),
+        store: await this.getOneRef(product.store, "stores", "name"),
         discount: {
           discountType: product.discount.discountType,
           quantityToBeBought: product.discount.quantityToBeBought,
