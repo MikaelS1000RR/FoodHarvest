@@ -4,73 +4,50 @@ import { Product } from "./Models/Product.js";
 
 export class FirebaseHandler {
   //Getting stores from db
-  static async getStoreId(storeName) {
-    let store = await firestore
-      .collection("stores")
-      .where("name", "==", storeName)
-      .get();
-    let id = "";
-    store.forEach((doc) => {
-      id = doc.id;
-    });
 
-    return id;
-  }
-
-  //Getting categories from db
-  static async getCategoryId(categoryName) {
-    let category = await firestore
-      .collection("categories")
-      .where("name", "==", categoryName)
-      .get();
-    let id = "";
-    category.forEach((doc) => {
-      id = doc.id;
-    });
-
-    return id;
-  }
-
-  static async getReferencesPreferencesIds(preferenceArr) {
-    let preferenceRefArr = [];
-    
-    if (preferenceArr != null) {
-    
-      for (preferenceObj of preferenceArr) {
-   
-        let preference = await firestore
-          .collection("preferences")
-          .where("name", "==", preferenceObj.name)
-          .get();
-      
-        let id = "";
-        preference.forEach((doc) => {
-          id = doc.id;
-        });
-
-        preferenceRefArr.push(firestore.doc("preferences/" + id));
-      }
-
-   
-
-      
-    }
-
-    return preferenceRefArr;
-   
-  }
-
-  static async getIdByName(collection, name) {
+  // gets the reference id from db
+  static getIdByProperty = async (collection, key, property) => {
+    console.log(key + " " + property);
     let docs = await firestore
       .collection(collection)
-      .where("name", "==", name)
+      .where(key, "==", property)
       .get();
-    let id = "";
+    console.log("document");
+    console.log(docs);
+    console.log("document end");
     docs.forEach((doc) => {
-      id = doc.id;
+      console.log("id", doc.id);
+      return doc.id;
     });
+  }
 
-    return id;
+  // returns the reference of the document in the collection, key is the name of property
+  static getOneRef = async (doc, collection, key) => {
+    let property = doc[key];
+    if (doc != null && property) {
+      let id = await this.getIdByProperty(collection, key, property);
+      console.log(id);
+      if (id) { 
+        let ref = firestore.doc(collection + "/" + id);
+        console.log(ref);
+        return ref;
+      }
+    }
+    return null;
+  };
+
+  // returns an array of references of the documents
+  static getAllRefs = async (docs, collection, key) => {
+    let refs = [];
+    if (docs != null && docs.length > 0) {
+      for (let doc of docs) {
+        let ref = await this.getOneRef(doc, collection, key);
+        if (ref != null) {
+          refs.push(ref);
+        }
+      }
+    }
+    return refs;
   }
 
   static async getCategories() {
@@ -107,14 +84,10 @@ export class FirebaseHandler {
         comparisonPrice: product.comparisonPrice,
         brand: product.brand,
         imageUrl: product.imageUrl,
-        category: firestore.doc(
-          "categories/" + (await this.getCategoryId(product.category.name))
-        ),
-        preferences: this.getReferencesPreferencesIds(product.preferences),
+        category: await this.getOneRef(product.category, "categories", "name"),
+        preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
         ean: product.ean,
-        store: firestore.doc(
-          "stores/" + (await this.getStoreId(product.store.storeName))
-        ),
+        store: await this.getOneRef(product.store, "stores", "storeName"),
         discount: {
           discountType: product.discount.discountType,
           quantityToBeBought: product.discount.quantityToBeBought,
@@ -124,29 +97,20 @@ export class FirebaseHandler {
           isMemberDiscount: product.discount.isMemberDiscount,
         },
       };
-      console.log(productToPost);
+      // console.log(productToPost);
       firestore.collection("test-products-willys").doc().set(productToPost);
     }
     console.log("posted product in db!");
   }
 }
 
-const getRefs = async (collection, docs) => {
+const getRefs = async (docs, collection, property) => {
   let refs = [];
-  if (docs != null && docs.length > 0) { 
+  if (docs != null && docs.length > 0) {
     for (let doc of docs) {
-      let ref = firestore.doc(collection + "/" + await this.getIdByName(collection, doc.name))
-      refs.push(ref)
+      let ref = getOneRef(collection, doc, property);
+      refs.push(ref);
     }
   }
   return refs;
-}
-const getOneRef = async (collection, doc, property) => {
-  if (doc != null) {
-    console.log(doc);
-    console.log(doc[property]);
-    let ref = firestore.doc(collection + "/" + await this.getIdByName(collection, doc[property]))
-    return ref;
-  }
-  return null;
-}
+};

@@ -1,9 +1,9 @@
 export class Scrubber {
 
     static sleep(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
-  });
+        return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
 }
 
     static async scrubOne(product) {
@@ -19,7 +19,7 @@ export class Scrubber {
        return scrubbed;
     }
 
-        // Scrub a whole array of products
+    // Scrub a whole array of products
     static async scrubAll(products) {
             
         let scrubbed = [];

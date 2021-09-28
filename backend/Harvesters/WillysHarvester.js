@@ -18,7 +18,7 @@ export class WillysHarvester {
   //Getting products in one specific category
   static async getProducts(categoryURL) {
     let raw = await fetch(
-      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=1100"
+      "https://www.willys.se/c/" + categoryURL + this.bustCache() + "&size=1"
       //Max amount of items per category is 2124 (skafferi) so the max size will be 2200, ca 18k items in Willys
     );
    
