@@ -44,8 +44,8 @@ export class TestHarvesting {
       allProductsOfWillys[0]
     );
 
-    let scrubbedMathemProducts = await MathemScrubber.scrubAll(categoriesOfMathem[0])
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll(all)
 //Posting scrubbed products into db
-    FirebaseHandler.postProducts(scrubbedProducts, scrubbedMathemProducts);
+    FirebaseHandler.postProducts(scrubbedProducts);
   }
 }

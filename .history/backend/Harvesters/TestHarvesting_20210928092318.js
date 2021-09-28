@@ -3,7 +3,6 @@ import { WillysHarvester } from "./WillysHarvester.js";
 import { MathemHarvester } from "./MathemHarvester.js";
 import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "../FirebaseHandler.js";
-import { MathemScrubber } from "../Scrubbers/MathemScrubber.js";
 
 export class TestHarvesting {
   static async test() {
@@ -44,8 +43,9 @@ export class TestHarvesting {
       allProductsOfWillys[0]
     );
 
-    let scrubbedMathemProducts = await MathemScrubber.scrubAll(categoriesOfMathem[0])
+    
+
 //Posting scrubbed products into db
-    FirebaseHandler.postProducts(scrubbedProducts, scrubbedMathemProducts);
+    FirebaseHandler.postProducts(scrubbedProducts);
   }
 }
