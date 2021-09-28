@@ -24,7 +24,8 @@ export class Harvesting {
     );
   
 
-
+    writeToFile("scrubbed.json", scrubbedProducts)
+    
  
 
 //Posting scrubbed products into db

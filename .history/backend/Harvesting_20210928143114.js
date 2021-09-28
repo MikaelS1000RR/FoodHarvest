@@ -23,8 +23,6 @@ export class Harvesting {
       allProductsOfWillys
     );
   
-
-
  
 
 //Posting scrubbed products into db

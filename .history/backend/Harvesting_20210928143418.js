@@ -24,6 +24,8 @@ export class Harvesting {
     );
   
 
+    console.log()
+    writeToFile("scrubbed.json", scrubbedProducts)
 
  
 
