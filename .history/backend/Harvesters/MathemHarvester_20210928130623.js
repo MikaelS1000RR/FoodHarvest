@@ -40,12 +40,11 @@ export class MathemHarvester {
                  productsOfCategory[i].category = Category.scrubCategories(category.title, categoriesOfDb)
                  allProductsOfMathem.push(productsOfCategory[i]);
             }
-          }
-          console.log('Harvesting of Mathem is done!');
-          return allProductsOfMathem;
+            console.log('Harvesting of Mathem is done!');
+            return allProductsOfMathem;
+        }
     
       }
-      
     }
 
      

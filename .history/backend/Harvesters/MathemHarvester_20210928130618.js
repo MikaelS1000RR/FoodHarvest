@@ -35,17 +35,16 @@ export class MathemHarvester {
             let category = categories[i]; //Getting each category
             let productsOfCategory = await this.getProducts(category.url);
 
-        // Changing category of each product in a specific category
+     //Changing category of each product in a specific category
             for (let i = 0; i < productsOfCategory.length; i++) {
                  productsOfCategory[i].category = Category.scrubCategories(category.title, categoriesOfDb)
                  allProductsOfMathem.push(productsOfCategory[i]);
             }
-          }
-          console.log('Harvesting of Mathem is done!');
-          return allProductsOfMathem;
+            console.log('Harvesting of Mathem is done!');
+            return allProductsOfMathem;
+        }
     
       }
-      
     }
 
      

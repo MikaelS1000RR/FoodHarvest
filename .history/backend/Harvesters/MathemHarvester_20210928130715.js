@@ -45,7 +45,6 @@ export class MathemHarvester {
           return allProductsOfMathem;
     
       }
-      
     }
 
      

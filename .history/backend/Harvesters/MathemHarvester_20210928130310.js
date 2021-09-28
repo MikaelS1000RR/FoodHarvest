@@ -27,25 +27,22 @@ export class MathemHarvester {
       }
 
       static async overWriteProducts(categories) {
-        console.log('Harvesting has started');
         let allProductsOfMathem = [];
         let categoriesOfDb = await FirebaseHandler.getCategories();
 
         for (let i = 0; i < categories.length; i++) {
-            let category = categories[i]; //Getting each category
+            let category = categories[i];
             let productsOfCategory = await this.getProducts(category.url);
 
-        // Changing category of each product in a specific category
-            for (let i = 0; i < productsOfCategory.length; i++) {
-                 productsOfCategory[i].category = Category.scrubCategories(category.title, categoriesOfDb)
-                 allProductsOfMathem.push(productsOfCategory[i]);
-            }
-          }
-          console.log('Harvesting of Mathem is done!');
-          return allProductsOfMathem;
     
-      }
-      
+            for (let i = 0; i < productsOfCategory.length; i++) {
+                 console.log('reached here');
+            }
+        allProductsOfMathem.push(productsOfCategory);
+
+            return allProductsOfMathem;
+        }
+    
     }
 
      
