@@ -24,7 +24,7 @@ export class TestHarvesting {
     
    //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
    
-   console.log(bob);
+   console.log(categories);
   
     // let cat = rawMat.children;
   

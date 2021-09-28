@@ -15,7 +15,7 @@ export class TestHarvesting {
       let categories = await MathemHarvester.getCategories();
       
       let cat = await categories[0];
-      let bob = await MathemHarvester.getProducts(cat.id);
+      let bob = await MathemHarvester.getProducts(cat.products);
 
       let productsOfMathem = bob.products; // Mathem Products
       

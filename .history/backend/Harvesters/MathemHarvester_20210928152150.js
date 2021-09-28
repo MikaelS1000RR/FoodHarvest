@@ -15,9 +15,7 @@ export class MathemHarvester {
     }
 
     static async getProducts(categoryURL) {
-        // Create an empty array
-        // Write for-loop to loop products in categories
-        // Store products from categories in array 
+        // Create an empy 
         let raw = await fetch(
             "https://api.mathem.io/product-search/noauth/categorylist/" 
             + categoryURL + 
