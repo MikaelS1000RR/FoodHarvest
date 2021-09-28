@@ -11,7 +11,7 @@ const ProductProvider = (props) => {
   const [products, setProducts] = useState([]);
   console.log(props.prop, "props")
   useEffect(() => {
-    fetchProducts(props);
+    // fetchProducts(props);
   }, []);
 //      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
