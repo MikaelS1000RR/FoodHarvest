@@ -24,7 +24,8 @@ export class TestHarvesting {
    let scrubbedProducts = await WillysScrubber.scrubAll(
       allProductsOfWillys
     );
-  
+    console.log(scrubbedProducts.length)
+    writeToFile("scrubbed.json",scrubbedProducts)
  
 
 //Posting scrubbed products into db

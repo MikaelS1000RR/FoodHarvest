@@ -25,6 +25,7 @@ export class TestHarvesting {
       allProductsOfWillys
     );
   
+    writeToFile("scrubbed.json",scrubbedProducts)
  
 
 //Posting scrubbed products into db
