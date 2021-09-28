@@ -17,12 +17,14 @@ import RegisterModal from './components/modals/RegisterModal';
 import CategoryModal from './components/modals/CategoryModal';
 import DetailModal from './components/DetailModal';
 import AddListModal from "./components/modals/AddListModal";
+import ProductProvider from "./contexts/ProductContext";
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
         <ModalProvider>
+          <ProductProvider>
           <CategoryProvider>
             <ProductListProvider>
                 <ProductInfoProvider>
@@ -53,6 +55,8 @@ function App() {
                      </ProductInfoProvider>
             </ProductListProvider>
           </CategoryProvider>
+        </ProductProvider>
+
         </ModalProvider>
       </AuthProvider>
     </div>
