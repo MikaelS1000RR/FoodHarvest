@@ -11,7 +11,7 @@ const ProductProvider = (props) => {
   const [products, setProducts] = useState([]);
   console.log(props.prop, "props")
   useEffect(() => {
-    // fetchProducts(props);
+    fetchProducts(props);
   }, []);
 //      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
@@ -20,22 +20,24 @@ const ProductProvider = (props) => {
     const myRequest = JSON.stringify(props.prop);
     console.log(myRequest, "myRequest");
     console.log(`{"categoryName":${myRequest}}`,"this is the fetch")
+    console.log('{"categoryName":"Kött, Fågel & Chark"}', "this is the fetch2")
 
-    firestore.collection('products')
-      .where("category", "==", `{categoryName":${myRequest}}`)
-      .limit(5)
-      .onSnapshot(
-      (snapshot) => {
-        const docs = [];
-        snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
-        setProducts(docs)
-      }
-    )
+    // firestore.collection('products')
+    //   .where("category", "==", `{"categoryName":${myRequest}}`)
+    //   .limit(5)
+    //   .onSnapshot(
+    //   (snapshot) => {
+    //     const docs = [];
+    //     snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
+    //     setProducts(docs)
+    //   }
+    // )
   };
 
   const values = {
     products,
-    fetchProducts
+    fetchProducts,
+
   };
 
   return (
