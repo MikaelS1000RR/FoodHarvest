@@ -6,7 +6,7 @@ import { Container } from "reactstrap";
 import ProductContext from "../contexts/ProductContext";
 
 const Catagories = (props) => {
-  console.log(props)
+  console.log(props, "In categories")
   const title = "Produkter";
   const { products } = useProduct();
   // console.log(products, "products");

@@ -16,11 +16,11 @@ const ProductProvider = (props) => {
 //      .where("category", "==", '{"categoryName":"Kött, Fågel & Chark"}')
 
   const fetchProducts = (props) => {
-    console.log(props.prop, "props i ProductContext")
-    const myRequest = JSON.stringify(props.prop);
-    console.log(myRequest, "myRequest");
-    console.log(`{"categoryName":${myRequest}}`,"this is the fetch")
-    console.log('{"categoryName":"Kött, Fågel & Chark"}', "this is the fetch2")
+    console.log(props, "props i ProductContext")
+    // const myRequest = JSON.stringify(props.prop);
+    // console.log(myRequest, "myRequest");
+    // console.log(`{"categoryName":${myRequest}}`,"this is the fetch")
+    // console.log('{"categoryName":"Kött, Fågel & Chark"}', "this is the fetch2")
 
     // firestore.collection('products')
     //   .where("category", "==", `{"categoryName":${myRequest}}`)
