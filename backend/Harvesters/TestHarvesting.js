@@ -8,8 +8,8 @@ import { MathemScrubber } from "../Scrubbers/MathemScrubber.js";
 export class TestHarvesting {
   static async test() {
 
-    let rawData = await WillysHarvester.getCategories();
-    let categories = rawData.children; //Getting all BASIC categories of willys
+    // let rawData = await WillysHarvester.getCategories();
+    // let categories = rawData.children; //Getting all BASIC categories of willys
 
       let rawDataMathem = await MathemHarvester.getCategories();
       let categoriesOfMathem = await rawDataMathem.products; // Mathem Categories
@@ -27,7 +27,7 @@ export class TestHarvesting {
     fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
   }
   
-  let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
+  //let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
  // let mathemData = await MathemHarvester.getAllProducts(cat);
   // let allProductsOfMathem = await allProductsOfMathem.getAllProducts(cat);
   let allProductsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem)
@@ -35,17 +35,19 @@ export class TestHarvesting {
    console.log(allProductsOfMathem);
   
 
-
-    // writeToFile("willys-all-products1.json", allProductsOfWillys[0]);  //Write all products to file if needed (it takes kinda long time)
+    // let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
+  
 
 
     //Scrubbing all products
-   let scrubbedProducts = await WillysScrubber.scrubAll(
-      allProductsOfWillys[0]
-    );
+  //  let scrubbedProducts = await WillysScrubber.scrubAll(
+  //     allProductsOfWillys
+  //   );
+ 
 
     let scrubbedMathemProducts = await MathemScrubber.scrubAll(categoriesOfMathem[0])
 //Posting scrubbed products into db
-    FirebaseHandler.postProducts(scrubbedProducts, scrubbedMathemProducts);
+    
+    FirebaseHandler.postProducts(scrubbedMathemProducts);
   }
 }

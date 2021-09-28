@@ -20,17 +20,9 @@ export class WillysScrubber extends Scrubber {
 
     category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
-    ean: (x) => this.getEan(x.code),
+    //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    discount: (x) =>
-      new Discount(
-       null,
-        null,
-        x.price,
-        x.savingsAmount,
-        Math.round((parseInt(x.savingsAmount) / parseInt(x.priceNoUnit)) * 100),
-        false
-      ),
+    //discount: (x) =>this.setDiscount(x.code)
   };
 
   static async setQuantityUnit(quantity) {
@@ -42,15 +34,53 @@ export class WillysScrubber extends Scrubber {
   }
 
 
-  //Getting ean for a product
-  static async getEan(productCode) {
+  static async setDiscount(productCode) {
+    let type = null
+    let quantityToBeBought=null
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" +
-        productCode +
-        WillysHarvester.bustCache()
+      productCode +
+      WillysHarvester.bustCache()
     );
     let formatted = await raw.json();
-    return formatted.ean;
+  
+      if (formatted.potentialPromotions.length != 0) {
+        type = formatted.potentialPromotions[0].campaignType;
+        quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
+      }
+      let discount = new Discount(
+        type,
+        quantityToBeBought,
+        formatted.price,
+        formatted.savingsAmount,
+        Math.round(
+          (parseFloat(formatted.savingsAmount) /
+            parseFloat(formatted.priceNoUnit)) *
+            100
+        ),
+        false
+    );
+   
+      return discount;
+  
+
+  }
+
+
+  //Getting ean for a product
+  static async getEan(productCode) {
+   
+  
+   
+      let raw = await fetch(
+        "https://www.willys.se/axfood/rest/p/" +
+        productCode +
+        WillysHarvester.bustCache()
+      );
+      let formatted = await raw.json();
+      return formatted.ean;
+    
+  
   }
 
   //Setting store as Willys
@@ -64,11 +94,15 @@ export class WillysScrubber extends Scrubber {
 
   //Setting preferences for a product
   static async setPreferences(preferences) {
-    let arrPreferences = [];
-    for (let i = 0; i < preferences.length; i++) {
-      let newPreference = new Preference(preferences[i]);
-      arrPreferences.push(newPreference);
+
+    //If product has any references then scrub them
+    if (preferences.length != 0) {
+       let result = Preference.scrubPreferences(preferences);
+       return result;
+  }
+ //If not, return null
+    else {
+      return null
     }
-    return arrPreferences;
   }
 }
