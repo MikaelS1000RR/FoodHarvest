@@ -18,9 +18,9 @@ export class Category {
        
        //smth wrong with skönhet och hälsa? It can't find matching category on its own
         if (wordArr3[j]!=undefined && wordArr3[j].includes("Hälsa")) {
-           let newCategory = {
-             name: "Skönhet & Hälsa",
-           };
+             let newCategory = dbCategories.filter(
+               (category) => category.name === "Skönhet & Hälsa"
+             );
           foundCategory = true;
           return newCategory;
         }
@@ -29,7 +29,7 @@ export class Category {
         else if (dbCategories[i].name.includes(wordArr3[j]))
         {
         
-          let newCategory= dbCategories.filter((category)=> category.name === wordArr3[j])
+          let newCategory= dbCategories.filter((category)=> category.name === dbCategories[i].name)
           foundCategory = true;
           return newCategory
         }
@@ -41,9 +41,9 @@ export class Category {
     //If matching category was not found we give it category "Övrigt"
     if (!foundCategory) {
      
-      let newCategory = {
-        name: "Övrigt"
-      }
+       let newCategory = dbCategories.filter(
+         (category) => category.name === "Övrigt"
+       );
       return newCategory
     }
   }
