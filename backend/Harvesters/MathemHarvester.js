@@ -23,13 +23,28 @@ export class MathemHarvester {
         return await raw.json();
     }
 
+
+    //Sending mathem categories as argument for the function
     static async getProductsFromCategories(mCategories) {
         let productStorage = [];
+
+        //For every category that we send we get category object
+        
         for(let i = 0; i < mCategories.length; i++) {
             let category = mCategories[i];
+
+            //Category object has products array inside to we have to take it
+            // CategoryObj: {
+           /*    categories: [
+                   products: [
+                     //...here are the products
+                            ]
+                ]
+            } */
             let categoriesObj = await this.getProducts(category.id)
             let productsArr = categoriesObj.categories[0].products
-
+   
+            //For every product that we get inside of products array, we push the product to our own array
             for (let j = 0; j < productsArr.length; j++){
                 productStorage.push(productsArr[j])
             }

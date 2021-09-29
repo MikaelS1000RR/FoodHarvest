@@ -8,8 +8,11 @@ import { MathemHarvester } from "./Harvesters/MathemHarvester.js";
 export class Harvesting {
   static async run() {
 
+    //Here we get all categories from Mathem
     let categories = await MathemHarvester.getCategories();
 
+
+    //Here we use all categories to get products from each category
     let allProductsOfMathem = await MathemHarvester.getProductsFromCategories(categories)
     console.log(allProductsOfMathem);
     
