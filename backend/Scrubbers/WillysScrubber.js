@@ -7,6 +7,8 @@ import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
+  static store = FirebaseHandler.getObjectByProperty("stores", "name", "Willys");
+
   static translateSchema = {
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,

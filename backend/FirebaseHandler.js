@@ -36,6 +36,21 @@ export class FirebaseHandler {
     return ref;
   };
 
+  static getObjectByProperty = async (collection, key, property) => {
+    let querySnapshot = await firestore
+      .collection(collection)
+      .where(key, "==", property)
+      .get();
+    let toReturn = {};
+    querySnapshot.forEach((doc) => {
+      if (doc.ref) {
+        toReturn = { ref: doc.ref, ...doc.data()};
+        return;
+      }
+    });
+    return toReturn;
+  };
+
   // returns the reference of the document in the collection, key is the name of property
   static getOneRef = async (doc, collection, key) => {
     let property = doc[key];
