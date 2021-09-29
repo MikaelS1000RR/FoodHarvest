@@ -1,7 +1,7 @@
 export class Store{
-  constructor(storeName, logoUrl) {
+  constructor(name, logoUrl) {
    
-    this.storeName = storeName;
+    this.name = name;
     this.logoUrl = logoUrl;
   }
 }

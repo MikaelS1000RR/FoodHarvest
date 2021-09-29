@@ -20,9 +20,10 @@ export class WillysScrubber extends Scrubber {
 
     category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
-    ean: (x) => this.getEan(x.code),
+    //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    discount: (x) =>this.setDiscount(x.code)
+    discount: (x) => this.getDiscount(x.potentialPromotions, x),
+    //discount: (x) =>this.setDiscount(x.code)
   };
 
   static async setQuantityUnit(quantity) {
@@ -33,55 +34,66 @@ export class WillysScrubber extends Scrubber {
     }
   }
 
-  
-  static async setDiscount(productCode) {
-    let type = null
-    let quantityToBeBought=null
-    let raw = await fetch(
-      "https://www.willys.se/axfood/rest/p/" +
-      productCode +
-      WillysHarvester.bustCache()
-    );
-    let formatted = await raw.json();
-  
-      if (formatted.potentialPromotions.length != 0) {
-        type = formatted.potentialPromotions[0].campaignType;
-        quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
-      }
+  static async getDiscount(promotions, product) {
+    if (promotions.length != 0) {
       let discount = new Discount(
-        type,
-        quantityToBeBought,
-        formatted.price,
-        formatted.savingsAmount,
+        promotions[0].campaignType,
+        promotions[0].qualifyingCount,
+        product.price,
+        product.savingsAmount,
         Math.round(
-          (parseFloat(formatted.savingsAmount) /
-            parseFloat(formatted.priceNoUnit)) *
+          (parseFloat(product.savingsAmount) /
+            parseFloat(product.priceNoUnit)) *
             100
         ),
-        false
-    );
-   
+        false);
       return discount;
-  
-
+    }
+    else {
+      return null;
+    }
+   
   }
 
+  static async setDiscount(productCode) {
+    let type = null;
+    let quantityToBeBought = null;
+    let raw = await fetch(
+      "https://www.willys.se/axfood/rest/p/" +
+        productCode +
+        WillysHarvester.bustCache()
+    );
+    let formatted = await raw.json();
+
+    if (formatted.potentialPromotions.length != 0) {
+      type = formatted.potentialPromotions[0].campaignType;
+      quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
+    }
+    let discount = new Discount(
+      type,
+      quantityToBeBought,
+      formatted.price,
+      formatted.savingsAmount,
+      Math.round(
+        (parseFloat(formatted.savingsAmount) /
+          parseFloat(formatted.priceNoUnit)) *
+          100
+      ),
+      false
+    );
+
+    return discount;
+  }
 
   //Getting ean for a product
   static async getEan(productCode) {
-    let wrongCodeArr = ["101180234_ST", "101344098_ST", "101259124_ST"];
-    for (let i = 0; i < wrongCodeArr.length; i++) {
-    if (productCode != wrongCodeArr[i]) {
-      let raw = await fetch(
-        "https://www.willys.se/axfood/rest/p/" +
+    let raw = await fetch(
+      "https://www.willys.se/axfood/rest/p/" +
         productCode +
         WillysHarvester.bustCache()
-      );
-      let formatted = await raw.json();
-      return formatted.ean;
-    }
-  }
-    return null
+    );
+    let formatted = await raw.json();
+    return formatted.ean;
   }
 
   //Setting store as Willys
@@ -95,15 +107,14 @@ export class WillysScrubber extends Scrubber {
 
   //Setting preferences for a product
   static async setPreferences(preferences) {
-
     //If product has any references then scrub them
     if (preferences.length != 0) {
-       let result = Preference.scrubPreferences(preferences);
-       return result;
-  }
- //If not, return null
+      let result = Preference.scrubPreferences(preferences);
+      return result;
+    }
+    //If not, return null
     else {
-      return null
+      return null;
     }
   }
 }
