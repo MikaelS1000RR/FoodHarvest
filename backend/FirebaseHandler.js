@@ -5,6 +5,21 @@ import { Product } from "./Models/Product.js";
 export class FirebaseHandler {
   //Getting stores from db
 
+  //Delete products in collection
+  static async deleteCollection(path) {
+    await firestore
+      .collection(path)
+      .get()
+      .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          doc.ref.delete();
+        });
+      })
+      .then(() => {
+        console.log("Collection has been deleted");
+      });
+  }
+
   // gets the reference id from db
   static getIdByProperty = async (collection, key, property) => {
     let querySnapshot = await firestore
@@ -19,7 +34,7 @@ export class FirebaseHandler {
       }
     });
     return id;
-  }
+  };
 
   // returns the reference of the document in the collection, key is the name of property
   static getOneRef = async (doc, collection, key) => {
@@ -46,7 +61,7 @@ export class FirebaseHandler {
       }
     }
     return refs;
-  }
+  };
 
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();
@@ -68,6 +83,24 @@ export class FirebaseHandler {
     return preferences;
   }
 
+  static setDiscount(product) {
+    let discount=product.discount
+    if(product.discount!=null){
+
+      let discountObj = {
+        discountType: product.discount.discountType,
+        quantityToBeBought: product.discount.quantityToBeBought,
+        displayPrice: product.discount.displayPrice,
+        savings: product.discount.savings,
+        percentageSavings: product.discount.percentageSavings,
+        isMemberDiscount: product.discount.isMemberDiscount,
+      };
+      return discountObj;
+    }
+    else{
+      return null
+    }
+  }
   //Another way to post products
 
   static async postProduct(products) {
@@ -83,24 +116,23 @@ export class FirebaseHandler {
         brand: product.brand,
         imageUrl: product.imageUrl,
         category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
-        ean: product.ean,
+        preferences: await this.getAllRefs(
+          product.preferences,
+          "preferences",
+          "name"
+        ),
+        //ean: product.ean,
         store: await this.getOneRef(product.store, "stores", "name"),
-        discount: {
-          discountType: product.discount.discountType,
-          quantityToBeBought: product.discount.quantityToBeBought,
-          displayPrice: product.discount.displayPrice,
-          savings: product.discount.savings,
-          percentageSavings: product.discount.percentageSavings,
-          isMemberDiscount: product.discount.isMemberDiscount,
-        },
+        discount: this.setDiscount(product)
       };
       // console.log(productToPost);
-      firestore.collection("test-products-willys").doc().set(productToPost);
+      firestore.collection("products").doc().set(productToPost);
     }
-    console.log("posted product in db!");
+    console.log("Posted product in db!");
   }
 }
+
+
 
 const getRefs = async (docs, collection, property) => {
   let refs = [];

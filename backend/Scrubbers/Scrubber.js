@@ -30,7 +30,7 @@ export class Scrubber {
             //     await this.sleep(5 * 60 * 1000)
             //     console.log('after sleep');
             // }
-             
+              
                 try {
                     scrubbed.push(await this.scrubOne(product));
                 }
