@@ -26,7 +26,7 @@ export class MathemHarvester {
     static async getProductsFromCategories(mCategories) {
         console.log('Product MathemHarvesting has started');
         let productStorage = [];
-      //  let categoriesOfDb = await FirebaseHandler.getProducts();
+        let categoriesOfDb = await FirebaseHandler.getProducts();
 
         for(let i = 0; i < mCategories.length; i++) {
             let product = mCategories[i];
@@ -37,7 +37,7 @@ export class MathemHarvester {
             }
 
         }
-        console.log('Here is the products', productStorage);
+        console.log('Here is the products');
         return productStorage;
     }
 

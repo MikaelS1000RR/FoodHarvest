@@ -8,7 +8,7 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/ecom-navigation/noauth/category/16" 
         );
-        return raw.json(); // probably doesn't need await 
+        return raw.json();
     }
 
     static async getProducts(categoryURL) {
@@ -24,20 +24,17 @@ export class MathemHarvester {
     }
 
     static async getProductsFromCategories(mCategories) {
-        console.log('Product MathemHarvesting has started');
         let productStorage = [];
-      //  let categoriesOfDb = await FirebaseHandler.getProducts();
-
         for(let i = 0; i < mCategories.length; i++) {
             let product = mCategories[i];
             let underCategories = await this.getProducts(product.id)
             for(let j = 0; j < underCategories.length; j++) {
-
-                productStorage.push(underCategories[j]);
+                let products = underCategories[j].products;
+                console.log(products)
+                productStorage = [...productStorage, ...products];
             }
-
         }
-        console.log('Here is the products', productStorage);
+
         return productStorage;
     }
 

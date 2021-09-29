@@ -21,10 +21,6 @@ export class Harvesting {
       
     //   console.log(getProducts);
  
-    let categories = await MathemHarvester.getCategories();
-    let products = await MathemHarvester.getProducts(categories[0]);
-    console.log(products);
-
 
     // function writeToFile(fileName, data) {
     //   fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");

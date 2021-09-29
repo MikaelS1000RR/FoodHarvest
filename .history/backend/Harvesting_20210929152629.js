@@ -15,16 +15,13 @@ export class Harvesting {
     // let rawData = await WillysHarvester.getCategories();
     // let categories = rawData.children;
 
-    // let categories = await MathemHarvester.getCategories();
-    //   console.log('reached ', categories)
-    //   let getProducts = await MathemHarvester.getProductsFromCategories([categories[0]]);
-      
-    //   console.log(getProducts);
- 
     let categories = await MathemHarvester.getCategories();
-    let products = await MathemHarvester.getProducts(categories[0]);
-    console.log(products);
-
+      console.log('reached ', categories)
+      let getProducts = await MathemHarvester.getProductsFromCategories([categories[0]]);
+      
+      if(getProducts == undefined)m {}
+      console.log(getProducts);
+ 
 
     // function writeToFile(fileName, data) {
     //   fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
