@@ -47,7 +47,7 @@ export class MathemHarvester {
           //For every product that we get inside of products array, we push the product to our own array
           //And scrub categories for this product
           for (let j = 0; j < productsArr.length; j++) {
-            productsArr[j].category = Category.scrubCategories(category.id, categoriesOfDb)
+            //productsArr[j].category = Category.scrubCategories(category.id, categoriesOfDb)
             
             productStorage.push(productsArr[j]);
           }

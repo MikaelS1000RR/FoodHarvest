@@ -17,7 +17,7 @@ export class MathemScrubber extends Scrubber {
     comparisonPrice: (x) => x.comparisonPrice,
     brand: (x) => x.supplier.name,
     imageUrl: (x) => x.images.SMALL,
-    category: (x) => x.category,
+    //category: (x) => x.category,
     preferences: (x) => x.preferences,
     ean: (x) => x.gtin,
     store: (x) => x.shops.name,
