@@ -18,7 +18,7 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/product-search/noauth/categorylist/" 
             + categoryURL + 
-            "?storeId=16&productSizePerCategory=50&categorySize=20"
+            "?storeId=16&productSizePerCategory=1&categorySize=20"
         );
         return await raw.json();
     }
@@ -26,13 +26,16 @@ export class MathemHarvester {
     static async getProductsFromCategories(mCategories) {
         let productStorage = [];
         for(let i = 0; i < mCategories.length; i++) {
-            let product = mCategories[i];
-            let underCategories = await this.getProducts(product.id)
-            for(let j = 0; j < underCategories.length; j++) {
-                let products = underCategories[j].products;
-                console.log(products)
-                productStorage = [...productStorage, ...products];
+            let category = mCategories[i];
+            let categoriesObj = await this.getProducts(category.id)
+            let productsArr = categoriesObj.categories[0].products
+
+            for (let j = 0; j < productsArr.length; j++){
+                productStorage.push(productsArr[j])
             }
+         
+           
+            
         }
 
         return productStorage;

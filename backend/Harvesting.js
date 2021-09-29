@@ -2,12 +2,19 @@ import fs from "fs";
 import { WillysHarvester } from "./Harvesters/WillysHarvester.js";
 import { WillysScrubber } from "./Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "./FirebaseHandler.js";
+import { MathemHarvester } from "./Harvesters/MathemHarvester.js";
 
 
 export class Harvesting {
   static async run() {
+
+    let categories = await MathemHarvester.getCategories();
+
+    let allProductsOfMathem = await MathemHarvester.getProductsFromCategories(categories)
+    console.log(allProductsOfMathem);
+    
     //Deleting collection before posting anything
-    await FirebaseHandler.deleteCollection("products");
+   /*  await FirebaseHandler.deleteCollection("products");
 
     //Getting all BASIC categories of willys
     let rawData = await WillysHarvester.getCategories();
@@ -26,7 +33,7 @@ export class Harvesting {
     console.log('length of products is ', scrubbedProducts.length);
 
     //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts);
+    FirebaseHandler.postProduct(scrubbedProducts); */
   }
 
 
