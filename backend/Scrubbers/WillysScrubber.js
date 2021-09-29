@@ -109,7 +109,7 @@ export class WillysScrubber extends Scrubber {
   static async setPreferences(preferences) {
     //If product has any references then scrub them
     if (preferences.length != 0) {
-      let result = Preference.scrubPreferences(preferences);
+      let result = Preference.scrubPreferences(preferences, preferencesOfDb);
       return result;
     }
     //If not, return null

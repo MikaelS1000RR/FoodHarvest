@@ -21,6 +21,7 @@ export class Scrubber {
 
     // Scrub a whole array of products
     static async scrubAll(products) {
+        console.log("Start to scrub...");
             
         let scrubbed = [];
         

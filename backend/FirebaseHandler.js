@@ -21,28 +21,27 @@ export class FirebaseHandler {
   }
 
   // gets the reference id from db
-  static getIdByProperty = async (collection, key, property) => {
+  static getRefByProperty = async (collection, key, property) => {
     let querySnapshot = await firestore
       .collection(collection)
       .where(key, "==", property)
       .get();
-    let id = "";
+    let ref = "";
     querySnapshot.forEach((doc) => {
-      if (doc.id) {
-        id = doc.id;
+      if (doc.ref) {
+        ref = doc.ref;
         return;
       }
     });
-    return id;
+    return ref;
   };
 
   // returns the reference of the document in the collection, key is the name of property
   static getOneRef = async (doc, collection, key) => {
     let property = doc[key];
     if (doc != null && property) {
-      let id = await this.getIdByProperty(collection, key, property);
-      if (id) {
-        let ref = firestore.doc(collection + "/" + id);
+      let ref = await this.getRefByProperty(collection, key, property);
+      if (ref) {
         return ref;
       }
     }
@@ -67,7 +66,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push(document.data());
+      categories.push({ ref: document.ref, ...document.data() });
     });
 
     return categories;
@@ -115,14 +114,14 @@ export class FirebaseHandler {
         comparisonPrice: product.comparisonPrice,
         brand: product.brand,
         imageUrl: product.imageUrl,
-        category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(
-          product.preferences,
-          "preferences",
-          "name"
-        ),
+        category: product.category.ref,
+        // preferences: await this.getAllRefs(
+        //   product.preferences,
+        //   "preferences",
+        //   "name"
+        // ),
         //ean: product.ean,
-        store: await this.getOneRef(product.store, "stores", "name"),
+        // store: await this.getOneRef(product.store, "stores", "name"),
         discount: this.setDiscount(product)
       };
       // console.log(productToPost);

@@ -14,7 +14,7 @@ const ProductProvider = (props) => {
     let snapshot = await firestore
       .collection("test-products-willys")
       .where("category", "==", categoryRef)
-      .limit(1)
+      .limit(2)
       .get();
     
     snapshot.forEach((doc) => {          

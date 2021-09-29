@@ -3,15 +3,9 @@ export class Preference{
 
     this.preferenceName = preferenceName;
   }
-
-
-
   //Scrub preferences
   static scrubPreferences(storePreferencesArr) {
     let newPreferencesArr = []
-   
- 
-    
       for (let j = 0; j < storePreferencesArr.length; j++)
       {
         
