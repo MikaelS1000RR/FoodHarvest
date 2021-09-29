@@ -9,11 +9,11 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
 
-  const fetchProductsByCategory = async (categoryRef) => {
+  const fetchProductsByCategory = async (category) => {
     const docs = [];
     let snapshot = await firestore
       .collection("test-products-willys")
-      .where("category", "==", categoryRef)
+      .where("category", "==", category.ref)
       .limit(1)
       .get();
     

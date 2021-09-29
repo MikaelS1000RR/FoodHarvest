@@ -10,15 +10,17 @@ const Category = (props) => {
   const categoryName = props.match.params.name;
   const [products, setProducts] = useState([])
   const { fetchProductsByCategory } = useProduct();
-  const { getCategoryDocRef } = useCategory();
+  const { categories, getCategoryByName } = useCategory();
   
   useEffect(() => {
     const getCategory = async () => {
-      let categoryRef = await getCategoryDocRef(categoryName);
-      let docs = await fetchProductsByCategory(categoryRef);
+      let category = await getCategoryByName(categoryName);
+      let docs = await fetchProductsByCategory(category);
       setProducts(docs);
     }
-    getCategory();
+    if (categories.length > 0) {
+      getCategory();
+    }
   }, [categoryName])
 
   return (

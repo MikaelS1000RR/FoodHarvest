@@ -1,7 +1,6 @@
 
 import express from "express";
 import path from "path";
-import { TestHarvesting } from "./Harvesters/TestHarvesting.js";
 import { HemkopTest } from "./Harvesters/HemkopTest.js";
 import { Harvesting } from "./Harvesting.js";
 

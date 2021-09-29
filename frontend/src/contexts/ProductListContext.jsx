@@ -46,7 +46,6 @@ const ProductListProvider = (props) => {
         fetchProductLists(user.uid)
       }
       else {
-        console.log("user logged out");
         setCurrentProductList(null);
         setProductLists(null);
       }

@@ -20,28 +20,21 @@ const CategoryProvider = (props) => {
     firestore.collection('categories').onSnapshot(
       (snapshot) => {
         const docs = [];
-        snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
+        snapshot.forEach((doc) => docs.push({ id: doc.id, ref: doc.red, ...doc.data() }))
         setCategories(docs)
       }
     )
   };
 
-  const getCategoryDocRef = async (categoryName) => {
-    let docs = await firestore.collection('categories').where('name', '==', categoryName).get();
-    let toReturn = "";
-    docs.forEach(doc => {
-      if (doc.ref) {
-        toReturn = doc.ref;
-        return;
-      }
-    })
-    return toReturn;
+  const getCategoryByName = (categoryName) => {
+    const category = categories.find(cat => cat.name === categoryName)
+    return category
   }
   
   const values = {
     categories,
     fetchCategories,
-    getCategoryDocRef,
+    getCategoryByName,
   };
 
   return (
