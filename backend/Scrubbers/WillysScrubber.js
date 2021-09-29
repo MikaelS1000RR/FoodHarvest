@@ -7,7 +7,7 @@ import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
-  static store = FirebaseHandler.getObjectByProperty("stores", "name", "Willys");
+ static store = FirebaseHandler.getObjectByProperty("stores", "name", "Willys");
 
   static translateSchema = {
     productName: (x) => x.name,
@@ -21,11 +21,10 @@ export class WillysScrubber extends Scrubber {
     imageUrl: (x) => x.thumbnail.url,
 
     category: (x) => x.category, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.labels),
+   // preferences: (x) => this.setPreferences(x.labels),
     //ean: (x) => this.getEan(x.code),
-    store: (x) => this.getStore(),
-    discount: (x) => this.getDiscount(x.potentialPromotions, x),
-    //discount: (x) =>this.setDiscount(x.code)
+    store: (x) => this.store,
+    discount: (x) =>this.getDiscount(x.potentialPromotions, x)
   };
 
   static async setQuantityUnit(quantity) {

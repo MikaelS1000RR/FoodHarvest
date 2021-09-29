@@ -37,6 +37,7 @@ export class FirebaseHandler {
   };
 
   static getObjectByProperty = async (collection, key, property) => {
+    console.log('collection :'+ collection + 'key: '+ key + ' property: ' + property);
     let querySnapshot = await firestore
       .collection(collection)
       .where(key, "==", property)
@@ -130,13 +131,9 @@ export class FirebaseHandler {
         brand: product.brand,
         imageUrl: product.imageUrl,
         category: product.category.ref,
-        // preferences: await this.getAllRefs(
-        //   product.preferences,
-        //   "preferences",
-        //   "name"
-        // ),
+        //preferences: product.preferences,
         //ean: product.ean,
-        // store: await this.getOneRef(product.store, "stores", "name"),
+        store: product.store.ref,
         discount: this.setDiscount(product)
       };
       // console.log(productToPost);
