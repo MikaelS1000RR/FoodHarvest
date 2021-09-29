@@ -1,0 +1,4291 @@
+[
+  {
+    "id": "N01",
+    "category": "N01",
+    "title": "Kött & fågel",
+    "url": "kott-och-fagel",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0104",
+        "category": "N0104",
+        "title": "Fågel ",
+        "url": "kott-och-fagel/fagel-",
+        "valid": true,
+        "children": [
+          {
+            "id": "N010403",
+            "category": "N010403",
+            "title": "Färsk fågel",
+            "url": "kott-och-fagel/fagel-/farsk-fagel",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N010401",
+            "category": "N010401",
+            "title": "Fryst fågel",
+            "url": "kott-och-fagel/fagel-/fryst-fagel",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0115",
+        "category": "N0115",
+        "title": "Kött",
+        "url": "kott-och-fagel/kott",
+        "valid": true,
+        "children": [
+          {
+            "id": "N011504",
+            "category": "N011504",
+            "title": "Köttfärs",
+            "url": "kott-och-fagel/kott/kottfars",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N011503",
+            "category": "N011503",
+            "title": "Nöt & kalvkött",
+            "url": "kott-och-fagel/kott/not-och-kalvkott",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N011501",
+            "category": "N011501",
+            "title": "Fläskkött",
+            "url": "kott-och-fagel/kott/flaskkott",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N011506",
+            "category": "N011506",
+            "title": "Kassler",
+            "url": "kott-och-fagel/kott/kassler",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N011505  ",
+            "category": "N011505  ",
+            "title": "Lamm & viltkött",
+            "url": "kott-och-fagel/kott/lamm-och-viltkott",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N011502",
+            "category": "N011502",
+            "title": "Pannfärdigt",
+            "url": "kott-och-fagel/kott/pannfardigt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N07",
+    "category": "N07",
+    "title": "Chark & pålägg",
+    "url": "chark-och-palagg",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0703",
+        "category": "N0703",
+        "title": "Korv",
+        "url": "chark-och-palagg/korv",
+        "valid": true,
+        "children": [
+          {
+            "id": "N070301",
+            "category": "N070301",
+            "title": "Falukorv",
+            "url": "chark-och-palagg/korv/falukorv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070310",
+            "category": "N070310",
+            "title": "Grill- & kryddkorv",
+            "url": "chark-och-palagg/korv/grill-och-kryddkorv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070304",
+            "category": "N070304",
+            "title": "Varm- & wienerkorv",
+            "url": "chark-och-palagg/korv/varm-och-wienerkorv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070309",
+            "category": "N070309",
+            "title": "Färska korvar",
+            "url": "chark-och-palagg/korv/farska-korvar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070306",
+            "category": "N070306",
+            "title": "Vegetarisk korv",
+            "url": "chark-och-palagg/korv/vegetarisk-korv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070307",
+            "category": "N070307",
+            "title": "Ölkorv",
+            "url": "chark-och-palagg/korv/olkorv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070308",
+            "category": "N070308",
+            "title": "Fryst korv",
+            "url": "chark-och-palagg/korv/fryst-korv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070305",
+            "category": "N070305",
+            "title": "Övrig korv & isterband",
+            "url": "chark-och-palagg/korv/ovrig-korv-och-isterband",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0714",
+        "category": "N0714",
+        "title": "Chark",
+        "url": "chark-och-palagg/chark",
+        "valid": true,
+        "children": [
+          {
+            "id": "N071401",
+            "category": "N071401",
+            "title": "Bacon & stekfläsk",
+            "url": "chark-och-palagg/chark/bacon-och-stekflask",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071402",
+            "category": "N071402",
+            "title": "Köttbullar & färsprodukter",
+            "url": "chark-och-palagg/chark/kottbullar-och-farsprodukter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071403",
+            "category": "N071403",
+            "title": "Blodpudding",
+            "url": "chark-och-palagg/chark/blodpudding",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071404",
+            "category": "N071404",
+            "title": "Övrigt rökt & rimmat",
+            "url": "chark-och-palagg/chark/ovrigt-rokt-och-rimmat",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0716",
+        "category": "N0716",
+        "title": "Pålägg",
+        "url": "chark-och-palagg/palagg",
+        "valid": true,
+        "children": [
+          {
+            "id": "N071604",
+            "category": "N071604",
+            "title": "Skivat pålägg",
+            "url": "chark-och-palagg/palagg/skivat-palagg",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071601",
+            "category": "N071601",
+            "title": "Korv & salami",
+            "url": "chark-och-palagg/palagg/korv-och-salami",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071602",
+            "category": "N071602",
+            "title": "Pastej & paté",
+            "url": "chark-och-palagg/palagg/pastej-och-pat-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071603",
+            "category": "N071603",
+            "title": "Pålägg i bit",
+            "url": "chark-och-palagg/palagg/palagg-i-bit",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N071605",
+            "category": "N071605",
+            "title": "Sylta",
+            "url": "chark-och-palagg/palagg/sylta",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0702",
+        "category": "N0702",
+        "title": "Delikatesschark",
+        "url": "chark-och-palagg/delikatesschark",
+        "valid": true,
+        "children": [
+          {
+            "id": "N070201",
+            "category": "N070201",
+            "title": "Inläggningar",
+            "url": "chark-och-palagg/delikatesschark/inlaggningar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070202",
+            "category": "N070202",
+            "title": "Medelhavschark",
+            "url": "chark-och-palagg/delikatesschark/medelhavschark",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N070203",
+            "category": "N070203",
+            "title": "Salami",
+            "url": "chark-och-palagg/delikatesschark/salami",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N02",
+    "category": "N02",
+    "title": "Fisk & skaldjur",
+    "url": "fisk-och-skaldjur",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0201",
+        "category": "N0201",
+        "title": "Fisk",
+        "url": "fisk-och-skaldjur/fisk",
+        "valid": true,
+        "children": [
+          {
+            "id": "N020102",
+            "category": "N020102",
+            "title": "Färsk fisk",
+            "url": "fisk-och-skaldjur/fisk/farsk-fisk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N020101",
+            "category": "N020101",
+            "title": "Fryst fisk",
+            "url": "fisk-och-skaldjur/fisk/fryst-fisk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N020105",
+            "category": "N020105",
+            "title": "Rökt & gravad fisk",
+            "url": "fisk-och-skaldjur/fisk/rokt-och-gravad-fisk",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0204",
+        "category": "N0204",
+        "title": "Skaldjur",
+        "url": "fisk-och-skaldjur/skaldjur",
+        "valid": true,
+        "children": [
+          {
+            "id": "N020402",
+            "category": "N020402",
+            "title": "Färska skaldjur",
+            "url": "fisk-och-skaldjur/skaldjur/farska-skaldjur",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N020401",
+            "category": "N020401",
+            "title": "Frysta skaldjur",
+            "url": "fisk-och-skaldjur/skaldjur/frysta-skaldjur",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N020403",
+        "category": "N020403",
+        "title": "Lakeprodukter",
+        "url": "fisk-och-skaldjur/lakeprodukter",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0202",
+        "category": "N0202",
+        "title": "Kaviar & fiskrom",
+        "url": "fisk-och-skaldjur/kaviar-och-fiskrom",
+        "valid": true,
+        "children": [
+          {
+            "id": "N020202",
+            "category": "N020202",
+            "title": "Kaviar",
+            "url": "fisk-och-skaldjur/kaviar-och-fiskrom/kaviar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N020201",
+            "category": "N020201",
+            "title": "Fiskrom",
+            "url": "fisk-och-skaldjur/kaviar-och-fiskrom/fiskrom",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0203",
+        "category": "N0203",
+        "title": "Sill, anjovis & sardiner",
+        "url": "fisk-och-skaldjur/sill-anjovis-och-sardiner",
+        "valid": true,
+        "children": [
+          {
+            "id": "N020303",
+            "category": "N020303",
+            "title": "Sill",
+            "url": "fisk-och-skaldjur/sill-anjovis-och-sardiner/sill",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N020301",
+            "category": "N020301",
+            "title": "Anjovis",
+            "url": "fisk-och-skaldjur/sill-anjovis-och-sardiner/anjovis",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N020302",
+        "category": "N020302",
+        "title": "Pålägg",
+        "url": "fisk-och-skaldjur/palagg",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0205",
+        "category": "N0205",
+        "title": "Såser",
+        "url": "fisk-och-skaldjur/saser",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N13",
+    "category": "N13",
+    "title": "Färdigmat",
+    "url": "fardigmat",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1302",
+        "category": "N1302",
+        "title": "Färsk pasta",
+        "url": "fardigmat/farsk-pasta",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1310",
+        "category": "N1310",
+        "title": "Sås & smaksättare",
+        "url": "fardigmat/sas-och-smaksattare",
+        "valid": true,
+        "children": [
+          {
+            "id": "N131001",
+            "category": "N131001",
+            "title": "Aromsmör",
+            "url": "fardigmat/sas-och-smaksattare/aromsmor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N131002",
+            "category": "N131002",
+            "title": "Sås",
+            "url": "fardigmat/sas-och-smaksattare/sas",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N131003",
+            "category": "N131003",
+            "title": "Övriga röror",
+            "url": "fardigmat/sas-och-smaksattare/ovriga-roror",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N131004",
+            "category": "N131004",
+            "title": "Övriga smaksättare",
+            "url": "fardigmat/sas-och-smaksattare/ovriga-smaksattare",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1315",
+        "category": "N1315",
+        "title": "Köttbullar & färsprodukter",
+        "url": "fardigmat/kottbullar-och-farsprodukter",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1316",
+        "category": "N1316",
+        "title": "Pulled pork, pulled chicken",
+        "url": "fardigmat/pulled-pork-pulled-chicken",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1306",
+        "category": "N1306",
+        "title": "Pizza, paj & piroger",
+        "url": "fardigmat/pizza-paj-och-piroger",
+        "valid": true,
+        "children": [
+          {
+            "id": "N130601",
+            "category": "N130601",
+            "title": "Degar",
+            "url": "fardigmat/pizza-paj-och-piroger/degar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N130602",
+            "category": "N130602",
+            "title": "Paj & pirog",
+            "url": "fardigmat/pizza-paj-och-piroger/paj-och-pirog",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N130603",
+            "category": "N130603",
+            "title": "Pizza & lasagne",
+            "url": "fardigmat/pizza-paj-och-piroger/pizza-och-lasagne",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1309",
+        "category": "N1309",
+        "title": "Snabblagat & portionsrätter",
+        "url": "fardigmat/snabblagat-och-portionsratter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N130901",
+            "category": "N130901",
+            "title": "Färdiga rätter",
+            "url": "fardigmat/snabblagat-och-portionsratter/fardiga-ratter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N130902",
+            "category": "N130902",
+            "title": "Färdiga soppor & grytor",
+            "url": "fardigmat/snabblagat-och-portionsratter/fardiga-soppor-och-grytor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1303",
+        "category": "N1303",
+        "title": "Gratäng & röror",
+        "url": "fardigmat/gratang-och-roror",
+        "valid": true,
+        "children": [
+          {
+            "id": "N130301",
+            "category": "N130301",
+            "title": "Gratänger",
+            "url": "fardigmat/gratang-och-roror/gratanger",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N130302",
+            "category": "N130302",
+            "title": "Krämiga sallader",
+            "url": "fardigmat/gratang-och-roror/kramiga-sallader",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1307",
+        "category": "N1307",
+        "title": "Sallader",
+        "url": "fardigmat/sallader",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1301",
+        "category": "N1301",
+        "title": "Efterrätter",
+        "url": "fardigmat/efterratter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N130101",
+            "category": "N130101",
+            "title": "Ostkaka",
+            "url": "fardigmat/efterratter/ostkaka",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1305",
+        "category": "N1305",
+        "title": "Gröt",
+        "url": "fardigmat/grot",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N03",
+    "category": "N03",
+    "title": "Vegetariskt",
+    "url": "vegetariskt",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0301",
+        "category": "N0301",
+        "title": "Fryst vegetariskt",
+        "url": "vegetariskt/fryst-vegetariskt",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0302",
+        "category": "N0302",
+        "title": "Korv",
+        "url": "vegetariskt/korv",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0303",
+        "category": "N0303",
+        "title": "Ost & pålägg",
+        "url": "vegetariskt/ost-och-palagg",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0304",
+        "category": "N0304",
+        "title": "Snabblagat",
+        "url": "vegetariskt/snabblagat",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0306",
+        "category": "N0306",
+        "title": "Tofu",
+        "url": "vegetariskt/tofu",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0307",
+        "category": "N0307",
+        "title": "Övrigt vegetariskt",
+        "url": "vegetariskt/ovrigt-vegetariskt",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N06",
+    "category": "N06",
+    "title": "Mejeri, ost & ägg",
+    "url": "mejeri-ost-och-agg",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0601",
+        "category": "N0601",
+        "title": "Mjölk",
+        "url": "mejeri-ost-och-agg/mjolk",
+        "valid": true,
+        "children": [
+          {
+            "id": "N060101",
+            "category": "N060101",
+            "title": "Standardmjölk",
+            "url": "mejeri-ost-och-agg/mjolk/standardmjolk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060102",
+            "category": "N060102",
+            "title": "Mellanmjölk",
+            "url": "mejeri-ost-och-agg/mjolk/mellanmjolk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060103",
+            "category": "N060103",
+            "title": "Lättmjölk",
+            "url": "mejeri-ost-och-agg/mjolk/lattmjolk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060104",
+            "category": "N060104",
+            "title": "Smaksatt mjölk & övrig mjölk",
+            "url": "mejeri-ost-och-agg/mjolk/smaksatt-mjolk-och-ovrig-mjolk",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0618",
+        "category": "N0618",
+        "title": "Ägg",
+        "url": "mejeri-ost-och-agg/agg",
+        "valid": true,
+        "children": [
+          {
+            "id": "N061801",
+            "category": "N061801",
+            "title": "Flytande",
+            "url": "mejeri-ost-och-agg/agg/flytande",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061802",
+            "category": "N061802",
+            "title": "Ägg",
+            "url": "mejeri-ost-och-agg/agg/agg",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0616",
+        "category": "N0616",
+        "title": "Ost",
+        "url": "mejeri-ost-och-agg/ost",
+        "valid": true,
+        "children": [
+          {
+            "id": "N061601",
+            "category": "N061601",
+            "title": "Dessertost",
+            "url": "mejeri-ost-och-agg/ost/dessertost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061602",
+            "category": "N061602",
+            "title": "Färskost",
+            "url": "mejeri-ost-och-agg/ost/farskost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061606",
+            "category": "N061606",
+            "title": "Hårdost lagrad",
+            "url": "mejeri-ost-och-agg/ost/hardost-lagrad",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061607",
+            "category": "N061607",
+            "title": "Hårdost mild/mellan",
+            "url": "mejeri-ost-och-agg/ost/hardost-mild-mellan",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061603",
+            "category": "N061603",
+            "title": "Matlagningsost",
+            "url": "mejeri-ost-och-agg/ost/matlagningsost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061604",
+            "category": "N061604",
+            "title": "Mesost & messmör",
+            "url": "mejeri-ost-och-agg/ost/mesost-och-messmor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061605",
+            "category": "N061605",
+            "title": "Mjukost",
+            "url": "mejeri-ost-och-agg/ost/mjukost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061609",
+            "category": "N061609",
+            "title": "Riven ost",
+            "url": "mejeri-ost-och-agg/ost/riven-ost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061608",
+            "category": "N061608",
+            "title": "Skivad ost",
+            "url": "mejeri-ost-och-agg/ost/skivad-ost",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061610",
+            "category": "N061610",
+            "title": "Vegetarisk",
+            "url": "mejeri-ost-och-agg/ost/vegetarisk",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0620",
+        "category": "N0620",
+        "title": "Matlagning",
+        "url": "mejeri-ost-och-agg/matlagning",
+        "valid": true,
+        "children": [
+          {
+            "id": "N062001",
+            "category": "N062001",
+            "title": "Grädde",
+            "url": "mejeri-ost-och-agg/matlagning/gradde",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062002",
+            "category": "N062002",
+            "title": "Gräddfil & creme fraiche",
+            "url": "mejeri-ost-och-agg/matlagning/graddfil-och-creme-fraiche",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062003",
+            "category": "N062003",
+            "title": "Matlagningsyoghurt",
+            "url": "mejeri-ost-och-agg/matlagning/matlagningsyoghurt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0610",
+        "category": "N0610",
+        "title": "Smör, margarin & jäst",
+        "url": "mejeri-ost-och-agg/smor-margarin-och-jast",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0617",
+            "category": "N0617",
+            "title": "Jäst",
+            "url": "mejeri-ost-och-agg/smor-margarin-och-jast/jast",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061001",
+            "category": "N061001",
+            "title": "Smör & margarin",
+            "url": "mejeri-ost-och-agg/smor-margarin-och-jast/smor-och-margarin",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0602",
+        "category": "N0602",
+        "title": "Filmjölk & yoghurt",
+        "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt",
+        "valid": true,
+        "children": [
+          {
+            "id": "N060201",
+            "category": "N060201",
+            "title": "Standardfil",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/standardfil",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060202",
+            "category": "N060202",
+            "title": "Mellanfil",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/mellanfil",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060203",
+            "category": "N060203",
+            "title": "Lättfil",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/lattfil",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060205",
+            "category": "N060205",
+            "title": "Naturell yoghurt",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/naturell-yoghurt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060206",
+            "category": "N060206",
+            "title": "Smaksatt yoghurt",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/smaksatt-yoghurt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060207",
+            "category": "N060207",
+            "title": "Drickyoghurt",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/drickyoghurt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060208",
+            "category": "N060208",
+            "title": "Matlagningsyoghurt",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/matlagningsyoghurt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0613",
+        "category": "N0613",
+        "title": "Juice, fruktdryck & smoothie",
+        "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0624",
+            "category": "N0624",
+            "title": "Kyld fruktdryck",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/kyld-fruktdryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0625",
+            "category": "N0625",
+            "title": "Kyld juice & nektar",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/kyld-juice-och-nektar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0614",
+            "category": "N0614",
+            "title": " Ej kyld fruktdryck",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/-ej-kyld-fruktdryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0623",
+            "category": "N0623",
+            "title": "Ej kyld juice & nektar",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/ej-kyld-juice-och-nektar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0615",
+            "category": "N0615",
+            "title": "Smoothies",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/smoothies",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0619",
+        "category": "N0619",
+        "title": "Havre-, soja-, risdryck",
+        "url": "mejeri-ost-och-agg/havre-soja-risdryck",
+        "valid": true,
+        "children": [
+          {
+            "id": "N062202",
+            "category": "N062202",
+            "title": "Havre-, soja- & risdryck",
+            "url": "mejeri-ost-och-agg/allergi/havre-soja-och-risdryck",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0609",
+        "category": "N0609",
+        "title": "Cottage cheese & kvarg",
+        "url": "mejeri-ost-och-agg/cottage-cheese-och-kvarg",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0608",
+            "category": "N0608",
+            "title": "Cottage cheese",
+            "url": "mejeri-ost-och-agg/cottage-cheese-och-kvarg/cottage-cheese",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060210",
+            "category": "N060210",
+            "title": "Kvarg",
+            "url": "mejeri-ost-och-agg/cottage-cheese-och-kvarg/kvarg",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0612",
+        "category": "N0612",
+        "title": "Mellanmål & desserter",
+        "url": "mejeri-ost-och-agg/mellanmal-och-desserter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N061201",
+            "category": "N061201",
+            "title": "Desserter",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/desserter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061202",
+            "category": "N061202",
+            "title": "Mellanmål",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/mellanmal",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061203",
+            "category": "N061203",
+            "title": "Drickbart & övrigt",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/drickbart-och-ovrigt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N060207",
+            "category": "N060207",
+            "title": "Drickyoghurt",
+            "url": "mejeri-ost-och-agg/filmjolk-och-yoghurt/drickyoghurt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061204",
+            "category": "N061204",
+            "title": "Cottage cheese & kvarg",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/cottage-cheese-och-kvarg",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061206",
+            "category": "N061206",
+            "title": "Rismål",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/rismal",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N061207",
+            "category": "N061207",
+            "title": "Yoghurt",
+            "url": "mejeri-ost-och-agg/mellanmal-och-desserter/yoghurt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0622",
+        "category": "N0622",
+        "title": "Allergi",
+        "url": "mejeri-ost-och-agg/allergi",
+        "valid": true,
+        "children": [
+          {
+            "id": "N062201",
+            "category": "N062201",
+            "title": "Filmjölk & yoghurt",
+            "url": "mejeri-ost-och-agg/allergi/filmjolk-och-yoghurt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062202",
+            "category": "N062202",
+            "title": "Havre-, soja- & risdryck",
+            "url": "mejeri-ost-och-agg/allergi/havre-soja-och-risdryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062203",
+            "category": "N062203",
+            "title": "Cottage cheese & kvarg",
+            "url": "mejeri-ost-och-agg/allergi/cottage-cheese-och-kvarg",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062204",
+            "category": "N062204",
+            "title": "Matlagning",
+            "url": "mejeri-ost-och-agg/allergi/matlagning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062205",
+            "category": "N062205",
+            "title": "Mellanmål & desserter",
+            "url": "mejeri-ost-och-agg/allergi/mellanmal-och-desserter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062206",
+            "category": "N062206",
+            "title": "Mjölk",
+            "url": "mejeri-ost-och-agg/allergi/mjolk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N062207",
+            "category": "N062207",
+            "title": "Smör, margarin & jäst",
+            "url": "mejeri-ost-och-agg/allergi/smor-margarin-och-jast",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N04",
+    "category": "N04",
+    "title": "Frukt & grönt",
+    "url": "frukt-och-gront",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0434",
+        "category": "N0434",
+        "title": "Frukt",
+        "url": "frukt-och-gront/frukt",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0403",
+            "category": "N0403",
+            "title": "Bananer",
+            "url": "frukt-och-gront/frukt/bananer",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0429",
+            "category": "N0429",
+            "title": "Äpplen",
+            "url": "frukt-och-gront/frukt/applen",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0423",
+            "category": "N0423",
+            "title": "Päron",
+            "url": "frukt-och-gront/frukt/paron",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0409",
+            "category": "N0409",
+            "title": "Citrusfrukt",
+            "url": "frukt-och-gront/frukt/citrusfrukt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0410",
+            "category": "N0410",
+            "title": "Druvor",
+            "url": "frukt-och-gront/frukt/druvor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0418",
+            "category": "N0418",
+            "title": "Meloner",
+            "url": "frukt-och-gront/frukt/meloner",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0419",
+            "category": "N0419",
+            "title": "Nektariner & persikor",
+            "url": "frukt-och-gront/frukt/nektariner-och-persikor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0421",
+            "category": "N0421",
+            "title": "Plommon",
+            "url": "frukt-och-gront/frukt/plommon",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0411",
+            "category": "N0411",
+            "title": "Exotisk frukt",
+            "url": "frukt-och-gront/frukt/exotisk-frukt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0430",
+            "category": "N0430",
+            "title": "Övrig frukt",
+            "url": "frukt-och-gront/frukt/ovrig-frukt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0405",
+        "category": "N0405",
+        "title": "Bär",
+        "url": "frukt-och-gront/bar",
+        "valid": true,
+        "children": [
+          {
+            "id": "N040501",
+            "category": "N040501",
+            "title": "Frysta bär",
+            "url": "frukt-och-gront/bar/frysta-bar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N040502",
+            "category": "N040502",
+            "title": "Färska bär",
+            "url": "frukt-och-gront/bar/farska-bar",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0435",
+        "category": "N0435",
+        "title": "Grönsaker",
+        "url": "frukt-och-gront/gronsaker",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0414",
+            "category": "N0414",
+            "title": "Gurka",
+            "url": "frukt-och-gront/gronsaker/gurka",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0428",
+            "category": "N0428",
+            "title": "Tomater",
+            "url": "frukt-och-gront/gronsaker/tomater",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0404",
+            "category": "N0404",
+            "title": "Blomkål & broccoli",
+            "url": "frukt-och-gront/gronsaker/blomkal-och-broccoli",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0420",
+            "category": "N0420",
+            "title": "Paprika",
+            "url": "frukt-och-gront/gronsaker/paprika",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0402",
+            "category": "N0402",
+            "title": "Avokado",
+            "url": "frukt-och-gront/gronsaker/avokado",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0401",
+            "category": "N0401",
+            "title": "Aubergine & zucchini",
+            "url": "frukt-och-gront/gronsaker/aubergine-och-zucchini",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0425",
+            "category": "N0425",
+            "title": "Sallader",
+            "url": "frukt-och-gront/gronsaker/sallader",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0412",
+            "category": "N0412",
+            "title": "Färdigskuret",
+            "url": "frukt-och-gront/gronsaker/fardigskuret",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0406",
+            "category": "N0406",
+            "title": "Bönor & groddar",
+            "url": "frukt-och-gront/gronsaker/bonor-och-groddar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0431",
+            "category": "N0431",
+            "title": "Övriga grönsaker",
+            "url": "frukt-och-gront/gronsaker/ovriga-gronsaker",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0436",
+        "category": "N0436",
+        "title": "Potatis & rotfrukter",
+        "url": "frukt-och-gront/potatis-och-rotfrukter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0422",
+            "category": "N0422",
+            "title": "Potatis",
+            "url": "frukt-och-gront/potatis-och-rotfrukter/potatis",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0424",
+            "category": "N0424",
+            "title": "Rotfrukter",
+            "url": "frukt-och-gront/potatis-och-rotfrukter/rotfrukter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0416",
+            "category": "N0416",
+            "title": "Kål",
+            "url": "frukt-och-gront/potatis-och-rotfrukter/kal",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0417",
+        "category": "N0417",
+        "title": "Lök",
+        "url": "frukt-och-gront/lok",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N0437",
+        "category": "N0437",
+        "title": "Kryddor & smaksättare",
+        "url": "frukt-och-gront/kryddor-och-smaksattare",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0408",
+            "category": "N0408",
+            "title": "Citron & lime",
+            "url": "frukt-och-gront/kryddor-och-smaksattare/citron-och-lime",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0407",
+            "category": "N0407",
+            "title": "Chili",
+            "url": "frukt-och-gront/kryddor-och-smaksattare/chili",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0415",
+            "category": "N0415",
+            "title": "Kryddor",
+            "url": "frukt-och-gront/kryddor-och-smaksattare/kryddor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0426",
+            "category": "N0426",
+            "title": "Smaksättare",
+            "url": "frukt-och-gront/kryddor-och-smaksattare/smaksattare",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0427",
+        "category": "N0427",
+        "title": "Svamp",
+        "url": "frukt-och-gront/svamp",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N05",
+    "category": "N05",
+    "title": "Bröd & kakor",
+    "url": "brod-och-kakor",
+    "valid": true,
+    "children": [
+      {
+        "id": "N0522",
+        "category": "N0522",
+        "title": "Bröd",
+        "url": "brod-och-kakor/brod",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0512",
+            "category": "N0512",
+            "title": "Matbröd",
+            "url": "brod-och-kakor/brod/matbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0516",
+            "category": "N0516",
+            "title": "Rostbröd",
+            "url": "brod-och-kakor/brod/rostbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0528",
+            "category": "N0528",
+            "title": "Baguetter & lösbröd",
+            "url": "brod-och-kakor/brod/baguetter-och-losbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0519",
+            "category": "N0519",
+            "title": "Tunnbröd",
+            "url": "brod-och-kakor/brod/tunnbrod",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0523",
+        "category": "N0523",
+        "title": "Knäckebröd & skorpor",
+        "url": "brod-och-kakor/knackebrod-och-skorpor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0509",
+            "category": "N0509",
+            "title": "Knäckebröd",
+            "url": "brod-och-kakor/knackebrod-och-skorpor/knackebrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0507",
+            "category": "N0507",
+            "title": "Hårt tunnbröd",
+            "url": "brod-och-kakor/knackebrod-och-skorpor/hart-tunnbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0517",
+            "category": "N0517",
+            "title": "Skorpor",
+            "url": "brod-och-kakor/knackebrod-och-skorpor/skorpor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0524",
+        "category": "N0524",
+        "title": "Korv- & hamburgerbröd",
+        "url": "brod-och-kakor/korv-och-hamburgerbrod",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0506",
+            "category": "N0506",
+            "title": "Hamburgerbröd",
+            "url": "brod-och-kakor/korv-och-hamburgerbrod/hamburgerbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0511",
+            "category": "N0511",
+            "title": "Korvbröd",
+            "url": "brod-och-kakor/korv-och-hamburgerbrod/korvbrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0514",
+            "category": "N0514",
+            "title": "Pita- & orientaliska bröd",
+            "url": "brod-och-kakor/korv-och-hamburgerbrod/pita-och-orientaliska-brod",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0525",
+        "category": "N0525",
+        "title": "Kex & kakor",
+        "url": "brod-och-kakor/kex-och-kakor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0513",
+            "category": "N0513",
+            "title": "Matkex",
+            "url": "brod-och-kakor/kex-och-kakor/matkex",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0529",
+            "category": "N0529",
+            "title": "Mjuka kakor",
+            "url": "brod-och-kakor/kex-och-kakor/mjuka-kakor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0515",
+            "category": "N0515",
+            "title": "Riskakor",
+            "url": "brod-och-kakor/kex-och-kakor/riskakor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0518",
+            "category": "N0518",
+            "title": "Söta kakor & kex",
+            "url": "brod-och-kakor/kex-och-kakor/sota-kakor-och-kex",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0526",
+        "category": "N0526",
+        "title": "Kondis & fika",
+        "url": "brod-och-kakor/kondis-och-fika",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0508",
+            "category": "N0508",
+            "title": "Kaffebröd",
+            "url": "brod-och-kakor/kondis-och-fika/kaffebrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0510",
+            "category": "N0510",
+            "title": "Kondisbitar",
+            "url": "brod-och-kakor/kondis-och-fika/kondisbitar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N052001",
+            "category": "N052001",
+            "title": "Tårtor & bakelser",
+            "url": "brod-och-kakor/kondis-och-fika/tartor-och-bakelser",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0520",
+            "category": "N0520",
+            "title": "Tårtbottnar & tillbehör",
+            "url": "brod-och-kakor/kondis-och-fika/tartbottnar-och-tillbehor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0527",
+        "category": "N0527",
+        "title": "Fryst",
+        "url": "brod-och-kakor/fryst",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0503",
+            "category": "N0503",
+            "title": "Bröd & fikabröd",
+            "url": "brod-och-kakor/fryst/brod-och-fikabrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0530",
+            "category": "N0530",
+            "title": "Bröd & fikabröd allergi",
+            "url": "brod-och-kakor/fryst/brod-och-fikabrod-allergi",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "category": "N10",
+    "title": "Skafferi",
+    "url": "skafferi",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1001",
+        "category": "N1001",
+        "title": "Asien",
+        "url": "skafferi/asien",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100101",
+            "category": "N100101",
+            "title": "Chutney",
+            "url": "skafferi/asien/chutney",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100102",
+            "category": "N100102",
+            "title": "Grönsakskonserver",
+            "url": "skafferi/asien/gronsakskonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100103",
+            "category": "N100103",
+            "title": "Kokosmjölk",
+            "url": "skafferi/asien/kokosmjolk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100104",
+            "category": "N100104",
+            "title": "Nudlar",
+            "url": "skafferi/asien/nudlar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100105",
+            "category": "N100105",
+            "title": "Soja",
+            "url": "skafferi/asien/soja",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100106",
+            "category": "N100106",
+            "title": "Sushitillbehör",
+            "url": "skafferi/asien/sushitillbehor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100107",
+            "category": "N100107",
+            "title": "Såser & grytbaser",
+            "url": "skafferi/asien/saser-och-grytbaser",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100108",
+            "category": "N100108",
+            "title": "Övrigt asien",
+            "url": "skafferi/asien/ovrigt-asien",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1016",
+        "category": "N1016",
+        "title": "Texmex",
+        "url": "skafferi/texmex",
+        "valid": true,
+        "children": [
+          {
+            "id": "N101601",
+            "category": "N101601",
+            "title": "Kryddmixer & såser",
+            "url": "skafferi/texmex/kryddmixer-och-saser",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101602",
+            "category": "N101602",
+            "title": "Tacoskal & bröd",
+            "url": "skafferi/texmex/tacoskal-och-brod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101603",
+            "category": "N101603",
+            "title": "Övrig texmex",
+            "url": "skafferi/texmex/ovrig-texmex",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1007",
+        "category": "N1007",
+        "title": "Kaffe",
+        "url": "skafferi/kaffe",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100702",
+            "category": "N100702",
+            "title": "Bönkaffe",
+            "url": "skafferi/kaffe/bonkaffe",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100708",
+            "category": "N100708",
+            "title": "Hela bönor",
+            "url": "skafferi/kaffe/hela-bonor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100707",
+            "category": "N100707",
+            "title": "Kapslar",
+            "url": "skafferi/kaffe/kapslar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100704",
+            "category": "N100704",
+            "title": "Snabbkaffe",
+            "url": "skafferi/kaffe/snabbkaffe",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100706",
+            "category": "N100706",
+            "title": "Filter",
+            "url": "skafferi/kaffe/filter",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1015",
+        "category": "N1015",
+        "title": "Te",
+        "url": "skafferi/te",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1004",
+        "category": "N1004",
+        "title": "Chokladdryck",
+        "url": "skafferi/chokladdryck",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1002",
+        "category": "N1002",
+        "title": "Bakning",
+        "url": "skafferi/bakning",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100201",
+            "category": "N100201",
+            "title": "Bakmixer",
+            "url": "skafferi/bakning/bakmixer",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100202",
+            "category": "N100202",
+            "title": "Baktillbehör",
+            "url": "skafferi/bakning/baktillbehor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100203",
+            "category": "N100203",
+            "title": "Mjöl",
+            "url": "skafferi/bakning/mjol",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100204",
+            "category": "N100204",
+            "title": "Nötter",
+            "url": "skafferi/bakning/notter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100205",
+            "category": "N100205",
+            "title": "Socker & honung",
+            "url": "skafferi/bakning/socker-och-honung",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1010",
+        "category": "N1010",
+        "title": "Pasta, ris,mos & gryner ",
+        "url": "skafferi/pasta-ris-mos-och-gryner-",
+        "valid": true,
+        "children": [
+          {
+            "id": "N101001",
+            "category": "N101001",
+            "title": "Couscous & bulgur",
+            "url": "skafferi/pasta-ris-mos-och-gryner-/couscous-och-bulgur",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101002",
+            "category": "N101002",
+            "title": "Mospulver",
+            "url": "skafferi/pasta-ris-mos-och-gryner-/mospulver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101003",
+            "category": "N101003",
+            "title": "Pasta",
+            "url": "skafferi/pasta-ris-mos-och-gryner-/pasta",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101004",
+            "category": "N101004",
+            "title": "Ris",
+            "url": "skafferi/pasta-ris-mos-och-gryner-/ris",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1009",
+        "category": "N1009",
+        "title": "Kryddor & smaksättare",
+        "url": "skafferi/kryddor-och-smaksattare",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100901",
+            "category": "N100901",
+            "title": "Buljong",
+            "url": "skafferi/kryddor-och-smaksattare/buljong",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100902",
+            "category": "N100902",
+            "title": "Ketchup & senap",
+            "url": "skafferi/kryddor-och-smaksattare/ketchup-och-senap",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100903",
+            "category": "N100903",
+            "title": "Kryddor",
+            "url": "skafferi/kryddor-och-smaksattare/kryddor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100904",
+            "category": "N100904",
+            "title": "Marinader & grill",
+            "url": "skafferi/kryddor-och-smaksattare/marinader-och-grill",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100905",
+            "category": "N100905",
+            "title": "Matlagningsvin",
+            "url": "skafferi/kryddor-och-smaksattare/matlagningsvin",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100906",
+            "category": "N100906",
+            "title": "Matmixer",
+            "url": "skafferi/kryddor-och-smaksattare/matmixer",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100907",
+            "category": "N100907",
+            "title": "Olja",
+            "url": "skafferi/kryddor-och-smaksattare/olja",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100908",
+            "category": "N100908",
+            "title": "Salt",
+            "url": "skafferi/kryddor-och-smaksattare/salt",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100909",
+            "category": "N100909",
+            "title": "Soja",
+            "url": "skafferi/kryddor-och-smaksattare/soja",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100910",
+            "category": "N100910",
+            "title": "Såser",
+            "url": "skafferi/kryddor-och-smaksattare/saser",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100913",
+            "category": "N100913",
+            "title": "Dressingar & majonnäs ",
+            "url": "skafferi/kryddor-och-smaksattare/dressingar-och-majonnas-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100911",
+            "category": "N100911",
+            "title": "Vinäger & ättika",
+            "url": "skafferi/kryddor-och-smaksattare/vinager-och-attika",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100912",
+            "category": "N100912",
+            "title": "Övriga smaksättare",
+            "url": "skafferi/kryddor-och-smaksattare/ovriga-smaksattare",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1003",
+        "category": "N1003",
+        "title": "Bönor, linser & fröer",
+        "url": "skafferi/bonor-linser-och-froer",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100301",
+            "category": "N100301",
+            "title": "Bönor",
+            "url": "skafferi/bonor-linser-och-froer/bonor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100302",
+            "category": "N100302",
+            "title": "Fröer & kärnor",
+            "url": "skafferi/bonor-linser-och-froer/froer-och-karnor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100303",
+            "category": "N100303",
+            "title": "Linser",
+            "url": "skafferi/bonor-linser-och-froer/linser",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100304",
+            "category": "N100304",
+            "title": "Ärtor",
+            "url": "skafferi/bonor-linser-och-froer/artor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100305",
+            "category": "N100305",
+            "title": "Övrigt baljväxter",
+            "url": "skafferi/bonor-linser-och-froer/ovrigt-baljvaxter",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1005",
+        "category": "N1005",
+        "title": "Dessert & glasstillbehör",
+        "url": "skafferi/dessert-och-glasstillbehor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100501",
+            "category": "N100501",
+            "title": "Dessert",
+            "url": "skafferi/dessert-och-glasstillbehor/dessert",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100502",
+            "category": "N100502",
+            "title": "Fruktkonserver",
+            "url": "skafferi/dessert-och-glasstillbehor/fruktkonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100503",
+            "category": "N100503",
+            "title": "Glasstillbehör",
+            "url": "skafferi/dessert-och-glasstillbehor/glasstillbehor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1006",
+        "category": "N1006",
+        "title": "Flingor & musli",
+        "url": "skafferi/flingor-och-musli",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100601",
+            "category": "N100601",
+            "title": "Flingor",
+            "url": "skafferi/flingor-och-musli/flingor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100602",
+            "category": "N100602",
+            "title": "Gryner ",
+            "url": "skafferi/flingor-och-musli/gryner-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100603",
+            "category": "N100603",
+            "title": "Musli, Crunchy & Granola",
+            "url": "skafferi/flingor-och-musli/musli-crunchy-och-granola",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100604",
+            "category": "N100604",
+            "title": "Gröt",
+            "url": "skafferi/flingor-och-musli/grot",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1008",
+        "category": "N1008",
+        "title": "Konserver & burkar",
+        "url": "skafferi/konserver-och-burkar",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100801",
+            "category": "N100801",
+            "title": "Bönor & baljväxter",
+            "url": "skafferi/konserver-och-burkar/bonor-och-baljvaxter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100802",
+            "category": "N100802",
+            "title": "Fiskbullar",
+            "url": "skafferi/konserver-och-burkar/fiskbullar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100803",
+            "category": "N100803",
+            "title": "Fiskkonserver",
+            "url": "skafferi/konserver-och-burkar/fiskkonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100804",
+            "category": "N100804",
+            "title": "Grönsakskonserver",
+            "url": "skafferi/konserver-och-burkar/gronsakskonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100805",
+            "category": "N100805",
+            "title": "Inlagda grönsaker",
+            "url": "skafferi/konserver-och-burkar/inlagda-gronsaker",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100806",
+            "category": "N100806",
+            "title": "Köttkonserver",
+            "url": "skafferi/konserver-och-burkar/kottkonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100807",
+            "category": "N100807",
+            "title": "Delikatess & oliver ",
+            "url": "skafferi/konserver-och-burkar/delikatess-och-oliver-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100808",
+            "category": "N100808",
+            "title": "Tomatkonserver",
+            "url": "skafferi/konserver-och-burkar/tomatkonserver",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100809",
+            "category": "N100809",
+            "title": "Tonfisk & makrill",
+            "url": "skafferi/konserver-och-burkar/tonfisk-och-makrill",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100811",
+            "category": "N100811",
+            "title": "Övriga konserver",
+            "url": "skafferi/konserver-och-burkar/ovriga-konserver",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1011",
+        "category": "N1011",
+        "title": "Saft & stilldrink",
+        "url": "skafferi/saft-och-stilldrink",
+        "valid": true,
+        "children": [
+          {
+            "id": "N101101",
+            "category": "N101101",
+            "title": "Saft",
+            "url": "skafferi/saft-och-stilldrink/saft",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120401",
+            "category": "N120401",
+            "title": "Stilldrink",
+            "url": "dryck/saft-och-stilldrink/stilldrink",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1013",
+        "category": "N1013",
+        "title": "Soppor & krämer",
+        "url": "skafferi/soppor-och-kramer",
+        "valid": true,
+        "children": [
+          {
+            "id": "N101301",
+            "category": "N101301",
+            "title": "Kräm",
+            "url": "skafferi/soppor-och-kramer/kram",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101302",
+            "category": "N101302",
+            "title": "Soppa",
+            "url": "skafferi/soppor-och-kramer/soppa",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1014",
+        "category": "N1014",
+        "title": "Sylt & marmelad",
+        "url": "skafferi/sylt-och-marmelad",
+        "valid": true,
+        "children": [
+          {
+            "id": "N101401",
+            "category": "N101401",
+            "title": "Gele",
+            "url": "skafferi/sylt-och-marmelad/gele",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101402",
+            "category": "N101402",
+            "title": "Marmelad",
+            "url": "skafferi/sylt-och-marmelad/marmelad",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101403",
+            "category": "N101403",
+            "title": "Mos",
+            "url": "skafferi/sylt-och-marmelad/mos",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101404",
+            "category": "N101404",
+            "title": "Saftning & syltning",
+            "url": "skafferi/sylt-och-marmelad/saftning-och-syltning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101405",
+            "category": "N101405",
+            "title": "Sylt",
+            "url": "skafferi/sylt-och-marmelad/sylt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1018",
+        "category": "N1018",
+        "title": "Välling",
+        "url": "skafferi/valling",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1021",
+        "category": "N1021",
+        "title": "Glutenfritt",
+        "url": "skafferi/glutenfritt",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "category": "N11",
+    "title": "Fryst",
+    "url": "fryst",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1109",
+        "category": "N1109",
+        "title": "Kött & kyckling",
+        "url": "fryst/kott-och-kyckling",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110901",
+            "category": "N110901",
+            "title": "Kött",
+            "url": "fryst/kott-och-kyckling/kott",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110902",
+            "category": "N110902",
+            "title": "Kyckling & övrig fågel",
+            "url": "fryst/kott-och-kyckling/kyckling-och-ovrig-fagel",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1110",
+        "category": "N1110",
+        "title": "Fisk & skaldjur",
+        "url": "fryst/fisk-och-skaldjur",
+        "valid": true,
+        "children": [
+          {
+            "id": "N111001",
+            "category": "N111001",
+            "title": "Fisk",
+            "url": "fryst/fisk-och-skaldjur/fisk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N111002",
+            "category": "N111002",
+            "title": "Skaldjur & havsdelikatesser",
+            "url": "fryst/fisk-och-skaldjur/skaldjur-och-havsdelikatesser",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1105",
+        "category": "N1105",
+        "title": "Portionsrätter",
+        "url": "fryst/portionsratter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110501",
+            "category": "N110501",
+            "title": "Enportioner",
+            "url": "fryst/portionsratter/enportioner",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110502",
+            "category": "N110502",
+            "title": "Flerportioner",
+            "url": "fryst/portionsratter/flerportioner",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110503",
+            "category": "N110503",
+            "title": "Färdiga soppor",
+            "url": "fryst/portionsratter/fardiga-soppor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1108",
+        "category": "N1108",
+        "title": "Hamburgare & korv",
+        "url": "fryst/hamburgare-och-korv",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110801",
+            "category": "N110801",
+            "title": "Hamburgare",
+            "url": "fryst/hamburgare-och-korv/hamburgare",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110802",
+            "category": "N110802",
+            "title": "Korv",
+            "url": "fryst/hamburgare-och-korv/korv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110803",
+            "category": "N110803",
+            "title": "Köttbullar & färsprodukter",
+            "url": "fryst/hamburgare-och-korv/kottbullar-och-farsprodukter",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1104",
+        "category": "N1104",
+        "title": "Pizza, paj & piroger",
+        "url": "fryst/pizza-paj-och-piroger",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110401",
+            "category": "N110401",
+            "title": "Pizza",
+            "url": "fryst/pizza-paj-och-piroger/pizza",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110402",
+            "category": "N110402",
+            "title": "Paj & piroger",
+            "url": "fryst/pizza-paj-och-piroger/paj-och-piroger",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1112",
+        "category": "N1112",
+        "title": "Frukt & bär",
+        "url": "fryst/frukt-och-bar",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1102",
+        "category": "N1102",
+        "title": "Glass",
+        "url": "fryst/glass",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110201",
+            "category": "N110201",
+            "title": "Flerpack",
+            "url": "fryst/glass/flerpack",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110202",
+            "category": "N110202",
+            "title": "Glasspaket",
+            "url": "fryst/glass/glasspaket",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110203",
+            "category": "N110203",
+            "title": "Glasstårtor",
+            "url": "fryst/glass/glasstartor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110204",
+            "category": "N110204",
+            "title": "Is & storpack",
+            "url": "fryst/glass/is-och-storpack",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1103",
+        "category": "N1103",
+        "title": "Grönsaker",
+        "url": "fryst/gronsaker",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110302",
+            "category": "N110302",
+            "title": "Kryddor",
+            "url": "fryst/gronsaker/kryddor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110303",
+            "category": "N110303",
+            "title": "Wok",
+            "url": "fryst/gronsaker/wok",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110304",
+            "category": "N110304",
+            "title": "Grönsaker",
+            "url": "fryst/gronsaker/gronsaker",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1106",
+        "category": "N1106",
+        "title": "Potatis & rotfrukter",
+        "url": "fryst/potatis-och-rotfrukter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N110601",
+            "category": "N110601",
+            "title": "Pommes frites & stripes",
+            "url": "fryst/potatis-och-rotfrukter/pommes-frites-och-stripes",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N110602",
+            "category": "N110602",
+            "title": "Potatis",
+            "url": "fryst/potatis-och-rotfrukter/potatis",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1111",
+        "category": "N1111",
+        "title": "Bröd & fikabröd",
+        "url": "fryst/brod-och-fikabrod",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0503",
+            "category": "N0503",
+            "title": "Bröd & fikabröd",
+            "url": "brod-och-kakor/fryst/brod-och-fikabrod",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0530",
+            "category": "N0530",
+            "title": "Bröd & fikabröd allergi",
+            "url": "brod-och-kakor/fryst/brod-och-fikabrod-allergi",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N12",
+    "category": "N12",
+    "title": "Dryck",
+    "url": "dryck",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1007",
+        "category": "N1007",
+        "title": "Kaffe",
+        "url": "skafferi/kaffe",
+        "valid": true,
+        "children": [
+          {
+            "id": "N100702",
+            "category": "N100702",
+            "title": "Bönkaffe",
+            "url": "skafferi/kaffe/bonkaffe",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100708",
+            "category": "N100708",
+            "title": "Hela bönor",
+            "url": "skafferi/kaffe/hela-bonor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100707",
+            "category": "N100707",
+            "title": "Kapslar",
+            "url": "skafferi/kaffe/kapslar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100704",
+            "category": "N100704",
+            "title": "Snabbkaffe",
+            "url": "skafferi/kaffe/snabbkaffe",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N100706",
+            "category": "N100706",
+            "title": "Filter",
+            "url": "skafferi/kaffe/filter",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1209",
+        "category": "N1209",
+        "title": "Te & chokladdryck",
+        "url": "dryck/te-och-chokladdryck",
+        "valid": true,
+        "children": [
+          {
+            "id": "N1015",
+            "category": "N1015",
+            "title": "Te",
+            "url": "skafferi/te",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N1004",
+            "category": "N1004",
+            "title": "Chokladdryck",
+            "url": "skafferi/chokladdryck",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N0613",
+        "category": "N0613",
+        "title": "Juice, fruktdryck & smoothie",
+        "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie",
+        "valid": true,
+        "children": [
+          {
+            "id": "N0624",
+            "category": "N0624",
+            "title": "Kyld fruktdryck",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/kyld-fruktdryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0625",
+            "category": "N0625",
+            "title": "Kyld juice & nektar",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/kyld-juice-och-nektar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0614",
+            "category": "N0614",
+            "title": " Ej kyld fruktdryck",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/-ej-kyld-fruktdryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0623",
+            "category": "N0623",
+            "title": "Ej kyld juice & nektar",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/ej-kyld-juice-och-nektar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N0615",
+            "category": "N0615",
+            "title": "Smoothies",
+            "url": "mejeri-ost-och-agg/juice-fruktdryck-och-smoothie/smoothies",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1203",
+        "category": "N1203",
+        "title": "Läsk",
+        "url": "dryck/lask",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120302",
+            "category": "N120302",
+            "title": "Liten",
+            "url": "dryck/lask/liten",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120303",
+            "category": "N120303",
+            "title": "Stor",
+            "url": "dryck/lask/stor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1211",
+        "category": "N1211",
+        "title": "Iste ",
+        "url": "dryck/iste-",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1206",
+        "category": "N1206",
+        "title": "Vatten",
+        "url": "dryck/vatten",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120602",
+            "category": "N120602",
+            "title": "Liten",
+            "url": "dryck/vatten/liten",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120603",
+            "category": "N120603",
+            "title": "Stor",
+            "url": "dryck/vatten/stor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1205",
+        "category": "N1205",
+        "title": "Sport & energidryck",
+        "url": "dryck/sport-och-energidryck",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120501",
+            "category": "N120501",
+            "title": "Energidryck",
+            "url": "dryck/sport-och-energidryck/energidryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120502",
+            "category": "N120502",
+            "title": "Sport/återhämtning",
+            "url": "dryck/sport-och-energidryck/sport-aterhamtning",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1207",
+        "category": "N1207",
+        "title": "Öl & cider",
+        "url": "dryck/ol-och-cider",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120701",
+            "category": "N120701",
+            "title": "Alkoholfri öl & lättöl",
+            "url": "dryck/ol-och-cider/alkoholfri-ol-och-lattol",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120702",
+            "category": "N120702",
+            "title": "Cider",
+            "url": "dryck/ol-och-cider/cider",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120706",
+            "category": "N120706",
+            "title": "Must",
+            "url": "dryck/ol-och-cider/must",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120704",
+            "category": "N120704",
+            "title": "Öl 2,8%",
+            "url": "dryck/ol-och-cider/ol-2-8procent",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120705",
+            "category": "N120705",
+            "title": "Öl 3,5%",
+            "url": "dryck/ol-och-cider/ol-3-5procent",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1210",
+        "category": "N1210",
+        "title": "Vin lågalkohol",
+        "url": "dryck/vin-lagalkohol",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1204",
+        "category": "N1204",
+        "title": "Saft & stilldrink",
+        "url": "dryck/saft-och-stilldrink",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120401",
+            "category": "N120401",
+            "title": "Stilldrink",
+            "url": "dryck/saft-och-stilldrink/stilldrink",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N101101",
+            "category": "N101101",
+            "title": "Saft",
+            "url": "skafferi/saft-och-stilldrink/saft",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1201",
+        "category": "N1201",
+        "title": "Drinkmix & koncentrat",
+        "url": "dryck/drinkmix-och-koncentrat",
+        "valid": true,
+        "children": [
+          {
+            "id": "N120101",
+            "category": "N120101",
+            "title": "Koncentrat",
+            "url": "dryck/drinkmix-och-koncentrat/koncentrat",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N120102",
+            "category": "N120102",
+            "title": "Drinkmixer",
+            "url": "dryck/drinkmix-och-koncentrat/drinkmixer",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N18",
+    "category": "N18",
+    "title": "Godis & snacks",
+    "url": "godis-och-snacks",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1801",
+        "category": "N1801",
+        "title": "Chips & ostbågar",
+        "url": "godis-och-snacks/chips-och-ostbagar",
+        "valid": true,
+        "children": [
+          {
+            "id": "N180101",
+            "category": "N180101",
+            "title": "Chips",
+            "url": "godis-och-snacks/chips-och-ostbagar/chips",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180102",
+            "category": "N180102",
+            "title": "Ostbågar",
+            "url": "godis-och-snacks/chips-och-ostbagar/ostbagar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180104",
+            "category": "N180104",
+            "title": "Salta pinnar",
+            "url": "godis-och-snacks/chips-och-ostbagar/salta-pinnar",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1809",
+        "category": "N1809",
+        "title": "Popcorn",
+        "url": "godis-och-snacks/popcorn",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1803",
+        "category": "N1803",
+        "title": "Dipmixer",
+        "url": "godis-och-snacks/dipmixer",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1802",
+        "category": "N1802",
+        "title": "Choklad",
+        "url": "godis-och-snacks/choklad",
+        "valid": true,
+        "children": [
+          {
+            "id": "N180201",
+            "category": "N180201",
+            "title": "Chokladgodis",
+            "url": "godis-och-snacks/choklad/chokladgodis",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180202",
+            "category": "N180202",
+            "title": "Chokladkakor",
+            "url": "godis-och-snacks/choklad/chokladkakor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180203",
+            "category": "N180203",
+            "title": "Chokladpåsar",
+            "url": "godis-och-snacks/choklad/chokladpasar",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1804",
+        "category": "N1804",
+        "title": "Godis",
+        "url": "godis-och-snacks/godis",
+        "valid": true,
+        "children": [
+          {
+            "id": "N180401",
+            "category": "N180401",
+            "title": "Godispåsar",
+            "url": "godis-och-snacks/godis/godispasar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180402",
+            "category": "N180402",
+            "title": "Lakritsgodis",
+            "url": "godis-och-snacks/godis/lakritsgodis",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N180404",
+            "category": "N180404",
+            "title": "Tablettaskar & klubbor",
+            "url": "godis-och-snacks/godis/tablettaskar-och-klubbor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1810",
+        "category": "N1810",
+        "title": "Snacks",
+        "url": "godis-och-snacks/snacks",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1808",
+        "category": "N1808",
+        "title": "Nötter",
+        "url": "godis-och-snacks/notter",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1811",
+        "category": "N1811",
+        "title": "Torkad frukt",
+        "url": "godis-och-snacks/torkad-frukt",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1806",
+        "category": "N1806",
+        "title": "Halstabletter",
+        "url": "godis-och-snacks/halstabletter",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1812",
+        "category": "N1812",
+        "title": "Tuggummi",
+        "url": "godis-och-snacks/tuggummi",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1805",
+        "category": "N1805",
+        "title": "Gåva",
+        "url": "godis-och-snacks/gava",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N14",
+    "category": "N14",
+    "title": "Barn",
+    "url": "barn",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1401",
+        "category": "N1401",
+        "title": "Barnmat & fruktdryck",
+        "url": "barn/barnmat-och-fruktdryck",
+        "valid": true,
+        "children": [
+          {
+            "id": "N140101",
+            "category": "N140101",
+            "title": "Barndryck",
+            "url": "barn/barnmat-och-fruktdryck/barndryck",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140102",
+            "category": "N140102",
+            "title": "Barnmat 4 mån",
+            "url": "barn/barnmat-och-fruktdryck/barnmat-4-man",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140105",
+            "category": "N140105",
+            "title": "Barnmat 5-6 mån",
+            "url": "barn/barnmat-och-fruktdryck/barnmat-5-6-man",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140106",
+            "category": "N140106",
+            "title": "Barnmat 8 mån",
+            "url": "barn/barnmat-och-fruktdryck/barnmat-8-man",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140107",
+            "category": "N140107",
+            "title": "Barnmat 12 mån +",
+            "url": "barn/barnmat-och-fruktdryck/barnmat-12-man-",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1402",
+        "category": "N1402",
+        "title": "Blöjor & barnvård",
+        "url": "barn/blojor-och-barnvard",
+        "valid": true,
+        "children": [
+          {
+            "id": "N140201",
+            "category": "N140201",
+            "title": "Barnvård",
+            "url": "barn/blojor-och-barnvard/barnvard",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140202",
+            "category": "N140202",
+            "title": "Blöjor",
+            "url": "barn/blojor-och-barnvard/blojor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N140401",
+        "category": "N140401",
+        "title": "Gröt",
+        "url": "barn/grot",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1404",
+        "category": "N1404",
+        "title": "Välling & ersättning",
+        "url": "barn/valling-och-ersattning",
+        "valid": true,
+        "children": [
+          {
+            "id": "N140402",
+            "category": "N140402",
+            "title": "Modersmjölkersättning",
+            "url": "barn/valling-och-ersattning/modersmjolkersattning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140403",
+            "category": "N140403",
+            "title": "Välling 12 mån +",
+            "url": "barn/valling-och-ersattning/valling-12-man-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140404",
+            "category": "N140404",
+            "title": "Välling 6 mån",
+            "url": "barn/valling-och-ersattning/valling-6-man",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N140405",
+            "category": "N140405",
+            "title": "Välling 8 mån",
+            "url": "barn/valling-och-ersattning/valling-8-man",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N20",
+    "category": "N20",
+    "title": "Djur",
+    "url": "djur",
+    "valid": true,
+    "children": [
+      {
+        "id": "N2003",
+        "category": "N2003",
+        "title": "Hund",
+        "url": "djur/hund",
+        "valid": true,
+        "children": [
+          {
+            "id": "N200301",
+            "category": "N200301",
+            "title": "Hundgodis",
+            "url": "djur/hund/hundgodis",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200302",
+            "category": "N200302",
+            "title": "Hundmat",
+            "url": "djur/hund/hundmat",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200303",
+            "category": "N200303",
+            "title": "Hundtillbehör",
+            "url": "djur/hund/hundtillbehor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N2004",
+        "category": "N2004",
+        "title": "Katt",
+        "url": "djur/katt",
+        "valid": true,
+        "children": [
+          {
+            "id": "N200401",
+            "category": "N200401",
+            "title": "Kattgodis",
+            "url": "djur/katt/kattgodis",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200402",
+            "category": "N200402",
+            "title": "Kattmat",
+            "url": "djur/katt/kattmat",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200403",
+            "category": "N200403",
+            "title": "Kattströ",
+            "url": "djur/katt/kattstro",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200404",
+            "category": "N200404",
+            "title": "Kattillbehör",
+            "url": "djur/katt/kattillbehor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N2002",
+        "category": "N2002",
+        "title": "Fågel",
+        "url": "djur/fagel",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N2001",
+        "category": "N2001",
+        "title": "Djurtillbehör",
+        "url": "djur/djurtillbehor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N200102",
+            "category": "N200102",
+            "title": "Övriga djur",
+            "url": "djur/djurtillbehor/ovriga-djur",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N2005",
+        "category": "N2005",
+        "title": "Övriga djur",
+        "url": "djur/ovriga-djur",
+        "valid": true,
+        "children": [
+          {
+            "id": "N200501",
+            "category": "N200501",
+            "title": "Djurmat",
+            "url": "djur/ovriga-djur/djurmat",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N200503",
+            "category": "N200503",
+            "title": "Gnagare",
+            "url": "djur/ovriga-djur/gnagare",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N23",
+    "category": "N23",
+    "title": "Blommor & tillbehör",
+    "url": "blommor-och-tillbehor",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1502",
+        "category": "N1502",
+        "title": "Blommor",
+        "url": "blommor-och-tillbehor/blommor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N150201",
+            "category": "N150201",
+            "title": "Bekämpning",
+            "url": "blommor-och-tillbehor/blommor/bekampning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150203",
+            "category": "N150203",
+            "title": "Fröer",
+            "url": "blommor-och-tillbehor/blommor/froer",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150204",
+            "category": "N150204",
+            "title": "Jord",
+            "url": "blommor-och-tillbehor/blommor/jord",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150205",
+            "category": "N150205",
+            "title": "Krukväxter",
+            "url": "blommor-och-tillbehor/blommor/krukvaxter",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150206",
+            "category": "N150206",
+            "title": "Snittblommor",
+            "url": "blommor-och-tillbehor/blommor/snittblommor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150209",
+            "category": "N150209",
+            "title": "Växtnäring",
+            "url": "blommor-och-tillbehor/blommor/vaxtnaring",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1503",
+        "category": "N1503",
+        "title": "Blomtillbehör",
+        "url": "blommor-och-tillbehor/blomtillbehor",
+        "valid": true,
+        "children": [
+          {
+            "id": "N150303",
+            "category": "N150303",
+            "title": "Trädgårdsskötsel",
+            "url": "blommor-och-tillbehor/blomtillbehor/tradgardsskotsel",
+            "valid": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "N15",
+    "category": "N15",
+    "title": "Hem & städ",
+    "url": "hem-och-stad",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1515",
+        "category": "N1515",
+        "title": "Tvätt",
+        "url": "hem-och-stad/tvatt",
+        "valid": true,
+        "children": [
+          {
+            "id": "N151501",
+            "category": "N151501",
+            "title": "Sköljmedel",
+            "url": "hem-och-stad/tvatt/skoljmedel",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151502",
+            "category": "N151502",
+            "title": "Tvättmedel",
+            "url": "hem-och-stad/tvatt/tvattmedel",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151503",
+            "category": "N151503",
+            "title": "Tvättillbehör",
+            "url": "hem-och-stad/tvatt/tvattillbehor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1514",
+        "category": "N1514",
+        "title": "Toalett- & hushållspapper",
+        "url": "hem-och-stad/toalett-och-hushallspapper",
+        "valid": true,
+        "children": [
+          {
+            "id": "N151401",
+            "category": "N151401",
+            "title": "Hushållspapper",
+            "url": "hem-och-stad/toalett-och-hushallspapper/hushallspapper",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151402",
+            "category": "N151402",
+            "title": "Toalettpapper",
+            "url": "hem-och-stad/toalett-och-hushallspapper/toalettpapper",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1513",
+        "category": "N1513",
+        "title": "Städ",
+        "url": "hem-och-stad/stad",
+        "valid": true,
+        "children": [
+          {
+            "id": "N151301",
+            "category": "N151301",
+            "title": "Luftfräschare",
+            "url": "hem-och-stad/stad/luftfraschare",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151302",
+            "category": "N151302",
+            "title": "Propplösare",
+            "url": "hem-och-stad/stad/propplosare",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151303",
+            "category": "N151303",
+            "title": "Rengöringsmedel",
+            "url": "hem-och-stad/stad/rengoringsmedel",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151304",
+            "category": "N151304",
+            "title": "Städutrustning",
+            "url": "hem-och-stad/stad/stadutrustning",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1504",
+        "category": "N1504",
+        "title": "Disk",
+        "url": "hem-och-stad/disk",
+        "valid": true,
+        "children": [
+          {
+            "id": "N150401",
+            "category": "N150401",
+            "title": "Disktillbehör",
+            "url": "hem-och-stad/disk/disktillbehor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150402",
+            "category": "N150402",
+            "title": "Handdisk",
+            "url": "hem-och-stad/disk/handdisk",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150403",
+            "category": "N150403",
+            "title": "Maskindisk",
+            "url": "hem-och-stad/disk/maskindisk",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1501",
+        "category": "N1501",
+        "title": "Biltillbehör",
+        "url": "hem-och-stad/biltillbehor",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1508",
+        "category": "N1508",
+        "title": "Grilltillbehör",
+        "url": "hem-och-stad/grilltillbehor",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1509",
+        "category": "N1509",
+        "title": "Hem & inredning",
+        "url": "hem-och-stad/hem-och-inredning",
+        "valid": true,
+        "children": [
+          {
+            "id": "N150901",
+            "category": "N150901",
+            "title": "Badrumstillbehör",
+            "url": "hem-och-stad/hem-och-inredning/badrumstillbehor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150902",
+            "category": "N150902",
+            "title": "Bakpapper & formar",
+            "url": "hem-och-stad/hem-och-inredning/bakpapper-och-formar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150903",
+            "category": "N150903",
+            "title": "Batterier",
+            "url": "hem-och-stad/hem-och-inredning/batterier",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150904",
+            "category": "N150904",
+            "title": "El",
+            "url": "hem-och-stad/hem-och-inredning/el",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150905",
+            "category": "N150905",
+            "title": "Engångsartiklar",
+            "url": "hem-och-stad/hem-och-inredning/engangsartiklar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150906",
+            "category": "N150906",
+            "title": "Gör det själv",
+            "url": "hem-och-stad/hem-och-inredning/gor-det-sjalv",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150908",
+            "category": "N150908",
+            "title": "Kläder",
+            "url": "hem-och-stad/hem-och-inredning/klader",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150909",
+            "category": "N150909",
+            "title": "Kökstillbehör",
+            "url": "hem-och-stad/hem-och-inredning/kokstillbehor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150910",
+            "category": "N150910",
+            "title": "Lampor & proppar",
+            "url": "hem-och-stad/hem-och-inredning/lampor-och-proppar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150911",
+            "category": "N150911",
+            "title": "Leksaker",
+            "url": "hem-och-stad/hem-och-inredning/leksaker",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150912",
+            "category": "N150912",
+            "title": "Ljus",
+            "url": "hem-och-stad/hem-och-inredning/ljus",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150913",
+            "category": "N150913",
+            "title": "Matförvaring",
+            "url": "hem-och-stad/hem-och-inredning/matforvaring",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150914",
+            "category": "N150914",
+            "title": "Party artiklar",
+            "url": "hem-och-stad/hem-och-inredning/party-artiklar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150917",
+            "category": "N150917",
+            "title": "Servetter & dukar",
+            "url": "hem-och-stad/hem-och-inredning/servetter-och-dukar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150918",
+            "category": "N150918",
+            "title": "Skrivbordet",
+            "url": "hem-och-stad/hem-och-inredning/skrivbordet",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N150919",
+            "category": "N150919",
+            "title": "Säsongspynt",
+            "url": "hem-och-stad/hem-och-inredning/sasongspynt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1510",
+        "category": "N1510",
+        "title": "Kläder",
+        "url": "hem-och-stad/klader",
+        "valid": true,
+        "children": [
+          {
+            "id": "N151004",
+            "category": "N151004",
+            "title": "Strumpbyxor",
+            "url": "hem-och-stad/klader/strumpbyxor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151005",
+            "category": "N151005",
+            "title": "Stumpor",
+            "url": "hem-och-stad/klader/stumpor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151007",
+            "category": "N151007",
+            "title": "Underkläder",
+            "url": "hem-och-stad/klader/underklader",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N151008",
+            "category": "N151008",
+            "title": "Vantar & mössor",
+            "url": "hem-och-stad/klader/vantar-och-mossor",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1511",
+        "category": "N1511",
+        "title": "Media",
+        "url": "hem-och-stad/media",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1512",
+        "category": "N1512",
+        "title": "Sport & fritid",
+        "url": "hem-och-stad/sport-och-fritid",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N16",
+    "category": "N16",
+    "title": "Hälsa & skönhet",
+    "url": "halsa-och-skonhet",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1601",
+        "category": "N1601",
+        "title": "Hårvård",
+        "url": "halsa-och-skonhet/harvard",
+        "valid": true,
+        "children": [
+          {
+            "id": "N160101",
+            "category": "N160101",
+            "title": "Balsam & inpackningar",
+            "url": "halsa-och-skonhet/harvard/balsam-och-inpackningar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160102",
+            "category": "N160102",
+            "title": "Hårfärg",
+            "url": "halsa-och-skonhet/harvard/harfarg",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160103",
+            "category": "N160103",
+            "title": "Hårmode",
+            "url": "halsa-och-skonhet/harvard/harmode",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160104",
+            "category": "N160104",
+            "title": "Schampo",
+            "url": "halsa-och-skonhet/harvard/schampo",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160105",
+            "category": "N160105",
+            "title": "Styling",
+            "url": "halsa-och-skonhet/harvard/styling",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1602",
+        "category": "N1602",
+        "title": "Intimhygien",
+        "url": "halsa-och-skonhet/intimhygien",
+        "valid": true,
+        "children": [
+          {
+            "id": "N160201",
+            "category": "N160201",
+            "title": "Bindor",
+            "url": "halsa-och-skonhet/intimhygien/bindor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160202",
+            "category": "N160202",
+            "title": "Inkontinens",
+            "url": "halsa-och-skonhet/intimhygien/inkontinens",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160203",
+            "category": "N160203",
+            "title": "Tamponger",
+            "url": "halsa-och-skonhet/intimhygien/tamponger",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160204",
+            "category": "N160204",
+            "title": "Trosskydd",
+            "url": "halsa-och-skonhet/intimhygien/trosskydd",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1603",
+        "category": "N1603",
+        "title": "Kroppsvård",
+        "url": "halsa-och-skonhet/kroppsvard",
+        "valid": true,
+        "children": [
+          {
+            "id": "N160301",
+            "category": "N160301",
+            "title": "Deodorant för män",
+            "url": "halsa-och-skonhet/kroppsvard/deodorant-for-man",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160302",
+            "category": "N160302",
+            "title": "Deodorant för kvinnor",
+            "url": "halsa-och-skonhet/kroppsvard/deodorant-for-kvinnor",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160303",
+            "category": "N160303",
+            "title": "Hudvård Kropp ",
+            "url": "halsa-och-skonhet/kroppsvard/hudvard-kropp-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160308",
+            "category": "N160308",
+            "title": "Ansiktsvård               ",
+            "url": "halsa-och-skonhet/kroppsvard/ansiktsvard-",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160305",
+            "category": "N160305",
+            "title": "Rakartiklar",
+            "url": "halsa-och-skonhet/kroppsvard/rakartiklar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160306",
+            "category": "N160306",
+            "title": "Solmedel",
+            "url": "halsa-och-skonhet/kroppsvard/solmedel",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160307",
+            "category": "N160307",
+            "title": "Tvål",
+            "url": "halsa-och-skonhet/kroppsvard/tval",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1604",
+        "category": "N1604",
+        "title": "Munvård",
+        "url": "halsa-och-skonhet/munvard",
+        "valid": true,
+        "children": [
+          {
+            "id": "N160401",
+            "category": "N160401",
+            "title": "Tandborstar",
+            "url": "halsa-och-skonhet/munvard/tandborstar",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160402",
+            "category": "N160402",
+            "title": "Tandkräm",
+            "url": "halsa-och-skonhet/munvard/tandkram",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N160403",
+            "category": "N160403",
+            "title": "Övrigt",
+            "url": "halsa-och-skonhet/munvard/ovrigt",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1605",
+        "category": "N1605",
+        "title": "Myggmedel",
+        "url": "halsa-och-skonhet/myggmedel",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1606",
+        "category": "N1606",
+        "title": "Näsdukar & bomull",
+        "url": "halsa-och-skonhet/nasdukar-och-bomull",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N1610",
+        "category": "N1610",
+        "title": "Hälsokost",
+        "url": "halsa-och-skonhet/halsokost",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N16101",
+        "category": "N16101",
+        "title": "Vitaminer & mineraler ",
+        "url": "halsa-och-skonhet/vitaminer-och-mineraler-",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N16102",
+        "category": "N16102",
+        "title": "Träning ",
+        "url": "halsa-och-skonhet/traning-",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "N16103",
+        "category": "N16103",
+        "title": "Viktkontroll",
+        "url": "halsa-och-skonhet/viktkontroll",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N21",
+    "category": "N21",
+    "title": "Apotek & läkemedel",
+    "url": "apotek-och-lakemedel",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1702",
+        "category": "N1702",
+        "title": "Receptfria läkemedel",
+        "url": "apotek-och-lakemedel/receptfria-lakemedel",
+        "valid": true,
+        "children": [
+          {
+            "id": "N170201",
+            "category": "N170201",
+            "title": "Allergi",
+            "url": "apotek-och-lakemedel/receptfria-lakemedel/allergi",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N170202",
+            "category": "N170202",
+            "title": "Förkylning",
+            "url": "apotek-och-lakemedel/receptfria-lakemedel/forkylning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N170203",
+            "category": "N170203",
+            "title": "Mage & tarm",
+            "url": "apotek-och-lakemedel/receptfria-lakemedel/mage-och-tarm",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N170204",
+            "category": "N170204",
+            "title": "Rökavvänjning",
+            "url": "apotek-och-lakemedel/receptfria-lakemedel/rokavvanjning",
+            "valid": true,
+            "children": []
+          },
+          {
+            "id": "N170205",
+            "category": "N170205",
+            "title": "Värk & feber",
+            "url": "apotek-och-lakemedel/receptfria-lakemedel/vark-och-feber",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1608",
+        "category": "N1608",
+        "title": "Sjukvård",
+        "url": "apotek-och-lakemedel/sjukvard",
+        "valid": true,
+        "children": [
+          {
+            "id": "N160801",
+            "category": "N160801",
+            "title": "Plåster & sårvård",
+            "url": "apotek-och-lakemedel/sjukvard/plaster-och-sarvard",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1607",
+        "category": "N1607",
+        "title": "Sex & lust",
+        "url": "apotek-och-lakemedel/sex-och-lust",
+        "valid": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "N19",
+    "category": "N19",
+    "title": "Kiosk",
+    "url": "kiosk",
+    "valid": true,
+    "children": [
+      {
+        "id": "N1904",
+        "category": "N1904",
+        "title": "Cigaretter",
+        "url": "kiosk/cigaretter",
+        "valid": true,
+        "children": [
+          {
+            "id": "N190402",
+            "category": "N190402",
+            "title": "Cigaretter limpa",
+            "url": "kiosk/cigaretter/cigaretter-limpa",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1920",
+        "category": "N1920",
+        "title": "Snus",
+        "url": "kiosk/snus",
+        "valid": true,
+        "children": [
+          {
+            "id": "N192003",
+            "category": "N192003",
+            "title": "Snus stock",
+            "url": "kiosk/snus/snus-stock",
+            "valid": true,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "N1924",
+        "category": "N1924",
+        "title": "Övrig tobak",
+        "url": "kiosk/ovrig-tobak",
+        "valid": true,
+        "children": []
+      },
+      {
+        "id": "n1925",
+        "category": "n1925",
+        "title": "Nikotinfritt",
+        "url": "kiosk/nikotinfritt",
+        "valid": true,
+        "children": []
+      }
+    ]
+  }
+]
