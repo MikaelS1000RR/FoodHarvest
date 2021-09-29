@@ -8,13 +8,17 @@ import { MathemHarvester } from "./Harvesters/MathemHarvester.js";
 export class Harvesting {
   static async run() {
 
+
+     function writeToFile(fileName, data) {
+       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+     }
     //Here we get all categories from Mathem
     let categories = await MathemHarvester.getCategories();
 
 
     //Here we use all categories to get products from each category
     let allProductsOfMathem = await MathemHarvester.getProductsFromCategories(categories)
-    console.log(allProductsOfMathem);
+    writeToFile('harvested.json', allProductsOfMathem)
     
     //Deleting collection before posting anything
    /*  await FirebaseHandler.deleteCollection("products");
@@ -25,9 +29,7 @@ export class Harvesting {
 
  
 
-    function writeToFile(fileName, data) {
-      fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-    }
+   
 
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
 

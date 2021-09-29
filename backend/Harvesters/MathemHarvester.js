@@ -18,7 +18,7 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/product-search/noauth/categorylist/" 
             + categoryURL + 
-            "?storeId=16&productSizePerCategory=1&categorySize=20"
+            "?storeId=16&productSizePerCategory=1000&categorySize=20"
         );
         return await raw.json();
     }
@@ -26,7 +26,9 @@ export class MathemHarvester {
 
     //Sending mathem categories as argument for the function
     static async getProductsFromCategories(mCategories) {
-        let productStorage = [];
+      let productStorage = [];
+      let categoriesOfDb = await FirebaseHandler.getCategories();
+      console.log('Harvesting of Mathem has started');
 
         for(let i = 0; i < mCategories.length; i++) {
           let category = mCategories[i];
@@ -43,10 +45,15 @@ export class MathemHarvester {
           let productsArr = categoriesObj.categories[0].products;
 
           //For every product that we get inside of products array, we push the product to our own array
+          //And scrub categories for this product
           for (let j = 0; j < productsArr.length; j++) {
+            productsArr[j].category = Category.scrubCategories(category.id, categoriesOfDb)
+            
             productStorage.push(productsArr[j]);
           }
-        }
+          console.log('length of prodcuts is ', productStorage.length);
+      }
+      console.log('Harvesting of mathem is done!');
 
         return productStorage;
     }

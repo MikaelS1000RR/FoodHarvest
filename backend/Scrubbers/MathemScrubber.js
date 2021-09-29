@@ -8,24 +8,19 @@ import { Discount } from '../Models/Discount.js';
 import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
 
 export class MathemScrubber extends Scrubber {
-    static translateSchema = {
-        productName: (x) => x.name,
-        price: (x) => x.price,
-        quantity: (x) => x.quantity,
-        quantityUnit: (x) => x.unit,
-        comparisonUnit: (x) => x.comparisonUnit,
-        comparisonPrice: (x) => x.comparisonPrice,
-        brand: (x) => x.brand,
-        imageUrl: (x) => x.images,
-        category: (x) => x.category,
-        preferences: (x) => x.preferences,
-        ean: (x) => x.gtin,
-        store: (x) => x.shops.name,
-        discount: (x) => x.discount
-    }
-
-    
-
-
-
+  static translateSchema = {
+    productName: (x) => x.name,
+    price: (x) => x.price,
+    quantity: (x) => x.quantity,
+    quantityUnit: (x) => x.unit,
+    comparisonUnit: (x) => x.comparisonUnit,
+    comparisonPrice: (x) => x.comparisonPrice,
+    brand: (x) => x.supplier.name,
+    imageUrl: (x) => x.images.SMALL,
+    category: (x) => x.category,
+    preferences: (x) => x.preferences,
+    ean: (x) => x.gtin,
+    store: (x) => x.shops.name,
+    discount: (x) => x.discount,
+  };
 }
