@@ -28,13 +28,14 @@ export class Category {
         //If db category includes any word from store category then matching category was found
         else if (dbCategories[i].name.includes(wordArr3[j]))
         {
-        
-          let newCategory= dbCategories.filter((category)=> category.name === wordArr3[j])
+        let newCategory = {
+          name: dbCategories[i].name,
+        };
           foundCategory = true;
           return newCategory
         }
       }
-      
+      //
         
     }
 
