@@ -17,6 +17,7 @@ import RegisterModal from './components/modals/RegisterModal';
 import CategoryModal from './components/modals/CategoryModal';
 import DetailModal from './components/DetailModal';
 import AddListModal from "./components/modals/AddListModal";
+import SearchResult from "./components/search/SearchResult";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                 <main>
                   <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route path="/search" component={SearchResult} />
                     <Route exact path="/catagories/" component={Catagories} />
                     <Route
                       exact

@@ -4,13 +4,6 @@ import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 
 const SearchBar = (props) => {
-
-  // const [productSearch, setProductSearch] = useState('')
-
-  // const goToSearchPage = (event) => {
-  //   event.preventDefault()
-  // }
-
   
   const [term, setTerm] = useState(props.term || '');
 

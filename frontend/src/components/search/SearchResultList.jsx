@@ -1,10 +1,16 @@
 import React from "react";
-import {SearchResultItem} from './SearchResultItem'
 
-export function SearchResultList(){
+const SearchResultList = () => {
+
+
     return (
+        
         <div>
-            <SearchResultItem/>
+            Search-Result-List
         </div>
     )
+
+
 }
+
+export default SearchResultList;
