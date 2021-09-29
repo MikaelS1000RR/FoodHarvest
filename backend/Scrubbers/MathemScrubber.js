@@ -18,9 +18,25 @@ export class MathemScrubber extends Scrubber {
     brand: (x) => x.supplier.name,
     imageUrl: (x) => x.images.SMALL,
     //category: (x) => x.category,
-    preferences: (x) => x.preferences,
+    //preferences: (x) => x.preferences,
     ean: (x) => x.gtin,
-    store: (x) => x.shops.name,
-    discount: (x) => x.discount,
+    //store: (x) => x.shops.name,
+    discount: (x) => this.getDiscount(x),
   };
+
+  static async getDiscount(product) {
+    if (product.discount!=null) {
+      let discount = new Discount(
+        product.discount.discountType,
+        product.discount.quantityToBeBought,
+        product.price,
+        product.discount.savings,
+        product.discount.percentageSavings,
+        product.discount.allowedMemberTypes === null ? false: true
+      );
+      return discount;
+    } else {
+      return null;
+    }
+  }
 }

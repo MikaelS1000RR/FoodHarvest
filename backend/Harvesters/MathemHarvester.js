@@ -18,7 +18,7 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/product-search/noauth/categorylist/" 
             + categoryURL + 
-            "?storeId=16&productSizePerCategory=1000&categorySize=20"
+            "?storeId=16&productSizePerCategory=10&categorySize=20"
         );
         return await raw.json();
     }
@@ -27,7 +27,7 @@ export class MathemHarvester {
     //Sending mathem categories as argument for the function
     static async getProductsFromCategories(mCategories) {
       let productStorage = [];
-      let categoriesOfDb = await FirebaseHandler.getCategories();
+      //let categoriesOfDb = await FirebaseHandler.getCategories();
       console.log('Harvesting of Mathem has started');
 
         for(let i = 0; i < mCategories.length; i++) {
@@ -51,8 +51,9 @@ export class MathemHarvester {
             
             productStorage.push(productsArr[j]);
           }
-          console.log('length of prodcuts is ', productStorage.length);
+         
       }
+       console.log("length of prodcuts is ", productStorage.length);
       console.log('Harvesting of mathem is done!');
 
         return productStorage;

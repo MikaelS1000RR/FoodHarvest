@@ -3,6 +3,7 @@ import { WillysHarvester } from "./Harvesters/WillysHarvester.js";
 import { WillysScrubber } from "./Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "./FirebaseHandler.js";
 import { MathemHarvester } from "./Harvesters/MathemHarvester.js";
+import { MathemScrubber } from "./Scrubbers/MathemScrubber.js";
 
 
 export class Harvesting {
@@ -18,7 +19,10 @@ export class Harvesting {
 
     //Here we use all categories to get products from each category
     let allProductsOfMathem = await MathemHarvester.getProductsFromCategories(categories)
-    writeToFile('harvested.json', allProductsOfMathem)
+
+
+    let scrubbedProductsOfMathem=await MathemScrubber.scrubAll(allProductsOfMathem)
+    writeToFile('scrubbed-mathem.json', scrubbedProductsOfMathem)
     
     //Deleting collection before posting anything
    /*  await FirebaseHandler.deleteCollection("products");
