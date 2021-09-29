@@ -15,7 +15,7 @@ import Navbar from "./components/Navbar";
 import LoginModal from "./components/modals/LoginModal";
 import RegisterModal from "./components/modals/RegisterModal";
 import CategoryModal from "./components/modals/CategoryModal";
-import DetailModal from "./components/DetailModal";
+import DetailModal from "./components/modals/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
 

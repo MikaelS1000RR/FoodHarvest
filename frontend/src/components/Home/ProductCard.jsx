@@ -1,5 +1,5 @@
 import FavoriteButton from "./FavoriteButton";
-import DetailModal from "../DetailModal";
+import DetailModal from "../modals/DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
@@ -17,13 +17,16 @@ const ProductCard = (props) => {
           productId={product.id}
           isFavorite={isFavorite}
         />
-        <div className="openModal" onClick={() => {
-          setCurrentProduct(product) 
-          toggleDetailModal()
-        }}>
+        <div
+          className="openModal"
+          style={styles.openModal}
+          onClick={() => {
+            setCurrentProduct(product);
+            toggleDetailModal();
+          }}
+        >
           <div className="card-img-top" style={styles.image}>
             <img
-              className=""
               style={styles.image.content}
               src={product.imageUrl}
               alt={product.imageUrl}
@@ -37,8 +40,10 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div className="btn btn-primary" style={styles.button}>
-          {buttonText}
+        <div style={styles.openModal}>
+          <div className="btn btn-primary mt-auto" style={styles.button}>
+            {buttonText}
+          </div>
         </div>
       </div>
       <DetailModal product={product} index={index} />
@@ -60,18 +65,20 @@ const styles = {
   },
   button: {
     width: "80%",
-    minWidth: "100%",
     borderRadius: "100px",
+  },
+  openModal: {
+    width: "100%"
   },
   image: {
     width: "100%",
     height: "150px",
-    verticalAlign: "middle",
+    margin: "0 auto",
     display: "flex",
     content: {
       objectFit: "contain",
-      maxWidth: "100%",
-      maxHeight: "100%",
+      width: "100%",
+      height: "100%",
       margin: "0 auto",
     },
   },
