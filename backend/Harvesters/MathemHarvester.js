@@ -34,13 +34,13 @@ export class MathemHarvester {
             let category = mCategories[i];
 
             //Category object has products array inside to we have to take it
-            // CategoryObj: {
+            // CategoriesObj: {
            /*    categories: [
                    products: [
                      //...here are the products
                             ]
                 ]
-            } */
+            } (this is how categoriesObj looks if we write it to console)*/
             let categoriesObj = await this.getProducts(category.id)
             let productsArr = categoriesObj.categories[0].products
    
