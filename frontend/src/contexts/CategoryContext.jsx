@@ -11,7 +11,9 @@ const CategoryProvider = (props) => {
   const [categories, setCategories] = useState([]);
   
   useEffect(() => {
-    fetchCategories();
+    if (categories.length <= 0) {
+      fetchCategories();
+    }
   }, []);
 
   const fetchCategories = () => {
@@ -23,10 +25,23 @@ const CategoryProvider = (props) => {
       }
     )
   };
+
+  const getCategoryDocRef = async (categoryName) => {
+    let docs = await firestore.collection('categories').where('name', '==', categoryName).get();
+    let toReturn = "";
+    docs.forEach(doc => {
+      if (doc.ref) {
+        toReturn = doc.ref;
+        return;
+      }
+    })
+    return toReturn;
+  }
   
   const values = {
     categories,
-    fetchCategories
+    fetchCategories,
+    getCategoryDocRef,
   };
 
   return (
