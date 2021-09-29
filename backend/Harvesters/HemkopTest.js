@@ -4,7 +4,7 @@ import { HemkopHarvester } from "./HemkopHarvester.js";
 export class HemkopTest {
   static async test() {
     let rawData = await HemkopHarvester.getCategories();
-    let categories = rawData.children; //Getting all BASIC categories of willys
+    let categories = rawData.children; 
 
     // write to file for now (goal: write to DB instead)
     function writeToFile(fileName, data) {
@@ -16,18 +16,18 @@ export class HemkopTest {
       }
     }
 
-    let allHemkopProducts = await HemkopHarvester.getAllProducts(categories);
+    let unscrubbedHemkopProducts = await HemkopHarvester.getAllProducts(categories);
 
     // writeToFile(
-    //   "C:/Users/Denise/Documents/GitHub/FoodHarvest/backend/hemkoptest.txt", allHemkopProducts
+    //   "C:/Users/Denise/Documents/GitHub/FoodHarvest/backend/hemkoptest.txt", unscrubbedHemkopProducts
     // );
 
 
 
     //Scrubbing all products
-    // let scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
+     let scrubbedHemkopProducts = await HemkopScrubber.scrubAll(unscrubbedHemkopProducts);
 
     //Posting scrubbed products into db
-    // FirebaseHandler.postProduct(scrubbedProducts);
+    // FirebaseHandler.postProduct(scrubbedHemkopProducts);
   }
 }
