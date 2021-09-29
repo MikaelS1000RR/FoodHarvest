@@ -9,6 +9,7 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
+  const [favoriteList, setFavoriteList] = useState([])
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
@@ -29,8 +30,7 @@ const ProductListProvider = (props) => {
       name: list.name
     }
     try {
-      // using set() at the moment to add product to collection
-      const docRef = await firestore.collection('product-lists').doc().set(newProductList);
+      await firestore.collection('product-lists').doc().set(newProductList);
     }
     catch {
       console.log("adding list failed");
@@ -54,6 +54,7 @@ const ProductListProvider = (props) => {
   }, []);
 
   const values = {
+    favoriteList,
     currentProductList,
     setCurrentProductList,
     productLists,

@@ -15,12 +15,13 @@ const CategoryProvider = (props) => {
       fetchCategories();
     }
   }, []);
-
+  
   const fetchCategories = () => {
-    firestore.collection('categories').onSnapshot(
+    console.log("fetching kategories");
+    firestore.collection("categories").orderBy("name").onSnapshot(
       (snapshot) => {
         const docs = [];
-        snapshot.forEach((doc) => docs.push({ id: doc.id, ref: doc.red, ...doc.data() }))
+        snapshot.forEach((doc) => docs.push({ id: doc.id, ref: doc.ref, ...doc.data() }))
         setCategories(docs)
       }
     )

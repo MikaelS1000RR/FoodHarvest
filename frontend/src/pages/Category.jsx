@@ -10,17 +10,16 @@ const Category = (props) => {
   const categoryName = props.match.params.name;
   const [products, setProducts] = useState([])
   const { fetchProductsByCategory } = useProduct();
-  const { categories, getCategoryByName } = useCategory();
+  const { getCategoryByName } = useCategory();
   
   useEffect(() => {
     const getCategory = async () => {
+      console.log("hämta produkter");
       let category = await getCategoryByName(categoryName);
       let docs = await fetchProductsByCategory(category);
       setProducts(docs);
     }
-    if (categories.length > 0) {
-      getCategory();
-    }
+    getCategory();
   }, [categoryName])
 
   return (

@@ -1,5 +1,5 @@
 import FavoriteButton from "./FavoriteButton";
-import DetailModal from "../DetailModal";
+import DetailModal from "../modals/DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
