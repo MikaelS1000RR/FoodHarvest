@@ -27,7 +27,7 @@ export class MathemHarvester {
     //Sending mathem categories as argument for the function
     static async getProductsFromCategories(mCategories) {
       let productStorage = [];
-      //let categoriesOfDb = await FirebaseHandler.getCategories();
+      let categoriesOfDb = await FirebaseHandler.getCategories();
       console.log('Harvesting of Mathem has started');
 
         for(let i = 0; i < mCategories.length; i++) {
@@ -48,8 +48,8 @@ export class MathemHarvester {
           //For every product that we get inside of products array, we push the product to our own array
           //And scrub categories for this product
           for (let j = 0; j < productsArr.length; j++) {
-            //productsArr[j].category = Category.scrubCategories(category.title, categoriesOfDb)
-            productsArr[j].category=category.title
+            productsArr[j].category = Category.scrubCategories(category.title, categoriesOfDb)
+            
             productStorage.push(productsArr[j]);
           }
          

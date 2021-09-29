@@ -21,17 +21,15 @@ export class Category {
            let newCategory = {
              name: "Skönhet & Hälsa",
            };
-          
+          foundCategory = true;
           return newCategory;
         }
 
         //If db category includes any word from store category then matching category was found
         else if (dbCategories[i].name.includes(wordArr3[j]))
         {
-          let newCategory = {
-            name: dbCategories[i].name
-          }
         
+          let newCategory= dbCategories.filter((category)=> category.name === wordArr3[j])
           foundCategory = true;
           return newCategory
         }

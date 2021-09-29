@@ -20,19 +20,19 @@ export class MathemScrubber extends Scrubber {
     category: (x) => x.category,
     //preferences: (x) => x.preferences,
     ean: (x) => x.gtin,
-    //store: (x) => x.shops.name,
+    store: (x) => x.shops[0].name[0].toUpperCase() + x.shops[0].name.slice(1),
     discount: (x) => this.getDiscount(x),
   };
 
   static async getDiscount(product) {
-    if (product.discount!=null) {
+    if (product.discount != null) {
       let discount = new Discount(
         product.discount.discountType,
         product.discount.quantityToBeBought,
         product.price,
         product.discount.savings,
         product.discount.percentageSavings,
-        product.discount.allowedMemberTypes === null ? false: true
+        product.discount.allowedMemberTypes === null ? false : true
       );
       return discount;
     } else {
