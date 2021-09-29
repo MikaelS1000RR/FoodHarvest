@@ -17,7 +17,7 @@ const DetailModal = () => {
         info = (
           <div key={currentProduct.id}>
             <div>
-              <img src={currentProduct.image} alt={currentProduct.image} />
+              <img src={currentProduct.imageUrl} alt={currentProduct.imageUrl} />
             </div>
             <div>
               <h4>

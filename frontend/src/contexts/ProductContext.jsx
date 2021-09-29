@@ -8,13 +8,14 @@ export const useProduct = () => {
 };
 
 const ProductProvider = (props) => {
+  const productCollection = "products"
 
   const fetchProductsByCategory = async (categoryRef) => {
     const docs = [];
     let snapshot = await firestore
-      .collection("test-products-willys")
+      .collection(productCollection)
       .where("category", "==", categoryRef)
-      .limit(1)
+      .limit(24)
       .get();
     
     snapshot.forEach((doc) => {          

@@ -22,13 +22,17 @@ const Category = (props) => {
   }, [categoryName])
 
   return (
-    <div>
-      Catagories + {categoryName}
+    <div style={styles.container}>
+      <h2>{categoryName}</h2>
       <Container>
         <Row>
           {products.length > 0
             ? products.map((p) => (
-              <ProductCard key={p.id} product={p} classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} buttonText="Lägg till"/>
+              <ProductCard
+                key={p.id}
+                product={p}
+                classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
+                buttonText="Lägg till" />
             ))
             : null}
         </Row>
@@ -40,7 +44,7 @@ const Category = (props) => {
 export default Category;
 
 const styles = {
-  catagoryItems: {
+  container: {
 
   }
 }
