@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 // HemkopTest.test();
-// TestHarvesting.test();
+TestHarvesting.test();
 // Harvesting.run();
 
 app.listen(3000, () => console.log("Listening on port 3000"));
