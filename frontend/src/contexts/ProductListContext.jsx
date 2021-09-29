@@ -30,7 +30,16 @@ const ProductListProvider = (props) => {
       name: list.name
     }
     try {
-      await firestore.collection('product-lists').doc().set(newProductList);
+      let res = fetch("/api/product-list", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(list)
+      });
+      res = await res.json();
+      console.log(res);
     }
     catch {
       console.log("adding list failed");

@@ -5,16 +5,7 @@ const FavoriteCart = () => {
   const { favoriteList } = useProductList()
 
   const toFavorites = async () => {
-    let message = await fetch("api/", {
-      headers: {
-        "Content-Type": "application/json",
-        'Accept': "application/json",
-      },
-    });
-    console.log("before");
-    message = await message.json();
-    console.log("after");
-    console.log(message);
+    console.log("Clicked favorite icon");
   }
 
   return (

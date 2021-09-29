@@ -1,4 +1,5 @@
 import firestore from "./database_config/firestore.js";
+import { ProductList } from "./Models/ProductList.js";
 
 export class Api {
   constructor(app) {
@@ -9,9 +10,11 @@ export class Api {
   start() {
 
     // createProductList
-    this.app.get("/api/", (req, res) => {
-      console.log("in the get ***************************");
-      res.json({message: "hello world"});
-    });
+    this.app.post("/api/product-list", async (req, res) => {
+      let productList = new ProductList(req.body.uid, req.body.name, [], false);
+      // await firestore.collection("product-lists").doc().set(productList);
+      console.log(productList);
+      res.json({success: "Posting successful"})
+    })
   }
 }
