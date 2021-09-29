@@ -42,13 +42,14 @@ export class MathemHarvester {
                 ]
             } (this is how categoriesObj looks if we write it to console)*/
           let categoriesObj = await this.getProducts(category.id);
+         
           let productsArr = categoriesObj.categories[0].products;
 
           //For every product that we get inside of products array, we push the product to our own array
           //And scrub categories for this product
           for (let j = 0; j < productsArr.length; j++) {
-            //productsArr[j].category = Category.scrubCategories(category.id, categoriesOfDb)
-            
+            //productsArr[j].category = Category.scrubCategories(category.title, categoriesOfDb)
+            productsArr[j].category=category.title
             productStorage.push(productsArr[j]);
           }
          

@@ -17,6 +17,7 @@ export class Harvesting {
     let categories = await MathemHarvester.getCategories();
 
 
+
     //Here we use all categories to get products from each category
     let allProductsOfMathem = await MathemHarvester.getProductsFromCategories(categories)
 
