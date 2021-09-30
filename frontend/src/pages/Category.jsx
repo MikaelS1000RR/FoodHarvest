@@ -14,7 +14,6 @@ const Category = (props) => {
   
   useEffect(() => {
     const getCategory = async () => {
-      console.log("hämta produkter");
       let category = await getCategoryByName(categoryName);
       let docs = await fetchProductsByCategory(category);
       setProducts(docs);

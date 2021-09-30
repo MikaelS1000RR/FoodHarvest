@@ -12,7 +12,7 @@ const FavoriteCart = () => {
     <div>
       <div className="btn btn-light bg-transparent" onClick={toFavorites}>
           <span className="material-icons">favorite</span>
-          {favoriteList.length}
+          {favoriteList.products.length}
       </div>
     </div>
   );

@@ -22,7 +22,6 @@ const AddListModal = () => {
       }
       const result = await addProductList(newList);
       if (result) {
-        
         toggleAddListModal();
       }
     }

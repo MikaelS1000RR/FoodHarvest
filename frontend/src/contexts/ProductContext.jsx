@@ -19,12 +19,8 @@ const ProductProvider = (props) => {
       .get();
     
     snapshot.forEach((doc) => {
-      console.log("hämtning");
-      console.log(doc);
-      docs.push({ id: doc.id, ...doc.data() })
-      }
-    );
-    console.log(docs.length);
+      docs.push({ id: doc.id, ref: doc.ref, ...doc.data() });
+    })
     return docs;
   };
 

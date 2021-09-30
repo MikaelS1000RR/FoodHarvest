@@ -9,7 +9,7 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
-  const [favoriteList, setFavoriteList] = useState([])
+  const [favoriteList, setFavoriteList] = useState({ products: [] });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
@@ -25,7 +25,7 @@ const ProductListProvider = (props) => {
       });
       res = await res.json();
       if (res.success) {
-        fetchProductLists(list.uid);
+        fetchAllLists(list.uid);
         return true;
       }
     } catch {
@@ -34,44 +34,73 @@ const ProductListProvider = (props) => {
     return false;
   };
 
-  const fetchProductLists = async (userId) => {
+  const fetchAllLists = async (userId) => {
+    let favorite = await fetchLists(userId, true)
+    if (favorite) {
+      setFavoriteList(favorite)
+      let lists = await fetchLists(userId, false);
+      setProductLists(lists)
+    }
+    else {
+      createFavoriteList(userId);
+      fetchAllLists(userId);
+    }
+  }
+
+  const fetchLists = async (userId, isFavorite) => {
     const snapshot = await firestore
       .collection("product-lists")
       .where("uid", "==", userId)
+      .where("isFavorite", "==", isFavorite)
       .get();
     let lists = [];
     snapshot.forEach((doc) => {
-      lists.push({id: doc.id, ...doc.data()})
-    })
-    filterListsAndCreateFavorite(lists, userId)
-  }
+      if (isFavorite) {
+        lists = { id: doc.id, ...doc.data() };
+        return;
+      }
+      lists.push({ id: doc.id, ...doc.data() });
+    });
+    return lists;
+  };
 
-  const filterListsAndCreateFavorite = (lists, uid) => {
-    let favoriteList = lists.find((list) => list.isFavorite === true);
-    if (favoriteList) {
-      setFavoriteList(favoriteList);
-    }
-    else {
+  const createFavoriteList = async (userId) => {
       let newFavoriteList = {
-        uid: uid,
+        uid: userId,
         name: "Favorite",
         isFavorite: true,
-      }
+      };
       addProductList(newFavoriteList);
-      return;
+  }
+
+  const addProductToFavorite = async (product) => {
+    let info = {
+      list: favoriteList,
+      product: product
     }
-    let productLists = lists.filter((list) => list.isFavorite === false);
-    setProductLists(productLists);
-    if (productLists.length > 0) {
-      setCurrentProductList(productLists[0]);
+    try {
+      let res = await fetch("/api/product-list", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(info),
+      })
+      if (res.success) {
+        return true;
+      }
     }
-  };
+    catch {
+      return false;
+    }
+  }
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
         console.log("User hittad och vi hämtar listor");
-        fetchProductLists(user.uid)
+        fetchAllLists(user.uid)
       }
       else {
         setCurrentProductList(null);
@@ -87,9 +116,10 @@ const ProductListProvider = (props) => {
     currentProductList,
     setCurrentProductList,
     productLists,
-    fetchProductLists,
-    addProductList
-  }
+    fetchAllLists,
+    addProductList,
+    addProductToFavorite,
+  };
 
   return (
     <ProductListContext.Provider value={values}>

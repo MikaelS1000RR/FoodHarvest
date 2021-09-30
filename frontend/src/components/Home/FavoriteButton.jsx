@@ -2,25 +2,28 @@ import { useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
 
 const FavoriteButton = (props) => {
-  const { styles, productId, isFavorite } = props
+  const { styles, product, isFavorite } = props
   const [isToggle, setIsToggle] = useState(isFavorite || false);
   const { addProductToFavorite, removeProductFromFavorite } = useProductList();
 
-  const toggle = (id) => {
-    if (isToggle) {
-      addProductToFavorite(id)
+  const toggle = () => {
+    let res = false;
+    if (!isToggle) {
+      res = addProductToFavorite(product);
     }
     else {
-      removeProductFromFavorite(id)
+      // removeProductFromFavorite(product);
     }
-    setIsToggle(!isToggle);
+    if (res) {
+      setIsToggle(!isToggle);
+    }
   }
 
 
 
   return (
     <div className="favorite-button" style={styles.container}>
-      <div className="btn btn-light" style={styles.icon} onClick={() => toggle(productId)}>
+      <div className="btn btn-light" style={styles.icon} onClick={() => toggle()}>
         <span className="material-icons">
           {isToggle ? 'favorite' : 'favorite_border'}
         </span>

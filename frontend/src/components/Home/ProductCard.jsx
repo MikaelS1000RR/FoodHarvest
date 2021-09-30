@@ -14,7 +14,7 @@ const ProductCard = (props) => {
       <div className={"card text-center"} style={styles.container}>
         <FavoriteButton
           styles={styles.favorite}
-          productId={product.id}
+          product={product}
           isFavorite={isFavorite}
         />
         <div className="openModal" onClick={() => {
@@ -31,7 +31,7 @@ const ProductCard = (props) => {
           </div>
           <div className="card-body">
             <div>
-              <h5 className="card-title">{product.foodType}</h5>
+              <h5 className="card-title">{product.productName}</h5>
               <p className="card-title">{product.brand}</p>
             </div>
             <h3>{product.price}kr</h3>
