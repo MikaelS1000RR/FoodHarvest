@@ -76,7 +76,7 @@ const ProductListProvider = (props) => {
       else {
         setCurrentProductList(null);
         setProductLists(null);
-        setFavoriteList([])
+        setFavoriteList({products:[]})
       }
     });
     return unsubscribe;

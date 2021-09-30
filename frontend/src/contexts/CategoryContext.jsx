@@ -27,8 +27,12 @@ const CategoryProvider = (props) => {
     )
   };
 
-  const getCategoryByName = (categoryName) => {
-    const category = categories.find(cat => cat.name === categoryName)
+  const getCategoryByName = async (categoryName) => {
+    let category = {}
+    const snapshot = await firestore.collection("categories").where("name", "==", categoryName).get();
+    snapshot.forEach(doc => {
+      category = { id: doc.id, ref: doc.ref, ...doc.data() }
+    })
     return category
   }
   
