@@ -96,6 +96,16 @@ const ProductListProvider = (props) => {
     return false;
   };
 
+  const addIsFavorite = (products) => {
+    let favorites = favoriteList
+    for (let product of products) {
+      let isFavorite = !(!favorites.products.find(p => p === product.id))
+      product.isFavorite = isFavorite
+    }
+    return products
+  }
+
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
@@ -118,6 +128,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToFavorite,
+    addIsFavorite
   };
 
   return (

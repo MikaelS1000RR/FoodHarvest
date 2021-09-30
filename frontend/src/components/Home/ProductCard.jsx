@@ -4,7 +4,7 @@ import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText, isFavorite, index } = props;
+  const { product, classNames, buttonText, index } = props;
 
   const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
@@ -15,7 +15,6 @@ const ProductCard = (props) => {
         <FavoriteButton
           styles={styles.favorite}
           product={product}
-          isFavorite={isFavorite}
         />
         <div className="openModal" onClick={() => {
           setCurrentProduct(product) 
