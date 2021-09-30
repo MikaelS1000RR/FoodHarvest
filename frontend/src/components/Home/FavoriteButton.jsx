@@ -5,6 +5,7 @@ const FavoriteButton = (props) => {
   const [isToggle, setIsToggle] = useState(isFavorite || false);
 
   const toggle = (id) => {
+    console.log("id of favorite: ", id)
     setIsToggle(!isToggle);
   }
 

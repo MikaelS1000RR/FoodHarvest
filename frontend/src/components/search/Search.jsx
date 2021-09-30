@@ -10,7 +10,9 @@ const Search = () => {
 
   const onSearchSubmit = async term => {
     console.log('New Search submit:', term);
-    const quotesArray = await requestQuotes(term.toLowerCase());
+
+    //await requestQuotes(term); wait on matches db products collection
+    const quotesArray = await requestQuotes(term);
     setNoResults(quotesArray.length === 0);
     setQuotes(quotesArray);
   };
