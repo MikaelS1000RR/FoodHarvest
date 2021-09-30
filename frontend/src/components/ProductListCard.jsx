@@ -2,15 +2,12 @@ import { Button } from "reactstrap"
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
 const ProductListCard = (props) => {
-  
- 
-
-
 
   return (
     <>
       <div className="productCardContainer" style={styles.productCard}>
-        <p></p>
+        <p>{props.props}</p>
+       
       </div>
     </>
   );

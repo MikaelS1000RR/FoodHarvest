@@ -33,9 +33,13 @@ const MyListsPage = () => {
         </div>
 
         <div className="productLists" style={styles.productLists}>
-          <ProductListCard />
-
-          <ProductListCard />
+          
+            {lists.length > 0
+              ? lists.map((p) => (
+                <ProductListCard props={p.name}/>
+                ))
+              : null}
+        
 
           <p></p>
         </div>
