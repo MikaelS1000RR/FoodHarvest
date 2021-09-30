@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
 
 const FavoriteCart = () => {
@@ -12,7 +11,7 @@ const FavoriteCart = () => {
     <div>
       <div className="btn btn-light bg-transparent" onClick={toFavorites}>
           <span className="material-icons">favorite</span>
-          {favoriteList.products.length}
+          {favoriteList.products ? favoriteList.products.length : null}
       </div>
     </div>
   );

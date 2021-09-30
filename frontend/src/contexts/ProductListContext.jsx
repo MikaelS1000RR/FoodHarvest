@@ -24,6 +24,7 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list),
       });
       res = await res.json();
+      console.log(res);
       if (res.success) {
         fetchAllLists(list.uid);
         return true;
@@ -36,7 +37,7 @@ const ProductListProvider = (props) => {
 
   const fetchAllLists = async (userId) => {
     let favorite = await fetchLists(userId, true)
-    if (favorite) {
+    if (favorite.products) {
       setFavoriteList(favorite)
       let lists = await fetchLists(userId, false);
       setProductLists(lists)
@@ -76,7 +77,8 @@ const ProductListProvider = (props) => {
   const addProductToFavorite = async (product) => {
     let info = {
       list: favoriteList,
-      product: product
+      product: product,
+      toAdd: true
     }
     try {
       let res = await fetch("/api/product-list", {
@@ -87,6 +89,7 @@ const ProductListProvider = (props) => {
         },
         body: JSON.stringify(info),
       })
+      res = await res.json();
       if (res.success) {
         return true;
       }
@@ -95,6 +98,30 @@ const ProductListProvider = (props) => {
     }
     return false;
   }
+
+  const removeProductFromFavorite = async (product) => {
+    let info = {
+      list: favoriteList,
+      product: product,
+      toAdd: false
+    };
+    try {
+      let res = await fetch("/api/product-list", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(info),
+      });
+      res = await res.json();
+      console.log(res);
+      if (res.success) {
+        return true;
+      }
+    } catch {}
+    return false;
+  };
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -119,6 +146,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     addProductToFavorite,
+    removeProductFromFavorite,
   };
 
   return (

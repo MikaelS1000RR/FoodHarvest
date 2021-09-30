@@ -4,18 +4,19 @@ import { useProductList } from "../../contexts/ProductListContext";
 const FavoriteButton = (props) => {
   const { styles, product, isFavorite } = props
   const [isToggle, setIsToggle] = useState(isFavorite || false);
-  const { addProductToFavorite, removeProductFromFavorite } = useProductList();
+  const { addProductToFavorite, removeProductFromFavorite, fetchAllLists } = useProductList();
 
   const toggle = async () => {
-    let res = false;
+    let isSucceed = false
     if (!isToggle) {
-      res = await addProductToFavorite(product);
+      isSucceed = await addProductToFavorite(product);
     }
     else {
-      // removeProductFromFavorite(product);
+      isSucceed = await removeProductFromFavorite(product);
     }
-    if (res) {
+    if (isSucceed) {
       setIsToggle(!isToggle);
+      fetchAllLists();
     }
   }
 
