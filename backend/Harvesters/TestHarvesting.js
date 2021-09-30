@@ -13,18 +13,27 @@ export class TestHarvesting {
 
       // Categories 
       let categories = await MathemHarvester.getCategories();
-      console.log('reached ', categories.length)
-      let getProducts = await MathemHarvester.getProductsFromCategories([categories[0]]);
+      // console.log('reached ', categories.length)
+    let getProducts = await MathemHarvester.getProductsFromCategories(categories);
       
       // let productsOfMathem = await MathemHarvester.getProducts();
-     
+    // let scrubbedMathemProducts = await MathemHarvester.scrubAll(getProducts);
 
-     
-      
+    function writeToFile(fileName, data) {
+      try {
+        fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+        console.log("success");
+      } catch (err) {
+        console.log(err);
+      }
+    }
+      writeToFile(
+        "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/MathemProductsTest.txt", getProducts
+    );
     
    //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem
    
-   console.log(getProducts[0]);
+  //  console.log(getProducts);
   
     // let cat = rawMat.children;
   
