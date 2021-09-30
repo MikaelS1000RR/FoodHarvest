@@ -54,7 +54,7 @@ const ProductListProvider = (props) => {
     else {
       let newFavoriteList = {
         uid: uid,
-        name: favoriteList,
+        name: "Favorite",
         isFavorite: true,
       }
       addProductList(newFavoriteList);
