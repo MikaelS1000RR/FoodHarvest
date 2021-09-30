@@ -11,7 +11,7 @@ export class Api {
 
     // createProductList
     this.app.post("/api/product-list", async (req, res) => {
-      let productList = new ProductList(req.body.uid, req.body.name, [], false);
+      let productList = new ProductList(req.body.uid, req.body.name, [], req.body.isFavorite);
       try {
         await firestore.collection("product-lists").doc().set(Object.assign({}, productList));
         console.log("success");
