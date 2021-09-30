@@ -18,6 +18,7 @@ import CategoryModal from "./components/modals/CategoryModal";
 import DetailModal from "./components/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
+import MyListsPage from "./pages/MyListsPage";
 
 function App() {
   return (
@@ -44,6 +45,11 @@ function App() {
                           exact
                           path="/myProductLists/"
                           component={MyProductLists}
+                        />
+                        <Route
+                          exact
+                          path="/myListsPage/"
+                          component={MyListsPage}
                         />
                         <Route exact path="/myProfile/" component={MyProfile} />
                         <Route path="*" component={Page404} />

@@ -16,11 +16,14 @@ const ProductListProvider = (props) => {
     const ref = firestore.collection('product-lists');
     const query = await ref.where('uid', '==', userId).get();
     let data = [];
+  
     query.forEach((doc) => {
       data.push({id: doc.id, ...doc.data()})
     })
     setCurrentProductList(data[0]);
     setProductLists(data);
+    console.log(data)
+    return data;
   }
 
   const addProductList = async (list) => {
