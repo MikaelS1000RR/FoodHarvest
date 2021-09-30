@@ -6,10 +6,10 @@ const FavoriteButton = (props) => {
   const [isToggle, setIsToggle] = useState(isFavorite || false);
   const { addProductToFavorite, removeProductFromFavorite } = useProductList();
 
-  const toggle = () => {
+  const toggle = async () => {
     let res = false;
     if (!isToggle) {
-      res = addProductToFavorite(product);
+      res = await addProductToFavorite(product);
     }
     else {
       // removeProductFromFavorite(product);

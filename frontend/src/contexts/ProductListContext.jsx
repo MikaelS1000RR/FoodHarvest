@@ -92,8 +92,8 @@ const ProductListProvider = (props) => {
       }
     }
     catch {
-      return false;
     }
+    return false;
   }
 
   useEffect(() => {
