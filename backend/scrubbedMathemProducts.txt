@@ -1,0 +1,18 @@
+[
+  {
+    "productName": "Gurka Klass1",
+    "price": 21.95,
+    "quantity": 333,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  }
+]

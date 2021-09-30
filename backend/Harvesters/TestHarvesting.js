@@ -18,7 +18,7 @@ export class TestHarvesting {
       
       // let productsOfMathem = await MathemHarvester.getProducts();
     // let scrubbedMathemProducts = await MathemHarvester.scrubAll(getProducts);
-
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll([getProducts[0]])
     function writeToFile(fileName, data) {
       try {
         fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
@@ -28,7 +28,7 @@ export class TestHarvesting {
       }
     }
       writeToFile(
-        "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/MathemProductsTest.txt", getProducts
+        "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/scrubbedMathemProducts.txt", scrubbedMathemProducts
     );
     
    //  let productsOfMathem = await MathemHarvester.getAllProducts(categoriesOfMathem) // Products of Mathem

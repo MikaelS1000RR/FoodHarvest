@@ -25,28 +25,22 @@ export class MathemScrubber extends Scrubber {
   // };
   static translateSchema = {
     productName: (x) => x.name,
-    price: (x) => x.priceNoUnit,
-    quantity: (x) => x.displayVolume, //300g
+    price: (x) => x.price,
+    quantity: (x) => x.quantity, //300g
 
-    quantityUnit: (x) => this.setQuantityUnit(x.displayVolume),
+    quantityUnit: (x) => + x.unit,
     comparisonUnit: (x) => x.comparePriceUnit, //kg
     comparisonPrice: (x) => x.comparePrice, //86.9 kr
-    brand: (x) => x.manufacturer,
-    imageUrl: (x) => x.thumbnail.url,
+    brand: (x) => x.brand.name,
+    imageUrl: (x) => x.images.ORIGINAL,
 
     category: (x) => x.category, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.labels),
+    preferences: (x) => this.setPreferences(x.preferences.labels),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
   };
-  static async setQuantityUnit(quantity) {
-    if (quantity.charAt(quantity.length - 2) === "k") {
-      return "kg";
-    } else {
-      return "g";
-    }
-  }
+  
   // static async getDiscount(product) {
   //   if (product.discount != null) {
   //     let discount = new Discount(
