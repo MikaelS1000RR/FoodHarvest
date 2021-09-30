@@ -37,6 +37,7 @@ export class Api {
       let list = req.body.list;
       let product = req.body.product;
       let toAdd = req.body.toAdd;
+      let user = req.body.user;
 
       let listRef = firestore.collection('product-lists').doc(list.id)
       if (!listRef) {
@@ -59,7 +60,9 @@ export class Api {
       }
       // update list
       try {
-        await listRef.update({ products: list.products });
+        if (user) {
+          await listRef.update({ products: list.products });
+        }
         console.log("update successful");
         res.json({
           success: "Posting successful",
