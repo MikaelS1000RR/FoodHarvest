@@ -1,6 +1,7 @@
 import fs from "fs";
 import { HemkopHarvester } from "./HemkopHarvester.js";
 import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
+import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class HemkopTest {
   static async test() {
@@ -21,18 +22,18 @@ export class HemkopTest {
     let scrubbedHemkopProducts = [];
 
     //Scrubbing all products
-    await HemkopScrubber.setStore().then(async () => {
+    await HemkopScrubber.setDBinfo().then(async () => {
       scrubbedHemkopProducts = await HemkopScrubber.scrubAll(unscrubbedHemkopProducts);
-      writeToFile(
-        "C:/Users/Denise/Documents/GitHub/FoodHarvest/backend/hemkoptest.txt",
-        scrubbedHemkopProducts
-      );
+      // writeToFile(
+      //   "C:/Users/Denise/Documents/GitHub/FoodHarvest/backend/hemkoptest.txt",
+      //   scrubbedHemkopProducts
+      // );
     });
 
 
     
 
-    //Posting scrubbed products into db
-    // FirebaseHandler.postProduct(scrubbedHemkopProducts);
+    // Posting scrubbed products into db
+    FirebaseHandler.postProductsInBatch(scrubbedHemkopProducts);
   }
 }

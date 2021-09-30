@@ -1,6 +1,7 @@
 import fetch from "node-fetch";
 import { FirebaseHandler } from '../FirebaseHandler.js'
 
+// Add to Harvesting.js *****************************
 export class HemkopHarvester {
   static bustCache() {
     return "?avoidCache=" + (Math.random() + "").split(".")[1];

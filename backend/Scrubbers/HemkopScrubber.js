@@ -4,11 +4,8 @@ import { Scrubber } from "./Scrubber.js";
 
 export class HemkopScrubber extends Scrubber {
 
-
-  // static preferencesFromDB = this.setPreferences();
-
-
   static translateSchema = {
+    productCode: (x) => x.code,
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
     quantity: (x) => x.displayVolume,
@@ -18,9 +15,9 @@ export class HemkopScrubber extends Scrubber {
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
     category: (x) => x.category,
-    preferences: (x) => this.setPreferences(x.labels),
+    preferences: (x) => this.getPreferences(x.labels),
     //ean: (x) => this.getEan(x.code),
-    store: (x) => this.getStore(x),
+    store: (x) => this.getStore(),
     //discount: (x) => this.getDiscount(x.potentialPromotions, x)
   };
 
@@ -32,45 +29,24 @@ export class HemkopScrubber extends Scrubber {
     }
   }
 
-
-  static async setStore() {
+  static async setDBinfo() {
     const hemkopStore = await FirebaseHandler.getStore("Hemköp");
+    const dbPreferences = await FirebaseHandler.getPreferences();
     console.log("Store set");
     this.storeFromDB = hemkopStore;
+    this.preferencesFromDB = dbPreferences;
   }
 
-
-  static getStore(product) {
+  static getStore() {
     if (this.storeFromDB != undefined) {
       return this.storeFromDB;
-    }
-    else {
-      return null
+    } else {
+      return null;
     }
   }
 
-  static async getEan(code) {
-    let raw = await fetch(
-      "https://www.hemkop.se/axfood/rest/p/" +
-        code +
-        HemkopHarvester.bustCache()
-    );
-    let formatted = await raw.json();
-    return formatted.ean;
-  }
-
-  //TESTA ATT FUNKAR NÄR DB FUNKAR****************************************
-  static async setPreferences(productPreferences) {
-    // const dbPreferences = await FirebaseHandler.getPreferences();
-    const dbPreferences = [
-      { name: "Svensk Flagga" },
-      { name: "Nyckelhålsmärkt" },
-      { name: "KRAV-märkt" },
-      { name: "Ekologiskt" },
-      { name: "Laktosfritt" },
-      { name: "Fairtrade" },
-      { name: "Glutenfritt" }
-    ];
+  static async getPreferences(productPreferences) {
+    const dbPreferences = this.preferencesFromDB;
     let refinedHemkopPreferences = [];
 
     console.log("productPreferences: ", productPreferences);
@@ -127,9 +103,18 @@ export class HemkopScrubber extends Scrubber {
       } else {
         return null;
       }
-    }
-    else {
+    } else {
       return null;
     }
+  }
+
+  static async getEan(code) {
+    let raw = await fetch(
+      "https://www.hemkop.se/axfood/rest/p/" +
+        code +
+        HemkopHarvester.bustCache()
+    );
+    let formatted = await raw.json();
+    return formatted.ean;
   }
 }
