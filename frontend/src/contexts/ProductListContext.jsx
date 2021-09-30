@@ -25,12 +25,8 @@ const ProductListProvider = (props) => {
   }
 
   const addProductList = async (list) => {
-    const newProductList = {
-      uid: list.uid,
-      name: list.name
-    }
     try {
-      let res = fetch("/api/product-list", {
+      let res = await fetch("/api/product-list", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -39,14 +35,15 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list)
       });
       res = await res.json();
-      console.log(res);
+      if (res.success) {
+        fetchProductLists(list.uid);
+        return true;
+      }
     }
     catch {
       console.log("adding list failed");
-      return false;
     }
-    fetchProductLists(newProductList.uid);
-    return true;
+    return false;
   }
 
   useEffect(() => {

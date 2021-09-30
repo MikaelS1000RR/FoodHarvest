@@ -12,9 +12,15 @@ export class Api {
     // createProductList
     this.app.post("/api/product-list", async (req, res) => {
       let productList = new ProductList(req.body.uid, req.body.name, [], false);
-      // await firestore.collection("product-lists").doc().set(productList);
-      console.log(productList);
-      res.json({success: "Posting successful"})
+      try {
+        await firestore.collection("product-lists").doc().set(Object.assign({}, productList));
+        console.log("success");
+        res.json({success: "Posting successful"})
+      }
+      catch (error) {
+        console.log("Error", error);
+        res.json({error: "Posting of productlist unsuccessful"})
+      }
     })
   }
 }
