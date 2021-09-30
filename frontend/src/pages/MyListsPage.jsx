@@ -63,6 +63,7 @@ const styles = {
     flexDirection: "Column",
     textAlign: "center",
     itemsAlign: "center",
+    gridGap: "5vh"
   },
 
   sparadeListor: {
@@ -87,6 +88,6 @@ const styles = {
   productLists: {
     display: "flex",
     flexDirection: "Column",
-    gridGap: "4vw",
+    gridGap: "10vw",
   },
 };
