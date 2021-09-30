@@ -12,16 +12,21 @@ const MyProductLists = () => {
             Sparade listor
           </p>
 
-          
-            <img
-              className="plusImg"
-              style={styles.plusImg}
-              src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-            />
-          
+          <img
+            className="plusImg"
+            style={styles.plusImg}
+            src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+          />
         </div>
 
-        <ProductListCard />
+        <div className="productLists" style={styles.productLists}>
+          <div>
+            <ProductListCard />
+          </div>
+          <div>
+            <ProductListCard />
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -62,4 +67,11 @@ const styles = {
     padding: "0",
     justifyContent: "center",
   },
+
+ productLists: {
+    display: "grid",
+   gridTemplateColumns: "repeat(2, 1fr)",
+   gridGap: "2vw",
+  gridTemplateRows: "auto auto"
+  }
 };
