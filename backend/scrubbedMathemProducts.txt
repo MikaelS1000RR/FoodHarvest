@@ -1,5 +1,6 @@
 [
   {
+    "productCode": "1446",
     "productName": "Gurka Klass1",
     "price": 21.95,
     "quantity": 333,
@@ -16,6 +17,7 @@
     }
   },
   {
+    "productCode": "101661",
     "productName": "Salladsmix nr.5 EKO Färdigsköljd",
     "price": 24.95,
     "quantity": 65,
@@ -32,6 +34,7 @@
     }
   },
   {
+    "productCode": "22102",
     "productName": "Broccoli 250g Klass1",
     "price": 17.95,
     "quantity": 250,
@@ -48,6 +51,7 @@
     }
   },
   {
+    "productCode": "80999",
     "productName": "Morötter",
     "price": 12.95,
     "quantity": 500,
@@ -64,6 +68,7 @@
     }
   },
   {
+    "productCode": "93695",
     "productName": "Baby Plommontomater",
     "price": 24.95,
     "quantity": 250,
@@ -80,6 +85,7 @@
     }
   },
   {
+    "productCode": "1237",
     "productName": "Paprika Röd Klass1",
     "price": 12.95,
     "quantity": 160,
@@ -96,6 +102,7 @@
     }
   },
   {
+    "productCode": "1490",
     "productName": "Kvisttomater 500g Klass1",
     "price": 29.95,
     "quantity": 500,
@@ -112,6 +119,7 @@
     }
   },
   {
+    "productCode": "81000",
     "productName": "Morötter",
     "price": 17.95,
     "quantity": 1,
@@ -128,6 +136,7 @@
     }
   },
   {
+    "productCode": "49627",
     "productName": "Romansallad Klass1",
     "price": 14.95,
     "quantity": 250,
@@ -144,6 +153,7 @@
     }
   },
   {
+    "productCode": "1221",
     "productName": "Sallat Isberg Klass1",
     "price": 19.95,
     "quantity": 600,
@@ -160,6 +170,7 @@
     }
   },
   {
+    "productCode": "53036",
     "productName": "Feta",
     "price": 26.95,
     "quantity": 150,
@@ -176,6 +187,7 @@
     }
   },
   {
+    "productCode": "29453",
     "productName": "Herrgård 28%",
     "price": 78,
     "quantity": 700,
@@ -192,6 +204,7 @@
     }
   },
   {
+    "productCode": "78436",
     "productName": "Mozzarella Michelangelo",
     "price": 15.95,
     "quantity": 125,
@@ -208,6 +221,7 @@
     }
   },
   {
+    "productCode": "3730",
     "productName": "Präst Mellan 31%",
     "price": 78,
     "quantity": 700,
@@ -224,6 +238,7 @@
     }
   },
   {
+    "productCode": "52093",
     "productName": "Port Salut 26%",
     "price": 72,
     "quantity": 750,
@@ -240,6 +255,7 @@
     }
   },
   {
+    "productCode": "52776",
     "productName": "Färskost Original 21%",
     "price": 29.95,
     "quantity": 300,
@@ -256,6 +272,7 @@
     }
   },
   {
+    "productCode": "97881",
     "productName": "Herrgård 28% Skivad",
     "price": 47.95,
     "quantity": 300,
@@ -272,6 +289,7 @@
     }
   },
   {
+    "productCode": "132058",
     "productName": "Buffelmozzarella",
     "price": 26.95,
     "quantity": 100,
@@ -288,6 +306,7 @@
     }
   },
   {
+    "productCode": "133084",
     "productName": "Gouda Skivad EKO",
     "price": 33.95,
     "quantity": 200,
@@ -304,6 +323,7 @@
     }
   },
   {
+    "productCode": "39202",
     "productName": "Halloumi",
     "price": 34.95,
     "quantity": 200,
@@ -320,6 +340,7 @@
     }
   },
   {
+    "productCode": "141001",
     "productName": "Frö Gott",
     "price": 32.95,
     "quantity": 380,
@@ -336,6 +357,7 @@
     }
   },
   {
+    "productCode": "16492",
     "productName": "Lingongrova",
     "price": 26.95,
     "quantity": 500,
@@ -352,6 +374,7 @@
     }
   },
   {
+    "productCode": "58335",
     "productName": "Rosta",
     "price": 25.95,
     "quantity": 450,
@@ -368,6 +391,7 @@
     }
   },
   {
+    "productCode": "16453",
     "productName": "Roast n Toast",
     "price": 36.95,
     "quantity": 800,
@@ -384,6 +408,7 @@
     }
   },
   {
+    "productCode": "128065",
     "productName": "Levain",
     "price": 39.95,
     "quantity": 650,
@@ -400,6 +425,7 @@
     }
   },
   {
+    "productCode": "96073",
     "productName": "Lantgoda Surdegsbröd",
     "price": 38.95,
     "quantity": 650,
@@ -416,6 +442,7 @@
     }
   },
   {
+    "productCode": "17652",
     "productName": "Sarek",
     "price": 29.95,
     "quantity": 375,
@@ -432,6 +459,7 @@
     }
   },
   {
+    "productCode": "89089",
     "productName": "Skärgårdskaka Hönö",
     "price": 37.95,
     "quantity": 750,
@@ -448,6 +476,7 @@
     }
   },
   {
+    "productCode": "174589",
     "productName": "Italienskt Lantbröd",
     "price": 37.95,
     "quantity": 650,
@@ -464,6 +493,7 @@
     }
   },
   {
+    "productCode": "85584",
     "productName": "Kärnsund Surdegsbröd",
     "price": 38.95,
     "quantity": 700,
@@ -480,6 +510,7 @@
     }
   },
   {
+    "productCode": "54204",
     "productName": "Emilskinka Rökt",
     "price": 28.95,
     "quantity": 120,
@@ -496,6 +527,7 @@
     }
   },
   {
+    "productCode": "11357",
     "productName": "Leverpastej Ugnsbakad",
     "price": 16.95,
     "quantity": 200,
@@ -512,6 +544,7 @@
     }
   },
   {
+    "productCode": "22526",
     "productName": "Gourmetskinka Rökt",
     "price": 30.95,
     "quantity": 200,
@@ -528,6 +561,7 @@
     }
   },
   {
+    "productCode": "22534",
     "productName": "Kalkon Rökt Skivad",
     "price": 36.95,
     "quantity": 200,
@@ -544,6 +578,7 @@
     }
   },
   {
+    "productCode": "11258",
     "productName": "Kokt Medwurst",
     "price": 16.5,
     "quantity": 110,
@@ -560,6 +595,7 @@
     }
   },
   {
+    "productCode": "22527",
     "productName": "Gourmetskinka Kokt",
     "price": 30.95,
     "quantity": 200,
@@ -576,6 +612,7 @@
     }
   },
   {
+    "productCode": "54203",
     "productName": "Kokt Emilskinka",
     "price": 28.95,
     "quantity": 120,
@@ -592,6 +629,7 @@
     }
   },
   {
+    "productCode": "95746",
     "productName": "Mor Matildas Kokta Skinka",
     "price": 29.95,
     "quantity": 120,
@@ -608,6 +646,7 @@
     }
   },
   {
+    "productCode": "22530",
     "productName": "Hushållsmedwurst Tunnskivad",
     "price": 26.95,
     "quantity": 200,
@@ -624,6 +663,7 @@
     }
   },
   {
+    "productCode": "22529",
     "productName": "Cognacsmedwurst Tunnskivad",
     "price": 26.95,
     "quantity": 200,
@@ -640,6 +680,7 @@
     }
   },
   {
+    "productCode": "132835",
     "productName": "Coca-Cola Zero Sugar 20x33cl",
     "price": 149,
     "quantity": 660,
@@ -656,6 +697,7 @@
     }
   },
   {
+    "productCode": "8467",
     "productName": "Coca-Cola Zero Sugar 1,5L",
     "price": 20.95,
     "quantity": 1.5,
@@ -672,6 +714,7 @@
     }
   },
   {
+    "productCode": "8469",
     "productName": "Coca-Cola Zero Sugar 10x33cl",
     "price": 79.95,
     "quantity": 330,
@@ -688,6 +731,7 @@
     }
   },
   {
+    "productCode": "8388",
     "productName": "Coca-Cola 20x33cl",
     "price": 149,
     "quantity": 660,
@@ -704,6 +748,7 @@
     }
   },
   {
+    "productCode": "98928",
     "productName": "Pepsi Max 24x33cl",
     "price": 105,
     "quantity": 792,
@@ -720,6 +765,7 @@
     }
   },
   {
+    "productCode": "127432",
     "productName": "Pepsi Max 4x150cl",
     "price": 58.95,
     "quantity": 600,
@@ -736,6 +782,7 @@
     }
   },
   {
+    "productCode": "119644",
     "productName": "San Pellegrino Aranciata Rossa 6x33cl",
     "price": 73.95,
     "quantity": 198,
@@ -752,6 +799,7 @@
     }
   },
   {
+    "productCode": "8421",
     "productName": "Coca-Cola 10x33cl",
     "price": 79.95,
     "quantity": 330,
@@ -768,6 +816,7 @@
     }
   },
   {
+    "productCode": "8384",
     "productName": "Coca-Cola 1,5L",
     "price": 20.95,
     "quantity": 1.5,
@@ -784,6 +833,7 @@
     }
   },
   {
+    "productCode": "22693",
     "productName": "Coca-Cola 2L",
     "price": 23.95,
     "quantity": 200,
@@ -800,6 +850,7 @@
     }
   },
   {
+    "productCode": "133375",
     "productName": "Krossade Tomater EKO",
     "price": 13.95,
     "quantity": 390,
@@ -816,6 +867,7 @@
     }
   },
   {
+    "productCode": "17195",
     "productName": "Kokosmjölk",
     "price": 17.95,
     "quantity": 250,
@@ -832,6 +884,7 @@
     }
   },
   {
+    "productCode": "160549",
     "productName": "Majs 3x150g",
     "price": 28.95,
     "quantity": 450,
@@ -848,6 +901,7 @@
     }
   },
   {
+    "productCode": "133366",
     "productName": "Krossade Tomater",
     "price": 11.95,
     "quantity": 390,
@@ -864,6 +918,7 @@
     }
   },
   {
+    "productCode": "65028",
     "productName": "Rödbetor Skivade",
     "price": 18.95,
     "quantity": 370,
@@ -880,6 +935,7 @@
     }
   },
   {
+    "productCode": "23446",
     "productName": "Soltorkade Tomater Strimlade",
     "price": 35.95,
     "quantity": 200,
@@ -896,6 +952,7 @@
     }
   },
   {
+    "productCode": "90755",
     "productName": "Kalamata Oliver Urkärnade",
     "price": 34.95,
     "quantity": 370,
@@ -912,6 +969,7 @@
     }
   },
   {
+    "productCode": "134056",
     "productName": "Tomater Passerade",
     "price": 11.95,
     "quantity": 390,
@@ -928,6 +986,7 @@
     }
   },
   {
+    "productCode": "133501",
     "productName": "Majskorn",
     "price": 15.95,
     "quantity": 340,
@@ -944,6 +1003,7 @@
     }
   },
   {
+    "productCode": "65026",
     "productName": "Smörgåsgurka Skivad",
     "price": 19.95,
     "quantity": 370,
@@ -960,6 +1020,7 @@
     }
   },
   {
+    "productCode": "185499",
     "productName": "Regnbågslaxfilé Fryst 4x100g Fisherman",
     "price": 65.95,
     "quantity": 400,
@@ -976,6 +1037,7 @@
     }
   },
   {
+    "productCode": "96697",
     "productName": "Laxfilé Fryst",
     "price": 86.95,
     "quantity": 500,
@@ -992,6 +1054,7 @@
     }
   },
   {
+    "productCode": "11144",
     "productName": "Laxfilé Naturell ASC Fryst",
     "price": 123,
     "quantity": 500,
@@ -1008,6 +1071,7 @@
     }
   },
   {
+    "productCode": "102228",
     "productName": "Torskfilé Fryst",
     "price": 60.95,
     "quantity": 375,
@@ -1024,6 +1088,7 @@
     }
   },
   {
+    "productCode": "88983",
     "productName": "Torskryggfilé Fryst MSC-märkt",
     "price": 103,
     "quantity": 450,
@@ -1040,6 +1105,7 @@
     }
   },
   {
+    "productCode": "148654",
     "productName": "Torskrygg MSC Fryst",
     "price": 105,
     "quantity": 600,
@@ -1056,6 +1122,7 @@
     }
   },
   {
+    "productCode": "170913",
     "productName": "Torskfile Block MSC Fryst",
     "price": 45.95,
     "quantity": 400,
@@ -1072,6 +1139,7 @@
     }
   },
   {
+    "productCode": "16763",
     "productName": "Tonfisk Filébitar i Vatten MSC",
     "price": 28.95,
     "quantity": 200,
@@ -1088,6 +1156,7 @@
     }
   },
   {
+    "productCode": "96438",
     "productName": "Panerad Rödspättafilé MSC Fryst",
     "price": 69.95,
     "quantity": 500,
@@ -1104,6 +1173,7 @@
     }
   },
   {
+    "productCode": "148657",
     "productName": "Torskfilé MSC Fryst",
     "price": 87.95,
     "quantity": 600,
@@ -1120,6 +1190,7 @@
     }
   },
   {
+    "productCode": "175504",
     "productName": "Toalettpapper Classic 18-p",
     "price": 80.95,
     "quantity": 1710,
@@ -1136,6 +1207,7 @@
     }
   },
   {
+    "productCode": "87113",
     "productName": "Hushållspapper 2-Skikt 3-p",
     "price": 30.95,
     "quantity": 570,
@@ -1152,6 +1224,7 @@
     }
   },
   {
+    "productCode": "97388",
     "productName": "Toalettpapper Sensitive 6-p",
     "price": 44.95,
     "quantity": 732,
@@ -1168,6 +1241,7 @@
     }
   },
   {
+    "productCode": "78653",
     "productName": "Hushållspapper 4-p",
     "price": 32.95,
     "quantity": 623,
@@ -1184,6 +1258,7 @@
     }
   },
   {
+    "productCode": "19668",
     "productName": "Toalettpapper Mönstrat 6-p",
     "price": 34.95,
     "quantity": 624,
@@ -1200,6 +1275,7 @@
     }
   },
   {
+    "productCode": "87112",
     "productName": "Toalettpapper 3 Skikt 6-p",
     "price": 41.95,
     "quantity": 996,
@@ -1216,6 +1292,7 @@
     }
   },
   {
+    "productCode": "65495",
     "productName": "Hushållspapper Extra Long 2-p",
     "price": 27.95,
     "quantity": 424,
@@ -1232,6 +1309,7 @@
     }
   },
   {
+    "productCode": "176569",
     "productName": "Toalettpapper 12-p",
     "price": 79.95,
     "quantity": 1992,
@@ -1248,6 +1326,7 @@
     }
   },
   {
+    "productCode": "19688",
     "productName": "Hushållspapper 3-skikt Dekor 4-p 564g",
     "price": 33.95,
     "quantity": 568,
@@ -1264,6 +1343,7 @@
     }
   },
   {
+    "productCode": "85474",
     "productName": "Hushållspapper 4-p",
     "price": 15.95,
     "quantity": 538,
@@ -1280,6 +1360,7 @@
     }
   },
   {
+    "productCode": "16259",
     "productName": "Karins Lasagne Fryst",
     "price": 26.95,
     "quantity": 390,
@@ -1296,6 +1377,7 @@
     }
   },
   {
+    "productCode": "76885",
     "productName": "Kalops Fryst",
     "price": 27.95,
     "quantity": 400,
@@ -1312,6 +1394,7 @@
     }
   },
   {
+    "productCode": "95377",
     "productName": "Kycklingfilé Rostad Fryst",
     "price": 31.95,
     "quantity": 390,
@@ -1328,6 +1411,7 @@
     }
   },
   {
+    "productCode": "16252",
     "productName": "Fläskschnitzel Fryst",
     "price": 27.95,
     "quantity": 420,
@@ -1344,6 +1428,7 @@
     }
   },
   {
+    "productCode": "14159",
     "productName": "Köttbullar med Potatismos Fryst",
     "price": 31.95,
     "quantity": 400,
@@ -1360,6 +1445,7 @@
     }
   },
   {
+    "productCode": "12165",
     "productName": "Risgrynsgröt",
     "price": 11.95,
     "quantity": 500,
@@ -1376,6 +1462,7 @@
     }
   },
   {
+    "productCode": "184458",
     "productName": "Delikatessköttbullar Fryst",
     "price": 38.95,
     "quantity": 420,
@@ -1392,6 +1479,7 @@
     }
   },
   {
+    "productCode": "149815",
     "productName": "Fisk med Topping Frysta",
     "price": 31.95,
     "quantity": 390,
@@ -1408,6 +1496,7 @@
     }
   },
   {
+    "productCode": "14158",
     "productName": "Pannbiff med Löksky Fryst",
     "price": 31.95,
     "quantity": 400,
@@ -1424,6 +1513,7 @@
     }
   },
   {
+    "productCode": "176806",
     "productName": "Tareqs Fläsklägg med Rotmos",
     "price": 74.95,
     "quantity": 410,
@@ -1440,6 +1530,7 @@
     }
   },
   {
+    "productCode": "13516",
     "productName": "Ahlgrens Bilar Original",
     "price": 17.95,
     "quantity": 160,
@@ -1456,6 +1547,7 @@
     }
   },
   {
+    "productCode": "158425",
     "productName": "Lösviktsgodis",
     "price": 59.95,
     "quantity": 500,
@@ -1472,6 +1564,7 @@
     }
   },
   {
+    "productCode": "146605",
     "productName": "Gott & Blandat Original",
     "price": 30.95,
     "quantity": 400,
@@ -1488,6 +1581,7 @@
     }
   },
   {
+    "productCode": "96060",
     "productName": "Lösviktsgodis",
     "price": 99,
     "quantity": 1,
@@ -1504,6 +1598,7 @@
     }
   },
   {
+    "productCode": "71601",
     "productName": "Polly Mjölkchoklad",
     "price": 25.95,
     "quantity": 200,
@@ -1520,6 +1615,7 @@
     }
   },
   {
+    "productCode": "5845",
     "productName": "Tuggummi White Sweet Mint",
     "price": 18.95,
     "quantity": 29,
@@ -1536,6 +1632,7 @@
     }
   },
   {
+    "productCode": "10589",
     "productName": "Dumle Original",
     "price": 29.95,
     "quantity": 220,
@@ -1552,6 +1649,7 @@
     }
   },
   {
+    "productCode": "10499",
     "productName": "Marianne",
     "price": 29.95,
     "quantity": 220,
@@ -1568,6 +1666,7 @@
     }
   },
   {
+    "productCode": "71605",
     "productName": "Polly Original",
     "price": 25.95,
     "quantity": 200,
@@ -1584,6 +1683,7 @@
     }
   },
   {
+    "productCode": "143149",
     "productName": "Peacemärke Jorgubb/Lakrits",
     "price": 13.95,
     "quantity": 80,
@@ -1600,6 +1700,7 @@
     }
   },
   {
+    "productCode": "99108",
     "productName": "Fruktstång Jordgubbar 5x20g",
     "price": 22.95,
     "quantity": 100,
@@ -1616,6 +1717,7 @@
     }
   },
   {
+    "productCode": "184320",
     "productName": "Mexikansk Gryta 8M EKO",
     "price": 21.95,
     "quantity": 185,
@@ -1632,6 +1734,7 @@
     }
   },
   {
+    "productCode": "90883",
     "productName": "Klämpåse Smoothie Äpple, Banan & Jordgubb 6M",
     "price": 12.95,
     "quantity": 90,
@@ -1648,6 +1751,7 @@
     }
   },
   {
+    "productCode": "64682",
     "productName": "Katrinplommon 4M",
     "price": 10.95,
     "quantity": 125,
@@ -1664,6 +1768,7 @@
     }
   },
   {
+    "productCode": "12312",
     "productName": "Lasagne 12M",
     "price": 14.95,
     "quantity": 235,
@@ -1680,6 +1785,7 @@
     }
   },
   {
+    "productCode": "12261",
     "productName": "Päron- och äpplepuré 5M",
     "price": 12.95,
     "quantity": 190,
@@ -1696,6 +1802,7 @@
     }
   },
   {
+    "productCode": "173942",
     "productName": "Klämpåse Smoothie Äpple, Mango & Persika EKO",
     "price": 11.95,
     "quantity": 100,
@@ -1712,6 +1819,7 @@
     }
   },
   {
+    "productCode": "85438",
     "productName": "Pasta/Köttfärssås EKO/KRAV 8M",
     "price": 14.95,
     "quantity": 190,
@@ -1728,6 +1836,7 @@
     }
   },
   {
+    "productCode": "99109",
     "productName": "Fruktstång Äpple & Hallon",
     "price": 22.95,
     "quantity": 100,
@@ -1744,6 +1853,7 @@
     }
   },
   {
+    "productCode": "162787",
     "productName": "Klämmis Fruktmums Jordgubb 6M",
     "price": 14.95,
     "quantity": 110,
@@ -1760,6 +1870,7 @@
     }
   },
   {
+    "productCode": "161554",
     "productName": "Tandkräm Caries Defense",
     "price": 22.95,
     "quantity": 75,
@@ -1776,6 +1887,7 @@
     }
   },
   {
+    "productCode": "27062",
     "productName": "Tandkräm Original Fluor",
     "price": 35.95,
     "quantity": 75,
@@ -1792,6 +1904,7 @@
     }
   },
   {
+    "productCode": "27507",
     "productName": "Tandkräm Karies Kontroll",
     "price": 25.95,
     "quantity": 125,
@@ -1808,6 +1921,7 @@
     }
   },
   {
+    "productCode": "17546",
     "productName": "Tandkräm Super Fluor",
     "price": 23.95,
     "quantity": 125,
@@ -1824,6 +1938,7 @@
     }
   },
   {
+    "productCode": "161425",
     "productName": "Tandkräm Total Original",
     "price": 31.95,
     "quantity": 75,
@@ -1840,6 +1955,7 @@
     }
   },
   {
+    "productCode": "41051",
     "productName": "Tandkräm Maxfresh",
     "price": 25.95,
     "quantity": 125,
@@ -1856,6 +1972,7 @@
     }
   },
   {
+    "productCode": "129253",
     "productName": "Tandkräm Classic",
     "price": 25.95,
     "quantity": 75,
@@ -1872,6 +1989,7 @@
     }
   },
   {
+    "productCode": "27513",
     "productName": "Tandkräm Sensation White",
     "price": 25.95,
     "quantity": 125,
@@ -1888,6 +2006,7 @@
     }
   },
   {
+    "productCode": "142984",
     "productName": "Munskölj Soft Mint",
     "price": 71.95,
     "quantity": 500,
@@ -1904,6 +2023,7 @@
     }
   },
   {
+    "productCode": "83828",
     "productName": "Tandkräm Gentle White",
     "price": 35.95,
     "quantity": 75,
@@ -1920,6 +2040,7 @@
     }
   },
   {
+    "productCode": "66273",
     "productName": "Basilika Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
@@ -1936,6 +2057,7 @@
     }
   },
   {
+    "productCode": "18741",
     "productName": "Koriander Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
@@ -1952,6 +2074,7 @@
     }
   },
   {
+    "productCode": "130747",
     "productName": "Persilja Knippe",
     "price": 24.95,
     "quantity": 100,
@@ -1968,6 +2091,7 @@
     }
   },
   {
+    "productCode": "29203",
     "productName": "Ingefära",
     "price": 16.95,
     "quantity": 50,
@@ -1984,6 +2108,7 @@
     }
   },
   {
+    "productCode": "130741",
     "productName": "Bladpersilja Knippe",
     "price": 24.95,
     "quantity": 100,
@@ -2000,6 +2125,7 @@
     }
   },
   {
+    "productCode": "49616",
     "productName": "Mynta Kruka EKO Klass1",
     "price": 34.95,
     "quantity": 1,
@@ -2016,6 +2142,7 @@
     }
   },
   {
+    "productCode": "18736",
     "productName": "Timjan Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
@@ -2032,6 +2159,7 @@
     }
   },
   {
+    "productCode": "14111",
     "productName": "Persilja Fryst",
     "price": 10.95,
     "quantity": 30,
@@ -2048,6 +2176,7 @@
     }
   },
   {
+    "productCode": "18728",
     "productName": "Persilja Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
@@ -2064,6 +2193,7 @@
     }
   },
   {
+    "productCode": "18730",
     "productName": "Dill Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
@@ -2080,6 +2210,7 @@
     }
   },
   {
+    "productCode": "58230",
     "productName": "Gold Mousse 12x85g",
     "price": 64.95,
     "quantity": 1020,
@@ -2096,6 +2227,7 @@
     }
   },
   {
+    "productCode": "123692",
     "productName": "Kattmat Fågel Delikat 8 x 85g",
     "price": 55.95,
     "quantity": 680,
@@ -2112,6 +2244,7 @@
     }
   },
   {
+    "productCode": "141253",
     "productName": "Kattmat Kött i Sås Multipack 12x85g",
     "price": 61.95,
     "quantity": 1020,
@@ -2128,6 +2261,7 @@
     }
   },
   {
+    "productCode": "112626",
     "productName": "Kattmat Fisk- & Köttmeny i Gelé +7år 12x100g",
     "price": 59.95,
     "quantity": 1200,
@@ -2144,6 +2278,7 @@
     }
   },
   {
+    "productCode": "26040",
     "productName": "Kattmat Oxe/Kyckling/Tonfisk/Lax i Gelé 12x85g",
     "price": 63.95,
     "quantity": 1020,
@@ -2160,6 +2295,7 @@
     }
   },
   {
+    "productCode": "83201",
     "productName": "Kattmat Kalkon/Oxe/Lamm/Anka i Sås 12x85g",
     "price": 63.95,
     "quantity": 1020,
@@ -2176,6 +2312,7 @@
     }
   },
   {
+    "productCode": "82557",
     "productName": "Kattfoder Adult Steril 1.4kg",
     "price": 115,
     "quantity": 1400,
@@ -2192,6 +2329,7 @@
     }
   },
   {
+    "productCode": "142999",
     "productName": "Kattmat för Kastrerad Innekatt 1,4kg",
     "price": 64.95,
     "quantity": 1.4,
@@ -2208,6 +2346,7 @@
     }
   },
   {
+    "productCode": "112611",
     "productName": "Kattmat Fisk & Köttmeny i Sås +1år 12x100g",
     "price": 59.95,
     "quantity": 1200,
@@ -2224,6 +2363,7 @@
     }
   },
   {
+    "productCode": "112605",
     "productName": "Kattmat Köttmeny i Sås 12x100g",
     "price": 59.95,
     "quantity": 1200,
@@ -2240,6 +2380,7 @@
     }
   },
   {
+    "productCode": "97724",
     "productName": "Allers",
     "price": 34.9,
     "quantity": 1,
@@ -2256,6 +2397,7 @@
     }
   },
   {
+    "productCode": "165973",
     "productName": "Veckokryss",
     "price": 19,
     "quantity": 1,
@@ -2272,6 +2414,7 @@
     }
   },
   {
+    "productCode": "97720",
     "productName": "Allas Veckotidning",
     "price": 34.9,
     "quantity": 1,
@@ -2288,6 +2431,7 @@
     }
   },
   {
+    "productCode": "97745",
     "productName": "Lätta Kryss",
     "price": 43.9,
     "quantity": 1,
@@ -2304,6 +2448,7 @@
     }
   },
   {
+    "productCode": "97734",
     "productName": "Hänt Extra",
     "price": 25.9,
     "quantity": 1,
@@ -2320,6 +2465,7 @@
     }
   },
   {
+    "productCode": "97723",
     "productName": "Hemmets Veckotidning",
     "price": 34.9,
     "quantity": 1,
@@ -2336,6 +2482,7 @@
     }
   },
   {
+    "productCode": "97747",
     "productName": "Världens Historia",
     "price": 86,
     "quantity": 1,
@@ -2352,6 +2499,7 @@
     }
   },
   {
+    "productCode": "97727",
     "productName": "Hänt i Veckan",
     "price": 29.9,
     "quantity": 1,
@@ -2368,6 +2516,7 @@
     }
   },
   {
+    "productCode": "179886",
     "productName": "Allt om Trädgård",
     "price": 65,
     "quantity": 1,
@@ -2384,6 +2533,7 @@
     }
   },
   {
+    "productCode": "128128",
     "productName": "Maxikryss",
     "price": 99,
     "quantity": 1,

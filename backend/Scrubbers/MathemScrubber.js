@@ -10,6 +10,7 @@ import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
 export class MathemScrubber extends Scrubber {
   
   static translateSchema = {
+    productCode: (x) => x.id,
     productName: (x) => x.name,
     price: (x) => x.price,
     quantity: (x) => x.quantity, //300g
