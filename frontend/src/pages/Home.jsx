@@ -1,10 +1,19 @@
 import ProductCard from "../components/home/ProductCard";
 import data from '../testData.js' // will be removed when real data is fetched
 import React from "react";
-import SearchBar from "../components/SearchBar";
 import firestore from '../database_config/firestore';
 import { useState, useEffect } from 'react';
+import Search from "../components/search/Search";
 
+
+const Home = () => {
+  return (
+    <div>
+      <Search/>
+    </div>
+  );
+}
+/*
 const Home = () => {
 
   const [products, setproducts] = useState(null);
@@ -38,7 +47,7 @@ const Home = () => {
   else {
     return (
       <div className="container" style={styles.container}>
-        <SearchBar />
+        
         <div className="row gy-3">
           {products.map((p, index) => (
             <ProductCard
@@ -55,6 +64,7 @@ const Home = () => {
     );
   }
 }
+*/
  
 export default Home;
 
