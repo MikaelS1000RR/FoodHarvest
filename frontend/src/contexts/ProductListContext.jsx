@@ -74,36 +74,12 @@ const ProductListProvider = (props) => {
       addProductList(newFavoriteList);
   }
 
-  const addProductToFavorite = async (product) => {
+  const updateProductToFavorite = async (product, toAdd, currentUser) => {
     let info = {
       list: favoriteList,
       product: product,
-      toAdd: true
-    }
-    try {
-      let res = await fetch("/api/product-list", {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify(info),
-      })
-      res = await res.json();
-      if (res.success) {
-        return true;
-      }
-    }
-    catch {
-    }
-    return false;
-  }
-
-  const removeProductFromFavorite = async (product) => {
-    let info = {
-      list: favoriteList,
-      product: product,
-      toAdd: false
+      toAdd: toAdd,
+      user: currentUser
     };
     try {
       let res = await fetch("/api/product-list", {
@@ -117,6 +93,7 @@ const ProductListProvider = (props) => {
       res = await res.json();
       console.log(res);
       if (res.success) {
+        setFavoriteList(res.newList)
         return true;
       }
     } catch {}
@@ -145,8 +122,7 @@ const ProductListProvider = (props) => {
     productLists,
     fetchAllLists,
     addProductList,
-    addProductToFavorite,
-    removeProductFromFavorite,
+    updateProductToFavorite,
   };
 
   return (

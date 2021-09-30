@@ -1,26 +1,20 @@
 import { useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
+import { useAuth } from "../../contexts/AuthContext"
 
 const FavoriteButton = (props) => {
   const { styles, product, isFavorite } = props
   const [isToggle, setIsToggle] = useState(isFavorite || false);
-  const { addProductToFavorite, removeProductFromFavorite, fetchAllLists } = useProductList();
+  const { updateProductToFavorite } = useProductList();
+  const { currentUser } = useAuth();
 
   const toggle = async () => {
-    let isSucceed = false
-    if (!isToggle) {
-      isSucceed = await addProductToFavorite(product);
-    }
-    else {
-      isSucceed = await removeProductFromFavorite(product);
-    }
+    let toAdd = !isToggle
+    let isSucceed = await updateProductToFavorite(product, toAdd);
     if (isSucceed) {
       setIsToggle(!isToggle);
-      fetchAllLists();
     }
   }
-
-
 
   return (
     <div className="favorite-button" style={styles.container}>

@@ -33,42 +33,38 @@ export class Api {
       }
     })
 
-    //add product to list
     this.app.put("/api/product-list", async (req, res) => {
       let list = req.body.list;
+      let product = req.body.product;
+      let toAdd = req.body.toAdd;
+
       let listRef = firestore.collection('product-lists').doc(list.id)
-      list = await listRef.get();
-      if (!list) {
+      if (!listRef) {
         res.json({ error: "List do not exist" })
         return;
       }
-
-      list = list.data()
-      let product = req.body.product;
-      let productRef = firestore.collection('products').doc(product.id)
-
-      let toAdd = req.body.toAdd;
-      let productExist = list.products.find(p => p.id == productRef.id)
+      // using id at the moment, should change to productCode later
+      let productExist = list.products.find(p => p == product.id)
       if (productExist) {
         if (toAdd) { 
           res.json({ error: "Product already in the list!" });
           return;
         }
         else {
-          console.log("remove product");
-          list.products = list.products.filter(p => p.id != productRef.id)
+          list.products = list.products.filter(p => p != product.id)
         }
       }
       else if (toAdd) {
-        console.log("add to list");
-        list.products = [...list.products, productRef]
+        list.products = [...list.products, product.id]
       }
-
       // update list
       try {
         await listRef.update({ products: list.products });
         console.log("update successful");
-        res.json({success: "Posting successful"})
+        res.json({
+          success: "Posting successful",
+          newList: list
+        })
       }
       catch (error) {
         res.json({error: "Posting of productlist unsuccessful"})
