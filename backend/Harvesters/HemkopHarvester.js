@@ -30,8 +30,8 @@ export class HemkopHarvester {
       let hemkopProducts = await this.getProductsByCategory(hemkopCategory.url);
 
       // for (let i = 0; i < hemkopProducts.length; i++)
-      // *************temp looping 3 products in each category**************
-      for (let i = 0; i < 3; i++) {
+      // *************temp looping 1 products in each category**************
+      for (let i = 0; i < 1; i++) {
         hemkopProducts[i].category = this.refineCategory(
           hemkopCategory.title,
           foodHarvesterCategories

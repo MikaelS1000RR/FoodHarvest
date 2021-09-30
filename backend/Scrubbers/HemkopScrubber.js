@@ -1,7 +1,13 @@
-import { FirebaseHandler } from "../FirebaseHandler";
-import { HemkopHarvester } from "../Harvesters/HemkopHarvester";
+import { FirebaseHandler } from "../FirebaseHandler.js";
+import { HemkopHarvester } from "../Harvesters/HemkopHarvester.js";
+import { Scrubber } from "./Scrubber.js";
 
 export class HemkopScrubber extends Scrubber {
+
+
+  // static preferencesFromDB = this.setPreferences();
+
+
   static translateSchema = {
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
@@ -14,7 +20,7 @@ export class HemkopScrubber extends Scrubber {
     category: (x) => x.category,
     preferences: (x) => this.setPreferences(x.labels),
     //ean: (x) => this.getEan(x.code),
-    store: (x) => this.setStore(),
+    store: (x) => this.getStore(x),
     //discount: (x) => this.getDiscount(x.potentialPromotions, x)
   };
 
@@ -26,9 +32,21 @@ export class HemkopScrubber extends Scrubber {
     }
   }
 
+
   static async setStore() {
     const hemkopStore = await FirebaseHandler.getStore("Hemköp");
-    return hemkopStore;
+    console.log("Store set");
+    this.storeFromDB = hemkopStore;
+  }
+
+
+  static getStore(product) {
+    if (this.storeFromDB != undefined) {
+      return this.storeFromDB;
+    }
+    else {
+      return null
+    }
   }
 
   static async getEan(code) {
@@ -43,10 +61,21 @@ export class HemkopScrubber extends Scrubber {
 
   //TESTA ATT FUNKAR NÄR DB FUNKAR****************************************
   static async setPreferences(productPreferences) {
-    const dbPreferences = await FirebaseHandler.getPreferences();
+    // const dbPreferences = await FirebaseHandler.getPreferences();
+    const dbPreferences = [
+      { name: "Svensk Flagga" },
+      { name: "Nyckelhålsmärkt" },
+      { name: "KRAV-märkt" },
+      { name: "Ekologiskt" },
+      { name: "Laktosfritt" },
+      { name: "Fairtrade" },
+      { name: "Glutenfritt" }
+    ];
     let refinedHemkopPreferences = [];
 
-    if (productPreferences.length != 0) {
+    console.log("productPreferences: ", productPreferences);
+
+    if (productPreferences != undefined && productPreferences.length != 0) {
       for (let j = 0; j < productPreferences.length; j++) {
         if (productPreferences[j] === "swedish_flag") {
           let newPref = dbPreferences.find(

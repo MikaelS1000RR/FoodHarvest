@@ -11,11 +11,9 @@ export class Scrubber {
         let tschema = this.translateSchema;
           console.log("scrubbing product with code ", product.code);
         for (let key in tschema) {
-         
            let scrubFunc = tschema[key];
-           scrubbed[key] = await scrubFunc(product);
-          
-       }
+           scrubbed[key] = await scrubFunc(product);    
+        }
        return scrubbed;
     }
 

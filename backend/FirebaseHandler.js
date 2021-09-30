@@ -77,8 +77,13 @@ export class FirebaseHandler {
   //testa när DBn fungerar**********************************
   static async getStore(storeName) {
     let querySnapshot = await firestore.collection("stores").where("name", "==", storeName).get();
-    let store = querySnapshot[0].data
-    return store;
+    let data = [];
+    querySnapshot.forEach((document) => {
+    let doc = document.data();
+    data.push(doc);
+      });
+      console.log(data);
+    return data[0];
   }
 
   static async getPreferences() {
