@@ -12,17 +12,14 @@ export class TestHarvesting {
     // let categories = rawData.children; //Getting all BASIC categories of willys
 
       // Categories 
-      let categories = await MathemHarvester.getCategories();
+      let mathemsCategories = await MathemHarvester.getCategories();
       // console.log('reached ', categories.length)
-    let getProducts = await MathemHarvester.getProductsFromCategories(categories);
+    let getMathemsProducts = await MathemHarvester.getProductsFromCategories(mathemsCategories);
       
       // let productsOfMathem = await MathemHarvester.getProducts();
     // let scrubbedMathemProducts = await MathemHarvester.scrubAll(getProducts);
-    let scrubbedMathemProducts = await MathemScrubber.scrubAll(getProducts);
-    // let scrubbedMathemProducts = [];
-    // for (let i = 0; i < getProducts.length; i++){
-    //   scrubbedMathemProducts.push(await MathemScrubber.scrubAll([getProducts[i]]))
-    // }
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll(getMathemsProducts);
+    
     function writeToFile(fileName, data) {
       try {
         fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
