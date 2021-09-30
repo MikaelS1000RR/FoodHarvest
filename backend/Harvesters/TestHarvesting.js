@@ -18,7 +18,11 @@ export class TestHarvesting {
       
       // let productsOfMathem = await MathemHarvester.getProducts();
     // let scrubbedMathemProducts = await MathemHarvester.scrubAll(getProducts);
-    let scrubbedMathemProducts = await MathemScrubber.scrubAll([getProducts[0]])
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll(getProducts);
+    // let scrubbedMathemProducts = [];
+    // for (let i = 0; i < getProducts.length; i++){
+    //   scrubbedMathemProducts.push(await MathemScrubber.scrubAll([getProducts[i]]))
+    // }
     function writeToFile(fileName, data) {
       try {
         fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");

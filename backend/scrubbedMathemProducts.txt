@@ -14,5 +14,2389 @@
       "name": "Mathem",
       "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
     }
+  },
+  {
+    "productName": "Salladsmix nr.5 EKO Färdigsköljd",
+    "price": 24.95,
+    "quantity": 65,
+    "quantityUnit": null,
+    "brand": "Greenest",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/salladsmix-nr-5-eko-65g-fardigskoljd-klass1.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Broccoli 250g Klass1",
+    "price": 17.95,
+    "quantity": 250,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Morötter",
+    "price": 12.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Baby Plommontomater",
+    "price": 24.95,
+    "quantity": 250,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/baby-plommontomater-250g-klass1-2.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Paprika Röd Klass1",
+    "price": 12.95,
+    "quantity": 160,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/paprika-rod-klass1-7.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kvisttomater 500g Klass1",
+    "price": 29.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kvisttomater-500g-klass1-2.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Morötter",
+    "price": 17.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-1kg-klass1-1.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Romansallad Klass1",
+    "price": 14.95,
+    "quantity": 250,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-klass1-2.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Sallat Isberg Klass1",
+    "price": 19.95,
+    "quantity": 600,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/sallat-isberg-klass1-1.jpg",
+    "category": {
+      "name": "Frukt & Grönt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Feta",
+    "price": 26.95,
+    "quantity": 150,
+    "quantityUnit": null,
+    "brand": "Zeta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402658_c1n1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Herrgård 28%",
+    "price": 78,
+    "quantity": 700,
+    "quantityUnit": null,
+    "brand": "Arla Ko",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/02340418100007_c1l1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Mozzarella Michelangelo",
+    "price": 15.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Wernerssons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05420024102019_c1n1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Präst Mellan 31%",
+    "price": 78,
+    "quantity": 700,
+    "quantityUnit": null,
+    "brand": "Arla Ko",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/02340415200007_c1l1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Port Salut 26%",
+    "price": 72,
+    "quantity": 750,
+    "quantityUnit": null,
+    "brand": "Arla Familjefavoriter",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/port-salut-26--ca-750g-arla.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Färskost Original 21%",
+    "price": 29.95,
+    "quantity": 300,
+    "quantityUnit": null,
+    "brand": "Philadelphia",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/farskost-classic-300g-philadelphia.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Herrgård 28% Skivad",
+    "price": 47.95,
+    "quantity": 300,
+    "quantityUnit": null,
+    "brand": "Arla Ko",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311877014216_c1r1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Buffelmozzarella",
+    "price": 26.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Zeta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350027793731_c1c1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Gouda Skivad EKO",
+    "price": 33.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202360_c1c1.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Halloumi",
+    "price": 34.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Fontana",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07316150974393_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Mejeri, Ost & Ägg"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Frö Gott",
+    "price": 32.95,
+    "quantity": 380,
+    "quantityUnit": null,
+    "brand": "Hatting",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07315060123938_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lingongrova",
+    "price": 26.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311071330525_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Rosta",
+    "price": 25.95,
+    "quantity": 450,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311071336244_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Roast n Toast",
+    "price": 36.95,
+    "quantity": 800,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311070336160_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Levain",
+    "price": 39.95,
+    "quantity": 650,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/levain-650g-pagen-1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lantgoda Surdegsbröd",
+    "price": 38.95,
+    "quantity": 650,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008494_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Sarek",
+    "price": 29.95,
+    "quantity": 375,
+    "quantityUnit": null,
+    "brand": "Polarbröd",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/sarek-375g-polarbrod-1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Skärgårdskaka Hönö",
+    "price": 37.95,
+    "quantity": 750,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Italienskt Lantbröd",
+    "price": 37.95,
+    "quantity": 650,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/italienskt-lantbrod-650g-pagen.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kärnsund Surdegsbröd",
+    "price": 38.95,
+    "quantity": 700,
+    "quantityUnit": null,
+    "brand": "Pågen",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008609_c1l1.jpg",
+    "category": {
+      "name": "Bröd & Bageri"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Emilskinka Rökt",
+    "price": 28.95,
+    "quantity": 120,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797077149_c1n1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Leverpastej Ugnsbakad",
+    "price": 16.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Scan",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07300206303008_c1l1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Gourmetskinka Rökt",
+    "price": 30.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088794_c1l1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kalkon Rökt Skivad",
+    "price": 36.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088954_c1l1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kokt Medwurst",
+    "price": 16.5,
+    "quantity": 110,
+    "quantityUnit": null,
+    "brand": "Scan",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07300202713009_c1n1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Gourmetskinka Kokt",
+    "price": 30.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088800_c1n1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kokt Emilskinka",
+    "price": 28.95,
+    "quantity": 120,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/emilskinka-kokt-120g-parsons.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Mor Matildas Kokta Skinka",
+    "price": 29.95,
+    "quantity": 120,
+    "quantityUnit": null,
+    "brand": "Jakobsdals",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007144_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållsmedwurst Tunnskivad",
+    "price": 26.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088879_c1l1.jpeg.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Cognacsmedwurst Tunnskivad",
+    "price": 26.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Pärsons",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088855_c1l1.jpg",
+    "category": {
+      "name": "Kött, Fågel & Chark"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola Zero Sugar 20x33cl",
+    "price": 149,
+    "quantity": 660,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259240_c1l1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola Zero Sugar 1,5L",
+    "price": 20.95,
+    "quantity": 1.5,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-1-5l-1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola Zero Sugar 10x33cl",
+    "price": 79.95,
+    "quantity": 330,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-10x33cl.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola 20x33cl",
+    "price": 149,
+    "quantity": 660,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259233_c1l1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Pepsi Max 24x33cl",
+    "price": 105,
+    "quantity": 792,
+    "quantityUnit": null,
+    "brand": "Pepsi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310074000299_c1l1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Pepsi Max 4x150cl",
+    "price": 58.95,
+    "quantity": 600,
+    "quantityUnit": null,
+    "brand": "Pepsi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/pepsi-max-4x150cl-1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "San Pellegrino Aranciata Rossa 6x33cl",
+    "price": 73.95,
+    "quantity": 198,
+    "quantityUnit": null,
+    "brand": "San pellegrino",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/aranciata-rossa-6x33cl-san-pellegrino-1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola 10x33cl",
+    "price": 79.95,
+    "quantity": 330,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259172_c1l1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola 1,5L",
+    "price": 20.95,
+    "quantity": 1.5,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05449000000439_c1n1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Coca-Cola 2L",
+    "price": 23.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Coca-Cola",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331040059219_c1n1.jpg",
+    "category": {
+      "name": "Dryck"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Krossade Tomater EKO",
+    "price": 13.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173417_c1l1.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kokosmjölk",
+    "price": 17.95,
+    "quantity": 250,
+    "quantityUnit": null,
+    "brand": "Santa Maria",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kokosmjolk-250ml-santa-maria.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Majs 3x150g",
+    "price": 28.95,
+    "quantity": 450,
+    "quantityUnit": null,
+    "brand": "Bonduelle",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/majs-3x150g-bonduelle-2.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Krossade Tomater",
+    "price": 11.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173370_c1l1.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Rödbetor Skivade",
+    "price": 18.95,
+    "quantity": 370,
+    "quantityUnit": null,
+    "brand": "Felix",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310240051261_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Soltorkade Tomater Strimlade",
+    "price": 35.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Zeta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350002400555_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kalamata Oliver Urkärnade",
+    "price": 34.95,
+    "quantity": 370,
+    "quantityUnit": null,
+    "brand": "Zeta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350002404874_c1n1.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tomater Passerade",
+    "price": 11.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173363_c1l1.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Majskorn",
+    "price": 15.95,
+    "quantity": 340,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202438_c1c1.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Smörgåsgurka Skivad",
+    "price": 19.95,
+    "quantity": 370,
+    "quantityUnit": null,
+    "brand": "Felix",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/smorgasgurka-skivad-370g-felix.jpg",
+    "category": {
+      "name": "Skafferi"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Regnbågslaxfilé Fryst 4x100g Fisherman",
+    "price": 65.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Fisherman Seafood",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740147_1.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Laxfilé Fryst",
+    "price": 86.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Feldts",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/laxfile-fryst-500g-feldt-s-7.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Laxfilé Naturell ASC Fryst",
+    "price": 123,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/laxfile-naturell-asc-fryst-500g-findus.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Torskfilé Fryst",
+    "price": 60.95,
+    "quantity": 375,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310500123219_c1c1.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Torskryggfilé Fryst MSC-märkt",
+    "price": 103,
+    "quantity": 450,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310500107882_c1c1.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Torskrygg MSC Fryst",
+    "price": 105,
+    "quantity": 600,
+    "quantityUnit": null,
+    "brand": "Feldts",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/torskrygg-600g-feldt-s.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Torskfile Block MSC Fryst",
+    "price": 45.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Feldts",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/fryst-400g-feldts.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tonfisk Filébitar i Vatten MSC",
+    "price": 28.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Abba",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311171007013_c1c1.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Panerad Rödspättafilé MSC Fryst",
+    "price": 69.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Feldts",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/rodspattafile-panerad-500g-feldts-1.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Torskfilé MSC Fryst",
+    "price": 87.95,
+    "quantity": 600,
+    "quantityUnit": null,
+    "brand": "Feldts",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/torskfile-msc-fryst-600g-feldt-s.jpg",
+    "category": {
+      "name": "Fisk & Skaldjur"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Toalettpapper Classic 18-p",
+    "price": 80.95,
+    "quantity": 1710,
+    "quantityUnit": null,
+    "brand": "LOTUS",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07322541303406_c1n1.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållspapper 2-Skikt 3-p",
+    "price": 30.95,
+    "quantity": 570,
+    "quantityUnit": null,
+    "brand": "Serla",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-2-skikt-3-p-570g-serla-1.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Toalettpapper Sensitive 6-p",
+    "price": 44.95,
+    "quantity": 732,
+    "quantityUnit": null,
+    "brand": "Lambi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-sensitive-6-p-732g-lambi-1.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållspapper 4-p",
+    "price": 32.95,
+    "quantity": 623,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07331746295539_c1l1.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Toalettpapper Mönstrat 6-p",
+    "price": 34.95,
+    "quantity": 624,
+    "quantityUnit": null,
+    "brand": "Lambi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-monstrat-6-p-624g-lambi-3.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Toalettpapper 3 Skikt 6-p",
+    "price": 41.95,
+    "quantity": 996,
+    "quantityUnit": null,
+    "brand": "Serla",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-3-skikt-6-p-996g-serla.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållspapper Extra Long 2-p",
+    "price": 27.95,
+    "quantity": 424,
+    "quantityUnit": null,
+    "brand": "Lambi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-extra-long-2-p-424g-lambi.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Toalettpapper 12-p",
+    "price": 79.95,
+    "quantity": 1992,
+    "quantityUnit": null,
+    "brand": "Serla",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-12-p-serla.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållspapper 3-skikt Dekor 4-p 564g",
+    "price": 33.95,
+    "quantity": 568,
+    "quantityUnit": null,
+    "brand": "Lambi",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-3-skikt-dekor-4-p-564g-lambi-5.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hushållspapper 4-p",
+    "price": 15.95,
+    "quantity": 538,
+    "quantityUnit": null,
+    "brand": "Budget",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-4-p-538g-budget.jpg",
+    "category": {
+      "name": "Hem & Hushåll"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Karins Lasagne Fryst",
+    "price": 26.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Dafgårds",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016489_g1r1.jpeg.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kalops Fryst",
+    "price": 27.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Dafgårds",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310960648147_c1r1.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kycklingfilé Rostad Fryst",
+    "price": 31.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310500109107_g1n1.jpeg.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Fläskschnitzel Fryst",
+    "price": 27.95,
+    "quantity": 420,
+    "quantityUnit": null,
+    "brand": "Dafgårds",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016496_c1r1.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Köttbullar med Potatismos Fryst",
+    "price": 31.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kottbullar-med-potatismos-2.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Risgrynsgröt",
+    "price": 11.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Felix",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/risgrynsgrot-500g-felix-5.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Delikatessköttbullar Fryst",
+    "price": 38.95,
+    "quantity": 420,
+    "quantityUnit": null,
+    "brand": "Dafgårds",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310960041900_C1R1.jpeg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Fisk med Topping Frysta",
+    "price": 31.95,
+    "quantity": 390,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310500178011_c1n1.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Pannbiff med Löksky Fryst",
+    "price": 31.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/pannbiff-med-loksky-fryst-400g-findus-108.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tareqs Fläsklägg med Rotmos",
+    "price": 74.95,
+    "quantity": 410,
+    "quantityUnit": null,
+    "brand": "Maten É Klar",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350108010009_c1n1.jpg",
+    "category": {
+      "name": "Färdigmat & Sallader"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Ahlgrens Bilar Original",
+    "price": 17.95,
+    "quantity": 160,
+    "quantityUnit": null,
+    "brand": "Ahlgrens Bilar",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/ahlgrens-bilar-original-160g.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lösviktsgodis",
+    "price": 59.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "MatHem",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/familjepasen-500g-karamellkungen-3.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Gott & Blandat Original",
+    "price": 30.95,
+    "quantity": 400,
+    "quantityUnit": null,
+    "brand": "Malaco",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/gott-o-blandat-original-400g-malaco-2.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lösviktsgodis",
+    "price": 99,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "MatHem",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/familjepasen-1kg-karamellkungen-9.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Polly Mjölkchoklad",
+    "price": 25.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Cloetta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/polly-mjolkchoklad-200g-cloetta.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tuggummi White Sweet Mint",
+    "price": 18.95,
+    "quantity": 29,
+    "quantityUnit": null,
+    "brand": "Extra",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/04009900527897_c1n1.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Dumle Original",
+    "price": 29.95,
+    "quantity": 220,
+    "quantityUnit": null,
+    "brand": "Fazer Konfektyr",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/06411401035388_c1n1.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Marianne",
+    "price": 29.95,
+    "quantity": 220,
+    "quantityUnit": null,
+    "brand": "Fazer Konfektyr",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/06410803642019_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Polly Original",
+    "price": 25.95,
+    "quantity": 200,
+    "quantityUnit": null,
+    "brand": "Cloetta",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/polly-original-200g-cloetta-3.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Peacemärke Jorgubb/Lakrits",
+    "price": 13.95,
+    "quantity": 80,
+    "quantityUnit": null,
+    "brand": "Candy people",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07350039457690_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Glass, Godis & Snacks"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Fruktstång Jordgubbar 5x20g",
+    "price": 22.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Castus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05707653000931_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Mexikansk Gryta 8M EKO",
+    "price": 21.95,
+    "quantity": 185,
+    "quantityUnit": null,
+    "brand": "Lovemade",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200809_C1L1.jpeg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Klämpåse Smoothie Äpple, Banan & Jordgubb 6M",
+    "price": 12.95,
+    "quantity": 90,
+    "quantityUnit": null,
+    "brand": "Nestlé",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07613033880537_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Katrinplommon 4M",
+    "price": 10.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Nestlé",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07613033573088_c1c1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lasagne 12M",
+    "price": 14.95,
+    "quantity": 235,
+    "quantityUnit": null,
+    "brand": "Semper",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310100960573_g1c1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Päron- och äpplepuré 5M",
+    "price": 12.95,
+    "quantity": 190,
+    "quantityUnit": null,
+    "brand": "Semper",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07312170095124_g1c1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Klämpåse Smoothie Äpple, Mango & Persika EKO",
+    "price": 11.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Favorit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/-apple--mango-o-persika-eko-100g-favorit-2.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Pasta/Köttfärssås EKO/KRAV 8M",
+    "price": 14.95,
+    "quantity": 190,
+    "quantityUnit": null,
+    "brand": "Semper",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310100955623_g1c1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Fruktstång Äpple & Hallon",
+    "price": 22.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Castus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05707653000955_c1n1.jpeg.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Klämmis Fruktmums Jordgubb 6M",
+    "price": 14.95,
+    "quantity": 110,
+    "quantityUnit": null,
+    "brand": "Semper",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/klammis-fruktmums-jordgubb-6m-110g-semper.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Caries Defense",
+    "price": 22.95,
+    "quantity": 75,
+    "quantityUnit": null,
+    "brand": "JORDAN",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Original Fluor",
+    "price": 35.95,
+    "quantity": 75,
+    "quantityUnit": null,
+    "brand": "Sensodyne",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/08710464116446_g1n1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Karies Kontroll",
+    "price": 25.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Colgate",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-karies-kontroll-125ml-colgate-1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Super Fluor",
+    "price": 23.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Pepsodent",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311570641047_c1n1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Total Original",
+    "price": 31.95,
+    "quantity": 75,
+    "quantityUnit": null,
+    "brand": "Colgate",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-total-original-75ml-colgate.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Maxfresh",
+    "price": 25.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Colgate",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-maxfresh-125ml-colgate-1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Classic",
+    "price": 25.95,
+    "quantity": 75,
+    "quantityUnit": null,
+    "brand": "Zendium",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/08710908843044_c1n1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Sensation White",
+    "price": 25.95,
+    "quantity": 125,
+    "quantityUnit": null,
+    "brand": "Colgate",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-sensation-white-125ml-colgate.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Munskölj Soft Mint",
+    "price": 71.95,
+    "quantity": 500,
+    "quantityUnit": null,
+    "brand": "Flux",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05708657221346_c1c1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Tandkräm Gentle White",
+    "price": 35.95,
+    "quantity": 75,
+    "quantityUnit": null,
+    "brand": "Sensodyne",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/05054563039989_c1n1.jpg",
+    "category": {
+      "name": "Skönhet & Hälsa"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Basilika Kruka EKO Klass1",
+    "price": 26.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-kruka-eko-klass1-2.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Koriander Kruka EKO Klass1",
+    "price": 26.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Persilja Knippe",
+    "price": 24.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-knippe-100g-klass1-1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Ingefära",
+    "price": 16.95,
+    "quantity": 50,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/ingefara-50g-klass1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Bladpersilja Knippe",
+    "price": 24.95,
+    "quantity": 100,
+    "quantityUnit": null,
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/bladpersilja-knippe-100g-klass1-1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Mynta Kruka EKO Klass1",
+    "price": 34.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/mynta-kruka-eko-klass1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Timjan Kruka EKO Klass1",
+    "price": 26.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000995_c1n1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Persilja Fryst",
+    "price": 10.95,
+    "quantity": 30,
+    "quantityUnit": null,
+    "brand": "Findus",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07310500031347_g1l1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Persilja Kruka EKO Klass1",
+    "price": 26.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-kruka-klass1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Dill Kruka EKO Klass1",
+    "price": 26.95,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Orto Novo AB",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/dill-kruka-klass1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Gold Mousse 12x85g",
+    "price": 64.95,
+    "quantity": 1020,
+    "quantityUnit": null,
+    "brand": "Gourmet",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07613032395377_c1l1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Fågel Delikat 8 x 85g",
+    "price": 55.95,
+    "quantity": 680,
+    "quantityUnit": null,
+    "brand": "Sheba",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/03065890132399_c1l1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Kött i Sås Multipack 12x85g",
+    "price": 61.95,
+    "quantity": 1020,
+    "quantityUnit": null,
+    "brand": "Mjau",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07300330035189_c1l1.jpeg.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Fisk- & Köttmeny i Gelé +7år 12x100g",
+    "price": 59.95,
+    "quantity": 1200,
+    "quantityUnit": null,
+    "brand": "Whiskas",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-fisk--o-kottmeny-i-gele-7ar.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Oxe/Kyckling/Tonfisk/Lax i Gelé 12x85g",
+    "price": 63.95,
+    "quantity": 1020,
+    "quantityUnit": null,
+    "brand": "Latz",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-11.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Kalkon/Oxe/Lamm/Anka i Sås 12x85g",
+    "price": 63.95,
+    "quantity": 1020,
+    "quantityUnit": null,
+    "brand": "Latz",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattfoder Adult Steril 1.4kg",
+    "price": 115,
+    "quantity": 1400,
+    "quantityUnit": null,
+    "brand": "Perfect Fit",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattfoder-adult-steril-1-4kg-perfect-fit-1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat för Kastrerad Innekatt 1,4kg",
+    "price": 64.95,
+    "quantity": 1.4,
+    "quantityUnit": null,
+    "brand": "Mjau",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/07311030173217_g1l1.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Fisk & Köttmeny i Sås +1år 12x100g",
+    "price": 59.95,
+    "quantity": 1200,
+    "quantityUnit": null,
+    "brand": "Whiskas",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-fisk-o-kottmeny-i-sas-.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Kattmat Köttmeny i Sås 12x100g",
+    "price": 59.95,
+    "quantity": 1200,
+    "quantityUnit": null,
+    "brand": "Whiskas",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-kottmeny-i-sas-12x100g-whiskas-2.jpg",
+    "category": {
+      "name": "Övrigt"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Allers",
+    "price": 34.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/allers-tidsam-2357.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Veckokryss",
+    "price": 19,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/veckokryss-tidsam-673.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Allas Veckotidning",
+    "price": 34.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/allas-veckotidning-tidsam-2357.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Lätta Kryss",
+    "price": 43.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/latta-kryss-tidsam-2357.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hänt Extra",
+    "price": 25.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hant-extra-tidsam-2357.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hemmets Veckotidning",
+    "price": 34.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/hemmets-veckotidning-tidsam-2356.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Världens Historia",
+    "price": 86,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/varldens-historia-tidsam-2356.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Hänt i Veckan",
+    "price": 29.9,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/se--and--hor-tidsam-2357.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Allt om Trädgård",
+    "price": 65,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/allt-om-tradgard-tidsam-239.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productName": "Maxikryss",
+    "price": 99,
+    "quantity": 1,
+    "quantityUnit": null,
+    "brand": "Tidsam",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/maxikryss-tidsam-1587.jpg",
+    "category": {
+      "name": "Kiosk & Tidningar"
+    },
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
   }
 ]
