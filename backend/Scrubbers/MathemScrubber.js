@@ -6,6 +6,7 @@ import { Store } from '../Models/Store.js'
 import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
+import { Category } from '../Models/Category.js';
 
 export class MathemScrubber extends Scrubber {
   
@@ -14,19 +15,32 @@ export class MathemScrubber extends Scrubber {
     productName: (x) => x.name,
     price: (x) => x.price,
     quantity: (x) => x.quantity, //300g
-
-    quantityUnit: (x) => + x.unit,
+    
+    // quantityUnit: (x) => + x.unit,
+    quantityUnit: (x) => this.setQuantityUnit(x.unit),
     comparisonUnit: (x) => x.comparePriceUnit, //kg
     comparisonPrice: (x) => x.comparePrice, //86.9 kr
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
-
+    //category: (x) => this.setCategory(x.category)
     category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.preferences.labels),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
   };
+  static async setCategory(category) {
+    console.log(category, "category")
+    let result = Category.scrubCategories(category);
+    return result;
+  }
+  static async setQuantityUnit(quantity) {
+    if (quantity.charAt(quantity.length - 2) === "k") {
+      return "kg";
+    } else {
+      return "g";
+    }
+  }
   
 
   //Setting store as Willys
