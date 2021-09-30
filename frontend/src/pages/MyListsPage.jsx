@@ -2,17 +2,20 @@ import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
+import { useAuth } from "../contexts/AuthContext";
 
 const MyListsPage = () => {
   const listName = "list Name";
   const { fetchProductLists } = useProductList();
   const { productLists } = useProductList();
+  const {currentUser} = useAuth()
   const [lists, setLists] = useState([]);
   useEffect(() => {
     const getList = async () => {
       let list = await fetchProductLists("z7fNsrT4HdfDYHLZHs3MdMxOulw2");
       console.log("lists in pages are ", list);
       setLists(list);
+      console.log('current user is ', currentUser)
     };
     getList();
   }, [listName]);
