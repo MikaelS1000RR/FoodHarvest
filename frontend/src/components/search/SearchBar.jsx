@@ -1,34 +1,31 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 const SearchBar = ({onSearchSubmit, clearResults}) => {
     const [term, setTerm] = useState('');
-    const [debouncedTerm, setDebouncedTerm] = useState(term);
-
-    // update 'term' value after 1 second from the last update of 'debouncedTerm'
-    useEffect(() => {
-        const timer = setTimeout(() => setTerm(debouncedTerm), 1000);
-        return () => clearTimeout(timer);
-    }, [debouncedTerm])
 
     // submit a new search
-    useEffect(() => {
+    const submit = (event) => {
+      event.preventDefault()
         if(term !== ''){
             onSearchSubmit(term);
         }
         else{
             clearResults();
         }
-    }, [term]);
+    }
 
     return (
-      <div className='searchbar'>
+      <form className='searchbar' onSubmit={submit}>
         <input 
             className='searchbar-input' 
             type='text' 
             placeholder="Search by title. . ."
-            onChange={e => setDebouncedTerm(e.target.value)}
-            value={debouncedTerm}/>
-      </div>
+            onChange={e => setTerm(e.target.value)}
+            value={term}/>
+          <button type='submit'>
+            Submit
+          </button>
+      </form>
     );
 };
 
