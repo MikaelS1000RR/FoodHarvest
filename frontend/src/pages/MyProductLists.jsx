@@ -8,20 +8,16 @@ const MyProductLists = () => {
     <div className="container" style={styles.container}>
       <div className="listsContainer" style={styles.listsContainer}>
         <div className="plusAndP" style={styles.plusAndP}>
+          <p className="sparadeListor" style={styles.sparadeListor}>
+            Sparade listor
+          </p>
+
           
-            <p className="sparadeListor" style={styles.sparadeListor}>
-              Sparade listor
-            </p>
-          
-         
             <img
               className="plusImg"
               style={styles.plusImg}
               src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
             />
-          
-
-
           
         </div>
 
@@ -45,6 +41,7 @@ const styles = {
     display: "flex",
     flexDirection: "Column",
     textAlign: "center",
+    itemsAlign: "center",
   },
 
   sparadeListor: {
@@ -53,12 +50,16 @@ const styles = {
   },
 
   plusImg: {
-    height:"6vh"
+    height: "4vh",
+    marginLeft: "8vw",
+    cursor: "pointer"
   },
+  
   plusAndP: {
     display: "flex",
     flexDirection: "Row",
     margin: "0",
-    padding:"0"
+    padding: "0",
+    justifyContent: "center",
   },
 };
