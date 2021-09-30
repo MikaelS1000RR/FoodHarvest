@@ -8,7 +8,6 @@ export class Api {
   }
 
   start() {
-
     // createProductList
     this.app.post("/api/product-list", async (req, res) => {
       let productList = new ProductList(req.body.uid, req.body.name, [], req.body.isFavorite);
@@ -63,7 +62,6 @@ export class Api {
         if (user) {
           await listRef.update({ products: list.products });
         }
-        console.log("update successful");
         res.json({
           success: "Posting successful",
           newList: list

@@ -24,14 +24,11 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list),
       });
       res = await res.json();
-      console.log(res);
       if (res.success) {
         fetchAllLists(list.uid);
         return true;
       }
-    } catch {
-      console.log("adding list failed");
-    }
+    } catch {}
     return false;
   };
 
@@ -91,7 +88,6 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(info),
       });
       res = await res.json();
-      console.log(res);
       if (res.success) {
         setFavoriteList(res.newList)
         return true;
@@ -103,7 +99,6 @@ const ProductListProvider = (props) => {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
-        console.log("User hittad och vi hämtar listor");
         fetchAllLists(user.uid)
       }
       else {

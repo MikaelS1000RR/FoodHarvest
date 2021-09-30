@@ -10,7 +10,7 @@ const FavoriteButton = (props) => {
 
   const toggle = async () => {
     let toAdd = !isToggle
-    let isSucceed = await updateProductToFavorite(product, toAdd);
+    let isSucceed = await updateProductToFavorite(product, toAdd, currentUser);
     if (isSucceed) {
       setIsToggle(!isToggle);
     }
