@@ -9,6 +9,6 @@ const app = express();
 app.use(express.json());
 let api = new Api(app);
 
-Harvesting.run();
+// Harvesting.run();
 
 app.listen(3000, () => console.log("Listening on port 3000"));

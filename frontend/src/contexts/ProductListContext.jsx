@@ -39,6 +39,7 @@ const ProductListProvider = (props) => {
   }
 
   const fetchAllLists = async (userId) => {
+    console.log("fetching all list");
     let favorite = await fetchLists(userId, true);
     if (favorite.products) {
       setFavoriteList(favorite);
@@ -102,6 +103,8 @@ const ProductListProvider = (props) => {
         }
         else {
           setFavoriteList(res.newList)
+          console.log("favelist set");
+          console.log(favoriteList);
         }
         return true;
       }
@@ -119,9 +122,14 @@ const ProductListProvider = (props) => {
   };
 
   useEffect(() => {
+    let favorite = favoriteList;
     const unsubscribe = auth.onAuthStateChanged((user) => {
+      console.log("in productlist auth useeffect");
+      console.log(favorite);
       if (user != null) {
-        fetchAllLists(user.uid);
+        if (favoriteList.products.length > 0) {
+        }
+        // fetchAllLists(user.uid);
       } else {
         resetLists()
       }

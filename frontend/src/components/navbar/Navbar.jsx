@@ -21,11 +21,9 @@ const Navigationbar = (props) => {
   return (
     <div>
       <Navbar color="primary" light expand="md">
-        <Nav className="mr-auto" navbar>
-          <ProductListDropdown setMenu={setHamburgerMenu}/>
-        </Nav>
-        <Nav className="mr-auto" navbar>
+        <Nav className="mr-auto d-flex" navbar>
           <FavoriteCart setMenu={setHamburgerMenu}/>
+          <ProductListDropdown setMenu={setHamburgerMenu}/>
         </Nav>
 
         <Link to="/" style={styles.link}>
