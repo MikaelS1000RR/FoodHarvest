@@ -43,7 +43,8 @@ export class Api {
         res.json({ error: "List do not exist" })
         return;
       }
-
+      console.log(list);
+      
       let productExist = list.products.find(p => p.productCode == product.productCode)
       if (productExist) {
         if (toAdd) { 

@@ -5,12 +5,19 @@ import { useAuth } from "../../contexts/AuthContext"
 const FavoriteButton = (props) => {
   const { styles, product } = props
   const [ isToggle, setIsToggle ] = useState(product.isFavorite);
-  const { updateProductToFavorite } = useProductList();
+  const { favoriteList, updateProductToList } =
+    useProductList();
   const { currentUser } = useAuth();
 
   const toggle = async () => {
+    console.log("clicked fave");
     let toAdd = !isToggle
-    let isSucceed = await updateProductToFavorite(product, toAdd, currentUser);
+    let isSucceed = await updateProductToList(
+      favoriteList,
+      product,
+      toAdd,
+      currentUser
+    );
     if (isSucceed) {
       setIsToggle(!isToggle);
     }

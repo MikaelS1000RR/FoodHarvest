@@ -9,7 +9,7 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
-  const [favoriteList, setFavoriteList] = useState({ products: [] });
+  const [favoriteList, setFavoriteList] = useState({ products: [], isFavorite: true });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
@@ -31,6 +31,12 @@ const ProductListProvider = (props) => {
     } catch {}
     return false;
   };
+  
+  const resetLists = () => {
+    setFavoriteList({ products: [], isFavorite: true });
+    setCurrentProductList(null)
+    setProductLists(null)
+  }
 
   const fetchAllLists = async (userId) => {
     let favorite = await fetchLists(userId, true);
@@ -73,9 +79,10 @@ const ProductListProvider = (props) => {
     addProductList(newFavoriteList);
   };
 
-  const updateProductToFavorite = async (product, toAdd, currentUser) => {
+  const updateProductToList = async (list, product, toAdd, currentUser) => {
+    console.log("in update list");
     let data = {
-      list: favoriteList,
+      list: list,
       product: product,
       toAdd: toAdd,
       user: currentUser,
@@ -90,35 +97,19 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(data),
       });
       res = await res.json();
+      console.log(res);
       if (res.success) {
-        setFavoriteList(res.newList);
+        console.log(res.newList);
+        console.log(res.newList.isFavorite);
+        if (!res.newList.isFavorite) {
+          setCurrentProductList(res.newList)
+        }
+        else {
+          setFavoriteList(res.newList)
+        }
         return true;
       }
     } catch {}
-    return false;
-  };
-
-  const updateProductToCurrentList = async (product, toAdd, currentUser) => {
-    let data = {
-      list: currentProductList,
-      product: product,
-      toAdd: toAdd,
-      user: currentUser
-    };
-    let res = await fetch("/api/product-list/", {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    res = await res.json();
-    console.log(res);
-    if (res.success) {
-      setCurrentProductList(res.newList);
-      return true;
-    }
     return false;
   };
 
@@ -136,9 +127,7 @@ const ProductListProvider = (props) => {
       if (user != null) {
         fetchAllLists(user.uid);
       } else {
-        setCurrentProductList(null);
-        setProductLists(null);
-        setFavoriteList({ products: [] });
+        resetLists()
       }
     });
     return unsubscribe;
@@ -151,9 +140,9 @@ const ProductListProvider = (props) => {
     productLists,
     fetchAllLists,
     addProductList,
-    updateProductToFavorite,
-    updateProductToCurrentList,
+    updateProductToList,
     addIsFavorite,
+    resetLists,
   };
 
   return (
