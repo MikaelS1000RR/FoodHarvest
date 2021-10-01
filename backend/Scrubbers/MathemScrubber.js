@@ -9,13 +9,13 @@ import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
 import { Category } from '../Models/Category.js';
 
 export class MathemScrubber extends Scrubber {
-  
+
   static translateSchema = {
     productCode: (x) => x.id,
     productName: (x) => x.name,
     price: (x) => x.price,
     quantity: (x) => x.quantity, //300g
-    
+
     // quantityUnit: (x) => + x.unit,
     quantityUnit: (x) => this.setQuantityUnit(x.unit),
     comparisonUnit: (x) => x.comparePriceUnit, //kg
@@ -33,23 +33,39 @@ export class MathemScrubber extends Scrubber {
   static async getInformationFromDb() {
     const mathemFromDb = await FirebaseHandler.getStore("Mathem");
     // const mathemFromDb = this.getStore();//Must be changed later
-    console.log(mathemFromDb,"mathemFromDb")
+    console.log(mathemFromDb, "mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
     console.log(preferencesFromDb, "preferencesFromDb")
   }
 
   static async setPreferences(preferencesToBeScrubbed) {
-    console.log(preferencesToBeScrubbed,"preferencesToBeScrubbed")
+    console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
     const thePreferencesFromDb = this.preferencesFromDb;
     let scrubbedPreferences = [];
 
     if (preferencesToBeScrubbed == "undefined" || preferencesToBeScrubbed.length == 0) {
-      scrubbedPreferences.push("Övrigt");
-      return scrubbedPreferences;
+      return null;
     }
-    
-    for (let i = 0; i < preferencesToBeScrubbed.length; i++){
-      
+
+    for (let i = 0; i < preferencesToBeScrubbed.length; i++) {
+      if (preferencesToBeScrubbed[i] == "Fairtrade") {
+        let scrubbedPreference = thePreferencesFromDb.find(
+          (preference) => preference.name == "Fairtrade"
+        )
+        scrubbedPreferences.push(scrubbedPreference);
+      }
+      if (preferencesToBeScrubbed[i] == "Laktosfri") {
+        let scrubbedPreference = thePreferencesFromDb.find(
+          (preference) => preference.name == "Laktosfritt"
+        )
+        scrubbedPreferences.push(scrubbedPreference);
+      }
+      if (preferencesToBeScrubbed[i] == "Laktosfri") {
+        let scrubbedPreference = thePreferencesFromDb.find(
+          (preference) => preference.name == "Glutenfritt"
+        )
+        scrubbedPreferences.push(scrubbedPreference);
+      }
     }
 
 
@@ -68,7 +84,7 @@ export class MathemScrubber extends Scrubber {
       return "g";
     }
   }
-  
+
 
   //Setting store as Willys
   static async getStore() {
@@ -91,5 +107,5 @@ export class MathemScrubber extends Scrubber {
   //     return null
   //   }
   // }
-  
+
 }
