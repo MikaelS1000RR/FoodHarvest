@@ -89,9 +89,10 @@ export class FirebaseHandler {
 
   static async getPreferences() {
     let querySnapshot = await firestore.collection("preferences").get();
-    let preferences = [];
+    let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      preferences.push(document.data());
+      let doc = { ref: document.ref, ...document.data() }
+      dataFromDB.push(doc);
     });
 
     return preferences;
