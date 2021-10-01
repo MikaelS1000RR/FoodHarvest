@@ -62,14 +62,6 @@ export class MathemScrubber extends Scrubber {
         }
         //-------------------------------------------------
         
-
-      //   if (preferencesToBeScrubbed[i].labels == "Vegansk") {
-      //   let scrubbedPreference = thePreferencesFromDb.find(
-      //     (preference) => preference.name == "Veganskt"
-      //   )
-      //   scrubbedPreferences.push(scrubbedPreference);
-
-      // }
         if (pref.name == "Svenskt ursprung") {
           console.log("Svenskt ursprung hittades")
           let scrubbedPreference = thePreferencesFromDb.find(
@@ -77,10 +69,9 @@ export class MathemScrubber extends Scrubber {
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
-
-        // console.log(scrubbedPreferences,"scrubbedPreferences")
       })
     }
+    
     if (preferencesToBeScrubbed.dietary.length > 0) {
       preferencesToBeScrubbed.dietary.forEach(pref => {
 
@@ -99,6 +90,12 @@ export class MathemScrubber extends Scrubber {
           scrubbedPreferences.push(scrubbedPreference);
         }
 
+        if (pref.name == "Vegansk") {
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "Veganskt"
+          )
+          scrubbedPreferences.push(scrubbedPreference);
+        }
 
       })
     }
