@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import SearchResult from './SearchResult';
 import SearchBar from './SearchBar';
-import { requestQuotes } from '../../apiTest';
+import { requestQuotes } from '../../firestoreSearchProducts';
 
 const Search = () => {
   const [searchResults, setQuotes] = useState([]);
@@ -12,7 +12,7 @@ const Search = () => {
     console.log('New Search submit:', term);
 
     //await requestQuotes(term); wait on matches db products collection
-    const quotesArray = await requestQuotes(term);
+    const quotesArray = await requestQuotes(term.toLowerCase());
     setNoResults(quotesArray.length === 0);
     setQuotes(quotesArray);
   };
@@ -25,11 +25,8 @@ const Search = () => {
 
   return (
     <div className='search'>
-      <h1 className='title'>Search SearchResults</h1>
-
       <div className='disclaimer-container'>
         <p className='disclaimer'>
-          Get 10 searchResults from your favorite <span className='highlight'>anime</span>!
         </p>
       </div>
       

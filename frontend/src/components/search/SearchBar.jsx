@@ -19,7 +19,7 @@ const SearchBar = ({onSearchSubmit, clearResults}) => {
         <input 
             className='searchbar-input' 
             type='text' 
-            placeholder="Search by title. . ."
+            placeholder="Sök på produkt. . ."
             onChange={e => setTerm(e.target.value)}
             value={term}/>
           <button type='submit'>
