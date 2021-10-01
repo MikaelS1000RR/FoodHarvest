@@ -24,7 +24,7 @@ export class MathemScrubber extends Scrubber {
     imageUrl: (x) => x.images.ORIGINAL,
     // category: (x) => this.setCategory(x.category.name),
     category: (x) => x.category.name, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.preferences.labels),
+    preferences: (x) => this.setPreferences(x.preferences),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
@@ -33,19 +33,21 @@ export class MathemScrubber extends Scrubber {
   static async getInformationFromDb() {
     const mathemFromDb = await FirebaseHandler.getStore("Mathem");
     // const mathemFromDb = this.getStore();//Must be changed later
-    console.log(mathemFromDb, "mathemFromDb")
+    // console.log(mathemFromDb, "mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
-    console.log(preferencesFromDb, "preferencesFromDb")
+    // console.log(preferencesFromDb, "preferencesFromDb")
+    this.preferencesFromDb = preferencesFromDb;
   }
 
   static async setPreferences(preferencesToBeScrubbed) {
-    console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
+    console.log(preferencesToBeScrubbed.labels, "preferencesToBeScrubbed.labels")
     const thePreferencesFromDb = this.preferencesFromDb;
+    console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
 
-    if (preferencesToBeScrubbed == "undefined" || preferencesToBeScrubbed.length == 0) {
-      return null;
-    }
+    // if (preferencesToBeScrubbed.labels == "undefined" || preferencesToBeScrubbed.labels.length == 0) {
+    //   return null;
+    // }
 
     for (let i = 0; i < preferencesToBeScrubbed.length; i++) {
       if (preferencesToBeScrubbed[i] == "Fairtrade") {
@@ -68,7 +70,7 @@ export class MathemScrubber extends Scrubber {
       }
     }
 
-
+    return scrubbedPreferences;
   }
 
 
