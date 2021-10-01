@@ -83,19 +83,19 @@ export class FirebaseHandler {
       let doc = { ref: document.ref, ...document.data() };
       dataFromDB.push(doc);
     });
-    console.log("dataFromDB", dataFromDB);
+    // console.log("dataFromDB", dataFromDB);
     return dataFromDB[0];
   }
 
   static async getPreferences() {
     let querySnapshot = await firestore.collection("preferences").get();
-    let dataFromDB = [];
-    querySnapshot.forEach((document) => {
-      let doc = { ref: document.ref, ...document.data() }
-      dataFromDB.push(doc);
+    let dataFromDb = [];
+    querySnapshot.forEach((doc) => {
+      let document = { ref: doc.ref, ...doc.data() }
+      dataFromDb.push(document);
     });
-
-    return preferences;
+    // console.log(dataFromDb,"datafromDb")
+    return dataFromDb;
   }
 
   static setDiscount(product) {

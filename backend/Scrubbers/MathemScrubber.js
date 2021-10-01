@@ -43,7 +43,7 @@ export class MathemScrubber extends Scrubber {
   static async setPreferences(preferencesToBeScrubbed) {
     // console.log(preferencesToBeScrubbed.labels, "preferencesToBeScrubbed.labels")
     const thePreferencesFromDb = this.preferencesFromDb;
-    console.log(thePreferencesFromDb, "TPFD")
+    // console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
     //console.log(pref.name, "forEachtest")
     if (preferencesToBeScrubbed.labels.length == 0) { return null;}
@@ -52,11 +52,11 @@ export class MathemScrubber extends Scrubber {
         if (pref.name == "Svenskt ursprung") {
           console.log("Svenskt ursprung hittades")
           let scrubbedPreference = thePreferencesFromDb.find(
-            (preference) => preference.name == "Svensk Flagga"
-          ).ref;
+            (preference) => preference.name === "Svensk Flagga"
+          )
         scrubbedPreferences.push(scrubbedPreference);
         }
-        console.log(scrubbedPreferences,"scrubbedPreferences")
+        // console.log(scrubbedPreferences,"scrubbedPreferences")
       })
     }
     // let scrubbedPreference = thePreferencesFromDb.find(
@@ -116,7 +116,7 @@ export class MathemScrubber extends Scrubber {
     //   // }
 
     // }
-
+    console.log(scrubbedPreferences,"scrubbedPreferences")
     return scrubbedPreferences;
   }
 

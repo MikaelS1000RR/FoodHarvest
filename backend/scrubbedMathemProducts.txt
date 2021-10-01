@@ -9,7 +9,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -71,7 +241,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-1kg-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -88,7 +428,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -120,7 +630,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -137,7 +817,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -199,7 +1049,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340418100007_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -336,7 +1356,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070336160_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -353,7 +1543,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071330525_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -370,7 +1730,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -387,7 +1917,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071336244_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -404,7 +2104,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070338188_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -421,7 +2291,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008494_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -468,7 +2508,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330243_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1685,7 +3895,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1807,7 +4187,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07046110071519_a1n1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1839,7 +4389,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-kruka-eko-klass1-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1856,7 +4576,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1888,7 +4778,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000995_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1920,7 +4980,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-kruka-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
@@ -1952,7 +5182,177 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-knippe-100g-klass1-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      {
+        "ref": {
+          "firestore": {
+            "_delegate": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            },
+            "_persistenceProvider": {},
+            "INTERNAL": {},
+            "_appCompat": {
+              "name": "[DEFAULT]",
+              "automaticDataCollectionEnabled": false,
+              "options": {
+                "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                "authDomain": "food-harvest-firestore.firebaseapp.com",
+                "projectId": "food-harvest-firestore",
+                "storageBucket": "food-harvest-firestore.appspot.com",
+                "messagingSenderId": "60579697874",
+                "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                "measurementId": "G-4XN183KB6Y"
+              }
+            }
+          },
+          "_delegate": {
+            "converter": null,
+            "_key": {
+              "path": {
+                "segments": [
+                  "projects",
+                  "food-harvest-firestore",
+                  "databases",
+                  "(default)",
+                  "documents",
+                  "preferences",
+                  "g9ButyZbFwkOPGoIEJ6T"
+                ],
+                "offset": 5,
+                "len": 2
+              }
+            },
+            "type": "document",
+            "firestore": {
+              "app": {
+                "_isDeleted": false,
+                "_options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                },
+                "_config": {
+                  "name": "[DEFAULT]",
+                  "automaticDataCollectionEnabled": false
+                },
+                "_name": "[DEFAULT]",
+                "_automaticDataCollectionEnabled": false,
+                "_container": {
+                  "name": "[DEFAULT]",
+                  "providers": {}
+                }
+              },
+              "databaseId": {
+                "projectId": "food-harvest-firestore",
+                "database": "(default)"
+              },
+              "settings": {
+                "host": "firestore.googleapis.com",
+                "ssl": true,
+                "ignoreUndefinedProperties": false,
+                "cacheSizeBytes": 41943040,
+                "experimentalForceLongPolling": false,
+                "experimentalAutoDetectLongPolling": false,
+                "useFetchStreams": true
+              }
+            }
+          },
+          "_userDataWriter": {
+            "firestore": {
+              "_delegate": {
+                "app": {
+                  "_isDeleted": false,
+                  "_options": {
+                    "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                    "authDomain": "food-harvest-firestore.firebaseapp.com",
+                    "projectId": "food-harvest-firestore",
+                    "storageBucket": "food-harvest-firestore.appspot.com",
+                    "messagingSenderId": "60579697874",
+                    "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                    "measurementId": "G-4XN183KB6Y"
+                  },
+                  "_config": {
+                    "name": "[DEFAULT]",
+                    "automaticDataCollectionEnabled": false
+                  },
+                  "_name": "[DEFAULT]",
+                  "_automaticDataCollectionEnabled": false,
+                  "_container": {
+                    "name": "[DEFAULT]",
+                    "providers": {}
+                  }
+                },
+                "databaseId": {
+                  "projectId": "food-harvest-firestore",
+                  "database": "(default)"
+                },
+                "settings": {
+                  "host": "firestore.googleapis.com",
+                  "ssl": true,
+                  "ignoreUndefinedProperties": false,
+                  "cacheSizeBytes": 41943040,
+                  "experimentalForceLongPolling": false,
+                  "experimentalAutoDetectLongPolling": false,
+                  "useFetchStreams": true
+                }
+              },
+              "_persistenceProvider": {},
+              "INTERNAL": {},
+              "_appCompat": {
+                "name": "[DEFAULT]",
+                "automaticDataCollectionEnabled": false,
+                "options": {
+                  "apiKey": "AIzaSyAq_1HKaT-Zh2isVQU_wwX-IYcmy26bKmo",
+                  "authDomain": "food-harvest-firestore.firebaseapp.com",
+                  "projectId": "food-harvest-firestore",
+                  "storageBucket": "food-harvest-firestore.appspot.com",
+                  "messagingSenderId": "60579697874",
+                  "appId": "1:60579697874:web:8f684e8b74b111d7e2c90b",
+                  "measurementId": "G-4XN183KB6Y"
+                }
+              }
+            }
+          }
+        },
+        "name": "Svensk Flagga"
+      }
     ],
     "store": {
       "name": "Mathem",
