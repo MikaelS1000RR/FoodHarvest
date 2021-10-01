@@ -13,13 +13,10 @@ const MyListsPage = () => {
   
   useEffect(() => {
     const getList = async () => {
-      if (!currentUser) {
-        console.log("no user found")
-        
-      }
+     
       let list = await fetchProductLists(currentUser.uid);
-      console.log("lists in pages are ", list);
-      console.log('current user is', currentUser)
+     /*  console.log("lists in pages are ", list);
+      console.log('current user is', currentUser) */
       setLists(list);
       
     };
@@ -42,11 +39,9 @@ const MyListsPage = () => {
         </div>
 
         <div className="productLists" style={styles.productLists}>
-          {currentUser ? (
-            lists.map((p) => <ProductListCard props={p.name} />)
-          ) : (
-            <p>Loading..</p>
-          )}
+          {lists.length > 0
+            ? lists.map((p) => <ProductListCard props={p.name} />)
+            : <p>Du har inga listor</p>}
         </div>
       </div>
     </div>
