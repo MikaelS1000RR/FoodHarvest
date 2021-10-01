@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 const SearchBar = ({onSearchSubmit, clearResults}) => {
     const [term, setTerm] = useState('');
@@ -15,18 +16,24 @@ const SearchBar = ({onSearchSubmit, clearResults}) => {
     }
 
     return (
-      <form className='searchbar' onSubmit={submit}>
-        <input 
-            className='searchbar-input' 
+      <Form style={styles.form} onSubmit={submit}>
+        <FormGroup>
+          <Input
             type='text' 
             placeholder="Sök på produkt. . ."
             onChange={e => setTerm(e.target.value)}
-            value={term}/>
-          <button type='submit'>
-            Submit
-          </button>
-      </form>
-    );
+            value={term}
+          />
+        </FormGroup>
+      </Form>
+      
+     );
 };
 
 export default SearchBar;
+
+const styles = {
+  form: {
+    padding: "10px",
+  }
+}
