@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import {Container, Row} from "reactstrap" 
 
-import SearchResult from './SearchResult';
+
 import SearchBar from './SearchBar';
 import { requestQuotes } from '../../firestoreSearchProducts';
+import ProductCard from '../home/ProductCard';
 
 const Search = () => {
   const [searchResults, setQuotes] = useState([]);
@@ -20,7 +22,7 @@ const Search = () => {
   const clearResults = () => setQuotes([]);
 
   const renderedQuotes = searchResults.map((searchResult, i) => {
-    return <SearchResult searchResult={searchResult} key={i} />
+    return <ProductCard classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} product={searchResult} key={i} />
   })
 
   return (
@@ -37,12 +39,16 @@ const Search = () => {
           No results found.
         </p>
       }
-      <div className='main-content'>
-        {renderedQuotes}
-      </div>
+      <Container>
+        <Row>
+          {renderedQuotes}
+        </Row>
+      </Container>
 
     </div>
   );
 };
+
+
 
 export default Search;
