@@ -10,8 +10,13 @@ const MyListsPage = () => {
   const { productLists } = useProductList();
  const { currentUser } = useAuth();
   const [lists, setLists] = useState([]);
+  
   useEffect(() => {
     const getList = async () => {
+      if (!currentUser) {
+        console.log("no user found")
+        
+      }
       let list = await fetchProductLists(currentUser.uid);
       console.log("lists in pages are ", list);
       console.log('current user is', currentUser)
@@ -37,18 +42,12 @@ const MyListsPage = () => {
         </div>
 
         <div className="productLists" style={styles.productLists}>
-          
-            {lists.length > 0
-              ? lists.map((p) => (
-                <ProductListCard props={p.name}/>
-                ))
-              : null}
-  
+          {currentUser ? (
+            lists.map((p) => <ProductListCard props={p.name} />)
+          ) : (
+            <p>Loading..</p>
+          )}
         </div>
-
-
-
-        
       </div>
     </div>
   );
