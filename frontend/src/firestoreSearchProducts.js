@@ -7,7 +7,9 @@ export const requestQuotes = _.memoize(async product => {
     const docs = [];
     let snapshot = await firestore
       .collection("products")
-      .where("productName", "==", capitalizeFirstLetter(product))
+      .where("productName", ">=", capitalizeFirstLetter(product))
+      .orderBy("productName").startAt(capitalizeFirstLetter(product))
+      .limit(10)
       .get();
     
     snapshot.forEach((doc) => {          

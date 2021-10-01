@@ -13,7 +13,7 @@ const SearchResult = ({searchResult}, props) => {
   const { setCurrentProduct } = useProductInfo();
 
     return (
-      <div className={classNames} index={index}>
+      <div className={"col-6 col-sm-4 col-md-3 col-lg-2"} index={index}>
       <div className={"card text-center"} style={styles.container}>
         <FavoriteButton
           styles={styles.favorite}
