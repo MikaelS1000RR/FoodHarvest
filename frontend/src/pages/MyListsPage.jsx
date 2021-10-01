@@ -8,12 +8,13 @@ const MyListsPage = () => {
   const listName = "list Name";
   const { fetchProductLists } = useProductList();
   const { productLists } = useProductList();
-  const {currentUser} = useAuth()
+ const { currentUser } = useAuth();
   const [lists, setLists] = useState([]);
   useEffect(() => {
     const getList = async () => {
-      let list = await fetchProductLists("z7fNsrT4HdfDYHLZHs3MdMxOulw2");
+      let list = await fetchProductLists(currentUser.uid);
       console.log("lists in pages are ", list);
+      console.log('current user is ', currentUser)
       setLists(list);
       
     };
