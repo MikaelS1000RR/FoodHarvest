@@ -40,7 +40,7 @@ const MyListsPage = () => {
 
         <div className="productLists" style={styles.productLists}>
           {lists.length > 0
-            ? lists.map((p) => <ProductListCard props={p.name} />)
+            ? lists.map((list) => <ProductListCard props={list.name} />)
             : <p>Du har inga listor</p>}
         </div>
       </div>
