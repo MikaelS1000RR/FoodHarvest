@@ -53,28 +53,15 @@ export class MathemScrubber extends Scrubber {
       preferencesToBeScrubbed.labels.forEach(pref => {
         // console.log(pref)
         
-        //Does not exist
+        //Is under badges----------------------------------------NOT WORKING
         if (pref.name == "Fairtrade") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Fairtrade"
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
-
-        if (pref.name == "Glutenfritt") {
-          let scrubbedPreference = thePreferencesFromDb.find(
-            (preference) => preference.name === "Glutenfritt"
-          )
-          scrubbedPreferences.push(scrubbedPreference);
-        }
+        //-------------------------------------------------
         
-        
-      //   if (preferencesToBeScrubbed[i].labels == "Glutenfritt") {
-      //   let scrubbedPreference = thePreferencesFromDb.find(
-      //     (preference) => preference.name == "Glutenfritt"
-      //   )
-      //   scrubbedPreferences.push(scrubbedPreference);
-      // }
 
       //   if (preferencesToBeScrubbed[i].labels == "Vegansk") {
       //   let scrubbedPreference = thePreferencesFromDb.find(
@@ -96,7 +83,7 @@ export class MathemScrubber extends Scrubber {
     }
     if (preferencesToBeScrubbed.dietary.length > 0) {
       preferencesToBeScrubbed.dietary.forEach(pref => {
-        //Is under dietary
+
         if (pref.name == "Laktosfri") {
           console.log("Laktosfri")
           let scrubbedPreference = thePreferencesFromDb.find(
@@ -104,6 +91,15 @@ export class MathemScrubber extends Scrubber {
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
+
+        if (pref.name == "Glutenfri") {
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "Glutenfritt"
+          )
+          scrubbedPreferences.push(scrubbedPreference);
+        }
+
+
       })
     }
 
