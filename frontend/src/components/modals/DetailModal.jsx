@@ -16,11 +16,11 @@ const DetailModal = () => {
         info = (
           <div key={currentProduct.id}>
             <div>
-              <img src={currentProduct.image} alt={currentProduct.image} />
+              <img src={currentProduct.imageUrl} alt={currentProduct.imageUrl} />
             </div>
             <div>
               <h4>
-                {currentProduct.foodType} {currentProduct.brand}
+                {currentProduct.preferences} {currentProduct.brand}
               </h4>
               <div>
                 <p>{currentProduct.brand}</p>

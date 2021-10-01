@@ -3,8 +3,8 @@ import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext"
 
 const FavoriteButton = (props) => {
-  const { styles, product } = props
-  const [ isToggle, setIsToggle ] = useState(product.isFavorite);
+  const { styles, product} = props
+  const [ isToggle, setIsToggle ] = useState(product.isFavorite || false);
   const { favoriteList, updateProductToList } =
     useProductList();
   const { currentUser } = useAuth();
