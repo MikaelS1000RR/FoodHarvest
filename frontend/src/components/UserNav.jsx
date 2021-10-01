@@ -12,7 +12,7 @@ const UserNav = (props) => {
       <Button
         className="text-white bg-transparent btn-outline-primary"
         >
-        <Link to="/myProductLists/" className="text-white" style={styles.link}>
+        <Link to="/myListsPage/" className="text-white" style={styles.link}>
           Inköpslistor
         </Link>
       </Button>

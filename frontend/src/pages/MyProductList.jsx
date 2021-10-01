@@ -5,8 +5,10 @@ import { useProductList } from "../contexts/ProductListContext";
 
 
 
-const MyProductLists = () => {
+const MyProductList
+ = () => {
 
 }
  
-export default MyProductLists;
+export default MyProductList
+;

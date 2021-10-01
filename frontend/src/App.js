@@ -7,7 +7,7 @@ import ProductInfoProvider from "./contexts/ProductInfoContext";
 
 import Home from "./pages/Home";
 import Category from "./pages/Category";
-import MyProductLists from "./pages/MyProductLists";
+import MyProductList from "./pages/MyProductList";
 import MyProfile from "./pages/MyProfile";
 import Page404 from "./pages/Page404";
 
@@ -43,8 +43,8 @@ function App() {
                         />
                         <Route
                           exact
-                          path="/myProductLists/"
-                          component={MyProductLists}
+                          path="/myProductList/"
+                          component={MyProductList}
                         />
                         <Route
                           exact
