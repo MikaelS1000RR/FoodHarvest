@@ -11,7 +11,7 @@ const ProductProvider = (props) => {
 
   const fetchProductsByCategory = async (category) => {
     // const productCollection = "products-test"
-    const productCollection = "products"
+    const productCollection = "test-products-hemkop"
     const docs = [];
     let snapshot = await firestore
       .collection(productCollection)

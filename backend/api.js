@@ -44,18 +44,18 @@ export class Api {
         return;
       }
       // using id at the moment, should change to productCode later
-      let productExist = list.products.find(p => p == product.id)
+      let productExist = list.products.find(p => p == product.productCode)
       if (productExist) {
         if (toAdd) { 
           res.json({ error: "Product already in the list!" });
           return;
         }
         else {
-          list.products = list.products.filter(p => p != product.id)
+          list.products = list.products.filter(p => p != product.productCode)
         }
       }
       else if (toAdd) {
-        list.products = [...list.products, product.id]
+        list.products = [...list.products, product.productCode]
       }
       // update list
       try {
@@ -87,18 +87,18 @@ export class Api {
         return;
       }
       // using id at the moment, should change to productCode later
-      let productExist = list.products.find(p => p == product.id)
+      let productExist = list.products.find(p => p == product.productCode)
       if (productExist) {
         if (toAdd) { 
           res.json({ error: "Product already in the list!" });
           return;
         }
         else {
-          list.products = list.products.filter(p => p != product.id)
+          list.products = list.products.filter(p => p != product.productCode)
         }
       }
       else if (toAdd) {
-        list.products = [...list.products, product.id]
+        list.products = [...list.products, product.productCode]
       }
       // update list
       try {
