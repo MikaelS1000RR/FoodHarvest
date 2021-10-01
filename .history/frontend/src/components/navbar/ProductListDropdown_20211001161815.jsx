@@ -25,14 +25,8 @@ const ProductListDropdown = (props) => {
     }
   }
   
-    const getLastElement = () => {
-      productLists.map((element, index) => {
-        // Last element 
-        if(index === productLists.length - 1) {
-          return element;
-        }
-      })
-  }
+  
+  
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>

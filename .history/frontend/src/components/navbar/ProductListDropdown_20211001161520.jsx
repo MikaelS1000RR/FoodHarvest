@@ -23,16 +23,16 @@ const ProductListDropdown = (props) => {
     else {
       toggleLoginModal();
     }
-  }
   
     const getLastElement = () => {
+      // eslint-disable-next-line array-callback-return
       productLists.map((element, index) => {
         // Last element 
         if(index === productLists.length - 1) {
           return element;
         }
       })
-  }
+    }
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
@@ -63,6 +63,6 @@ const ProductListDropdown = (props) => {
   );
 };
 
-
+}
 
 export default ProductListDropdown;

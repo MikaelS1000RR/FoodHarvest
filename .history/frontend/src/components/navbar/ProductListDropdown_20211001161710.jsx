@@ -63,6 +63,6 @@ const ProductListDropdown = (props) => {
   );
 };
 
-
+}
 
 export default ProductListDropdown;

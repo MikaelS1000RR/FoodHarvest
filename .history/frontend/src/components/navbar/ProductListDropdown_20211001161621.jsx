@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import { useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
 import { useModal } from "../../contexts/ModalContext";
@@ -15,6 +16,7 @@ const ProductListDropdown = (props) => {
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { setMenu } = props;
   const [isOpen, setIsOpen] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const toggle = () => {
     if (currentUser) {
       setMenu(false);
@@ -23,7 +25,6 @@ const ProductListDropdown = (props) => {
     else {
       toggleLoginModal();
     }
-  }
   
     const getLastElement = () => {
       productLists.map((element, index) => {
@@ -63,6 +64,6 @@ const ProductListDropdown = (props) => {
   );
 };
 
-
+}
 
 export default ProductListDropdown;

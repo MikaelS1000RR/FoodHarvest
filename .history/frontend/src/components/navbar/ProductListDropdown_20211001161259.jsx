@@ -23,7 +23,6 @@ const ProductListDropdown = (props) => {
     else {
       toggleLoginModal();
     }
-  }
   
     const getLastElement = () => {
       productLists.map((element, index) => {
@@ -32,12 +31,12 @@ const ProductListDropdown = (props) => {
           return element;
         }
       })
-  }
+    }
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
       <DropdownToggle color="warning" caret>
-        {currentProductList ? currentProductList.name : getLastElement}
+        {currentProductList ? currentProductList.name : ge}
       </DropdownToggle>
       <DropdownMenu>
         {currentProductList ? (
@@ -62,7 +61,5 @@ const ProductListDropdown = (props) => {
     </Dropdown>
   );
 };
-
-
 
 export default ProductListDropdown;

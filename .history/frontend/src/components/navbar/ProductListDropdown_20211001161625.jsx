@@ -23,7 +23,6 @@ const ProductListDropdown = (props) => {
     else {
       toggleLoginModal();
     }
-  }
   
     const getLastElement = () => {
       productLists.map((element, index) => {
@@ -63,6 +62,6 @@ const ProductListDropdown = (props) => {
   );
 };
 
-
+}
 
 export default ProductListDropdown;
