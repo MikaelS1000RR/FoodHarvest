@@ -1,9 +1,7 @@
 import React from "react";
-import { useContext } from "react";
-import BaseModal from "./base/BaseModal";
-import { useProductInfo } from "../contexts/ProductInfoContext";
-import { useModal } from "../contexts/ModalContext";
-
+import BaseModal from "../base/BaseModal";
+import { useProductInfo } from "../../contexts/ProductInfoContext";
+import { useModal } from "../../contexts/ModalContext";
 
 const DetailModal = () => {
   const { toggleDetailModal, showDetailModal } = useModal();

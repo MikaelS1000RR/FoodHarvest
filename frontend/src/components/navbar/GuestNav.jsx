@@ -1,5 +1,5 @@
 import { Button, NavItem } from "reactstrap";
-import { useModal } from "../contexts/ModalContext";
+import { useModal } from "../../contexts/ModalContext";
 
 const GuestNav = (props) => {
   const { styles } = props;

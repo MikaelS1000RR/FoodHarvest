@@ -8,7 +8,6 @@ const CategoryModal = () => {
   const title = "Kategorier";
   const { categories } = useCategory();
   const { showCategoryModal, toggleCategoryModal } = useModal();
-  // console.log(categories);
   const categoryButtonList = (
     <div className="container" style={styles.container}>
       {categories.length > 0
