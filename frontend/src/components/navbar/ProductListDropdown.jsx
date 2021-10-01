@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useProductList } from "../contexts/ProductListContext";
-import { useModal } from "../contexts/ModalContext";
-import { useAuth } from "../contexts/AuthContext";
+import { useProductList } from "../../contexts/ProductListContext";
+import { useModal } from "../../contexts/ModalContext";
+import { useAuth } from "../../contexts/AuthContext";
 import {
   DropdownToggle,
   DropdownMenu,

@@ -9,18 +9,18 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
 
-  const fetchProductsByCategory = async (categoryRef) => {
+  const fetchProductsByCategory = async (category) => {
+    console.log("inne i fetch");
     const docs = [];
     let snapshot = await firestore
-      .collection("test-products-willys")
-      .where("category", "==", categoryRef)
+      .collection("products")
+      .where("category", "==", category.ref)
       .limit(1)
       .get();
     
-    snapshot.forEach((doc) => {          
-      docs.push({ id: doc.id, ...doc.data() })
-      }
-    );
+    snapshot.forEach((doc) => {
+      docs.push({ id: doc.id, ref: doc.ref, ...doc.data() });
+    })
     return docs;
   };
 

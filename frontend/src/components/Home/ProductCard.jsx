@@ -1,10 +1,10 @@
 import FavoriteButton from "./FavoriteButton";
-import DetailModal from "../DetailModal";
+import DetailModal from "../modals/DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText, isFavorite, index } = props;
+  const { product, classNames, buttonText, index } = props;
 
   const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
@@ -14,8 +14,7 @@ const ProductCard = (props) => {
       <div className={"card text-center"} style={styles.container}>
         <FavoriteButton
           styles={styles.favorite}
-          productId={product.id}
-          isFavorite={isFavorite}
+          product={product}
         />
         <div className="openModal" onClick={() => {
           setCurrentProduct(product) 
@@ -31,7 +30,7 @@ const ProductCard = (props) => {
           </div>
           <div className="card-body">
             <div>
-              <h5 className="card-title">{product.foodType}</h5>
+              <h5 className="card-title">{product.productName}</h5>
               <p className="card-title">{product.brand}</p>
             </div>
             <h3>{product.price}kr</h3>
