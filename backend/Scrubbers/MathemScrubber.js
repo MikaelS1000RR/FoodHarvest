@@ -40,35 +40,80 @@ export class MathemScrubber extends Scrubber {
   }
 
   static async setPreferences(preferencesToBeScrubbed) {
-    console.log(preferencesToBeScrubbed.labels, "preferencesToBeScrubbed.labels")
+    // console.log(preferencesToBeScrubbed.labels, "preferencesToBeScrubbed.labels")
     const thePreferencesFromDb = this.preferencesFromDb;
-    console.log(thePreferencesFromDb, "TPFD")
+    // console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
-
-    // if (preferencesToBeScrubbed.labels == "undefined" || preferencesToBeScrubbed.labels.length == 0) {
-    //   return null;
-    // }
-
-    for (let i = 0; i < preferencesToBeScrubbed.length; i++) {
-      if (preferencesToBeScrubbed[i] == "Fairtrade") {
-        let scrubbedPreference = thePreferencesFromDb.find(
-          (preference) => preference.name == "Fairtrade"
+    //console.log(pref.name, "forEachtest")
+    if (preferencesToBeScrubbed.labels.length == 0) { return null;}
+    if (preferencesToBeScrubbed.labels.length > 0) {
+      preferencesToBeScrubbed.labels.forEach(pref => {
+        if (pref.name == "Svenskt ursprung") {
+          console.log("Svenskt ursprung hittades")
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name == "Svensk Flagga"
         )
         scrubbedPreferences.push(scrubbedPreference);
-      }
-      if (preferencesToBeScrubbed[i] == "Laktosfri") {
-        let scrubbedPreference = thePreferencesFromDb.find(
-          (preference) => preference.name == "Laktosfritt"
-        )
-        scrubbedPreferences.push(scrubbedPreference);
-      }
-      if (preferencesToBeScrubbed[i] == "Laktosfri") {
-        let scrubbedPreference = thePreferencesFromDb.find(
-          (preference) => preference.name == "Glutenfritt"
-        )
-        scrubbedPreferences.push(scrubbedPreference);
-      }
+        }
+      })
     }
+    // let scrubbedPreference = thePreferencesFromDb.find(
+    //   (preference) => preference.name == "Svensk Flagga"
+    // )
+
+    // let scrubbedPreference = thePreferencesFromDb.find(
+    //   (preference) => preference.name == "Svensk Flagga"
+    // )
+
+    // console.log(scrubbedPreference, "scrubbedPreference")
+    
+
+    // // if (preferencesToBeScrubbed.labels == "undefined" || preferencesToBeScrubbed.labels.length == 0) {
+    // //   return null;
+    // // }
+    
+    // // console.log(this.preferencesToBeScrubbed.labels.name, "preferencesToBeScrubbed.labels.name")
+    // for (let i = 0; i < preferencesToBeScrubbed.length; i++) {
+    //   if (preferencesToBeScrubbed[i].labels == "Fairtrade") {
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name == "Fairtrade"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference);
+    //   }
+    //   if (preferencesToBeScrubbed[i] == "Laktosfri") {
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name == "Laktosfritt"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference);
+    //   }
+    //   if (preferencesToBeScrubbed[i].labels == "Glutenfritt") {
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name == "Glutenfritt"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference);
+    //   }
+    //   if (preferencesToBeScrubbed[i].labels == "Veganskt") {
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name == "Veganskt"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference);
+
+    //   }
+    //   if (preferencesToBeScrubbed[i].labels.includes("Svenskt ursprung")) {
+    //     console.log("Den hittade svenskt ursprung")
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name == "Svensk Flagga"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference);
+    //   }
+    //   // if (preferencesToBeScrubbed[i] == "Glutenfritt") {
+    //   //   let scrubbedPreference = thePreferencesFromDb.find(
+    //   //     (preference) => preference.name == "Glutenfritt"
+    //   //   )
+    //   //   scrubbedPreferences.push(scrubbedPreference);
+    //   // }
+
+    // }
 
     return scrubbedPreferences;
   }
@@ -96,6 +141,15 @@ export class MathemScrubber extends Scrubber {
     );
     return mathemStore;
   }
+
+  // //Setting store as Mathem
+  // static async getStore() {
+  //   if (this.storeFromDb != undefined) {
+  //     return this.storeFromDb
+  //   } else {
+  //     return null;
+  //   }
+  // }
 
   // static async setPreferences(preferences) {
   //   console.log(preferences, "prefrences")
