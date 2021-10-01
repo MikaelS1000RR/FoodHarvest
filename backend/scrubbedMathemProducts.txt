@@ -7,9 +7,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -24,43 +22,7 @@
     "quantityUnit": "g",
     "brand": "Greenest",
     "imageUrl": "//static.mathem.se/shared/images/products/original/salladsmix-nr-5-eko-65g-fardigskoljd-klass1.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
-    "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
-  },
-  {
-    "productCode": "22102",
-    "productName": "Broccoli 250g Klass1",
-    "price": 17.95,
-    "quantity": 250,
-    "quantityUnit": "g",
-    "brand": "Frukt & Grönt",
-    "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
-    "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
-  },
-  {
-    "productCode": "80999",
-    "productName": "Morötter",
-    "price": 12.95,
-    "quantity": 500,
-    "quantityUnit": "g",
-    "brand": "Frukt & Grönt",
-    "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -75,9 +37,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/baby-plommontomater-250g-klass1-2.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -85,33 +45,14 @@
     }
   },
   {
-    "productCode": "1237",
-    "productName": "Paprika Röd Klass1",
+    "productCode": "1500",
+    "productName": "Paprika Gul Klass1",
     "price": 12.95,
     "quantity": 160,
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
-    "imageUrl": "//static.mathem.se/shared/images/products/original/paprika-rod-klass1-7.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
-    "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
-  },
-  {
-    "productCode": "1490",
-    "productName": "Kvisttomater 500g Klass1",
-    "price": 29.95,
-    "quantity": 500,
-    "quantityUnit": "g",
-    "brand": "Frukt & Grönt",
-    "imageUrl": "//static.mathem.se/shared/images/products/original/kvisttomater-500g-klass1-2.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "imageUrl": "//static.mathem.se/shared/images/products/original/paprika-gul-klass1-3.jpg",
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -126,9 +67,52 @@
     "quantityUnit": "kg",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-1kg-klass1-1.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "category": "Frukt & Grönt",
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productCode": "22102",
+    "productName": "Broccoli 250g Klass1",
+    "price": 17.95,
+    "quantity": 250,
+    "quantityUnit": "g",
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
+    "category": "Frukt & Grönt",
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productCode": "1237",
+    "productName": "Paprika Röd Klass1",
+    "price": 12.95,
+    "quantity": 160,
+    "quantityUnit": "g",
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/paprika-rod-klass1-7.jpg",
+    "category": "Frukt & Grönt",
+    "preferences": null,
+    "store": {
+      "name": "Mathem",
+      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+    }
+  },
+  {
+    "productCode": "80999",
+    "productName": "Morötter",
+    "price": 12.95,
+    "quantity": 500,
+    "quantityUnit": "g",
+    "brand": "Frukt & Grönt",
+    "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -143,9 +127,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-klass1-2.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -153,16 +135,14 @@
     }
   },
   {
-    "productCode": "1221",
-    "productName": "Sallat Isberg Klass1",
-    "price": 19.95,
-    "quantity": 600,
+    "productCode": "21298",
+    "productName": "Cocktailtomater",
+    "price": 24.95,
+    "quantity": 250,
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
-    "imageUrl": "//static.mathem.se/shared/images/products/original/sallat-isberg-klass1-1.jpg",
-    "category": {
-      "name": "Frukt & Grönt"
-    },
+    "imageUrl": "//static.mathem.se/shared/images/products/original/cocktailtomater-250g-klass1-2.jpg",
+    "category": "Frukt & Grönt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -177,9 +157,7 @@
     "quantityUnit": "g",
     "brand": "Zeta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402658_c1n1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -194,9 +172,7 @@
     "quantityUnit": "g",
     "brand": "Arla Ko",
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340418100007_c1l1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -211,9 +187,7 @@
     "quantityUnit": "g",
     "brand": "Wernerssons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05420024102019_c1n1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -228,9 +202,7 @@
     "quantityUnit": "g",
     "brand": "Arla Ko",
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340415200007_c1l1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -245,9 +217,7 @@
     "quantityUnit": "g",
     "brand": "Arla Familjefavoriter",
     "imageUrl": "//static.mathem.se/shared/images/products/original/port-salut-26--ca-750g-arla.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -262,9 +232,7 @@
     "quantityUnit": "g",
     "brand": "Philadelphia",
     "imageUrl": "//static.mathem.se/shared/images/products/original/farskost-classic-300g-philadelphia.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -279,9 +247,7 @@
     "quantityUnit": "g",
     "brand": "Arla Ko",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311877014216_c1r1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -296,9 +262,7 @@
     "quantityUnit": "g",
     "brand": "Zeta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350027793731_c1c1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -313,9 +277,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202360_c1c1.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -330,9 +292,7 @@
     "quantityUnit": "g",
     "brand": "Fontana",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150974393_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Mejeri, Ost & Ägg"
-    },
+    "category": "Mejeri, Ost & Ägg",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -347,9 +307,7 @@
     "quantityUnit": "g",
     "brand": "Hatting",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07315060123938_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -364,9 +322,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071330525_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -381,9 +337,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071336244_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -398,9 +352,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070336160_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -415,9 +367,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/levain-650g-pagen-1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -432,9 +382,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008494_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -449,9 +397,7 @@
     "quantityUnit": "g",
     "brand": "Polarbröd",
     "imageUrl": "//static.mathem.se/shared/images/products/original/sarek-375g-polarbrod-1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -466,9 +412,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -483,9 +427,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/italienskt-lantbrod-650g-pagen.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -500,9 +442,7 @@
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008609_c1l1.jpg",
-    "category": {
-      "name": "Bröd & Bageri"
-    },
+    "category": "Bröd & Bageri",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -517,9 +457,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797077149_c1n1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -534,9 +472,7 @@
     "quantityUnit": "g",
     "brand": "Scan",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07300206303008_c1l1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -551,9 +487,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088794_c1l1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -568,9 +502,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088954_c1l1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -585,9 +517,7 @@
     "quantityUnit": "g",
     "brand": "Scan",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07300202713009_c1n1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -602,9 +532,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088800_c1n1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -619,9 +547,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/emilskinka-kokt-120g-parsons.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -636,9 +562,7 @@
     "quantityUnit": "g",
     "brand": "Jakobsdals",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007144_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -653,9 +577,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088879_c1l1.jpeg.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -670,9 +592,7 @@
     "quantityUnit": "g",
     "brand": "Pärsons",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088855_c1l1.jpg",
-    "category": {
-      "name": "Kött, Fågel & Chark"
-    },
+    "category": "Kött, Fågel & Chark",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -687,9 +607,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259240_c1l1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -704,9 +622,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-1-5l-1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -721,9 +637,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-10x33cl.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -738,9 +652,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259233_c1l1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -755,9 +667,7 @@
     "quantityUnit": "g",
     "brand": "Pepsi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310074000299_c1l1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -772,9 +682,7 @@
     "quantityUnit": "g",
     "brand": "Pepsi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/pepsi-max-4x150cl-1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -789,9 +697,7 @@
     "quantityUnit": "g",
     "brand": "San pellegrino",
     "imageUrl": "//static.mathem.se/shared/images/products/original/aranciata-rossa-6x33cl-san-pellegrino-1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -806,9 +712,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05449000259172_c1l1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -823,9 +727,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05449000000439_c1n1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -840,9 +742,7 @@
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331040059219_c1n1.jpg",
-    "category": {
-      "name": "Dryck"
-    },
+    "category": "Dryck",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -857,9 +757,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173417_c1l1.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -874,9 +772,7 @@
     "quantityUnit": "g",
     "brand": "Santa Maria",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kokosmjolk-250ml-santa-maria.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -891,9 +787,7 @@
     "quantityUnit": "g",
     "brand": "Bonduelle",
     "imageUrl": "//static.mathem.se/shared/images/products/original/majs-3x150g-bonduelle-2.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -908,9 +802,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173370_c1l1.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -925,9 +817,7 @@
     "quantityUnit": "g",
     "brand": "Felix",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310240051261_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -942,9 +832,7 @@
     "quantityUnit": "g",
     "brand": "Zeta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002400555_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -959,9 +847,7 @@
     "quantityUnit": "g",
     "brand": "Zeta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002404874_c1n1.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -976,9 +862,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173363_c1l1.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -993,9 +877,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202438_c1c1.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1010,9 +892,7 @@
     "quantityUnit": "g",
     "brand": "Felix",
     "imageUrl": "//static.mathem.se/shared/images/products/original/smorgasgurka-skivad-370g-felix.jpg",
-    "category": {
-      "name": "Skafferi"
-    },
+    "category": "Skafferi",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1027,9 +907,7 @@
     "quantityUnit": "g",
     "brand": "Fisherman Seafood",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740147_1.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1044,9 +922,7 @@
     "quantityUnit": "g",
     "brand": "Feldts",
     "imageUrl": "//static.mathem.se/shared/images/products/original/laxfile-fryst-500g-feldt-s-7.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1061,9 +937,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/laxfile-naturell-asc-fryst-500g-findus.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1078,9 +952,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500123219_c1c1.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1095,9 +967,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500107882_c1c1.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1112,9 +982,7 @@
     "quantityUnit": "g",
     "brand": "Feldts",
     "imageUrl": "//static.mathem.se/shared/images/products/original/torskrygg-600g-feldt-s.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1129,9 +997,7 @@
     "quantityUnit": "g",
     "brand": "Feldts",
     "imageUrl": "//static.mathem.se/shared/images/products/original/fryst-400g-feldts.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1146,9 +1012,7 @@
     "quantityUnit": "g",
     "brand": "Abba",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311171007013_c1c1.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1163,9 +1027,7 @@
     "quantityUnit": "g",
     "brand": "Feldts",
     "imageUrl": "//static.mathem.se/shared/images/products/original/rodspattafile-panerad-500g-feldts-1.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1180,9 +1042,7 @@
     "quantityUnit": "g",
     "brand": "Feldts",
     "imageUrl": "//static.mathem.se/shared/images/products/original/torskfile-msc-fryst-600g-feldt-s.jpg",
-    "category": {
-      "name": "Fisk & Skaldjur"
-    },
+    "category": "Fisk & Skaldjur",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1197,9 +1057,7 @@
     "quantityUnit": "g",
     "brand": "LOTUS",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07322541303406_c1n1.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1214,9 +1072,7 @@
     "quantityUnit": "g",
     "brand": "Serla",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-2-skikt-3-p-570g-serla-1.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1231,9 +1087,7 @@
     "quantityUnit": "g",
     "brand": "Lambi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-sensitive-6-p-732g-lambi-1.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1248,9 +1102,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746295539_c1l1.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1265,9 +1117,7 @@
     "quantityUnit": "g",
     "brand": "Lambi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-monstrat-6-p-624g-lambi-3.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1282,9 +1132,7 @@
     "quantityUnit": "g",
     "brand": "Serla",
     "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-3-skikt-6-p-996g-serla.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1299,9 +1147,7 @@
     "quantityUnit": "g",
     "brand": "Lambi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-extra-long-2-p-424g-lambi.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1316,9 +1162,7 @@
     "quantityUnit": "g",
     "brand": "Serla",
     "imageUrl": "//static.mathem.se/shared/images/products/original/toalettpapper-12-p-serla.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1333,9 +1177,7 @@
     "quantityUnit": "g",
     "brand": "Lambi",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-3-skikt-dekor-4-p-564g-lambi-5.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1350,9 +1192,7 @@
     "quantityUnit": "g",
     "brand": "Budget",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hushallspapper-4-p-538g-budget.jpg",
-    "category": {
-      "name": "Hem & Hushåll"
-    },
+    "category": "Hem & Hushåll",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1367,9 +1207,7 @@
     "quantityUnit": "g",
     "brand": "Dafgårds",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016489_g1r1.jpeg.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1384,9 +1222,7 @@
     "quantityUnit": "g",
     "brand": "Dafgårds",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960648147_c1r1.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1401,9 +1237,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500109107_g1n1.jpeg.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1418,9 +1252,7 @@
     "quantityUnit": "g",
     "brand": "Dafgårds",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016496_c1r1.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1435,9 +1267,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kottbullar-med-potatismos-2.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1452,9 +1282,7 @@
     "quantityUnit": "g",
     "brand": "Felix",
     "imageUrl": "//static.mathem.se/shared/images/products/original/risgrynsgrot-500g-felix-5.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1469,9 +1297,7 @@
     "quantityUnit": "g",
     "brand": "Dafgårds",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960041900_C1R1.jpeg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1486,9 +1312,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500178011_c1n1.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1503,9 +1327,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/pannbiff-med-loksky-fryst-400g-findus-108.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1520,9 +1342,7 @@
     "quantityUnit": "g",
     "brand": "Maten É Klar",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350108010009_c1n1.jpg",
-    "category": {
-      "name": "Färdigmat & Sallader"
-    },
+    "category": "Färdigmat & Sallader",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1537,9 +1357,7 @@
     "quantityUnit": "g",
     "brand": "Ahlgrens Bilar",
     "imageUrl": "//static.mathem.se/shared/images/products/original/ahlgrens-bilar-original-160g.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1554,9 +1372,7 @@
     "quantityUnit": "g",
     "brand": "MatHem",
     "imageUrl": "//static.mathem.se/shared/images/products/original/familjepasen-500g-karamellkungen-3.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1571,9 +1387,7 @@
     "quantityUnit": "g",
     "brand": "Malaco",
     "imageUrl": "//static.mathem.se/shared/images/products/original/gott-o-blandat-original-400g-malaco-2.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1588,9 +1402,7 @@
     "quantityUnit": "kg",
     "brand": "MatHem",
     "imageUrl": "//static.mathem.se/shared/images/products/original/familjepasen-1kg-karamellkungen-9.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1605,9 +1417,7 @@
     "quantityUnit": "g",
     "brand": "Cloetta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/polly-mjolkchoklad-200g-cloetta.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1622,9 +1432,7 @@
     "quantityUnit": "g",
     "brand": "Extra",
     "imageUrl": "//static.mathem.se/shared/images/products/original/04009900527897_c1n1.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1639,9 +1447,7 @@
     "quantityUnit": "g",
     "brand": "Fazer Konfektyr",
     "imageUrl": "//static.mathem.se/shared/images/products/original/06411401035388_c1n1.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1656,9 +1462,7 @@
     "quantityUnit": "g",
     "brand": "Fazer Konfektyr",
     "imageUrl": "//static.mathem.se/shared/images/products/original/06410803642019_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1673,9 +1477,7 @@
     "quantityUnit": "g",
     "brand": "Cloetta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/polly-original-200g-cloetta-3.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1690,9 +1492,7 @@
     "quantityUnit": "g",
     "brand": "Candy people",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350039457690_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Glass, Godis & Snacks"
-    },
+    "category": "Glass, Godis & Snacks",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1707,9 +1507,7 @@
     "quantityUnit": "g",
     "brand": "Castus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05707653000931_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1724,9 +1522,7 @@
     "quantityUnit": "g",
     "brand": "Lovemade",
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200809_C1L1.jpeg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1741,9 +1537,7 @@
     "quantityUnit": "g",
     "brand": "Nestlé",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613033880537_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1758,9 +1552,7 @@
     "quantityUnit": "g",
     "brand": "Nestlé",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613033573088_c1c1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1775,9 +1567,7 @@
     "quantityUnit": "g",
     "brand": "Semper",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100960573_g1c1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1792,9 +1582,7 @@
     "quantityUnit": "g",
     "brand": "Semper",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312170095124_g1c1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1809,9 +1597,7 @@
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/-apple--mango-o-persika-eko-100g-favorit-2.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1826,9 +1612,7 @@
     "quantityUnit": "g",
     "brand": "Semper",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100955623_g1c1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1843,9 +1627,7 @@
     "quantityUnit": "g",
     "brand": "Castus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05707653000955_c1n1.jpeg.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1860,9 +1642,7 @@
     "quantityUnit": "g",
     "brand": "Semper",
     "imageUrl": "//static.mathem.se/shared/images/products/original/klammis-fruktmums-jordgubb-6m-110g-semper.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1877,9 +1657,7 @@
     "quantityUnit": "g",
     "brand": "JORDAN",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1894,9 +1672,7 @@
     "quantityUnit": "g",
     "brand": "Sensodyne",
     "imageUrl": "//static.mathem.se/shared/images/products/original/08710464116446_g1n1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1911,9 +1687,7 @@
     "quantityUnit": "g",
     "brand": "Colgate",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-karies-kontroll-125ml-colgate-1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1928,9 +1702,7 @@
     "quantityUnit": "g",
     "brand": "Pepsodent",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311570641047_c1n1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1945,9 +1717,7 @@
     "quantityUnit": "g",
     "brand": "Colgate",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-total-original-75ml-colgate.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1962,9 +1732,7 @@
     "quantityUnit": "g",
     "brand": "Colgate",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-maxfresh-125ml-colgate-1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1979,9 +1747,7 @@
     "quantityUnit": "g",
     "brand": "Zendium",
     "imageUrl": "//static.mathem.se/shared/images/products/original/08710908843044_c1n1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -1996,9 +1762,7 @@
     "quantityUnit": "g",
     "brand": "Colgate",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-sensation-white-125ml-colgate.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2013,9 +1777,7 @@
     "quantityUnit": "g",
     "brand": "Flux",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05708657221346_c1c1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2030,9 +1792,7 @@
     "quantityUnit": "g",
     "brand": "Sensodyne",
     "imageUrl": "//static.mathem.se/shared/images/products/original/05054563039989_c1n1.jpg",
-    "category": {
-      "name": "Skönhet & Hälsa"
-    },
+    "category": "Skönhet & Hälsa",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2047,9 +1807,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-kruka-eko-klass1-2.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2064,9 +1822,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2081,9 +1837,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-knippe-100g-klass1-1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2098,9 +1852,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/ingefara-50g-klass1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2115,9 +1867,7 @@
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/bladpersilja-knippe-100g-klass1-1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2132,9 +1882,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/mynta-kruka-eko-klass1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2149,9 +1897,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000995_c1n1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2166,9 +1912,7 @@
     "quantityUnit": "g",
     "brand": "Findus",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500031347_g1l1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2183,9 +1927,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-kruka-klass1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2200,9 +1942,7 @@
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/dill-kruka-klass1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2217,9 +1957,7 @@
     "quantityUnit": "g",
     "brand": "Gourmet",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613032395377_c1l1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2234,9 +1972,7 @@
     "quantityUnit": "g",
     "brand": "Sheba",
     "imageUrl": "//static.mathem.se/shared/images/products/original/03065890132399_c1l1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2251,9 +1987,7 @@
     "quantityUnit": "g",
     "brand": "Mjau",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07300330035189_c1l1.jpeg.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2268,9 +2002,7 @@
     "quantityUnit": "g",
     "brand": "Whiskas",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-fisk--o-kottmeny-i-gele-7ar.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2285,9 +2017,7 @@
     "quantityUnit": "g",
     "brand": "Latz",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-11.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2302,9 +2032,7 @@
     "quantityUnit": "g",
     "brand": "Latz",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2319,9 +2047,7 @@
     "quantityUnit": "g",
     "brand": "Perfect Fit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattfoder-adult-steril-1-4kg-perfect-fit-1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2336,9 +2062,7 @@
     "quantityUnit": "kg",
     "brand": "Mjau",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311030173217_g1l1.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2353,9 +2077,7 @@
     "quantityUnit": "g",
     "brand": "Whiskas",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-fisk-o-kottmeny-i-sas-.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2370,9 +2092,7 @@
     "quantityUnit": "g",
     "brand": "Whiskas",
     "imageUrl": "//static.mathem.se/shared/images/products/original/kattmat-kottmeny-i-sas-12x100g-whiskas-2.jpg",
-    "category": {
-      "name": "Övrigt"
-    },
+    "category": "Övrigt",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2387,9 +2107,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/allers-tidsam-2357.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2404,9 +2122,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/veckokryss-tidsam-673.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2421,9 +2137,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/allas-veckotidning-tidsam-2357.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2438,9 +2152,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/latta-kryss-tidsam-2357.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2455,9 +2167,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hant-extra-tidsam-2357.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2472,9 +2182,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/hemmets-veckotidning-tidsam-2356.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2489,9 +2197,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/varldens-historia-tidsam-2356.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2506,9 +2212,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/se--and--hor-tidsam-2357.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2523,9 +2227,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/allt-om-tradgard-tidsam-239.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",
@@ -2540,9 +2242,7 @@
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/maxikryss-tidsam-1587.jpg",
-    "category": {
-      "name": "Kiosk & Tidningar"
-    },
+    "category": "Kiosk & Tidningar",
     "preferences": null,
     "store": {
       "name": "Mathem",

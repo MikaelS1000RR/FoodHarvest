@@ -22,17 +22,17 @@ export class MathemScrubber extends Scrubber {
     comparisonPrice: (x) => x.comparePrice, //86.9 kr
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
-    //category: (x) => this.setCategory(x.category)
-    category: (x) => x.category, //This is gonna be a list??
+    // category: (x) => this.setCategory(x.category.name),
+    category: (x) => x.category.name, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.preferences.labels),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
   };
   static async setCategory(category) {
-    console.log(category, "category")
-    let result = Category.scrubCategories(category);
-    return result;
+    // console.log(category, "category")
+    // let result = Category.scrubCategories(category);
+    // return result;
   }
   static async setQuantityUnit(quantity) {
     if (quantity.charAt(quantity.length - 2) === "k") {
@@ -53,7 +53,7 @@ export class MathemScrubber extends Scrubber {
   }
 
   static async setPreferences(preferences) {
-
+    console.log(preferences, "prefrences")
     //If product has any references then scrub them
     if (preferences.length != 0) {
       let result = Preference.scrubPreferences(preferences);
