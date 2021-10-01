@@ -14,7 +14,7 @@ const MyListsPage = () => {
     const getList = async () => {
       let list = await fetchProductLists(currentUser.uid);
       console.log("lists in pages are ", list);
-      console.log('current user is ', currentUser)
+      console.log('current user is', currentUser)
       setLists(list);
       
     };
@@ -43,10 +43,12 @@ const MyListsPage = () => {
                 <ProductListCard props={p.name}/>
                 ))
               : null}
-        
-
-          <p></p>
+  
         </div>
+
+
+
+        
       </div>
     </div>
   );

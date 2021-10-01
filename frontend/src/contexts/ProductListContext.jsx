@@ -22,7 +22,6 @@ const ProductListProvider = (props) => {
     })
     setCurrentProductList(data[0]);
     setProductLists(data);
-    console.log(data)
     return data;
   }
 
