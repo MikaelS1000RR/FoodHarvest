@@ -5,7 +5,7 @@ import { useModal } from "../../contexts/ModalContext";
 import AddProductButton from "./AddProductButton";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText, index } = props;
+  const { product, classNames, index } = props;
 
   const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
@@ -37,7 +37,7 @@ const ProductCard = (props) => {
           </div>
         </div>
         <div style={styles.button}>
-          <AddProductButton product={product} buttonText={buttonText} />
+          <AddProductButton product={product} />
         </div>
       </div>
     </div>

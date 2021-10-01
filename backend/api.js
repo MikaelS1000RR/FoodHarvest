@@ -70,12 +70,12 @@ export class Api {
           await listRef.update({ products: list.products });
         }
         res.json({
-          success: "Posting successful",
+          success: "Update successful",
           newList: list
         })
       }
       catch (error) {
-        res.json({error: "Posting of productlist unsuccessful"})
+        res.json({error: "Updating of productlist unsuccessful"})
       }
     })
 

@@ -5,33 +5,44 @@ import { useModal } from "../../contexts/ModalContext";
 import { useProductList } from "../../contexts/ProductListContext";
 
 const AddProductButton = (props) => {
-  const { buttonText, product } = props;
+  const { product } = props;
   const [ isInProductList, setIsInProductList] = useState(false)
   const { currentProductList, updateProductToList } = useProductList();
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { currentUser } = useAuth();
 
-  const addProduct = () => {
-    const toAdd = true
+  const updateProduct = async (toAdd) => {
     if (!currentUser) {
       toggleLoginModal();
-      return
-    }
-    else if (!currentProductList) {
+      return;
+    } else if (!currentProductList) {
       toggleAddListModal();
-      return
+      return;
     }
 
-    let isSucceed = updateProductToList(currentProductList, product, toAdd, currentUser);
+    let isSucceed = await updateProductToList(
+      currentProductList,
+      product,
+      toAdd,
+      currentUser
+    );
     if (isSucceed) {
-      setIsInProductList(!isInProductList)
+      setIsInProductList(!isInProductList);
     }
-  }
+  };
 
   return (
-      <Button style={styles.button} onClick={addProduct} disabled={isInProductList}>
-        {buttonText}
-      </Button>
+    <>
+      {!isInProductList ? (
+        <Button color="primary" style={styles.button} onClick={() => updateProduct(true)}>
+          Lägg till
+        </Button>
+      ) : (
+        <Button color="secondary" style={styles.button} onClick={() => updateProduct(false)}>
+          Ta bort
+        </Button>
+      )}
+    </>
   );
 }
  

@@ -46,7 +46,6 @@ const Home = () => {
               key={index}
               product={p}
               classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
-              buttonText="Lägg till"
               />
           ))}
         </div>

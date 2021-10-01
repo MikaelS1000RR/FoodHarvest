@@ -10,7 +10,7 @@ const ProductCardList = (props) => {
     <>
       {products.length > 0
         ? products.map((p) => (
-          <ProductCard key={p.id} product={p} classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} buttonText="Lägg till"/>
+          <ProductCard key={p.id} product={p} classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} />
         ))
         : null}
     </>

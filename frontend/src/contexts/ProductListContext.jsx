@@ -99,8 +99,6 @@ const ProductListProvider = (props) => {
       res = await res.json();
       console.log(res);
       if (res.success) {
-        console.log(res.newList);
-        console.log(res.newList.isFavorite);
         if (!res.newList.isFavorite) {
           setCurrentProductList(res.newList)
         }
