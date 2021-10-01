@@ -26,7 +26,6 @@ const Category = (props) => {
   }, [categoryName])
 
   useEffect(() => {
-    console.log("add is fave");
       let docs = addIsFavorite(products);
       setProducts(docs);
   }, [favoriteList])

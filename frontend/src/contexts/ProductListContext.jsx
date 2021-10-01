@@ -80,7 +80,6 @@ const ProductListProvider = (props) => {
   };
 
   const updateProductToList = async (list, product, toAdd, currentUser) => {
-    console.log("in update list");
     let data = {
       list: list,
       product: product,
@@ -97,7 +96,6 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(data),
       });
       res = await res.json();
-      console.log(res);
       if (res.success) {
         if (!res.newList.isFavorite) {
           setCurrentProductList(res.newList)

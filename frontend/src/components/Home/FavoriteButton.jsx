@@ -10,7 +10,6 @@ const FavoriteButton = (props) => {
   const { currentUser } = useAuth();
 
   const toggle = async () => {
-    console.log("clicked fave");
     let toAdd = !isToggle
     let isSucceed = await updateProductToList(
       favoriteList,
