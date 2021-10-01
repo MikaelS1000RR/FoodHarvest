@@ -63,15 +63,21 @@ export class MathemScrubber extends Scrubber {
         //-------------------------------------------------
         
         if (pref.name == "Svenskt ursprung") {
-          console.log("Svenskt ursprung hittades")
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Svensk Flagga"
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
+
+        if (pref.name == "Nyckelhålsmärkt") {
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "Nyckelhålsmärkt"
+          )
+          scrubbedPreferences.push(scrubbedPreference);
+        }
       })
     }
-    
+
     if (preferencesToBeScrubbed.dietary.length > 0) {
       preferencesToBeScrubbed.dietary.forEach(pref => {
 
