@@ -31,8 +31,8 @@ export class MathemScrubber extends Scrubber {
   };
 
   static async getInformationFromDb() {
-    // const mathemFromDb = await FirebaseHandler.getStore("Mathem");
-    const mathemFromDb = this.getStore();//Must be changed later
+    const mathemFromDb = await FirebaseHandler.getStore("Mathem");
+    // const mathemFromDb = this.getStore();//Must be changed later
     console.log(mathemFromDb,"mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
     console.log(preferencesFromDb, "preferencesFromDb")
