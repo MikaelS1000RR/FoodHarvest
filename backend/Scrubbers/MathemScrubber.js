@@ -24,7 +24,7 @@ export class MathemScrubber extends Scrubber {
     imageUrl: (x) => x.images.ORIGINAL,
     // category: (x) => this.setCategory(x.category.name),
     category: (x) => x.category.name, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.preferences),
+    preferences: (x) => this.setPreferences(x.preferences, x.name),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
@@ -40,12 +40,24 @@ export class MathemScrubber extends Scrubber {
     this.preferencesFromDb = preferencesFromDb;
   }
 
-  static async setPreferences(preferencesToBeScrubbed) {
-    console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
+  static async setPreferences(preferencesToBeScrubbed,productName) {
+    // console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
+    // console.log(productName, "productName")
     const thePreferencesFromDb = this.preferencesFromDb;
     // console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
     //console.log(pref.name, "forEachtest")
+
+    if (productName.includes("Vegetarisk")) {
+      productName.forEach(Veg => {
+        let scrubbedPreference = thePreferencesFromDb.find(
+          (preference) => preference.name === "Vegetariskt"
+        )
+        scrubbedPreferences.push(scrubbedPreference);
+      })
+    }
+
+
     if (preferencesToBeScrubbed.dietary.length == 0
       && preferencesToBeScrubbed.labels.length == 0) { return null; }
        
@@ -67,6 +79,8 @@ export class MathemScrubber extends Scrubber {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Svensk Flagga"
           )
+          console.log(scrubbedPreference, "scrubbedPreference-----")
+          console.log(scrubbedPreference.ref,"scrubbedPreference.ref-----")
           scrubbedPreferences.push(scrubbedPreference);
         }
 
@@ -90,7 +104,6 @@ export class MathemScrubber extends Scrubber {
       preferencesToBeScrubbed.dietary.forEach(pref => {
 
         if (pref.name == "Laktosfri") {
-          console.log("Laktosfri")
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Laktosfritt"
           )
