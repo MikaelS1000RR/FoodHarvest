@@ -4,7 +4,7 @@ import { useAuth } from "../../contexts/AuthContext"
 
 const FavoriteButton = (props) => {
   const { styles, product } = props
-  const [isToggle, setIsToggle] = useState(product.isFavorite);
+  const [ isToggle, setIsToggle ] = useState(product.isFavorite);
   const { updateProductToFavorite } = useProductList();
   const { currentUser } = useAuth();
 

@@ -11,7 +11,8 @@ import {
 
 const ProductListDropdown = (props) => {
   const { currentUser } = useAuth();
-  const { currentProductList, setCurrentProductList, productLists } = useProductList();
+  const { currentProductList, setCurrentProductList, productLists } =
+    useProductList();
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { setMenu } = props;
   const [isOpen, setIsOpen] = useState(false);
@@ -19,11 +20,10 @@ const ProductListDropdown = (props) => {
     if (currentUser) {
       setMenu(false);
       setIsOpen(!isOpen);
-    }
-    else {
+    } else {
       toggleLoginModal();
     }
-  }
+  };
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>

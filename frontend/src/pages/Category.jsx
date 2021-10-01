@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Row } from "reactstrap";
 import { useProduct } from "../contexts/ProductContext";
-import ProductCard from "../components/home/ProductCard";
 import { Container } from "reactstrap";
 import { useCategory } from "../contexts/CategoryContext";
 import ProductCardList from "../components/home/ProductCardList";
@@ -18,14 +17,19 @@ const Category = (props) => {
   
   useEffect(() => {
     const getCategory = async () => {
-      console.log("getting categorie");
       let category = await getCategoryByName(categoryName);
       let docs = await fetchProductsByCategory(category);
       docs = await addIsFavorite(docs);
       setProducts(docs);
     }
     getCategory();
-  }, [categoryName, favoriteList])
+  }, [categoryName])
+
+  useEffect(() => {
+    console.log("add is fave");
+      let docs = addIsFavorite(products);
+      setProducts(docs);
+  }, [favoriteList])
 
   return (
     <div>

@@ -1,6 +1,6 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import firestore from "../database_config/firestore";
-import { auth } from "../database_config/firestore"
+import { auth } from "../database_config/firestore";
 
 const ProductListContext = createContext();
 
@@ -33,17 +33,19 @@ const ProductListProvider = (props) => {
   };
 
   const fetchAllLists = async (userId) => {
-    let favorite = await fetchLists(userId, true)
+    let favorite = await fetchLists(userId, true);
     if (favorite.products) {
-      setFavoriteList(favorite)
+      setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
-      setProductLists(lists)
-    }
-    else {
+      setProductLists(lists);
+      if (lists.length > 0) {
+        setCurrentProductList(lists[0])
+      }
+    } else {
       createFavoriteList(userId);
       fetchAllLists(userId);
     }
-  }
+  };
 
   const fetchLists = async (userId, isFavorite) => {
     const snapshot = await firestore
@@ -63,20 +65,20 @@ const ProductListProvider = (props) => {
   };
 
   const createFavoriteList = async (userId) => {
-      let newFavoriteList = {
-        uid: userId,
-        name: "Favorite",
-        isFavorite: true,
-      };
-      addProductList(newFavoriteList);
-  }
+    let newFavoriteList = {
+      uid: userId,
+      name: "Favorite",
+      isFavorite: true,
+    };
+    addProductList(newFavoriteList);
+  };
 
   const updateProductToFavorite = async (product, toAdd, currentUser) => {
-    let info = {
+    let data = {
       list: favoriteList,
       product: product,
       toAdd: toAdd,
-      user: currentUser
+      user: currentUser,
     };
     try {
       let res = await fetch("/api/product-list", {
@@ -85,36 +87,57 @@ const ProductListProvider = (props) => {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify(info),
+        body: JSON.stringify(data),
       });
       res = await res.json();
       if (res.success) {
-        setFavoriteList(res.newList)
+        setFavoriteList(res.newList);
         return true;
       }
     } catch {}
     return false;
   };
 
-  const addIsFavorite = (products) => {
-    let favorites = favoriteList
-    for (let product of products) {
-      let isFavorite = !(!favorites.products.find(p => p === product.id))
-      product.isFavorite = isFavorite
+  const addProductToCurrentList = async (product) => {
+    let data = {
+      list: currentProductList,
+      product: product,
+      toAdd: true,
+    };
+    let res = await fetch("/api/product-list/product", {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    res = await res.json();
+    console.log(res);
+    if (res.success) {
+      setCurrentProductList(res.newList)
+      return true
     }
-    return products
-  }
+    return false;
+  };
 
+  const addIsFavorite = (products) => {
+    let favorites = favoriteList;
+    for (let product of products) {
+      let isFavorite = !!favorites.products.find((p) => p === product.id);
+      product.isFavorite = isFavorite;
+    }
+    return products;
+  };
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
-        fetchAllLists(user.uid)
-      }
-      else {
+        fetchAllLists(user.uid);
+      } else {
         setCurrentProductList(null);
         setProductLists(null);
-        setFavoriteList({products:[]})
+        setFavoriteList({ products: [] });
       }
     });
     return unsubscribe;
@@ -128,7 +151,8 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToFavorite,
-    addIsFavorite
+    addProductToCurrentList,
+    addIsFavorite,
   };
 
   return (
@@ -136,6 +160,6 @@ const ProductListProvider = (props) => {
       {props.children}
     </ProductListContext.Provider>
   );
-}
- 
+};
+
 export default ProductListProvider;

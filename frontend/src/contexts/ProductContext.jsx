@@ -10,14 +10,14 @@ export const useProduct = () => {
 const ProductProvider = (props) => {
 
   const fetchProductsByCategory = async (category) => {
-    console.log("inne i fetch");
+    // const productCollection = "products-test"
+    const productCollection = "products"
     const docs = [];
     let snapshot = await firestore
-      .collection("products")
+      .collection(productCollection)
       .where("category", "==", category.ref)
       .limit(1)
       .get();
-    
     snapshot.forEach((doc) => {
       docs.push({ id: doc.id, ref: doc.ref, ...doc.data() });
     })

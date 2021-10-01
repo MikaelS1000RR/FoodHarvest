@@ -2,6 +2,7 @@ import FavoriteButton from "./FavoriteButton";
 import DetailModal from "../modals/DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
+import AddProductButton from "./AddProductButton";
 
 const ProductCard = (props) => {
   const { product, classNames, buttonText, index } = props;
@@ -12,17 +13,16 @@ const ProductCard = (props) => {
   return (
     <div className={classNames} index={index}>
       <div className={"card text-center"} style={styles.container}>
-        <FavoriteButton
-          styles={styles.favorite}
-          product={product}
-        />
-        <div className="openModal" onClick={() => {
-          setCurrentProduct(product) 
-          toggleDetailModal()
-        }}>
+        <FavoriteButton styles={styles.favorite} product={product} />
+        <div
+          className="openModal"
+          onClick={() => {
+            setCurrentProduct(product);
+            toggleDetailModal();
+          }}
+        >
           <div className="card-img-top" style={styles.image}>
             <img
-              className=""
               style={styles.image.content}
               src={product.imageUrl}
               alt={product.imageUrl}
@@ -36,11 +36,10 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div className="btn btn-primary" style={styles.button}>
-          {buttonText}
+        <div style={styles.button}>
+          <AddProductButton product={product} buttonText={buttonText} />
         </div>
       </div>
-      <DetailModal product={product} index={index} />
     </div>
   );
 };
@@ -58,9 +57,8 @@ const styles = {
     justifyContent: "flex-start",
   },
   button: {
+    margin: "0 auto",
     width: "80%",
-    minWidth: "100%",
-    borderRadius: "100px",
   },
   image: {
     width: "100%",

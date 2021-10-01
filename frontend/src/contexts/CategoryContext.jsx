@@ -17,7 +17,6 @@ const CategoryProvider = (props) => {
   }, []);
   
   const fetchCategories = () => {
-    console.log("fetching kategories");
     firestore.collection("categories").orderBy("name").onSnapshot(
       (snapshot) => {
         const docs = [];
