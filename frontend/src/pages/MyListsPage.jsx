@@ -15,7 +15,7 @@ const MyListsPage = () => {
       let list = await fetchProductLists("z7fNsrT4HdfDYHLZHs3MdMxOulw2");
       console.log("lists in pages are ", list);
       setLists(list);
-      console.log('current user is ', currentUser)
+      
     };
     getList();
   }, [listName]);
