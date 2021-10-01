@@ -36,13 +36,14 @@ export class MathemScrubber extends Scrubber {
     // console.log(mathemFromDb, "mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
     // console.log(preferencesFromDb, "preferencesFromDb")
+    this.storeFromDb = mathemFromDb;
     this.preferencesFromDb = preferencesFromDb;
   }
 
   static async setPreferences(preferencesToBeScrubbed) {
     // console.log(preferencesToBeScrubbed.labels, "preferencesToBeScrubbed.labels")
     const thePreferencesFromDb = this.preferencesFromDb;
-    // console.log(thePreferencesFromDb, "TPFD")
+    console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
     //console.log(pref.name, "forEachtest")
     if (preferencesToBeScrubbed.labels.length == 0) { return null;}
@@ -52,9 +53,10 @@ export class MathemScrubber extends Scrubber {
           console.log("Svenskt ursprung hittades")
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name == "Svensk Flagga"
-        )
+          ).ref;
         scrubbedPreferences.push(scrubbedPreference);
         }
+        console.log(scrubbedPreferences,"scrubbedPreferences")
       })
     }
     // let scrubbedPreference = thePreferencesFromDb.find(
@@ -132,8 +134,7 @@ export class MathemScrubber extends Scrubber {
     }
   }
 
-
-  //Setting store as Willys
+  //Setting store as Mathem
   static async getStore() {
     const mathemStore = new Store(
       "Mathem",
@@ -141,6 +142,14 @@ export class MathemScrubber extends Scrubber {
     );
     return mathemStore;
   }
+  // //Setting store as Mathem
+  // static async getStore() {
+  //   const mathemStore = new Store(
+  //     "Mathem",
+  //     "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+  //   );
+  //   return mathemStore;
+  // }
 
   // //Setting store as Mathem
   // static async getStore() {

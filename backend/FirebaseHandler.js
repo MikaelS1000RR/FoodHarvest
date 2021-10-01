@@ -83,7 +83,7 @@ export class FirebaseHandler {
       let doc = { ref: document.ref, ...document.data() };
       dataFromDB.push(doc);
     });
-    // console.log("data: ", dataFromDB);
+    console.log("dataFromDB", dataFromDB);
     return dataFromDB[0];
   }
 

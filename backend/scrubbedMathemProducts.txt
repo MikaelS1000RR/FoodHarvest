@@ -9,9 +9,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -73,9 +71,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-1kg-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -92,9 +88,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -126,9 +120,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -145,9 +137,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -209,9 +199,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340418100007_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -348,9 +336,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070336160_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -367,9 +353,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071330525_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -386,9 +370,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -405,9 +387,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071336244_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -424,9 +404,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070338188_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -443,9 +421,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008494_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -492,9 +468,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330243_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1711,9 +1685,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1835,9 +1807,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07046110071519_a1n1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1869,9 +1839,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-kruka-eko-klass1-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1888,9 +1856,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1922,9 +1888,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000995_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1956,9 +1920,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-kruka-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
@@ -1990,9 +1952,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-knippe-100g-klass1-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      {
-        "name": "Svensk Flagga"
-      }
+      null
     ],
     "store": {
       "name": "Mathem",
