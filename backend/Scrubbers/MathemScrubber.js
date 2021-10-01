@@ -48,7 +48,8 @@ export class MathemScrubber extends Scrubber {
     //console.log(pref.name, "forEachtest")
     if (preferencesToBeScrubbed.dietary.length == 0
       && preferencesToBeScrubbed.labels.length == 0) { return null; }
-    
+       
+    //Sorts through lables
     if (preferencesToBeScrubbed.labels.length > 0) {
       preferencesToBeScrubbed.labels.forEach(pref => {
         // console.log(pref)
@@ -75,9 +76,16 @@ export class MathemScrubber extends Scrubber {
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
+
+        if (pref.name == "Ekologisk") {
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "Ekologiskt"
+          )
+          scrubbedPreferences.push(scrubbedPreference);
+        }
       })
     }
-
+    //Sorts through dietary
     if (preferencesToBeScrubbed.dietary.length > 0) {
       preferencesToBeScrubbed.dietary.forEach(pref => {
 
