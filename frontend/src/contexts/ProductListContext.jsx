@@ -98,13 +98,14 @@ const ProductListProvider = (props) => {
     return false;
   };
 
-  const addProductToCurrentList = async (product) => {
+  const updateProductToCurrentList = async (product, toAdd, currentUser) => {
     let data = {
       list: currentProductList,
       product: product,
-      toAdd: true,
+      toAdd: toAdd,
+      user: currentUser
     };
-    let res = await fetch("/api/product-list/product", {
+    let res = await fetch("/api/product-list/", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -115,8 +116,8 @@ const ProductListProvider = (props) => {
     res = await res.json();
     console.log(res);
     if (res.success) {
-      setCurrentProductList(res.newList)
-      return true
+      setCurrentProductList(res.newList);
+      return true;
     }
     return false;
   };
@@ -151,7 +152,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToFavorite,
-    addProductToCurrentList,
+    updateProductToCurrentList,
     addIsFavorite,
   };
 

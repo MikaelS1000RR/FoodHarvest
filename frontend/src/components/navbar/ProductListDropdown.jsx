@@ -28,7 +28,7 @@ const ProductListDropdown = (props) => {
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
       <DropdownToggle color="warning" caret>
-        {currentProductList ? currentProductList.name : "❤️ Välj lista"}
+        {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : "❤️ Välj lista"}
       </DropdownToggle>
       <DropdownMenu>
         {currentProductList ? (

@@ -7,11 +7,12 @@ import { useProductList } from "../../contexts/ProductListContext";
 const AddProductButton = (props) => {
   const { buttonText, product } = props;
   const [ isInProductList, setIsInProductList] = useState(false)
-  const { currentProductList, addProductToCurrentList } = useProductList();
+  const { currentProductList, updateProductToCurrentList } = useProductList();
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { currentUser } = useAuth();
 
   const addProduct = () => {
+    const toAdd = true
     if (!currentUser) {
       toggleLoginModal();
       return
@@ -21,7 +22,7 @@ const AddProductButton = (props) => {
       return
     }
 
-    let isSucceed = addProductToCurrentList(product);
+    let isSucceed = updateProductToCurrentList(product, toAdd, currentUser);
     if (isSucceed) {
       setIsInProductList(!isInProductList)
     }
