@@ -29,6 +29,19 @@ export class MathemScrubber extends Scrubber {
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
   };
+
+  static async getInformationFromDb() {
+    const mathemFromDb = await FirebaseHandler.getStore("Mathem");
+    console.log(mathemFromDb,"mathemFromDb")
+    const preferencesFromDb = await FirebaseHandler.getPreferences();
+    console.log(preferencesFromDb, "preferencesFromDb")
+  }
+
+  static async setPreferences(preferences) {
+    
+  }
+
+
   static async setCategory(category) {
     // console.log(category, "category")
     // let result = Category.scrubCategories(category);
@@ -52,17 +65,17 @@ export class MathemScrubber extends Scrubber {
     return mathemStore;
   }
 
-  static async setPreferences(preferences) {
-    console.log(preferences, "prefrences")
-    //If product has any references then scrub them
-    if (preferences.length != 0) {
-      let result = Preference.scrubPreferences(preferences);
-      return result;
-    }
-    //If not, return null
-    else {
-      return null
-    }
-  }
+  // static async setPreferences(preferences) {
+  //   console.log(preferences, "prefrences")
+  //   //If product has any references then scrub them
+  //   if (preferences.length != 0) {
+  //     let result = Preference.scrubPreferences(preferences);
+  //     return result;
+  //   }
+  //   //If not, return null
+  //   else {
+  //     return null
+  //   }
+  // }
   
 }
