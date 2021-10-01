@@ -1,6 +1,4 @@
 import firestore from "./database_config/firestore.js";
-import { Preference } from "./Models/Preference.js";
-import { Product } from "./Models/Product.js";
 
 export class FirebaseHandler {
 
@@ -82,7 +80,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push(document.data());
+      categories.push({ ref: document.ref, ...document.data() });
     });
 
     return categories;
@@ -95,7 +93,7 @@ export class FirebaseHandler {
       .get();
     let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      let doc = { ref: document.ref, ...document.data() };
+      let doc = { ref: document.ref };
       dataFromDB.push(doc);
     });
     console.log("data: ", dataFromDB);

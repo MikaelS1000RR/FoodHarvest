@@ -3,25 +3,25 @@ import { HemkopHarvester } from "./HemkopHarvester.js";
 import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
-export class HemkopTest {
-  static async test() {
+export class HemkopHarvestScrub {
+  static async run() {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
 
-    // write to file for now (goal: write to DB instead)
-    function writeToFile(fileName, data) {
-      try {
-        fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-        console.log("success");
-      } catch (err) {
-        console.log(err);
-      }
-    }
+    // function writeToFile(fileName, data) {
+    //   try {
+    //     fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+    //     console.log("success");
+    //   } catch (err) {
+    //     console.log(err);
+    //   }
+    // }
 
+    // Harvesting
     let unscrubbedHemkopProducts = await HemkopHarvester.getAllProducts(categories);
-    let scrubbedHemkopProducts = [];
 
-    //Scrubbing all products
+    //Scrubbing
+    let scrubbedHemkopProducts = [];
     await HemkopScrubber.setDBinfo().then(async () => {
       scrubbedHemkopProducts = await HemkopScrubber.scrubAll(unscrubbedHemkopProducts);
       // writeToFile(
@@ -29,9 +29,6 @@ export class HemkopTest {
       //   scrubbedHemkopProducts
       // );
     });
-
-
-    
 
     // Posting scrubbed products into db
     FirebaseHandler.postProductsInBatch(scrubbedHemkopProducts);

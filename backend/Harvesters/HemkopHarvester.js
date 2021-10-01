@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { FirebaseHandler } from '../FirebaseHandler.js'
 
-// Add to Harvesting.js *****************************
+
 export class HemkopHarvester {
   static bustCache() {
     return "?avoidCache=" + (Math.random() + "").split(".")[1];
@@ -58,24 +58,19 @@ export class HemkopHarvester {
       wordArr2.push(wordCopy)
     }
 
-
     let foundCategory = false; 
      
-    // console.log("Hemkop Category: ", storeCategoryName, " wordArr: ", wordArr2 );
-
     for (let i = 0; i < dbCategories.length; i++) {
       for (let j = 0; j < wordArr2.length; j++) {
-
-        //If db category name includes any word from Hemkop category, change Hemkop category to db category
         if (dbCategories[i].name.includes(wordArr2[j])) {
           foundCategory = true;
-          return dbCategories[i];
+          return dbCategories[i].ref;
         }
       }
     }
 
     if (!foundCategory) {
-      return dbCategories.find((category) => category.name === "Övrigt");
+      return dbCategories.find((category) => category.name === "Övrigt").ref;
     }
   }
 }

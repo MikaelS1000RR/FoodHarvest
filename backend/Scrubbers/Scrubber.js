@@ -18,26 +18,20 @@ export class Scrubber {
     }
 
     // Scrub a whole array of products
-    static async scrubAll(products) {
-            
-        let scrubbed = [];
-        
+    static async scrubAll(products) {         
+        let scrubbed = [];    
         for (let product of products) {
             // if (scrubbed.length % 500 === 0 && scrubbed.length>0) {
             //      console.log("before sleep");
             //     await this.sleep(5 * 60 * 1000)
             //     console.log('after sleep');
-            // }
-              
+            // }          
                 try {
                     scrubbed.push(await this.scrubOne(product));
                 }
                 catch (ex) {
                     console.log(ex);;
                 }
-            
-
-
             }
             console.log('scrubbing products done!');
             return scrubbed;

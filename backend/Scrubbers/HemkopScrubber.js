@@ -5,7 +5,7 @@ import { Scrubber } from "./Scrubber.js";
 export class HemkopScrubber extends Scrubber {
 
   static translateSchema = {
-    productCode: (x) => x.code,
+    productCode: (x) => x.code + "hemkop",
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
     quantity: (x) => x.displayVolume,
@@ -56,45 +56,45 @@ export class HemkopScrubber extends Scrubber {
         if (productPreferences[j] === "swedish_flag") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Svensk Flagga"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
 
         if (productPreferences[j] === "keyhole") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Nyckelhålsmärkt"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
 
         if (productPreferences[j] === "krav") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "KRAV-märkt"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "ecological") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Ekologiskt"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "laktosfree") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Laktosfritt"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "fairtrade") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Fairtrade"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "glutenfree") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Glutenfritt"
-          );
+          ).ref;
           refinedHemkopPreferences.push(newPref);
         }
       }
@@ -108,13 +108,13 @@ export class HemkopScrubber extends Scrubber {
     }
   }
 
-  static async getEan(code) {
-    let raw = await fetch(
-      "https://www.hemkop.se/axfood/rest/p/" +
-        code +
-        HemkopHarvester.bustCache()
-    );
-    let formatted = await raw.json();
-    return formatted.ean;
-  }
+  // static async getEan(code) {
+  //   let raw = await fetch(
+  //     "https://www.hemkop.se/axfood/rest/p/" +
+  //       code +
+  //       HemkopHarvester.bustCache()
+  //   );
+  //   let formatted = await raw.json();
+  //   return formatted.ean;
+  // }
 }
