@@ -49,15 +49,13 @@ export class MathemScrubber extends Scrubber {
     //console.log(pref.name, "forEachtest")
 
     if (productName.includes("Vegetarisk")) {
-      productName.forEach(Veg => {
         let scrubbedPreference = thePreferencesFromDb.find(
           (preference) => preference.name === "Vegetariskt"
         )
         scrubbedPreferences.push(scrubbedPreference);
-      })
     }
 
-
+    //If there is nothing to scrub return.
     if (preferencesToBeScrubbed.dietary.length == 0
       && preferencesToBeScrubbed.labels.length == 0) { return null; }
        
@@ -79,8 +77,8 @@ export class MathemScrubber extends Scrubber {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Svensk Flagga"
           )
-          console.log(scrubbedPreference, "scrubbedPreference-----")
-          console.log(scrubbedPreference.ref,"scrubbedPreference.ref-----")
+          console.log(scrubbedPreference, "scrubbedPreference")
+          console.log(scrubbedPreference.ref,"scrubbedPreference.ref")
           scrubbedPreferences.push(scrubbedPreference);
         }
 
@@ -97,8 +95,17 @@ export class MathemScrubber extends Scrubber {
           )
           scrubbedPreferences.push(scrubbedPreference);
         }
+
+        if (pref.name == "Kravmärkt") {
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "KRAV-märkt"
+          )
+          scrubbedPreferences.push(scrubbedPreference);
+        }
       })
     }
+
+
     //Sorts through dietary
     if (preferencesToBeScrubbed.dietary.length > 0) {
       preferencesToBeScrubbed.dietary.forEach(pref => {
@@ -176,7 +183,7 @@ export class MathemScrubber extends Scrubber {
     //   // }
 
     // }
-    console.log(scrubbedPreferences,"scrubbedPreferences")
+    // console.log(scrubbedPreferences,"scrubbedPreferences")
     return scrubbedPreferences;
   }
 
