@@ -67,7 +67,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push(document.data());
+      categories.push({ ref: document.ref, ...document.data() });
     });
 
     return categories;
