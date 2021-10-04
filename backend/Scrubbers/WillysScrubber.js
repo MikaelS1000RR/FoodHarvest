@@ -8,9 +8,6 @@ import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
 
-  static store = FirebaseHandler.getStore("Willys");
-  static preferences = FirebaseHandler.getPreferences();
-
   static translateSchema = {
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
@@ -22,12 +19,29 @@ export class WillysScrubber extends Scrubber {
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
     category: (x) => x.category.id, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.labels),
-    store: (x) => this.store.id,
+    preferences: (x) => this.setPreferenceIds(x.labels),
+    store: (x) => this.getStore(),
     //ean: (x) => this.getEan(x.code),
     // discount: (x) => this.getDiscount(x.potentialPromotions, x),
     //discount: (x) =>this.setDiscount(x.code)
   };
+  static async setDBinfo() {
+    console.log("getting");
+    const willysStore = await FirebaseHandler.getStore("Willys");
+    const dbPreferences = await FirebaseHandler.getPreferences();
+    console.log("Store set");
+    this.store = willysStore;
+    this.preferencesFromDB = dbPreferences;
+    console.log("this store", this.store);
+  }
+
+  static getStore() {
+    if (this.store != undefined) {
+      return this.store.id;
+    } else {
+      return null;
+    }
+  }
 
   static async setQuantityUnit(quantity) {
     if (quantity.charAt(quantity.length - 2) === "k") {
@@ -49,13 +63,12 @@ export class WillysScrubber extends Scrubber {
             parseFloat(product.priceNoUnit)) *
             100
         ),
-        false);
+        false
+      );
       return discount;
-    }
-    else {
+    } else {
       return null;
     }
-   
   }
 
   static async setDiscount(productCode) {
@@ -103,7 +116,10 @@ export class WillysScrubber extends Scrubber {
   static async setPreferenceIds(preferences) {
     //If product has any references then scrub them
     if (preferences.length != 0) {
-      let preferenceIds = Preference.scrubPreferenceIds(preferences, this.preferences);
+      let preferenceIds = Preference.scrubPreferenceIds(
+        preferences,
+        this.preferencesFromDB
+      );
       return preferenceIds;
     }
     //If not, return null

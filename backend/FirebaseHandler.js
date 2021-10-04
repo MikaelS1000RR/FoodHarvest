@@ -104,7 +104,8 @@ export class FirebaseHandler {
   static async postProduct(products) {
     for (let i = 0; i < products.length; i++) {
       let productToPost = products[i];
-      // console.log(productToPost);
+      console.log("posting");
+       console.log(productToPost);
       firestore.collection("test-willys").doc().set(productToPost);
     }
     console.log("Posted product in db!");

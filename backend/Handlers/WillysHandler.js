@@ -16,9 +16,13 @@ export class WillysHandler{
     ); //This is all products of Willys
 
     //Scrubbing all products
-    let scrubbedProducts = await WillysScrubber.scrubAll(
-      allProductsOfWillys
-    );
+    let scrubbedProducts = []
+    await WillysScrubber.setDBinfo().then(
+      async () => {
+        scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
+        }
+      )
+
     console.log("length of products is ", scrubbedProducts.length);
 
     //Posting scrubbed products into db
