@@ -64,14 +64,12 @@ export class MathemScrubber extends Scrubber {
       preferencesToBeScrubbed.labels.forEach(pref => {
         // console.log(pref)
         
-        //Is under badges----------------------------------------NOT WORKING
         if (pref.name == "Fairtrade") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Fairtrade"
           )
           scrubbedPreferences.push(scrubbedPreference.ref);
         }
-        //-------------------------------------------------
         
         if (pref.name == "Svenskt ursprung") {
           let scrubbedPreference = thePreferencesFromDb.find(
