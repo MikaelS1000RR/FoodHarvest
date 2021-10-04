@@ -5,14 +5,6 @@ const FooterPriceContainer = (props) => {
  
   const { currentProductList } = useProductList();
 
-
-  useEffect(() => {
-    const getCurrentList = async () => {
-      console.log('currentList is ', currentProductList)
-    };
-    getCurrentList();
-  }, []);
-
  
       return (
         <div className="container" style={styles.container}>

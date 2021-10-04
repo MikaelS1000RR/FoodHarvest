@@ -45,7 +45,7 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        console.log("setting current list")
+        console.log("setting current list ", lists[0])
         await setCurrentProductList(lists[0])
       }
     } else {
