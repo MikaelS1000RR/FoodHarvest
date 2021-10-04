@@ -52,7 +52,7 @@ export class MathemScrubber extends Scrubber {
         let scrubbedPreference = thePreferencesFromDb.find(
           (preference) => preference.name === "Vegetariskt"
         )
-        scrubbedPreferences.push(scrubbedPreference.ref);
+        scrubbedPreferences.push(scrubbedPreference.id);
     }
 
     //If there is nothing to scrub return.
@@ -68,7 +68,7 @@ export class MathemScrubber extends Scrubber {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Fairtrade"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
         
         if (pref.name == "Svenskt ursprung") {
@@ -76,29 +76,29 @@ export class MathemScrubber extends Scrubber {
             (preference) => preference.name === "Svensk Flagga"
           )
           console.log(scrubbedPreference, "scrubbedPreference")
-          console.log(scrubbedPreference.ref,"scrubbedPreference.ref")
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          console.log(scrubbedPreference.id,"scrubbedPreference.id")
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
         if (pref.name == "Nyckelhålsmärkt") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Nyckelhålsmärkt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
         if (pref.name == "Ekologisk") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Ekologiskt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
         if (pref.name == "Kravmärkt") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "KRAV-märkt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
       })
     }
@@ -112,21 +112,21 @@ export class MathemScrubber extends Scrubber {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Laktosfritt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
         if (pref.name == "Glutenfri") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Glutenfritt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
         if (pref.name == "Vegansk") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Veganskt"
           )
-          scrubbedPreferences.push(scrubbedPreference.ref);
+          scrubbedPreferences.push(scrubbedPreference.id);
         }
 
       })
