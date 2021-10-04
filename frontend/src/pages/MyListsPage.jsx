@@ -10,6 +10,8 @@ const MyListsPage = () => {
   const { productLists } = useProductList();
   const {currentUser} = useAuth()
   const [lists, setLists] = useState([]);
+
+
   useEffect(() => {
     const getList = async () => {
       let list = await fetchProductLists("z7fNsrT4HdfDYHLZHs3MdMxOulw2");
@@ -38,8 +40,8 @@ const MyListsPage = () => {
         <div className="productLists" style={styles.productLists}>
           
             {lists.length > 0
-              ? lists.map((p) => (
-                <ProductListCard props={p.name}/>
+              ? lists.map((list) => (
+                <ProductListCard props={list}/>
                 ))
               : null}
         

@@ -43,7 +43,7 @@ function App() {
                         />
                         <Route
                           exact
-                          path="/myProductList/"
+                          path="/myProductList/:id"
                           component={MyProductList}
                         />
                         <Route

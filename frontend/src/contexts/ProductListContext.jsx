@@ -9,23 +9,33 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
-  const [favoriteList, setFavoriteList] = useState({ products: [], isFavorite: true });
+  const [favoriteList, setFavoriteList] = useState({
+    products: [],
+    isFavorite: true,
+  });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
   const fetchProductLists = async (userId) => {
-    const ref = firestore.collection('product-lists');
-    const query = await ref.where('uid', '==', userId).get();
+    const ref = firestore.collection("product-lists");
+    const query = await ref.where("uid", "==", userId).get();
     let data = [];
-  
+
     query.forEach((doc) => {
-      data.push({ id: doc.id, ...doc.data() })
-    })
+      data.push({ id: doc.id, ...doc.data() });
+    });
     setCurrentProductList(data[0]);
     setProductLists(data);
-    console.log(data)
+    console.log(data);
     return data;
-  }
+  };
+
+  const fetchListById = async (listId) => {
+    const ref = await firestore.collection("product-lists").doc(listId).get();
+    let data = ref.data();
+
+    return data;
+  };
 
   const addProductList = async (list) => {
     try {
@@ -45,12 +55,12 @@ const ProductListProvider = (props) => {
     } catch {}
     return false;
   };
-  
+
   const resetLists = () => {
     setFavoriteList({ products: [], isFavorite: true });
-    setCurrentProductList(null)
-    setProductLists(null)
-  }
+    setCurrentProductList(null);
+    setProductLists(null);
+  };
 
   const fetchAllLists = async (userId) => {
     let favorite = await fetchLists(userId, true);
@@ -59,7 +69,7 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        setCurrentProductList(lists[0])
+        setCurrentProductList(lists[0]);
       }
     } else {
       createFavoriteList(userId);
@@ -112,10 +122,9 @@ const ProductListProvider = (props) => {
       res = await res.json();
       if (res.success) {
         if (!res.newList.isFavorite) {
-          setCurrentProductList(res.newList)
-        }
-        else {
-          setFavoriteList(res.newList)
+          setCurrentProductList(res.newList);
+        } else {
+          setFavoriteList(res.newList);
         }
         return true;
       }
@@ -137,7 +146,7 @@ const ProductListProvider = (props) => {
       if (user != null) {
         fetchAllLists(user.uid);
       } else {
-        resetLists()
+        resetLists();
       }
     });
     return unsubscribe;
@@ -153,7 +162,8 @@ const ProductListProvider = (props) => {
     updateProductToList,
     addIsFavorite,
     resetLists,
-    fetchProductLists
+    fetchProductLists,
+    fetchListById,
   };
 
   return (
