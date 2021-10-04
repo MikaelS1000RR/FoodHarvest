@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
+import { useProductList } from "../../contexts/ProductListContext";
 
 const FooterPriceContainer = (props) => {
+  const currentList=''
+  const { currentProductList } = useProductList();
 
+  useEffect(() => {
+    const getCurrentList = async () => {
+      console.log('currentList is ', currentProductList)
+    };
+    getCurrentList();
+  }, [currentList]);
 
   return (
     <div className="container" style={styles.container}>
@@ -15,7 +24,6 @@ const FooterPriceContainer = (props) => {
         <div className="amountOfProducts" style={styles.amountOfProducts}>
           <p>2</p>
         </div>
-       
       </div>
       <div className="willys" style={styles.storeSection}>
         <img
@@ -48,9 +56,9 @@ const FooterPriceContainer = (props) => {
       </div>
     </div>
   );
-}
+};
 
-export default FooterPriceContainer
+export default FooterPriceContainer;
 
 const styles = {
   container: {
@@ -74,7 +82,7 @@ const styles = {
     borderColor: "#dee2e6",
   },
   amountOfProducts: {
-    marginBottom:"5vh"
+    marginBottom: "5vh",
   },
 
   cart: {
