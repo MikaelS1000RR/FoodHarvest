@@ -25,6 +25,16 @@ const ProductListDropdown = (props) => {
     }
   }
   
+    const getLastElement = () => {
+      productLists.map((element, index) => {
+        // Last element 
+        if(index === productLists.length - 1) {
+          console.log(element)
+        }
+        return setCurrentProductList.element;
+        
+      })
+  }
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
