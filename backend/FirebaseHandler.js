@@ -1,9 +1,22 @@
 import firestore from "./database_config/firestore.js";
-import { Preference } from "./Models/Preference.js";
-import { Product } from "./Models/Product.js";
 
 export class FirebaseHandler {
-  //Getting stores from db
+
+  // Posting products in batch (still creates separate writes to DB..)
+  static postProductsInBatch(productArray) {
+    let batch = firestore.batch();
+    productArray.forEach((product) => {
+      let docRef = firestore.collection("test-products-hemkop").doc();
+      batch.set(docRef, product);
+    });
+    try {
+      batch.commit();
+      console.log("Write to DB succeeded")
+    }
+    catch (err) {
+      console.log("Write to DB failed: ", err)
+     }
+  }
 
   //Delete products in collection
   static async deleteCollection(path) {
@@ -67,26 +80,39 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push(document.data());
+      categories.push({ id: document.id, ...document.data() });
     });
 
     return categories;
   }
 
+  static async getStore(storeName) {
+    let querySnapshot = await firestore
+      .collection("stores")
+      .where("name", "==", storeName)
+      .get();
+    let dataFromDB = [];
+    querySnapshot.forEach((document) => {
+      let doc = { id: document.id };
+      dataFromDB.push(doc);
+    });
+    return dataFromDB[0];
+  }
+
   static async getPreferences() {
     let querySnapshot = await firestore.collection("preferences").get();
-    let preferences = [];
+    let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      preferences.push(document.data());
+      let doc = { id: document.id, ...document.data() };
+      dataFromDB.push(doc);
     });
 
-    return preferences;
+    return dataFromDB;
   }
 
   static setDiscount(product) {
-    let discount=product.discount
-    if(product.discount!=null){
-
+    let discount = product.discount;
+    if (product.discount != null) {
       let discountObj = {
         discountType: product.discount.discountType,
         quantityToBeBought: product.discount.quantityToBeBought,
@@ -96,9 +122,8 @@ export class FirebaseHandler {
         isMemberDiscount: product.discount.isMemberDiscount,
       };
       return discountObj;
-    }
-    else{
-      return null
+    } else {
+      return null;
     }
   }
   //Another way to post products
@@ -116,23 +141,24 @@ export class FirebaseHandler {
         brand: product.brand,
         imageUrl: product.imageUrl,
         category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(
-          product.preferences,
-          "preferences",
-          "name"
-        ),
+        preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
         //ean: product.ean,
         store: await this.getOneRef(product.store, "stores", "name"),
-        discount: this.setDiscount(product)
+        /* discount: {
+          discountType: product.discount.discountType,
+          quantityToBeBought: product.discount.quantityToBeBought,
+          displayPrice: product.discount.displayPrice,
+          savings: product.discount.savings,
+          percentageSavings: product.discount.percentageSavings,
+          isMemberDiscount: product.discount.isMemberDiscount,
+        }, */
       };
       // console.log(productToPost);
-      firestore.collection("products").doc().set(productToPost);
+      firestore.collection("test-willys").doc().set(productToPost);
     }
     console.log("Posted product in db!");
   }
 }
-
-
 
 const getRefs = async (docs, collection, property) => {
   let refs = [];

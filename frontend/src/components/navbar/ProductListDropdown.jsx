@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useProductList } from "../contexts/ProductListContext";
-import { useModal } from "../contexts/ModalContext";
-import { useAuth } from "../contexts/AuthContext";
+import { useProductList } from "../../contexts/ProductListContext";
+import { useModal } from "../../contexts/ModalContext";
+import { useAuth } from "../../contexts/AuthContext";
 import {
   DropdownToggle,
   DropdownMenu,
@@ -11,7 +11,8 @@ import {
 
 const ProductListDropdown = (props) => {
   const { currentUser } = useAuth();
-  const { currentProductList, setCurrentProductList, productLists } = useProductList();
+  const { currentProductList, setCurrentProductList, productLists } =
+    useProductList();
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { setMenu } = props;
   const [isOpen, setIsOpen] = useState(false);
@@ -19,16 +20,15 @@ const ProductListDropdown = (props) => {
     if (currentUser) {
       setMenu(false);
       setIsOpen(!isOpen);
-    }
-    else {
+    } else {
       toggleLoginModal();
     }
-  }
+  };
 
   return (
     <Dropdown isOpen={isOpen} toggle={toggle}>
       <DropdownToggle color="warning" caret>
-        {currentProductList ? currentProductList.name : "❤️ Välj lista"}
+        {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : "❤️ Välj lista"}
       </DropdownToggle>
       <DropdownMenu>
         {currentProductList ? (
