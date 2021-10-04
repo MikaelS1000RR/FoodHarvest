@@ -1,5 +1,5 @@
 import fs from "fs";
-import { HemkopHarvester } from "./HemkopHarvester.js";
+import { HemkopHarvester } from "../Harvesters/HemkopHarvester.js";
 import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
 import { FirebaseHandler } from "../FirebaseHandler.js";
 

@@ -93,7 +93,7 @@ export class FirebaseHandler {
       .get();
     let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      let doc = { id: document.id };
+      let doc = { id: document.id, ...document.data() };
       dataFromDB.push(doc);
     });
     return dataFromDB[0];
@@ -130,29 +130,7 @@ export class FirebaseHandler {
 
   static async postProduct(products) {
     for (let i = 0; i < products.length; i++) {
-      let product = products[i];
-      let productToPost = {
-        productName: product.productName,
-        price: product.price,
-        quantity: product.quantity,
-        quantityUnit: product.quantityUnit,
-        comparisonUnit: product.comparisonUnit,
-        comparisonPrice: product.comparisonPrice,
-        brand: product.brand,
-        imageUrl: product.imageUrl,
-        category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
-        //ean: product.ean,
-        store: await this.getOneRef(product.store, "stores", "name"),
-        /* discount: {
-          discountType: product.discount.discountType,
-          quantityToBeBought: product.discount.quantityToBeBought,
-          displayPrice: product.discount.displayPrice,
-          savings: product.discount.savings,
-          percentageSavings: product.discount.percentageSavings,
-          isMemberDiscount: product.discount.isMemberDiscount,
-        }, */
-      };
+      let productToPost = products[i];
       // console.log(productToPost);
       firestore.collection("test-willys").doc().set(productToPost);
     }

@@ -7,6 +7,9 @@ import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
+
+  static store = FirebaseHandler.getStore("Willys");
+
   static translateSchema = {
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
@@ -20,9 +23,9 @@ export class WillysScrubber extends Scrubber {
 
     category: (x) => x.category, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
+    store: (x) => this.store.id,
     //ean: (x) => this.getEan(x.code),
-    store: (x) => this.getStore(),
-    discount: (x) => this.getDiscount(x.potentialPromotions, x),
+    // discount: (x) => this.getDiscount(x.potentialPromotions, x),
     //discount: (x) =>this.setDiscount(x.code)
   };
 
@@ -106,7 +109,7 @@ export class WillysScrubber extends Scrubber {
   }
 
   //Setting preferences for a product
-  static async setPreferences(preferences) {
+  static async setPreferenceIds(preferences) {
     //If product has any references then scrub them
     if (preferences.length != 0) {
       let result = Preference.scrubPreferences(preferences);
