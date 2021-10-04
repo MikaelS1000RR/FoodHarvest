@@ -9,33 +9,35 @@ const MyProductList = () => {
   let { id } = useParams();
   const { fetchListById } = useProductList();
   const [products, setproducts] = useState(null);
+  const [list, setList] = useState(null);
 
   useEffect(() => {
     const getProducts = async () => {
       let list = await fetchListById(id);
+      setList(list);
       let products = list.products;
       setproducts(products);
     };
     getProducts();
   }, []);
 
-  if (!products) {
+  if (!list) {
     return <div>Loading...</div>;
-  } else if (!products.length) {
-    return <div>There's no products yet...</div>;
   } else {
     return (
       <div className="container">
+        <h1>{list.name}</h1>
         <div className="row gy-3">
-          {products.map((p, index) => (
-            <ProductCard
-              index={index}
-              key={index}
-              product={p}
-              classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
-              buttonText="Lägg till"
-            />
-          ))}
+          {products &&
+            products.map((p, index) => (
+              <ProductCard
+                index={index}
+                key={index}
+                product={p}
+                classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
+                buttonText="Lägg till"
+              />
+            ))}
         </div>
       </div>
     );
