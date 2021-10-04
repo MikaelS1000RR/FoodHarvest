@@ -83,7 +83,6 @@ export class MathemScrubber extends Scrubber {
     //Sorts through lables
     if (preferencesToBeScrubbed.labels.length > 0) {
       preferencesToBeScrubbed.labels.forEach(pref => {
-        // console.log(pref)
         
         if (pref.name == "Fairtrade") {
           let scrubbedPreference = thePreferencesFromDb.find(
@@ -169,45 +168,5 @@ export class MathemScrubber extends Scrubber {
     let storeFromDb = this.storeFromDb;
     return storeFromDb.id;
   }
-
-
-  // //Setting store as Mathem
-  // static async getStore() {
-  //   const mathemStore = new Store(
-  //     "Mathem",
-  //     "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-  //   );
-  //   return mathemStore;
-  // }
-  // //Setting store as Mathem
-  // static async getStore() {
-  //   const mathemStore = new Store(
-  //     "Mathem",
-  //     "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-  //   );
-  //   return mathemStore;
-  // }
-
-  // //Setting store as Mathem
-  // static async getStore() {
-  //   if (this.storeFromDb != undefined) {
-  //     return this.storeFromDb
-  //   } else {
-  //     return null;
-  //   }
-  // }
-
-  // static async setPreferences(preferences) {
-  //   console.log(preferences, "prefrences")
-  //   //If product has any references then scrub them
-  //   if (preferences.length != 0) {
-  //     let result = Preference.scrubPreferences(preferences);
-  //     return result;
-  //   }
-  //   //If not, return null
-  //   else {
-  //     return null
-  //   }
-  // }
 
 }
