@@ -11,10 +11,7 @@
     "preferences": [
       "g9ButyZbFwkOPGoIEJ6T"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "53036",
@@ -26,10 +23,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402658_c1n1.jpg",
     "category": "ccFfGfFAy38EASTHLBoh",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "89089",
@@ -43,10 +37,7 @@
     "preferences": [
       "g9ButyZbFwkOPGoIEJ6T"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "169119",
@@ -58,10 +49,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/vitloksalami-skivad-100g-grilstad.jpg",
     "category": "clByFxoEY5HYZszSY60k",
     "preferences": [],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "8469",
@@ -73,10 +61,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-10x33cl.jpg",
     "category": "8v2ObRO0pfTLz56TZR5B",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "160549",
@@ -90,10 +75,7 @@
     "preferences": [
       "l5Zusa3a1H4O64YAy5MC"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "185499",
@@ -107,10 +89,7 @@
     "preferences": [
       "l5Zusa3a1H4O64YAy5MC"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "175504",
@@ -122,10 +101,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07322541303406_c1n1.jpg",
     "category": "xqfHaNgAcxTMmNRaYzFJ",
     "preferences": [],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "16259",
@@ -137,10 +113,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016489_g1r1.jpeg.jpg",
     "category": "BR1EQCcZVpnL3urk3bwW",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "13516",
@@ -152,10 +125,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ahlgrens-bilar-original-160g.jpg",
     "category": "14ifdv1IPwYhMBUYjKNS",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "173945",
@@ -169,10 +139,7 @@
     "preferences": [
       "pTfHWqOnPkh0WiEolFSN"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "161554",
@@ -186,10 +153,7 @@
     "preferences": [
       "g9ButyZbFwkOPGoIEJ6T"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "18741",
@@ -204,10 +168,7 @@
       "pTfHWqOnPkh0WiEolFSN",
       "g9ButyZbFwkOPGoIEJ6T"
     ],
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "141253",
@@ -219,10 +180,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07300330035189_c1l1.jpeg.jpg",
     "category": "kWBOJ6nFLSWoqH3a9bKG",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   },
   {
     "productCode": "98325",
@@ -234,9 +192,6 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/amelia-tidsam-2360.jpg",
     "category": "yjvKEbXwL4y0w4N9qACv",
     "preferences": null,
-    "store": {
-      "name": "Mathem",
-      "logoUrl": "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    }
+    "store": "8Rp1iq1eMyjrT1TUQKxk"
   }
 ]

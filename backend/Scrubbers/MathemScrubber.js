@@ -166,12 +166,19 @@ export class MathemScrubber extends Scrubber {
 
   //Setting store as Mathem
   static async getStore() {
-    const mathemStore = new Store(
-      "Mathem",
-      "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
-    );
-    return mathemStore;
+    let storeFromDb = this.storeFromDb;
+    return storeFromDb.id;
   }
+
+
+  // //Setting store as Mathem
+  // static async getStore() {
+  //   const mathemStore = new Store(
+  //     "Mathem",
+  //     "https://cdn3.cdnme.se/4610179/9-3/2673452_5a8d99629606ee523a47e140.jpg"
+  //   );
+  //   return mathemStore;
+  // }
   // //Setting store as Mathem
   // static async getStore() {
   //   const mathemStore = new Store(
