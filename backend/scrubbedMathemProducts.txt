@@ -9,7 +9,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -26,7 +26,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/babyspenat-fardigskoljd-eko-65g-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -58,7 +58,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-1kg-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -75,7 +75,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-250g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -107,7 +107,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -124,7 +124,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/salladsmix-nr-5-eko-65g-fardigskoljd-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -141,7 +141,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-500g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -173,7 +173,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sallat-isberg-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -235,8 +235,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-eko-1kg-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -253,7 +253,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomater-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -285,7 +285,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/zucchini-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -332,7 +332,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/palsternacka-500g-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -349,7 +349,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/paprika-rod-eko-klass1-4.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -396,7 +396,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-eko-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -413,7 +413,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-eko-300g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -460,7 +460,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomat-vildmix-svensk-400g-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -507,7 +507,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomat-kvist-eko-500g-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -539,7 +539,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/zucchini-eko-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -586,8 +586,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-eko-500g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -619,7 +619,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sallad-ruccola-fardigskoljd-65g-eko-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -651,7 +651,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/krispsallad-flowpack-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -698,7 +698,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/mixmorotter-1kg-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -715,7 +715,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/isbergssallad-eko-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -732,7 +732,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/babyspenat-xl-eko-fardigskoljd-200g-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -749,7 +749,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/snacksmorotter-200g-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -796,7 +796,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/babyspenat-eko-100g-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -813,10 +813,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746184888_c1n1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -833,7 +833,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/spetsig-paprika-eko-200g-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -865,7 +865,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sallad-mache-fardigskoljd-65g-eko-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -882,9 +882,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314060054778_c1n1.jpeg.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -931,7 +931,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sparrisbroccoli-200g-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -948,7 +948,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ruccola-eko-70g-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -965,7 +965,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sallad-cosmopolitan-klass1-3.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -982,9 +982,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314060079658_c1n1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -1016,7 +1016,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/aubergine-eko-klass1-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1063,7 +1063,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/salladsmix-eko-100g-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1080,8 +1080,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/palsternacka-eko-500g-klass1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1113,7 +1113,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotter-strimlad-300g-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1130,10 +1130,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314060055225_c1n1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1150,10 +1150,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314060054877_c1n1.jpeg.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1170,7 +1170,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/romansallad-eko-klass1-2.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1187,7 +1187,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/broccoli-fryst-2-5kg-magnihill-1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -1204,7 +1204,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/haricot-verts-fryst-2-5kg-magnihill.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -1221,8 +1221,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/grona-arter-frysta-750g-magnihill.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1239,8 +1239,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06430104964078_c1n1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -1272,10 +1272,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314060079610_c1n1.jpg",
     "category": "Frukt & Grönt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1352,7 +1352,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340418100007_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1549,7 +1549,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/parmigiano-reggiano-18m-eko-150g-favorit.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1581,7 +1581,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202360_c1c1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1688,7 +1688,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150976847_c1n1.jpeg.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -1750,7 +1750,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311877014216_c1r1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -1782,7 +1782,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150974836_c1n1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1814,7 +1814,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150970586_c1n1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -1981,7 +1981,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/farskost-laktosfri-175g--philadelphia.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -1998,7 +1998,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746293115_c1n1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -2300,7 +2300,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/brie-eko-150g-castello-129.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -2317,7 +2317,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08000430133523_c1n1.jpeg.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -2364,9 +2364,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340323100000_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -2443,7 +2443,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02340419600001_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -2475,8 +2475,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02324541700006_g1n1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -2493,7 +2493,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05740200001074_c1l1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -2510,7 +2510,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05202390013836_c1c1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -2647,8 +2647,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02324541800003_g1r1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -2740,7 +2740,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311871023061_c1r1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -2817,7 +2817,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05711953056154_g1c1.jpg",
     "category": "Mejeri, Ost & Ägg",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -2999,7 +2999,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3016,8 +3016,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008494_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3034,7 +3034,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071330525_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3051,7 +3051,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070336160_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3068,7 +3068,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/levain-650g-pagen-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3115,7 +3115,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070338188_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3132,7 +3132,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311071336244_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3149,8 +3149,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008609_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3167,7 +3167,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008463_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3184,7 +3184,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sarek-375g-polarbrod-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3201,7 +3201,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ragkaka-30-p-900g-polarbrod.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3248,8 +3248,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/grotbrod-780g-pagen.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3266,7 +3266,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/frokusar-6-p-480g-fazer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3283,10 +3283,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ciabatta-bullar-8-p-400g-il-fornaio.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -3303,7 +3303,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/levain-rag-650g-pagen-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3320,8 +3320,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330243_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3338,7 +3338,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330328_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3385,7 +3385,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311800009531_c1l0.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3417,8 +3417,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330090_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3465,7 +3465,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070008470_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3482,7 +3482,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ragkusar-storpack-675g-fazer-4.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3499,7 +3499,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070338256_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3606,9 +3606,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/fibre-grali-bullar-8-p-400g-il-fornaio.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -3640,7 +3640,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070003635_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3687,7 +3687,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07315062155609_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3704,7 +3704,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/polarparlan-fullkorn-600g-polarbrod-2.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3721,7 +3721,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gott-graddat-680g-pagen-4.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -3768,7 +3768,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/abisko-tunnbrod-360g-polarbrod-2.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3800,9 +3800,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391835000598_c1r1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3819,7 +3819,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312200040797_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -3836,8 +3836,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/jubileumskakor-450g-polarbrod-2.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3854,7 +3854,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330242230099_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -3901,7 +3901,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330242230105_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -3918,9 +3918,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330242230112_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -3952,7 +3952,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/lyxfralla-med-fro-65g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -3984,7 +3984,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/jubileumskaka-400g-polarbrod-2.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4016,7 +4016,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070330427_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -4063,7 +4063,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/franskbrod-500g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4080,7 +4080,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07315061730005_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -4097,7 +4097,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314871720008_C1N1.jpeg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4129,7 +4129,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/halsobrod-900g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4146,9 +4146,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/baguette-fryst-ekokrav-400g-il-fornaio.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -4165,9 +4165,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314871625006_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4244,8 +4244,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330242200863_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4262,7 +4262,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314873552003_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4309,9 +4309,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060509390502_c1n1.jpeg.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4343,7 +4343,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314872108003_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4375,7 +4375,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100564993_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4392,8 +4392,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/brod-classic-glutenfri-300g-schar.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4425,9 +4425,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314873001006_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -4444,7 +4444,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331729009085_c1n1.jpeg.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4491,7 +4491,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotsbrod-540g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4508,7 +4508,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06411200107446_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4525,9 +4525,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060509390496_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4544,7 +4544,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070003796_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -4561,7 +4561,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07314874228006_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -4578,8 +4578,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04022993046076_1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4611,9 +4611,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/glutenfritt-.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4630,9 +4630,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/primitivo-baguette-.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -4664,7 +4664,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ragbulle-med-russin-90g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4681,8 +4681,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330242200047_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4714,7 +4714,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ragbrod-rund-o-god-390g-fazer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4731,7 +4731,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/surdegsbrod-glutenfri-240g-dr-schar.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4748,7 +4748,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/surdegsbulle-120g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4765,7 +4765,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/brod-flerkorn-glutenfri-300g-schar.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4782,9 +4782,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100609960_d1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -4801,7 +4801,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/mastarbrod-900g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4848,7 +4848,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sportextra-550g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -4865,8 +4865,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/baguette-klassisk-glutenfri-eko-360g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4883,9 +4883,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391835000581_c1r1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -4902,9 +4902,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04022993047066_1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -4921,8 +4921,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/havrefralla-glutenfri-fryst-280g-fria.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4939,7 +4939,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morkt-surdegsbrod-glutenfri-350g-schar-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4956,8 +4956,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/focaccia-glutenfri-eko-220g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4974,8 +4974,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/frobaguette-glutenfri-eko-320g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -4992,7 +4992,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/grahamsbulle-70g-frasetti.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -5009,9 +5009,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060509390533_c1n1.jpeg.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -5028,10 +5028,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100586773_d1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5048,9 +5048,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100609885_d1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5067,8 +5067,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/frobrod-glutenfri-400g-semper-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -5085,7 +5085,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/minibaguette-fiber-glutenfri-300g-semper.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5117,9 +5117,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04022993047127_1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5136,9 +5136,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04022993047080_1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5155,9 +5155,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04022993047097_1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5174,8 +5174,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rustik-baguette-glutenfri-eko-320g-schnitzer-1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5192,8 +5192,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rustico--amaranth-brod-.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5210,8 +5210,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08008698010259_c1l1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -5228,8 +5228,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/brod-sesamskivor-glutenfri-eko-250g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5246,8 +5246,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/brunch-mix-glutenfri-eko-200g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5264,10 +5264,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060509390526_c1n1.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -5284,8 +5284,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/chia--quinoa-brod-glutenfri-eko-500g-schnitzer.jpg",
     "category": "Bröd & Bageri",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -5332,7 +5332,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088794_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5349,7 +5349,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797077149_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5366,7 +5366,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007144_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5383,7 +5383,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007151_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5400,7 +5400,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088954_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5477,7 +5477,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088800_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5509,7 +5509,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023802544_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5541,7 +5541,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/leverpastej-i-bit-200g-per-i-viken-2.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -5573,7 +5573,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312331808594_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5590,7 +5590,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007557_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5652,7 +5652,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/hetrokt-skinka-skivad-100g-per-i-viken-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -5669,7 +5669,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/skinka-basturokt-120g-parsons-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5686,7 +5686,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/emilskinka-kokt-120g-parsons.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5718,7 +5718,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797080255_c1l1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5780,7 +5780,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/skinka-basturokt-120g-lonneberga.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5827,7 +5827,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007137_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5859,7 +5859,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797077194_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -5876,8 +5876,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05707196053678_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -5924,7 +5924,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/enewurst-skivad-100g-per-i-viken-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -5941,7 +5941,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/strimlad-rokt-skinka-450g-tulip.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6018,7 +6018,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kokt-skinka-skivad-100g-per-i-viken-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -6035,7 +6035,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391196007564_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6097,7 +6097,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023802568_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6144,7 +6144,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rokt-emilkalkon-skivad-120g-parsons-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6191,7 +6191,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312331808211_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6223,7 +6223,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/skinka-rokt-eko-100g-scan-2.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -6240,7 +6240,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023867932_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6347,7 +6347,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023851511_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6424,7 +6424,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023851917_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6486,7 +6486,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/skinka-extra-rokt-120g-lonneberga-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6503,7 +6503,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797089012_c1l1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6535,8 +6535,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310941803411_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -6568,7 +6568,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797077484_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6585,7 +6585,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/skinka-flatrokt-120g-lonneberga-1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6662,8 +6662,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07332245339007_1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -6740,7 +6740,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312331808136_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6772,7 +6772,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330797088992_c1n1.jpeg.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6804,8 +6804,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/bror-jakobs-kallrokta-skinka-70g-jakobsdal.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -6837,7 +6837,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023847910_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -6854,7 +6854,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rokt-skinka-500g-broderna-nilsson.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -6871,7 +6871,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023851658_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -6948,9 +6948,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rokt-skinka-skivad-100g-melin.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -7057,7 +7057,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rokt-gastabudsskinka-500g-broderna-nilsson.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -7119,7 +7119,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340023802551_c1n1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -7151,7 +7151,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312331808549_c1l1.jpg",
     "category": "Kött, Fågel & Chark",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -8488,7 +8488,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pinchos-peachy-eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -8505,7 +8505,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -8807,8 +8807,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/eko-250ml-dirtwater-fox-brewery-1.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -8825,8 +8825,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sparkling-soda-.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -8843,7 +8843,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/soda-pop-eko-250ml-dirtwater-fox.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -8890,9 +8890,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/09421902090028_1.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -8954,8 +8954,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/crush-pear-eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -8972,8 +8972,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/250ml-dirtwater-fox-brewery-2.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -8990,8 +8990,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sparkling.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9008,7 +9008,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9025,7 +9025,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-eko-250ml-dirtwater-fox-brewery-1.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9177,8 +9177,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/crush-peach-eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9195,7 +9195,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/vanilla-pear-eko-250ml-dirtwater-fox-brewery.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9212,9 +9212,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/09421902090622_1.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9231,9 +9231,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/09421902090264_1.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9250,7 +9250,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/09421902090660_1.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9282,9 +9282,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/09421906005288_1.jpg",
     "category": "Dryck",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -9346,7 +9346,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-eko-250ml-dirtwater-fox-brewery-2.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9363,7 +9363,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/red-bull-organics-simply-cola-eko-250ml-3.jpg",
     "category": "Dryck",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9380,7 +9380,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/majs-3x150g-bonduelle-2.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -9457,7 +9457,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746173417_c1l1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9474,8 +9474,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202476_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -9492,7 +9492,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402979_c1n1.jpeg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9524,7 +9524,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402955_c1n1.jpeg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9601,7 +9601,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kokosmjolk-17-19--eko-400ml-favorit.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9738,7 +9738,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002407301_c1n1.jpeg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9770,7 +9770,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002405543_c1n1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9817,7 +9817,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746253690_c1l1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -9879,8 +9879,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/majs-eko-380g-gogreen.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -9942,7 +9942,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kokosmjolk-light-250ml-santa-maria.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -9974,8 +9974,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/finkrossade-tomater-ekokrav-690g-itigo-2.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10007,7 +10007,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/krossade-tomater-eko-400g-solania.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10024,8 +10024,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kikarter-eko-380g-gogreen.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -10042,8 +10042,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391835018197_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10090,8 +10090,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331061000498_c1n1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10108,7 +10108,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150777185_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10140,7 +10140,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08005110000454_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -10232,7 +10232,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/svarta-bonor-svenskodlade-380g-gogreen.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -10279,8 +10279,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331061000016_c1n1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10297,7 +10297,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746227370_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10329,8 +10329,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomater-finpasserade-eko-3x200g-alce-nero.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -10377,7 +10377,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746255090_c1c1.jpg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10424,8 +10424,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228401200_c1c1.jpeg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10457,8 +10457,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomater-.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -10565,8 +10565,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/finkrossade-tomater-.jpeg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10583,8 +10583,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331061000078_c1n1.jpeg.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10616,8 +10616,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228344521_c1n1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10634,8 +10634,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/oliver-grona-ekokrav-280g-itigo-2.jpeg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10652,7 +10652,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07316150777277_c1n1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10669,7 +10669,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/svarta-bonor-svenskodlade-400g-gogreen.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -10686,8 +10686,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomat-med-gronsaker-krav-340g-itigo-2.jpeg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10719,7 +10719,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/oliver-cerginola-eko-300g-madama-oliva.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10751,7 +10751,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/grona-oliver-eko-280g-il-fornaio.png",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10768,8 +10768,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07391835002035_c1c1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -10831,7 +10831,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pesto-genovese-eko-140g-la-bio-idea.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10848,7 +10848,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311312005472_1.jpg",
     "category": "Skafferi",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -10880,7 +10880,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740147_1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -10957,7 +10957,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010287_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11004,7 +11004,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311171007013_c1c1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11021,7 +11021,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sashimilax-ca-360g-froya.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11053,8 +11053,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/laxfile-eko-300g-korshags.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -11071,7 +11071,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311171007105_g1c1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11088,7 +11088,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740017_C1N1.jpeg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11135,7 +11135,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sashimilax-180g-froya-4.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11167,8 +11167,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750008239_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -11185,7 +11185,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010294_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11202,7 +11202,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tonfisk-i-solsorolja-msc-3-p-285g-abba.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11219,7 +11219,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500184302_C1N1.jpeg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11251,7 +11251,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357542200008_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11283,7 +11283,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010195_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11300,8 +11300,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746202223_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -11348,7 +11348,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010348_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11380,7 +11380,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357542300005_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11412,7 +11412,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010119_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11444,8 +11444,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750008222_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -11477,7 +11477,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011742318_1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11524,7 +11524,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010201_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11541,7 +11541,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011741533_1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11558,7 +11558,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357547300000_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11575,9 +11575,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750009533_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11594,7 +11594,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010249_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11611,7 +11611,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010126_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11643,8 +11643,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750008246_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -11661,7 +11661,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010362_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11678,8 +11678,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357515600002_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -11696,7 +11696,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010218_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11743,7 +11743,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010270_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11760,7 +11760,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sejfile-fryst-300g-feldts.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11777,7 +11777,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357547100006_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11824,7 +11824,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010133_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11841,7 +11841,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010232_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11873,7 +11873,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500184241_C1N1.jpeg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11890,7 +11890,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010140_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11922,7 +11922,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740895_1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11939,7 +11939,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tonfisk.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -11956,7 +11956,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010317_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11973,7 +11973,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010256_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -11990,7 +11990,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010263_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -12007,7 +12007,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393750010300_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -12024,7 +12024,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/02357547000009_c1n1.jpg",
     "category": "Fisk & Skaldjur",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -12896,7 +12896,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/indisk-lammgryta.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -12928,9 +12928,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/butternutsoppa-glutenfri-500g-spoons.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -12977,7 +12977,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/boeuf-bourgignon-2-p-fryst-600g-backup-1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -13069,7 +13069,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/chicken-tikka-2-p-fryst-600g-backup-1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -13086,10 +13086,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312920060617_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "rUOz9EJC8DbbZlxfXCWn",
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -13181,7 +13181,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kyckling-gul-curry-2-port-fryst-600g-backup-1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -13288,9 +13288,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350059660179_c1n1.jpeg.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "l5Zusa3a1H4O64YAy5MC",
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -13307,7 +13307,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/coq-au-vin-pa-kyckling-.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -13504,7 +13504,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05741200317264_g1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -13536,7 +13536,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500183824_C1N1.jpeg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -13598,7 +13598,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/teriyakisas-fryst-380g-findus.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -13720,7 +13720,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310240080605_c1l1.jpeg.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -13902,7 +13902,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/laxburgare-fryst-370g-gi-boxen-1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -13934,7 +13934,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/picklad-rodlok-fryst-380g-findus.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -13966,9 +13966,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350059660582_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14150,8 +14150,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330247603065_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14198,7 +14198,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/havets-wallenbergare-1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -14215,8 +14215,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/chili-con-carne-fryst-400g-gi-boxen.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -14398,9 +14398,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/jordartskockssoppa-500g-spoons.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14507,8 +14507,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330247610025_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14525,8 +14525,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330247610018_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14543,8 +14543,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330247610087_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14561,9 +14561,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/italiensk-linsgryta-400g-spoons.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14580,9 +14580,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/marockansk-gryta-oumph-400g-spoons.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14629,7 +14629,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/chicken-kerala-400g-gi-boxen-2.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -14646,7 +14646,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310500183855_C1N1.jpeg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "l5Zusa3a1H4O64YAy5MC"
     ],
     "store": {
       "name": "Mathem",
@@ -14663,9 +14663,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/thailandsk-soppa-500g-spoons.png",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -14757,7 +14757,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/indisk-linsgryta-400g-gi-boxen.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -14789,7 +14789,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311870547605_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -14866,8 +14866,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tomatsoppa-chili-ekokrav-340g-itigo.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -14884,7 +14884,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/chicken-red-curry-fryst-370g-gi-boxen.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -15036,7 +15036,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/falafel-400g-gi-boxen.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -15158,8 +15158,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340130502740_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -15191,7 +15191,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08715700120720_c1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -15253,7 +15253,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350126081005_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -15300,8 +15300,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/spicy-cajun-chicken-fryst-410g-gi-boxen.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -15333,7 +15333,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08712100799075_g1n1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -15365,8 +15365,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07330247610100_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -15383,7 +15383,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07312920094957_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -15535,7 +15535,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350126081036_c1l1.jpg",
     "category": "Färdigmat & Sallader",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -15942,7 +15942,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/turkisk-peppar-original-150g-fazer-3.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16004,7 +16004,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310350133734_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16021,7 +16021,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06416453038295_c1n1.jpeg.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16158,7 +16158,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393077181400_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -16235,7 +16235,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/strawberry-mats-look-o-look.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16267,7 +16267,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310350133741_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16419,7 +16419,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310350109029_c1c1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16451,7 +16451,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tutti-frutti-sour-180g-fazer.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16543,7 +16543,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/losviktsgodis-vegansk-mix-400g-mathem.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16680,8 +16680,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sockerfri-70g-wellibites.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16788,7 +16788,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06416453036376_g1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16850,8 +16850,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-sockerfri-70g-wellibites.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16898,7 +16898,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06416453066045_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -16990,7 +16990,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06411401038723_c1c1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -17277,7 +17277,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06416453036383_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -17519,7 +17519,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07393077181431_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -17791,7 +17791,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/lakritsfiskar-saltade-120g-kolsvart.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -17838,7 +17838,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/godis-vegan-vibe-80g-tweek.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18005,7 +18005,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/06416453038288_c1n1.jpeg.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18127,7 +18127,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/flying-saucers-20g-look-o-look.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18159,8 +18159,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/konfektyrfiskar-roding-120g-kolsvart.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18312,8 +18312,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sotlakritsrullar-eko-90g-eco-vital.png",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -18465,7 +18465,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04038857436617_c1c1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18527,7 +18527,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sotlakrits-eko-100g-maku-laku.png",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18679,7 +18679,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04038857436716_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18696,9 +18696,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04038857431117_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -18715,7 +18715,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/lakritsfiskar-sota-120g-kolsvart.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18792,8 +18792,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340130506366_c1n1.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18810,7 +18810,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/red-orange-licorice-2x25g-lakerol.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18842,8 +18842,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/konfektyrfiskar-sur-roding-120g-kolsvart.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "RComKooiAar3a4bdSF2P",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -18860,8 +18860,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/marshmallows-vanilj-eko-90g-eco-vital.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "8uR7K9NF3RQzDJK9GPDL"
     ],
     "store": {
       "name": "Mathem",
@@ -18878,7 +18878,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/yoghurtfruktisar-eko-90g-eco-vital.jpg",
     "category": "Glass, Godis & Snacks",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18895,7 +18895,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-apple--persika-o-banan-eko-100g-favorit.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18912,7 +18912,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200809_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -18929,7 +18929,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746164736_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -18976,7 +18976,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-apple--mango-o-persika-eko-100g-favorit-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19008,8 +19008,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100955623_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19161,7 +19161,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/apple--jordgubb-o-paron-eko-100g-favorit-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19208,7 +19208,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340071400600_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19225,8 +19225,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100954305_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19243,7 +19243,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100961235_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -19305,7 +19305,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/apple--banan-o-aprikos-eko-100g-favorit-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19322,7 +19322,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/klampase-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19339,7 +19339,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotspinnar-eko-7m-20g-organix-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19461,7 +19461,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300247529_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19478,7 +19478,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100746740_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19495,7 +19495,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/majsringar-eko-7m-20g-organix-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19587,7 +19587,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100749895_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19634,8 +19634,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100955708_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19667,7 +19667,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07331746227134_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19699,7 +19699,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100749970_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19716,7 +19716,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100749147_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19733,7 +19733,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/potatis-och-kottbullar-8m-eko-190g-nestle.png",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -19885,8 +19885,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100921970_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19903,8 +19903,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100922052_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19951,8 +19951,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100980533_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -19999,7 +19999,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300307285_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20046,7 +20046,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300141599_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20063,7 +20063,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300388536_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20080,8 +20080,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/o-purjolok-8m-ekokrav-190g-semper.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20113,9 +20113,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/varta-vinbar-6m-ekokrav-100g-alexophil.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -20132,8 +20132,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350081220518_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20150,9 +20150,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350081220495_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -20169,7 +20169,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100953490_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20186,8 +20186,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300307193_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20219,7 +20219,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107339491_c1n1.jpeg.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20236,7 +20236,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107330412_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20253,7 +20253,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107330382_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20270,7 +20270,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107330368_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20347,7 +20347,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100921895_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20364,7 +20364,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300388543_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20381,7 +20381,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036135030_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20398,7 +20398,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100746412_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20415,7 +20415,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/mini-stars-12m-eko-30g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20432,7 +20432,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107336841_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20464,7 +20464,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/klampase-apple-eko-90g-nestle.png",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20481,7 +20481,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300228948_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20528,9 +20528,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/smoothie-blaa-barvanilj-krav-6m-100g-alexophil.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -20562,7 +20562,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/farmors-kalops-6m-190g-nestle.png",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20579,8 +20579,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100960818_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20597,7 +20597,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300122284_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20629,7 +20629,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107330030_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20661,7 +20661,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100962065_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -20693,7 +20693,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pasta-rigatoni-napoli-12m-eko-220g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20710,7 +20710,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/barnmat-pasta--tomat-o-squash-6m-eko-190g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20727,7 +20727,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/barnmat-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20759,7 +20759,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300162006_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20776,10 +20776,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100980380_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -20826,7 +20826,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300228856_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20843,8 +20843,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100954558_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20876,7 +20876,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/biff-stroganoff-8m-eko-190g-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20893,7 +20893,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036136143_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20910,7 +20910,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200779_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20927,7 +20927,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/modersmjolkersattning-.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20944,7 +20944,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/morotpot-notkott-6m-eko-190g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20961,8 +20961,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/smoothie-apelsinoquinoa-100g-alexophil.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -20979,7 +20979,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/nutripuffs-banan-hallon-eko-8m-35g-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -20996,7 +20996,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613035947504_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21043,7 +21043,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300141568_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21075,7 +21075,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100709790_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21092,7 +21092,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pulver-combiotik-1-eko-600g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21109,8 +21109,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300307223_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21127,8 +21127,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300307131_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21160,7 +21160,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/barnmat-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21177,7 +21177,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200762_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21194,7 +21194,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200786_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21211,7 +21211,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200793_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21228,7 +21228,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200816_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21245,7 +21245,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/03444570200823_C1L1.jpeg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21262,7 +21262,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/linsringar-12m-50g-semper.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21279,7 +21279,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100751010_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21296,7 +21296,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100750853_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21313,8 +21313,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/smoothie-kiwioquinoa-100g-alexophil.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21346,8 +21346,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-6m-krav-100g-alexophil.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "u7XPHbjo0ddeYWBZ599X",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -21364,7 +21364,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100748805_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21396,8 +21396,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300005594_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21414,9 +21414,9 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/smoothie-pers.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -21433,7 +21433,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07340071400617_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21450,7 +21450,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300249448_c1n1.jpeg.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21467,7 +21467,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300249479_c1n1.jpeg.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21484,7 +21484,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107335554_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21546,7 +21546,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05060107330016_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21563,7 +21563,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300122345_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21580,7 +21580,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kalops-1-3ar-eko-220g-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21612,7 +21612,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300269774_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21629,7 +21629,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036137195_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21646,7 +21646,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036339193_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21678,7 +21678,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300029842_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21695,7 +21695,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pasta-bolognese-8m-eko-190g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21712,8 +21712,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100921635_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21730,8 +21730,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100921710_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21763,7 +21763,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/biff-stroganoff-1-3ar-eko-220g-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21780,7 +21780,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/08713500012061_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21797,7 +21797,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100752000_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21814,7 +21814,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/dryckis-mango-12m-eko-150ml-semper.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21831,8 +21831,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/dryckis-apple-12m-krav-150ml-semper.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21864,7 +21864,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/bolognese-eko-1-3ar-220g-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21881,7 +21881,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613037141245_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21898,7 +21898,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300266292_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21915,7 +21915,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300281547_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -21932,8 +21932,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350081220013_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -21965,7 +21965,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100701367_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "RComKooiAar3a4bdSF2P"
     ],
     "store": {
       "name": "Mathem",
@@ -22012,7 +22012,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036338202_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22044,7 +22044,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/-i-tomatsas-12m-eko-250g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22076,7 +22076,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300371538_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22093,7 +22093,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/gronsakslasagne-8m-eko-190g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22110,7 +22110,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300021679_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22127,10 +22127,10 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/klampase-.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null,
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X",
+      "8uR7K9NF3RQzDJK9GPDL",
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -22192,7 +22192,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04062300325524_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22209,7 +22209,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613035947566_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22226,7 +22226,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/pulver-combiotik-2-eko-600g-hipp.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22258,7 +22258,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310100752185_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22275,8 +22275,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/dryckis-jordgubb-12m-krav-150ml-semper.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "u7XPHbjo0ddeYWBZ599X"
     ],
     "store": {
       "name": "Mathem",
@@ -22293,7 +22293,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ersattning-nan-drickfardig-eko-1-200ml-nestle.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22310,8 +22310,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07613036137225_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "rUOz9EJC8DbbZlxfXCWn",
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -22328,7 +22328,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -22450,7 +22450,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07046110075562_c1n1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -22662,7 +22662,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07046110071519_a1n1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -22919,7 +22919,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-white-smile-75ml-jordan-1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -23251,7 +23251,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350075693397_1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -23268,7 +23268,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350075693410_1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -24140,7 +24140,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/04001638081863_c1n1.jpeg.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -24382,7 +24382,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/plant-gel-toothpaste-eko-75ml-weleda.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -24534,7 +24534,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350075693809_1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -24746,7 +24746,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350075690358_1.jpg",
     "category": "Skönhet & Hälsa",
     "preferences": [
-      null
+      "VJy8N4z9u6sGOvPxGSJn"
     ],
     "store": {
       "name": "Mathem",
@@ -25498,8 +25498,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25516,7 +25516,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/ingefara-eko-200g-klass1-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -25548,7 +25548,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-knippe-100g-klass1-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25565,8 +25565,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-kruka-eko-klass1-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25583,8 +25583,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/mynta-kruka-eko-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25601,8 +25601,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/persilja-kruka-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25649,8 +25649,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/graslok-kruka-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25682,8 +25682,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000995_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25760,8 +25760,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/dill-kruka-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -25928,7 +25928,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/oregano-eko-10g-kockens-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -25960,8 +25960,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/bladpersilja-kruka-eko-klass1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "g9ButyZbFwkOPGoIEJ6T"
     ],
     "store": {
       "name": "Mathem",
@@ -26008,7 +26008,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468931_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26025,7 +26025,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468689_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26057,7 +26057,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046469013_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26104,7 +26104,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kanel-ceylon-eko-27g-kockens.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26151,7 +26151,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05425007723373_c1n1.jpeg.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26198,7 +26198,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/curry-eko-42g-kockens.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26215,7 +26215,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05425007723380_c1n1.jpeg.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26292,7 +26292,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/basilika-eko-17g-kockens-3.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26354,7 +26354,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046469020_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26416,7 +26416,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468924_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26433,7 +26433,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/timjan-eko-14g-kockens-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26450,8 +26450,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/svartpeppar-grovmalen-ekofairtrade-40g-kockens.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -26513,7 +26513,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/spiskummin-eko-27g-kockens.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26590,7 +26590,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/graslok-fryst-ekokrav-75g-herbafrost.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26607,7 +26607,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/kanel-malen-eko-43g-kockens.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26699,7 +26699,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468061_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26791,7 +26791,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046469297_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26808,7 +26808,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468047_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -26870,8 +26870,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468900_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -27023,7 +27023,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228769102_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27055,7 +27055,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228741351_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27072,8 +27072,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046469501_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -27135,7 +27135,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046468993_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27197,8 +27197,8 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350046469495_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null,
-      null
+      "pTfHWqOnPkh0WiEolFSN",
+      "3wR0HD466yzMP5wmteyV"
     ],
     "store": {
       "name": "Mathem",
@@ -27215,7 +27215,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228771310_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27232,7 +27232,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228742167_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27264,7 +27264,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/colombo-curry-eko-50g-mill-and-2.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27311,7 +27311,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311311013973_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27403,7 +27403,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228897638_c1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27420,7 +27420,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/rosmarin-eko-18g-urtekram-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27527,7 +27527,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/bbq-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27559,7 +27559,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228705322_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27576,7 +27576,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/mald-kanel-eko-30g-urtekram-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27593,7 +27593,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/sot-paprika-eko-28g-urtekram-1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27670,7 +27670,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228772225_g1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27687,7 +27687,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228705377_g1n1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",
@@ -27764,7 +27764,7 @@
     "imageUrl": "//static.mathem.se/shared/images/products/original/05765228880258_c1c1.jpg",
     "category": "Övrigt",
     "preferences": [
-      null
+      "pTfHWqOnPkh0WiEolFSN"
     ],
     "store": {
       "name": "Mathem",

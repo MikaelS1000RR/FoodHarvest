@@ -91,7 +91,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("preferences").get();
     let dataFromDb = [];
     querySnapshot.forEach((doc) => {
-      let document = { ref: doc.ref, ...doc.data() }
+      let document = { ref: doc.ref, id:doc.id, ...doc.data() }
       dataFromDb.push(document);
     });
     // console.log(dataFromDb,"datafromDb")
