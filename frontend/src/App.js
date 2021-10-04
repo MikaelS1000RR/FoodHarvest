@@ -18,6 +18,7 @@ import CategoryModal from "./components/modals/CategoryModal";
 import DetailModal from "./components/modals/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
+import FooterPriceContainer from "./components/home/FooterPriceContainer";
 
 function App() {
   return (
@@ -54,7 +55,9 @@ function App() {
                       <CategoryModal />
                       <AddListModal />
                     </main>
-                    <footer></footer>
+                    <footer>
+                      <FooterPriceContainer/>
+                    </footer>
                   </Router>
                 </ProductInfoProvider>
               </ProductListProvider>
