@@ -141,17 +141,20 @@ export class FirebaseHandler {
         brand: product.brand,
         imageUrl: product.imageUrl,
         category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(
-          product.preferences,
-          "preferences",
-          "name"
-        ),
+        preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
         //ean: product.ean,
         store: await this.getOneRef(product.store, "stores", "name"),
-        discount: this.setDiscount(product),
+        /* discount: {
+          discountType: product.discount.discountType,
+          quantityToBeBought: product.discount.quantityToBeBought,
+          displayPrice: product.discount.displayPrice,
+          savings: product.discount.savings,
+          percentageSavings: product.discount.percentageSavings,
+          isMemberDiscount: product.discount.isMemberDiscount,
+        }, */
       };
       // console.log(productToPost);
-      firestore.collection("products").doc().set(productToPost);
+      firestore.collection("test-willys").doc().set(productToPost);
     }
     console.log("Posted product in db!");
   }

@@ -15,11 +15,11 @@ const ProductProvider = (props) => {
     const docs = [];
     let snapshot = await firestore
       .collection(productCollection)
-      .where("category", "==", category.ref)
+      .where("category", "==", category.id)
       .limit(1)
       .get();
     snapshot.forEach((doc) => {
-      docs.push({ id: doc.id, ref: doc.ref, ...doc.data() });
+      docs.push({ id: doc.id, ...doc.data() });
     })
     return docs;
   };
