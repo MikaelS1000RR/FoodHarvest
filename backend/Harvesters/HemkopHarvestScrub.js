@@ -8,15 +8,6 @@ export class HemkopHarvestScrub {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
 
-    // function writeToFile(fileName, data) {
-    //   try {
-    //     fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-    //     console.log("success");
-    //   } catch (err) {
-    //     console.log(err);
-    //   }
-    // }
-
     // Harvesting
     let unscrubbedHemkopProducts = await HemkopHarvester.getAllProducts(categories);
 
@@ -24,10 +15,6 @@ export class HemkopHarvestScrub {
     let scrubbedHemkopProducts = [];
     await HemkopScrubber.setDBinfo().then(async () => {
       scrubbedHemkopProducts = await HemkopScrubber.scrubAll(unscrubbedHemkopProducts);
-      // writeToFile(
-      //   "C:/Users/Denise/Documents/GitHub/FoodHarvest/backend/hemkoptest.txt",
-      //   scrubbedHemkopProducts
-      // );
     });
 
     // Posting scrubbed products into db
