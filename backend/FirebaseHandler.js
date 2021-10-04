@@ -80,7 +80,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push({ ref: document.ref, ...document.data() });
+      categories.push({ id: document.id, ...document.data() });
     });
 
     return categories;
@@ -93,10 +93,9 @@ export class FirebaseHandler {
       .get();
     let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      let doc = { ref: document.ref };
+      let doc = { id: document.id };
       dataFromDB.push(doc);
     });
-    console.log("data: ", dataFromDB);
     return dataFromDB[0];
   }
 
@@ -104,7 +103,7 @@ export class FirebaseHandler {
     let querySnapshot = await firestore.collection("preferences").get();
     let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      let doc = { ref: document.ref, ...document.data() };
+      let doc = { id: document.id, ...document.data() };
       dataFromDB.push(doc);
     });
 

@@ -39,7 +39,7 @@ export class HemkopScrubber extends Scrubber {
 
   static getStore() {
     if (this.storeFromDB != undefined) {
-      return this.storeFromDB;
+      return this.storeFromDB.id;
     } else {
       return null;
     }
@@ -56,45 +56,45 @@ export class HemkopScrubber extends Scrubber {
         if (productPreferences[j] === "swedish_flag") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Svensk Flagga"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
 
         if (productPreferences[j] === "keyhole") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Nyckelhålsmärkt"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
 
         if (productPreferences[j] === "krav") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "KRAV-märkt"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "ecological") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Ekologiskt"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "laktosfree") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Laktosfritt"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "fairtrade") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Fairtrade"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
         if (productPreferences[j] === "glutenfree") {
           let newPref = dbPreferences.find(
             (preference) => preference.name === "Glutenfritt"
-          ).ref;
+          ).id;
           refinedHemkopPreferences.push(newPref);
         }
       }

@@ -31,8 +31,8 @@ export class HemkopHarvester {
       let hemkopProducts = await this.getProductsByCategory(hemkopCategory.url);
 
       // for (let i = 0; i < hemkopProducts.length; i++)
-      // *************temp looping 1 products in each category**************
-      for (let i = 0; i < 1; i++) {
+      // *************temp looping 3 products in each category**************
+      for (let i = 0; i < 3; i++) {
         hemkopProducts[i].category = this.refineCategory(
           hemkopCategory.title,
           foodHarvesterCategories
@@ -43,7 +43,7 @@ export class HemkopHarvester {
       }
     }
 
-    console.log("Harvesting of Hemkop is done!");
+    console.log("Hemkop has been harvested!");
     return hemkopProductsRefinedCat;
   }
 
@@ -64,13 +64,13 @@ export class HemkopHarvester {
       for (let j = 0; j < wordArr2.length; j++) {
         if (dbCategories[i].name.includes(wordArr2[j])) {
           foundCategory = true;
-          return dbCategories[i].ref;
+          return dbCategories[i].id;
         }
       }
     }
 
     if (!foundCategory) {
-      return dbCategories.find((category) => category.name === "Övrigt").ref;
+      return dbCategories.find((category) => category.name === "Övrigt").id;
     }
   }
 }
