@@ -45,9 +45,11 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        setCurrentProductList(lists[0])
+        console.log("setting current list")
+        await setCurrentProductList(lists[0])
       }
     } else {
+      console.log("there is no current list");
       createFavoriteList(userId);
       fetchAllLists(userId);
     }
