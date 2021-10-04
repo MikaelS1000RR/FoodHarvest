@@ -39,7 +39,7 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button} > {/* Add onClick. Create a function that adds prices.*/}
+        <div style={styles.button} onClick={addToList}>
           
           <AddProductButton product={product}/>
           

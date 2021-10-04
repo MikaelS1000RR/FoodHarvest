@@ -11,6 +11,18 @@ const ProductCard = (props) => {
   const { setCurrentProduct } = useProductInfo();
 
 
+  const [count, setCount]
+  
+
+
+  const clickedHere = () => {
+ 
+   
+
+     let b = (parseInt(product.price)+parseInt(product.price))
+     console.log('Clicked on "lägg till" button. ' + b);
+  
+  }
 
   return (
     <div className={classNames} index={index}>
@@ -39,8 +51,7 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button} > {/* Add onClick. Create a function that adds prices.*/}
-          
+        <div style={styles.button} onClick={clickedHere}>
           <AddProductButton product={product}/>
           
          

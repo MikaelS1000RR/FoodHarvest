@@ -25,8 +25,7 @@ const FooterPriceContainer = (props) => {
           <p>2</p>
         </div>
       </div>
-      
-        {/* work here */}
+
       <div className="willys" style={styles.storeSection}>
         <img
           src="https://www.orkla.se/app/uploads/sites/6/2019/09/Willys_logo.png"
@@ -37,7 +36,7 @@ const FooterPriceContainer = (props) => {
         <p>2 kr</p> {/* change this */}
       </div>
 
-
+      
       <div className="hemkop" style={styles.storeSection}>
         <img
           src="https://sesol.se/wp-content/uploads/2019/05/hemkop.png"

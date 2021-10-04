@@ -25,7 +25,6 @@ const FooterPriceContainer = (props) => {
           <p>2</p>
         </div>
       </div>
-      
         {/* work here */}
       <div className="willys" style={styles.storeSection}>
         <img

@@ -3,6 +3,7 @@ import DetailModal from "../modals/DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 import AddProductButton from "./AddProductButton";
+import { useState } from "react";
 
 const ProductCard = (props) => {
   const { product, classNames, index } = props;
@@ -11,6 +12,21 @@ const ProductCard = (props) => {
   const { setCurrentProduct } = useProductInfo();
 
 
+  const [count, setCount] = useState(0)
+  
+
+
+  const clickedHere = () => {
+ 
+   
+
+     let b = product.price + 1
+     if(b <= 1) {
+       
+     }
+     console.log('Clicked on "lägg till" button. ' + b + 1);
+  
+  }
 
   return (
     <div className={classNames} index={index}>
@@ -39,7 +55,7 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button} > {/* Add onClick. Create a function that adds prices.*/}
+        <div style={styles.button} onClick={clickedHere}>
           
           <AddProductButton product={product}/>
           
