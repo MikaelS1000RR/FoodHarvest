@@ -49,33 +49,6 @@ export class FirebaseHandler {
     return id;
   };
 
-  // returns the reference of the document in the collection, key is the name of property
-  static getOneRef = async (doc, collection, key) => {
-    let property = doc[key];
-    if (doc != null && property) {
-      let id = await this.getIdByProperty(collection, key, property);
-      if (id) {
-        let ref = firestore.doc(collection + "/" + id);
-        return ref;
-      }
-    }
-    return null;
-  };
-
-  // returns an array of references of the documents
-  static getAllRefs = async (docs, collection, key) => {
-    let refs = [];
-    if (docs != null && docs.length > 0) {
-      for (let doc of docs) {
-        let ref = await this.getOneRef(doc, collection, key);
-        if (ref != null) {
-          refs.push(ref);
-        }
-      }
-    }
-    return refs;
-  };
-
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
@@ -137,14 +110,3 @@ export class FirebaseHandler {
     console.log("Posted product in db!");
   }
 }
-
-const getRefs = async (docs, collection, property) => {
-  let refs = [];
-  if (docs != null && docs.length > 0) {
-    for (let doc of docs) {
-      let ref = getOneRef(collection, doc, property);
-      refs.push(ref);
-    }
-  }
-  return refs;
-};

@@ -9,6 +9,7 @@ import { Discount } from '../Models/Discount.js';
 export class WillysScrubber extends Scrubber {
 
   static store = FirebaseHandler.getStore("Willys");
+  static preferences = FirebaseHandler.getPreferences();
 
   static translateSchema = {
     productName: (x) => x.name,
@@ -20,8 +21,7 @@ export class WillysScrubber extends Scrubber {
     comparisonPrice: (x) => x.comparePrice, //86.9 kr
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
-
-    category: (x) => x.category, //This is gonna be a list??
+    category: (x) => x.category.id, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.labels),
     store: (x) => this.store.id,
     //ean: (x) => this.getEan(x.code),
@@ -99,21 +99,12 @@ export class WillysScrubber extends Scrubber {
     return formatted.ean;
   }
 
-  //Setting store as Willys
-  static async getStore() {
-    const willysStore = new Store(
-      "Willys",
-      "https://digitalatjanster.se/wp-content/uploads/2020/04/willys-logo.png"
-    );
-    return willysStore;
-  }
-
   //Setting preferences for a product
   static async setPreferenceIds(preferences) {
     //If product has any references then scrub them
     if (preferences.length != 0) {
-      let result = Preference.scrubPreferences(preferences);
-      return result;
+      let preferenceIds = Preference.scrubPreferenceIds(preferences, this.preferences);
+      return preferenceIds;
     }
     //If not, return null
     else {

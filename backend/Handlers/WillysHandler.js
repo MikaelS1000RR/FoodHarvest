@@ -1,5 +1,6 @@
-import { WillysHarvester } from "../Harvesters/WillysHarvester";
-import { WillysScrubber } from "../Scrubbers/WillysScrubber";
+import { WillysHarvester } from "../Harvesters/WillysHarvester.js";
+import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
+import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class WillysHandler{
   static async run() {
@@ -9,7 +10,7 @@ export class WillysHandler{
     function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
-
+    console.log("Harvesting has started");
     let allProductsOfWillys = await WillysHarvester.getAllProducts(
       categories
     ); //This is all products of Willys
