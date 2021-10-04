@@ -20,7 +20,7 @@ const CategoryProvider = (props) => {
     firestore.collection("categories").orderBy("name").onSnapshot(
       (snapshot) => {
         const docs = [];
-        snapshot.forEach((doc) => docs.push({ id: doc.id, ref: doc.ref, ...doc.data() }))
+        snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
         setCategories(docs)
       }
     )
@@ -30,7 +30,7 @@ const CategoryProvider = (props) => {
     let category = {}
     const snapshot = await firestore.collection("categories").where("name", "==", categoryName).get();
     snapshot.forEach(doc => {
-      category = { id: doc.id, ref: doc.ref, ...doc.data() }
+      category = { id: doc.id, ...doc.data() }
     })
     return category
   }
