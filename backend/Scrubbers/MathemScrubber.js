@@ -23,7 +23,9 @@ export class MathemScrubber extends Scrubber {
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
     // category: (x) => this.setCategory(x.category.name),
-    category: (x) => x.category.name, //This is gonna be a list??
+    category: (x) => this.setCategory(x.category.name),
+
+    // category: (x) => x.category.name, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.preferences, x.name),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
@@ -36,8 +38,27 @@ export class MathemScrubber extends Scrubber {
     // console.log(mathemFromDb, "mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
     // console.log(preferencesFromDb, "preferencesFromDb")
+    let categoriesFromDb = await FirebaseHandler.getCategories();
+
     this.storeFromDb = mathemFromDb;
     this.preferencesFromDb = preferencesFromDb;
+    this.categoriesFromDb = categoriesFromDb;
+  }
+
+  static async setCategory(categoryName) {
+    let categoriesFromDb = this.categoriesFromDb;
+    // console.log(categoriesFromDb.name, "categoriesFromDb")
+    let result = categoryName;
+    
+    categoriesFromDb.forEach((category) => {
+      if (category.name == categoryName) {
+        // console.log(category.id, "categoriesFromDb")
+        result = category.id;
+      }
+      
+    })
+    
+    return result;
   }
 
   static async setPreferences(preferencesToBeScrubbed,productName) {
@@ -135,12 +156,6 @@ export class MathemScrubber extends Scrubber {
     return scrubbedPreferences;
   }
 
-
-  static async setCategory(category) {
-    // console.log(category, "category")
-    // let result = Category.scrubCategories(category);
-    // return result;
-  }
   static async setQuantityUnit(quantity) {
     if (quantity.charAt(quantity.length - 2) === "k") {
       return "kg";
