@@ -10,7 +10,7 @@ export class WillysHandler{
     function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
-    console.log("Harvesting has started");
+    console.log("Harvesting Willys products has started");
     let allProductsOfWillys = await WillysHarvester.getAllProducts(
       categories
     ); //This is all products of Willys
@@ -23,7 +23,7 @@ export class WillysHandler{
         }
       )
 
-    console.log("length of products is ", scrubbedProducts.length);
+    console.log("length of willys products is ", scrubbedProducts.length);
 
     //Posting scrubbed products into db
     FirebaseHandler.postProduct(scrubbedProducts);

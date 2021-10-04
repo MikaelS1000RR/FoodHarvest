@@ -26,13 +26,10 @@ export class WillysScrubber extends Scrubber {
     //discount: (x) =>this.setDiscount(x.code)
   };
   static async setDBinfo() {
-    console.log("getting");
     const willysStore = await FirebaseHandler.getStore("Willys");
     const dbPreferences = await FirebaseHandler.getPreferences();
-    console.log("Store set");
     this.store = willysStore;
     this.preferencesFromDB = dbPreferences;
-    console.log("this store", this.store);
   }
 
   static getStore() {

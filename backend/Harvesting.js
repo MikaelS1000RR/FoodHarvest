@@ -9,9 +9,7 @@ export class Harvesting {
     //Deleting collection before posting anything
     // await FirebaseHandler.deleteCollection("products");
 
-    console.log("WillysHandler run");
-    WillysHandler.run();
-
+    // WillysHandler.run();
     // HemkopHandler.run();
   }
 
