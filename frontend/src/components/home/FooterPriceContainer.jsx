@@ -5,14 +5,17 @@ const FooterPriceContainer = (props) => {
 
   return (
     <div className="container" style={styles.container}>
-      <div className="amountOfProducts" style={styles.storeSection}>
+      <div className="cart" style={styles.cartSection}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
           alt=""
           className="cart"
           style={styles.cart}
         />
-        <p>2</p>
+        <div className="amountOfProducts" style={styles.amountOfProducts}>
+          <p>2</p>
+        </div>
+       
       </div>
       <div className="willys" style={styles.storeSection}>
         <img
@@ -30,7 +33,9 @@ const FooterPriceContainer = (props) => {
           className="hemkopImg"
           style={styles.hemkopImg}
         />
-        <p className="pHemkop" style={styles.pHemkop}>2 kr</p>
+        <p className="pHemkop" style={styles.pHemkop}>
+          2 kr
+        </p>
       </div>
       <div className="mathem" style={styles.storeSection}>
         <img
@@ -51,11 +56,25 @@ const styles = {
   container: {
     width: "100%",
     height: "15vh",
-    border: "double",
+    border: "solid",
     display: "grid",
+    borderColor: "#dee2e6",
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
     padding: "0",
+  },
+  cartSection: {
+    display: "flex",
+    flexDirection: "row",
+    textAlign: "center",
+    justifyContent: "center",
+    alignItems: "center",
+    fontWeight: "bold",
+    borderRight: "solid",
+    borderColor: "#dee2e6",
+  },
+  amountOfProducts: {
+    marginBottom:"5vh"
   },
 
   cart: {
@@ -69,7 +88,8 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontWeight: "bold",
-    borderRight: "double",
+    borderRight: "solid",
+    borderColor: "#dee2e6",
   },
   storeImg: {
     width: "100%",
@@ -79,6 +99,6 @@ const styles = {
   },
   pHemkop: {
     marginBottom: "1.5vh",
-    paddingTop:"1.5vh"
-  }
+    paddingTop: "1.5vh",
+  },
 };
