@@ -1,14 +1,16 @@
 
 import express from "express";
 import path from "path";
+import { TestHarvesting } from "./Harvesters/TestHarvesting.js";
+import { HemkopTest } from "./Harvesters/HemkopTest.js";
 import { Harvesting } from "./Harvesting.js";
-import { Api } from "./Api.js";
 
 const app = express();
 
 app.use(express.json());
-let api = new Api(app);
 
+// HemkopTest.test();
+TestHarvesting.test();
 // Harvesting.run();
 
-app.listen(4000, () => console.log("Listening on port 4000"));
+app.listen(3000, () => console.log("Listening on port 3000"));

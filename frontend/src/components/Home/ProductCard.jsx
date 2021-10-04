@@ -1,11 +1,10 @@
 import FavoriteButton from "./FavoriteButton";
-import DetailModal from "../modals/DetailModal";
+import DetailModal from "../DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
-import AddProductButton from "./AddProductButton";
 
 const ProductCard = (props) => {
-  const { product, classNames, index } = props;
+  const { product, classNames, buttonText, isFavorite, index } = props;
 
   const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
@@ -13,16 +12,18 @@ const ProductCard = (props) => {
   return (
     <div className={classNames} index={index}>
       <div className={"card text-center"} style={styles.container}>
-        <FavoriteButton styles={styles.favorite} product={product} />
-        <div
-          className="openModal"
-          onClick={() => {
-            setCurrentProduct(product);
-            toggleDetailModal();
-          }}
-        >
+        <FavoriteButton
+          styles={styles.favorite}
+          productId={product.id}
+          isFavorite={isFavorite}
+        />
+        <div className="openModal" onClick={() => {
+          setCurrentProduct(product) 
+          toggleDetailModal()
+        }}>
           <div className="card-img-top" style={styles.image}>
             <img
+              className=""
               style={styles.image.content}
               src={product.imageUrl}
               alt={product.imageUrl}
@@ -30,16 +31,17 @@ const ProductCard = (props) => {
           </div>
           <div className="card-body">
             <div>
-              <h5 className="card-title">{product.productName}</h5>
+              <h5 className="card-title">{product.foodType}</h5>
               <p className="card-title">{product.brand}</p>
             </div>
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button}>
-          <AddProductButton product={product} />
+        <div className="btn btn-primary" style={styles.button}>
+          {buttonText}
         </div>
       </div>
+      <DetailModal product={product} index={index} />
     </div>
   );
 };
@@ -57,8 +59,9 @@ const styles = {
     justifyContent: "flex-start",
   },
   button: {
-    margin: "0 auto",
     width: "80%",
+    minWidth: "100%",
+    borderRadius: "100px",
   },
   image: {
     width: "100%",

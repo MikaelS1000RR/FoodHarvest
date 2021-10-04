@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 import {
   Collapse,
@@ -7,11 +7,13 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
+  DropdownToggle,
+  DropdownMenu,
+  Dropdown
 } from 'reactstrap';
 import GuestNav from './GuestNav';
 import UserNav from './UserNav';
 import ProductListDropdown from './ProductListDropdown';
-import FavoriteCart from './FavoriteCart';
 
 const Navigationbar = (props) => {
   const { currentUser } = useAuth();
@@ -23,9 +25,6 @@ const Navigationbar = (props) => {
       <Navbar color="primary" light expand="md">
         <Nav className="mr-auto" navbar>
           <ProductListDropdown setMenu={setHamburgerMenu}/>
-        </Nav>
-        <Nav className="mr-auto" navbar>
-          <FavoriteCart setMenu={setHamburgerMenu}/>
         </Nav>
 
         <Link to="/" style={styles.link}>
