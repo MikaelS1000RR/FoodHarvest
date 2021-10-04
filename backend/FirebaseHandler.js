@@ -84,19 +84,19 @@ export class FirebaseHandler {
         imageUrl: product.imageUrl,
         category: await this.getOneRef(product.category, "categories", "name"),
         preferences: await this.getAllRefs(product.preferences, "preferences", "name"),
-        ean: product.ean,
+        //ean: product.ean,
         store: await this.getOneRef(product.store, "stores", "name"),
-        discount: {
+        /* discount: {
           discountType: product.discount.discountType,
           quantityToBeBought: product.discount.quantityToBeBought,
           displayPrice: product.discount.displayPrice,
           savings: product.discount.savings,
           percentageSavings: product.discount.percentageSavings,
           isMemberDiscount: product.discount.isMemberDiscount,
-        },
+        }, */
       };
       // console.log(productToPost);
-      firestore.collection("test-products-willys").doc().set(productToPost);
+      firestore.collection("test-willys").doc().set(productToPost);
     }
     console.log("posted product in db!");
   }
