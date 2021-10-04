@@ -1,5 +1,5 @@
 import { Button, NavItem } from "reactstrap";
-import { useModal } from "../contexts/ModalContext";
+import { useModal } from "../../contexts/ModalContext";
 
 const GuestNav = (props) => {
   const { styles } = props;
@@ -14,7 +14,7 @@ const GuestNav = (props) => {
           Kategorier
         </Button>
       </NavItem>
-      <NavItem>
+      <NavItem style={styles.link}>
         <Button
           className="text-white bg-transparent btn-outline-primary"
           onClick={toggleLoginModal}
@@ -22,7 +22,7 @@ const GuestNav = (props) => {
           Logga in
         </Button>
       </NavItem>
-      <NavItem>
+      <NavItem style={styles.link}>
         <Button
           className="text-white bg-transparent btn-outline-primary"
           onClick={toggleRegisterModal}

@@ -1,5 +1,4 @@
 import fs from "fs";
-import { HemkopHarvestScrub } from "./Harvesters/HemkopHarvestScrub.js"
 import { WillysHarvester } from "./Harvesters/WillysHarvester.js";
 import { WillysScrubber } from "./Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "./FirebaseHandler.js";
@@ -7,12 +6,12 @@ import { FirebaseHandler } from "./FirebaseHandler.js";
 
 export class Harvesting {
   static async run() {
-    //Deleting collection before posting anything
-    await FirebaseHandler.deleteCollection("products");
 
     let rawData = await WillysHarvester.getCategories();
-    let categories = rawData.children;
+    let categories = rawData.children; //Getting all BASIC categories of willys
 
+    // write to file for now (goal: write to DB instead)
+  
     function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
@@ -20,15 +19,21 @@ export class Harvesting {
     let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
 
     //Scrubbing all products
-    let scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
-    console.log('length of products is ', scrubbedProducts.length);
+    let scrubbedProducts = await WillysScrubber.scrubAll(
+      allProductsOfWillys
+    );
+  
 
-    //Posting scrubbed products into db
-    FirebaseHandler.postProduct(scrubbedProducts);
+    console.log(scrubbedProducts)
+    writeToFile("scrubbed.json", scrubbedProducts)
 
-    HemkopHarvestScrub.run();
+ 
+
+//Posting scrubbed products into db
+ // FirebaseHandler.postProduct(scrubbedProducts);
+
+   
   }
-
 
 
 }
