@@ -1,13 +1,18 @@
 import { Button } from "reactstrap"
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
+import { Link } from "react-router-dom";
+
 const ProductListCard = (props) => {
 
   return (
     <>
-      <div className="productCardContainer" style={styles.productCard}>
-        <p>{props.props}</p>
-       
+      <div>
+        <Link to="/myProductList/">
+          <div className="productCardContainer" style={styles.productCard}>
+            <p>{props.props}</p>
+          </div>
+        </Link>
       </div>
     </>
   );
