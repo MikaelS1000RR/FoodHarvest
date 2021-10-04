@@ -1,67 +1,64 @@
 import { useEffect, useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 const FooterPriceContainer = (props) => {
- 
   const { currentProductList } = useProductList();
+  const { favoriteList } = useProductList();
+  const { currentUser } = useAuth();
 
- 
-      return (
-        <div className="container" style={styles.container}>
-          <div className="cart" style={styles.cartSection}>
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
-              alt=""
+  return (
+    <div className="container" style={styles.container}>
+      <div className="cart" style={styles.cartSection}>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
+          alt=""
+          className="cart"
+          style={styles.cart}
+        />
+        <div className="amountOfProducts" style={styles.amountOfProducts}>
+          <p style={currentUser ? styles.show : styles.hide}>
+            {currentProductList === null
+              ? "loading..."
+              : currentProductList.products.length}
+          </p>
 
-
-              className="cart"
-              style={styles.cart}
-            />
-            <div className="amountOfProducts" style={styles.amountOfProducts}>
-              <p>
-                {" "}
-                {currentProductList === null
-                  ? "loading..."
-                  : currentProductList.products.length}
-              </p>
-            </div>
-          </div>
-          <div className="willys" style={styles.storeSection}>
-            <img
-              src="https://www.orkla.se/app/uploads/sites/6/2019/09/Willys_logo.png"
-              alt=""
-              className="willysImg"
-              style={styles.storeImg}
-            />
-            <p>2 kr</p>
-          </div>
-          <div className="hemkop" style={styles.storeSection}>
-            <img
-              src="https://sesol.se/wp-content/uploads/2019/05/hemkop.png"
-              alt=""
-              className="hemkopImg"
-              style={styles.hemkopImg}
-            />
-            <p className="pHemkop" style={styles.pHemkop}>
-              2 kr
-            </p>
-          </div>
-          <div className="mathem" style={styles.storeSection}>
-            <img
-              src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"
-              alt=""
-              className="mathemImg"
-              style={styles.storeImg}
-            />
-            <p>2 kr</p>
-          </div>
+          <p style={currentUser ? styles.hide : styles.show}>
+            {favoriteList.products.length}
+          </p>
         </div>
-      );
-    
-    
-  
- 
-
+      </div>
+      <div className="willys" style={styles.storeSection}>
+        <img
+          src="https://www.orkla.se/app/uploads/sites/6/2019/09/Willys_logo.png"
+          alt=""
+          className="willysImg"
+          style={styles.storeImg}
+        />
+        <p>2 kr</p>
+      </div>
+      <div className="hemkop" style={styles.storeSection}>
+        <img
+          src="https://sesol.se/wp-content/uploads/2019/05/hemkop.png"
+          alt=""
+          className="hemkopImg"
+          style={styles.hemkopImg}
+        />
+        <p className="pHemkop" style={styles.pHemkop}>
+          2 kr
+        </p>
+      </div>
+      <div className="mathem" style={styles.storeSection}>
+        <img
+          src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"
+          alt=""
+          className="mathemImg"
+          style={styles.storeImg}
+        />
+        <p>2 kr</p>
+      </div>
+    </div>
+  );
 };
 
 export default FooterPriceContainer;
@@ -114,5 +111,11 @@ const styles = {
   pHemkop: {
     marginBottom: "1.5vh",
     paddingTop: "1.5vh",
+  },
+  hide: {
+    display: "none",
+  },
+  show: {
+    display: "inline",
   },
 };
