@@ -1,11 +1,27 @@
 import { useEffect, useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
+import { useProduct } from "../../contexts/ProductContext";
 
 const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
+  //const { fetchProductByStoreAndProductId } = useProduct()
+ 
+
+
+    const getProducts = async () => {
+    /*   let products = await fetchProductByStoreAndProductId(
+        currentProductList.products);
+      console.log("found doc ", products); */
+      let i="2"
+      return i
+  };
+  
+  
+ 
+   
 
   return (
     <div className="container" style={styles.container}>
@@ -37,6 +53,7 @@ const FooterPriceContainer = (props) => {
         />
         <p>2 kr</p>
       </div>
+
       <div className="hemkop" style={styles.storeSection}>
         <img
           src="https://sesol.se/wp-content/uploads/2019/05/hemkop.png"
@@ -45,9 +62,10 @@ const FooterPriceContainer = (props) => {
           style={styles.hemkopImg}
         />
         <p className="pHemkop" style={styles.pHemkop}>
-          2 kr
+        {currentProductList===null? "loading...": "not loading"}
         </p>
       </div>
+
       <div className="mathem" style={styles.storeSection}>
         <img
           src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"

@@ -24,8 +24,26 @@ const ProductProvider = (props) => {
     return docs;
   };
 
+ const fetchProductByStoreAndProductId = async (productIds) => {
+    const productCodes = [];
+    for (let productId of productIds) {
+      let product = await firestore.collection("products").doc(productId)
+      let snapshot = await firestore
+        .collection("products")
+        .where("productCode", "==", product.productCode)
+        .limit(1)
+        .get();
+      snapshot.forEach((doc) => {
+        productCodes.push(doc.productCode);
+      });  
+   }
+     return productCodes;
+
+  } 
+
   const values = {
     fetchProductsByCategory,
+    fetchProductByStoreAndProductId,
   };
 
   return (
