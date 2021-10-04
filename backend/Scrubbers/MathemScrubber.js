@@ -132,56 +132,6 @@ export class MathemScrubber extends Scrubber {
       })
     }
 
-    // console.log(scrubbedPreference, "scrubbedPreference")
-    
-
-    // // if (preferencesToBeScrubbed.labels == "undefined" || preferencesToBeScrubbed.labels.length == 0) {
-    // //   return null;
-    // // }
-    
-    // // console.log(this.preferencesToBeScrubbed.labels.name, "preferencesToBeScrubbed.labels.name")
-    // for (let i = 0; i < preferencesToBeScrubbed.length; i++) {
-    //   if (preferencesToBeScrubbed[i].labels == "Fairtrade") {
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name == "Fairtrade"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference);
-    //   }
-    //   if (preferencesToBeScrubbed[i] == "Laktosfri") {
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name == "Laktosfritt"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference);
-    //   }
-    //   if (preferencesToBeScrubbed[i].labels == "Glutenfritt") {
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name == "Glutenfritt"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference);
-    //   }
-    //   if (preferencesToBeScrubbed[i].labels == "Veganskt") {
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name == "Veganskt"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference);
-
-    //   }
-    //   if (preferencesToBeScrubbed[i].labels.includes("Svenskt ursprung")) {
-    //     console.log("Den hittade svenskt ursprung")
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name == "Svensk Flagga"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference);
-    //   }
-    //   // if (preferencesToBeScrubbed[i] == "Glutenfritt") {
-    //   //   let scrubbedPreference = thePreferencesFromDb.find(
-    //   //     (preference) => preference.name == "Glutenfritt"
-    //   //   )
-    //   //   scrubbedPreferences.push(scrubbedPreference);
-    //   // }
-
-    // }
-    // console.log(scrubbedPreferences,"scrubbedPreferences")
     return scrubbedPreferences;
   }
 
