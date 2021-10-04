@@ -6,7 +6,7 @@ export class FirebaseHandler {
   static postProductsInBatch(productArray) {
     let batch = firestore.batch();
     productArray.forEach((product) => {
-      let docRef = firestore.collection("test-products-hemkop").doc();
+      let docRef = firestore.collection("products").doc();
       batch.set(docRef, product);
     });
     try {

@@ -7,8 +7,8 @@ import { Preference } from "../Models/Preference.js"
 import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
-
   static translateSchema = {
+    productCode: (x) => x.code + "willys",
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
     quantity: (x) => x.displayVolume, //300g

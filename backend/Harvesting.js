@@ -7,10 +7,10 @@ import { WillysHandler } from "./Handlers/WillysHandler.js";
 export class Harvesting {
   static async run() {
     //Deleting collection before posting anything
-    // await FirebaseHandler.deleteCollection("products");
+    await FirebaseHandler.deleteCollection("products");
 
-    // WillysHandler.run();
-    // HemkopHandler.run();
+    WillysHandler.run();
+    HemkopHandler.run();
   }
 
 
