@@ -8,7 +8,7 @@ const FooterPriceContainer = (props) => {
   const { currentUser } = useAuth();
 
   return (
-    <div className="container" style={styles.container}>
+    <div className="container fixed-bottom" style={styles.container}>
       <div className="cart" style={styles.cartSection}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
@@ -73,6 +73,7 @@ const styles = {
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
     padding: "0",
+    background:"white"
   },
   cartSection: {
     display: "flex",
