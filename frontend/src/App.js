@@ -11,13 +11,14 @@ import MyProductList from "./pages/MyProductList";
 import MyProfile from "./pages/MyProfile";
 import Page404 from "./pages/Page404";
 
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar";
 import LoginModal from "./components/modals/LoginModal";
 import RegisterModal from "./components/modals/RegisterModal";
 import CategoryModal from "./components/modals/CategoryModal";
-import DetailModal from "./components/modals/DetailModal";
+import DetailModal from "./components/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
+import FooterPriceContainer from "./components/home/FooterPriceContainer";
 import MyListsPage from "./pages/MyListsPage";
 
 function App() {
@@ -60,7 +61,10 @@ function App() {
                       <CategoryModal />
                       <AddListModal />
                     </main>
-                    <footer></footer>
+                    <footer>
+                      <div className="space" style={styles.space}></div>
+                      <FooterPriceContainer />
+                    </footer>
                   </Router>
                 </ProductInfoProvider>
               </ProductListProvider>
@@ -73,3 +77,10 @@ function App() {
 }
 
 export default App;
+
+const styles = {
+  space: {
+    height: "20vh",
+    background:"pink"
+  }
+}

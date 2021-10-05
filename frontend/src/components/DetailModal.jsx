@@ -1,7 +1,9 @@
 import React from "react";
-import BaseModal from "../base/BaseModal";
-import { useProductInfo } from "../../contexts/ProductInfoContext";
-import { useModal } from "../../contexts/ModalContext";
+import { useContext } from "react";
+import BaseModal from "./base/BaseModal";
+import { useProductInfo } from "../contexts/ProductInfoContext";
+import { useModal } from "../contexts/ModalContext";
+
 
 const DetailModal = () => {
   const { toggleDetailModal, showDetailModal } = useModal();
@@ -16,11 +18,11 @@ const DetailModal = () => {
         info = (
           <div key={currentProduct.id}>
             <div>
-              <img src={currentProduct.imageUrl} alt={currentProduct.imageUrl} />
+              <img src={currentProduct.image} alt={currentProduct.image} />
             </div>
             <div>
               <h4>
-                {currentProduct.preferences} {currentProduct.brand}
+                {currentProduct.foodType} {currentProduct.brand}
               </h4>
               <div>
                 <p>{currentProduct.brand}</p>

@@ -69,44 +69,52 @@ export class WillysScrubber extends Scrubber {
   }
 
   static async setDiscount(productCode) {
-    let type = null;
-    let quantityToBeBought = null;
+    let type = null
+    let quantityToBeBought=null
     let raw = await fetch(
       "https://www.willys.se/axfood/rest/p/" +
-        productCode +
-        WillysHarvester.bustCache()
+      productCode +
+      WillysHarvester.bustCache()
     );
     let formatted = await raw.json();
-
-    if (formatted.potentialPromotions.length != 0) {
-      type = formatted.potentialPromotions[0].campaignType;
-      quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
-    }
-    let discount = new Discount(
-      type,
-      quantityToBeBought,
-      formatted.price,
-      formatted.savingsAmount,
-      Math.round(
-        (parseFloat(formatted.savingsAmount) /
-          parseFloat(formatted.priceNoUnit)) *
-          100
-      ),
-      false
+  
+      if (formatted.potentialPromotions.length != 0) {
+        type = formatted.potentialPromotions[0].campaignType;
+        quantityToBeBought = formatted.potentialPromotions[0].qualifyingCount;
+      }
+      let discount = new Discount(
+        type,
+        quantityToBeBought,
+        formatted.price,
+        formatted.savingsAmount,
+        Math.round(
+          (parseFloat(formatted.savingsAmount) /
+            parseFloat(formatted.priceNoUnit)) *
+            100
+        ),
+        false
     );
+   
+      return discount;
+  
 
-    return discount;
   }
+
 
   //Getting ean for a product
   static async getEan(productCode) {
-    let raw = await fetch(
-      "https://www.willys.se/axfood/rest/p/" +
+   
+  
+   
+      let raw = await fetch(
+        "https://www.willys.se/axfood/rest/p/" +
         productCode +
         WillysHarvester.bustCache()
-    );
-    let formatted = await raw.json();
-    return formatted.ean;
+      );
+      let formatted = await raw.json();
+      return formatted.ean;
+    
+  
   }
 
   //Setting preferences for a product
@@ -121,7 +129,7 @@ export class WillysScrubber extends Scrubber {
     }
     //If not, return null
     else {
-      return null;
+      return null
     }
   }
 }

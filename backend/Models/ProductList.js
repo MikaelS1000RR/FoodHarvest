@@ -1,9 +1,9 @@
 export class ProductList{
-  constructor(uid, name, products, isFavorite) {
+  constructor(listName, totalPrice, shopName, products) {
  
-    this.uid = uid;
-    this.name = name;
+    this.listName = listName;
+    this.totalPrice = totalPrice;
+    this.shopName = shopName;
     this.products = products;
-    this.isFavorite = isFavorite;
   }
 }

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { NavItem, Button } from "reactstrap";
-import { useModal } from "../../contexts/ModalContext";
-import { useAuth } from "../../contexts/AuthContext";
+import { useModal } from "../contexts/ModalContext";
+import { useAuth } from "../contexts/AuthContext";
 
 const UserNav = (props) => {
   const { styles } = props;

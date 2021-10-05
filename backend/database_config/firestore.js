@@ -1,4 +1,5 @@
 import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 // Initialize Firebase
@@ -23,4 +24,6 @@ const backupConfig = {
 };
 const app = firebase.initializeApp(backupConfig);
 
-export default firebase.firestore();
+let firestore = firebase.firestore();
+
+export default firestore;

@@ -1,5 +1,5 @@
 export class Category {
-  constructor( categoryName) {
+  constructor(categoryName) {
     this.categoryName = categoryName;
   }
 
@@ -34,8 +34,8 @@ export class Category {
           return dbCategories[i];
         }
       }
-      
-        
+
+
     }
 
     //If matching category was not found we give it category "Övrigt"
