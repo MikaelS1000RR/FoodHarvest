@@ -7,66 +7,44 @@ export class Preference{
 
 
   //Scrub preferences
-  static scrubPreferences(storePreferencesArr) {
+  static scrubPreferenceIds(storePreferencesArr, dbPreferences) {
     let newPreferencesArr = []
    
  
     
       for (let j = 0; j < storePreferencesArr.length; j++)
       {
-        
+        let preferenceObject;
         if (storePreferencesArr[j] === "swedish_flag") {
-           let preferenceObject = {
-             name: "Svensk Flagga",
-           };
-          newPreferencesArr.push(preferenceObject);
+          preferenceObject = dbPreferences.find(p => p.name === "Svensk Flagga")
         }
      
-        if (storePreferencesArr[j] === "keyhole") {
-         
-           let preferenceObject = {
-             name: "Nyckelhålsmärkt",
-           };
-          newPreferencesArr.push(preferenceObject);
+        else if (storePreferencesArr[j] === "keyhole") {
+          preferenceObject = dbPreferences.find((p) => p.name === "Nyckelhålsmärkt");
         }
-       
         
-        if (storePreferencesArr[j] === "krav") {
-          let preferenceObject = {
-            name: "KRAV-märkt",
-          };
+        else if (storePreferencesArr[j] === "krav") {
+          preferenceObject = dbPreferences.find((p) => p.name === "KRAV-märkt");
+        }
+        else if (storePreferencesArr[j] === "ecological") {
+          preferenceObject = dbPreferences.find((p) => p.name === "Ekologiskt");
+        }
         
-          newPreferencesArr.push(preferenceObject);
+        else if (storePreferencesArr[j] === "laktosfree") {
+          preferenceObject = dbPreferences.find((p) => p.name === "Laktosfritt");
         }
-       if (storePreferencesArr[j] === "ecological") {
-           let preferenceObject = {
-             name: "Ekologiskt",
-           };
+          
+        else if (storePreferencesArr[j] === "fairtrade") {
+          preferenceObject = dbPreferences.find((p) => p.name === "Fairtrade");
+        }
         
-          newPreferencesArr.push(preferenceObject);
+        else if (storePreferencesArr[j] === "glutenfree") {
+          preferenceObject = dbPreferences.find((p) => p.name === "Glutenfritt");
         }
-        if (storePreferencesArr[j] === "laktosfree") {
-           let preferenceObject = {
-             name: "Laktosfritt",
-           };
-        
-          newPreferencesArr.push(preferenceObject);
-        }
-         if (storePreferencesArr[j] === "fairtrade") {
-          let preferenceObject = {
-            name: "Fairtrade",
-          };
-         
-          newPreferencesArr.push(preferenceObject);
-        }
-        if (storePreferencesArr[j] === "glutenfree") {
 
-           let preferenceObject = {
-             name: "Glutenfritt",
-           };
-         
-          newPreferencesArr.push(preferenceObject);
-         } 
+        if (preferenceObject && preferenceObject.id) {
+          newPreferencesArr.push(preferenceObject.id)
+        }
         
         
     }
