@@ -11,7 +11,7 @@ import { Category } from '../Models/Category.js';
 export class MathemScrubber extends Scrubber {
 
   static translateSchema = {
-    productCode: (x) => x.id,
+    productCode: (x) => x.id + " Mathem",
     productName: (x) => x.name,
     price: (x) => x.price,
     quantity: (x) => x.quantity, //300g
