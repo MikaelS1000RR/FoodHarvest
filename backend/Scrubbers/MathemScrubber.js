@@ -34,11 +34,8 @@ export class MathemScrubber extends Scrubber {
 
   static async getInformationFromDb() {
     const mathemFromDb = await FirebaseHandler.getStore("Mathem");
-    // const mathemFromDb = this.getStore();//Must be changed later
-    // console.log(mathemFromDb, "mathemFromDb")
     const preferencesFromDb = await FirebaseHandler.getPreferences();
-    // console.log(preferencesFromDb, "preferencesFromDb")
-    let categoriesFromDb = await FirebaseHandler.getCategories();
+    const categoriesFromDb = await FirebaseHandler.getCategories();
 
     this.storeFromDb = mathemFromDb;
     this.preferencesFromDb = preferencesFromDb;
@@ -60,15 +57,9 @@ export class MathemScrubber extends Scrubber {
   }
 
   static async setPreferences(preferencesToBeScrubbed,productName, badges) {
-    // console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
-    // console.log(productName, "productName")
-    console.log(badges, "badges")
 
     const thePreferencesFromDb = this.preferencesFromDb;
-    // console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
-    let vegetarianSearch = ["vegetarianer", "Vegetarisk", "vegetarisk"];
-    //console.log(pref.name, "forEachtest")
 
     //badges
     if (badges.length > 0) {
