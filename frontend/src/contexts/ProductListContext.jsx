@@ -39,10 +39,10 @@ const ProductListProvider = (props) => {
     setProductLists(null)
   }
 
-  const fetchPrice = async () => {
+  const fetchPrice = async (list) => {
     let hemkopPrices = 0
    
-      for (let product of currentProductList.products) {
+      for (let product of list.products) {
          let productCodeWithoutStoreName = product.productCode.substring(0, 12);
          let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
          let snapshot = await firestore
@@ -57,7 +57,7 @@ const ProductListProvider = (props) => {
          });
        }
      
-      await setHemkopTotalPrice(hemkopPrices + " kr");
+       setHemkopTotalPrice(hemkopPrices + " kr");
     
      
    
@@ -70,9 +70,10 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
+        await setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
-        await setCurrentProductList(lists[0])
-        fetchPrice()
+        
+       
         
       }
     } else {
@@ -151,6 +152,8 @@ const ProductListProvider = (props) => {
     const unsubscribe = auth.onAuthStateChanged( async (user) => {
       if (user != null) {
         await fetchAllLists(user.uid);
+      
+       
        
        
       } else {
@@ -171,6 +174,7 @@ const ProductListProvider = (props) => {
     addIsFavorite,
     resetLists,
     hemkopTotalPrice,
+    fetchPrice
   };
 
   return (
