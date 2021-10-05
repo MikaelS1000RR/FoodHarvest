@@ -10,12 +10,24 @@ const FooterPriceContainer = (props) => {
   const { hemkopTotalPrice, getTotalPriceOfProducts } = useProductList();
 
   useEffect(() => {
-    if (currentProductList) {
-       const getPrice = async () => {
-         await getTotalPriceOfProducts(currentProductList);
-       };
-       getPrice();
-   }
+    
+      const getPrice = async () => {
+
+        if (currentProductList && currentUser)
+        {
+          await getTotalPriceOfProducts(currentProductList);
+        
+        }
+        if (!currentUser) {
+       
+          await getTotalPriceOfProducts(favoriteList);
+        }
+          
+      }
+    
+      getPrice();
+      
+   
  }, );
   
   
@@ -60,12 +72,12 @@ const FooterPriceContainer = (props) => {
           className="hemkopImg"
           style={styles.hemkopImg}
         />
-        <p className="pHemkop" style={styles.pHemkop}>
-          {currentProductList === null
-            ? "loading..."
-            : hemkopTotalPrice}
+        <p className="pHemkop" style={currentUser ? styles.show : styles.hide}>
+          {currentProductList === null ? "loading..." : hemkopTotalPrice}
         </p>
-      
+        <p style={currentUser ? styles.hide : styles.show}>
+         {hemkopTotalPrice}
+        </p>
       </div>
 
       <div className="mathem" style={styles.storeSection}>

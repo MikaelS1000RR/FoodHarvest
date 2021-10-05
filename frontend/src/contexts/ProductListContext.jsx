@@ -34,7 +34,10 @@ const ProductListProvider = (props) => {
   };
   
   const resetLists = () => {
-    setFavoriteList({ products: [], isFavorite: true });
+    setFavoriteList({
+      products: [],
+      isFavorite: true,
+    });
     setCurrentProductList(null)
     setProductLists(null)
   }
