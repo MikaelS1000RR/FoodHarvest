@@ -67,6 +67,7 @@ const styles = {
   container: {
     position: "relative",
     width: "10%",
+   
     border: "solid",
     display: "table",
     borderColor: "#dee2e6",
