@@ -13,13 +13,13 @@ export class MathemScrubber extends Scrubber {
   static translateSchema = {
     productCode: (x) => x.id + " Mathem",
     productName: (x) => x.name,
-    price: (x) => x.price,
-    quantity: (x) => x.quantity + this.setQuantityUnit(x.unit), //300g
-
-    // quantityUnit: (x) => + x.unit,
-    quantityUnit: (x) => this.setQuantityUnit(x.unit),
+    price: (x) => x.price + " kr",
+    
+    quantityUnit: (x) => x.unit,
+    quantity: (x) => x.quantity + x.unit, //300g
+    // quantityUnit: (x) => this.setQuantityUnit(x.unit),
     comparisonUnit: (x) => x.comparisonUnit, //kg
-    comparisonPrice: (x) => x.comparisonPrice, //86.9 kr
+    comparisonPrice: (x) => x.comparisonPrice + " kr", //86.9 kr
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
     // category: (x) => this.setCategory(x.category.name),
@@ -157,7 +157,7 @@ export class MathemScrubber extends Scrubber {
   }
 
   static async setQuantityUnit(quantity) {
-    if (quantity.charAt(quantity.length - 2) === "k") {
+    if (quantity.length == 2) {
       return "kg";
     } else {
       return "g";

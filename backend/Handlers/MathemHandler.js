@@ -21,22 +21,22 @@ export class MathemHandler {
     FirebaseHandler.postProduct(scrubbedMathemProducts);
 
 
-    // function writeToFile(fileName, data) {
-    //   try {
-    //     fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
-    //     console.log("success");
-    //   } catch (err) {
-    //     console.log(err);
-    //   }
-    // }
+    function writeToFile(fileName, data) {
+      try {
+        fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
+        console.log("success");
+      } catch (err) {
+        console.log(err);
+      }
+    }
 
-    // writeToFile(
-    //   "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/getMathemsProducts.txt", getMathemsProducts
-    // );
+    writeToFile(
+      "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/getMathemsProducts.txt", getMathemsProducts
+    );
 
 
-    // writeToFile(
-    //   "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/scrubbedMathemProducts.txt", scrubbedMathemProducts
-    // );
+    writeToFile(
+      "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/scrubbedMathemProducts.txt", scrubbedMathemProducts
+    );
   }
 }
