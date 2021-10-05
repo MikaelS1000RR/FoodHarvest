@@ -1,197 +1,197 @@
 [
   {
-    "productCode": "1446",
+    "productCode": "1446 Mathem",
     "productName": "Gurka Klass1",
     "price": 21.95,
     "quantity": 333,
     "quantityUnit": "g",
     "brand": "Frukt & Grönt",
     "imageUrl": "//static.mathem.se/shared/images/products/original/gurka-klass1-4.jpg",
-    "category": "cNiPNd7hyu6vWFFy1lmG",
+    "category": "r3Xg10TkOGIPshe8LxTu",
     "preferences": [
-      "g9ButyZbFwkOPGoIEJ6T"
+      "zKIo7hqrDzd64uj2nucg"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "53036",
+    "productCode": "53036 Mathem",
     "productName": "Feta",
     "price": 26.95,
     "quantity": 150,
     "quantityUnit": "g",
     "brand": "Zeta",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350002402658_c1n1.jpg",
-    "category": "ccFfGfFAy38EASTHLBoh",
+    "category": "TdRuGpZaElUUUmpwrbJY",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "89089",
+    "productCode": "89089 Mathem",
     "productName": "Skärgårdskaka Hönö",
     "price": 37.95,
     "quantity": 750,
     "quantityUnit": "g",
     "brand": "Pågen",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07311070337297_c1l1.jpg",
-    "category": "FZann3IJZEa4sToDLFhJ",
+    "category": "r3BGf7ToJCX1M03fQgmS",
     "preferences": [
-      "g9ButyZbFwkOPGoIEJ6T"
+      "zKIo7hqrDzd64uj2nucg"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "169119",
+    "productCode": "169119 Mathem",
     "productName": "Vitlöksalami Skivad",
     "price": 23.95,
     "quantity": 100,
     "quantityUnit": "g",
     "brand": "Grilstad",
     "imageUrl": "//static.mathem.se/shared/images/products/original/vitloksalami-skivad-100g-grilstad.jpg",
-    "category": "clByFxoEY5HYZszSY60k",
+    "category": "wmNKMOpxJo8x1tOsOoiQ",
     "preferences": [],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "8469",
+    "productCode": "8469 Mathem",
     "productName": "Coca-Cola Zero Sugar 10x33cl",
     "price": 79.95,
     "quantity": 330,
     "quantityUnit": "g",
     "brand": "Coca-Cola",
     "imageUrl": "//static.mathem.se/shared/images/products/original/coca-cola-zero-sugar-10x33cl.jpg",
-    "category": "8v2ObRO0pfTLz56TZR5B",
+    "category": "IlSvBi8NtSSs8u4Gybxj",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "160549",
+    "productCode": "160549 Mathem",
     "productName": "Majs 3x150g",
     "price": 28.95,
     "quantity": 450,
     "quantityUnit": "g",
     "brand": "Bonduelle",
     "imageUrl": "//static.mathem.se/shared/images/products/original/majs-3x150g-bonduelle-2.jpg",
-    "category": "4DVY7TrE5D8pLkDQXDPB",
+    "category": "JIVHx8U9E7OCfNFuQOG6",
     "preferences": [
-      "l5Zusa3a1H4O64YAy5MC"
+      "P1gi4sNc0NTfAv4ARtrP"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "185499",
+    "productCode": "185499 Mathem",
     "productName": "Regnbågslaxfilé Fryst 4x100g Fisherman",
     "price": 65.95,
     "quantity": 400,
     "quantityUnit": "g",
     "brand": "Fisherman Seafood",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07350011740147_1.jpg",
-    "category": "WV1zq8Fk4aSUd6gWs8r2",
+    "category": "Y5K6i74Nqkynrn8GZmZ1",
     "preferences": [
-      "l5Zusa3a1H4O64YAy5MC"
+      "P1gi4sNc0NTfAv4ARtrP"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "175504",
+    "productCode": "175504 Mathem",
     "productName": "Toalettpapper Classic 18-p",
     "price": 80.95,
     "quantity": 1710,
     "quantityUnit": "g",
     "brand": "LOTUS",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07322541303406_c1n1.jpg",
-    "category": "xqfHaNgAcxTMmNRaYzFJ",
+    "category": "m59dkrUPBfWfBDPJjkwD",
     "preferences": [],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "16259",
+    "productCode": "16259 Mathem",
     "productName": "Karins Lasagne Fryst",
     "price": 26.95,
     "quantity": 390,
     "quantityUnit": "g",
     "brand": "Dafgårds",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07310960016489_g1r1.jpeg.jpg",
-    "category": "BR1EQCcZVpnL3urk3bwW",
+    "category": "WSMMaZrFyRICgrKCkRKm",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "13516",
+    "productCode": "13516 Mathem",
     "productName": "Ahlgrens Bilar Original",
     "price": 17.95,
     "quantity": 160,
     "quantityUnit": "g",
     "brand": "Ahlgrens Bilar",
     "imageUrl": "//static.mathem.se/shared/images/products/original/ahlgrens-bilar-original-160g.jpg",
-    "category": "14ifdv1IPwYhMBUYjKNS",
+    "category": "HwEINcRR5T8l7f5gKMEL",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "173945",
+    "productCode": "173945 Mathem",
     "productName": "Klämpåse Smoothie Äpple, Persika & Banan EKO",
     "price": 11.95,
     "quantity": 100,
     "quantityUnit": "g",
     "brand": "Favorit",
     "imageUrl": "//static.mathem.se/shared/images/products/original/-apple--persika-o-banan-eko-100g-favorit.jpg",
-    "category": "kWBOJ6nFLSWoqH3a9bKG",
+    "category": "IUPgoUWrzAp7CE8oOjpV",
     "preferences": [
-      "pTfHWqOnPkh0WiEolFSN"
+      "7yiFWtq0QjuRnV7vATvf"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "161554",
+    "productCode": "161554 Mathem",
     "productName": "Tandkräm Caries Defense",
     "price": 22.95,
     "quantity": 75,
     "quantityUnit": "g",
     "brand": "JORDAN",
     "imageUrl": "//static.mathem.se/shared/images/products/original/tandkram-caries-defense-75ml-jordan.jpg",
-    "category": "CwPTZ6ybAj7tsszenRZN",
+    "category": "0ws7ntdufmNYpqQmC6Yf",
     "preferences": [
-      "g9ButyZbFwkOPGoIEJ6T"
+      "zKIo7hqrDzd64uj2nucg"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "18741",
+    "productCode": "18741 Mathem",
     "productName": "Koriander Kruka EKO Klass1",
     "price": 26.95,
     "quantity": 1,
     "quantityUnit": "g",
     "brand": "Orto Novo AB",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07313300000940_c1n1.jpg",
-    "category": "kWBOJ6nFLSWoqH3a9bKG",
+    "category": "IUPgoUWrzAp7CE8oOjpV",
     "preferences": [
-      "pTfHWqOnPkh0WiEolFSN",
-      "g9ButyZbFwkOPGoIEJ6T"
+      "7yiFWtq0QjuRnV7vATvf",
+      "zKIo7hqrDzd64uj2nucg"
     ],
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "141253",
+    "productCode": "141253 Mathem",
     "productName": "Kattmat Kött i Sås Multipack 12x85g",
     "price": 61.95,
     "quantity": 1020,
     "quantityUnit": "g",
     "brand": "Mjau",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07300330035189_c1l1.jpeg.jpg",
-    "category": "kWBOJ6nFLSWoqH3a9bKG",
+    "category": "IUPgoUWrzAp7CE8oOjpV",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
-    "productCode": "98325",
+    "productCode": "98325 Mathem",
     "productName": "Amelia",
     "price": 59,
     "quantity": 1,
     "quantityUnit": "g",
     "brand": "Tidsam",
     "imageUrl": "//static.mathem.se/shared/images/products/original/amelia-tidsam-2360.jpg",
-    "category": "yjvKEbXwL4y0w4N9qACv",
+    "category": "f7npDIMYDCWdDgIEYV5Y",
     "preferences": null,
-    "store": "8Rp1iq1eMyjrT1TUQKxk"
+    "store": "Sx7pI35xki2RJW9fQa2g"
   }
 ]
