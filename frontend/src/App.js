@@ -7,7 +7,7 @@ import ProductInfoProvider from "./contexts/ProductInfoContext";
 
 import Home from "./pages/Home";
 import Category from "./pages/Category";
-import MyProductList from "./pages/MyProductList";
+import MyProductLists from "./pages/MyProductLists";
 import MyProfile from "./pages/MyProfile";
 import Page404 from "./pages/Page404";
 
@@ -18,8 +18,6 @@ import CategoryModal from "./components/modals/CategoryModal";
 import DetailModal from "./components/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
-import FooterPriceContainer from "./components/home/FooterPriceContainer";
-import MyListsPage from "./pages/MyListsPage";
 
 function App() {
   return (
@@ -44,13 +42,8 @@ function App() {
                         />
                         <Route
                           exact
-                          path="/myProductList/:id"
-                          component={MyProductList}
-                        />
-                        <Route
-                          exact
-                          path="/myListsPage/"
-                          component={MyListsPage}
+                          path="/myProductLists/"
+                          component={MyProductLists}
                         />
                         <Route exact path="/myProfile/" component={MyProfile} />
                         <Route path="*" component={Page404} />
@@ -61,10 +54,7 @@ function App() {
                       <CategoryModal />
                       <AddListModal />
                     </main>
-                    <footer>
-                      <div className="space" style={styles.space}></div>
-                      <FooterPriceContainer />
-                    </footer>
+                    <footer></footer>
                   </Router>
                 </ProductInfoProvider>
               </ProductListProvider>
@@ -77,10 +67,3 @@ function App() {
 }
 
 export default App;
-
-const styles = {
-  space: {
-    height: "20vh",
-    background:"pink"
-  }
-}

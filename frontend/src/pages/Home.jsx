@@ -1,28 +1,26 @@
 import ProductCard from "../components/home/ProductCard";
-import data from "../testData.js"; // will be removed when real data is fetched
+import data from '../testData.js' // will be removed when real data is fetched
 import React from "react";
-import Search from "../components/search/Search";
-
-import firestore from "../database_config/firestore";
-import { useState, useEffect } from "react";
+import SearchBar from "../components/SearchBar";
+import firestore from '../database_config/firestore';
+import { useState, useEffect } from 'react';
 
 const Home = () => {
+
   const [products, setproducts] = useState(null);
-
-  useEffect(() => {
+  
+    useEffect(() => {
     listenForproducts();
-  }, []);
-
-  const listenForproducts = () => {
-    firestore.collection("test-products").onSnapshot(
+    }, []);
+  
+    const listenForproducts = () => {
+    firestore.collection('test-products').onSnapshot(
       (snapshot) => {
         // Loop through the snapshot and collect
         // the necessary info we need. Then push
         // it into our array
         const allproducts = [];
-        snapshot.forEach((doc) =>
-          allproducts.push({ id: doc.id, ...doc.data() })
-        );
+        snapshot.forEach((doc) => allproducts.push({ id: doc.id, ...doc.data() }));
 
         // Set the collected array as our state
         setproducts(allproducts);
@@ -31,15 +29,16 @@ const Home = () => {
     );
   };
 
-  if (!products) {
-    return <div>Loading...</div>;
-  } else if (!products.length) {
-    return <div>There's no products yet...</div>;
-  } else {
+    if (!products) {
+    return (<div>Loading...</div>)
+  }
+  else if (!products.length) {
+    return (<div>There's no products yet...</div>)
+  }
+  else {
     return (
       <div className="container" style={styles.container}>
-        <Search />
-
+        <SearchBar />
         <div className="row gy-3">
           {products.map((p, index) => (
             <ProductCard
@@ -48,19 +47,20 @@ const Home = () => {
               product={p}
               classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
               buttonText="Lägg till"
-            />
+              />
           ))}
         </div>
+     
       </div>
     );
   }
-};
-
+}
+ 
 export default Home;
 
 const styles = {
   container: {
     minWidth: "100vw",
-    background: "pink",
+    background: "pink"
   },
 };

@@ -12,7 +12,7 @@ const UserNav = (props) => {
       <Button
         className="text-white bg-transparent btn-outline-primary"
         >
-        <Link to="/myListsPage/" className="text-white" style={styles.link}>
+        <Link to="/myProductLists/" className="text-white" style={styles.link}>
           Inköpslistor
         </Link>
       </Button>
@@ -24,19 +24,16 @@ const UserNav = (props) => {
           Kategorier
         </Button>
       </NavItem>
-      <Button className="text-white bg-transparent btn-outline-primary">
+      <Button
+        className="text-white bg-transparent btn-outline-primary"
+      >
         <Link to="/myProfile/" className="text-white" style={styles.link}>
           Mina sidor
         </Link>
       </Button>
       <NavItem>
         <Link to="/" className="text-white" style={styles.link}>
-          <Button
-            className="text-white bg-transparent btn-outline-primary"
-            onClick={logout}
-          >
-            Logga ut
-          </Button>
+          <Button className="text-white bg-transparent btn-outline-primary" onClick={logout}>Logga ut</Button>
         </Link>
       </NavItem>
     </>
