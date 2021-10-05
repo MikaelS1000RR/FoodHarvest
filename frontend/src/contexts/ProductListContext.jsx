@@ -15,7 +15,9 @@ const ProductListProvider = (props) => {
   });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
-  const [hemkopTotalPrice, setHemkopTotalPrice]=useState(0)
+  const [hemkopTotalPrice, setHemkopTotalPrice] = useState(0)
+  const [willysTotalPrice, setWillysTotalPrice] = useState(0)
+  const [productNotFound, setProductNotFound]= useState([])
 
   const fetchProductLists = async (userId) => {
     const ref = firestore.collection("product-lists");
@@ -65,23 +67,64 @@ const ProductListProvider = (props) => {
 
   const getTotalPriceOfProducts = async (list) => {
     let hemkopPrices = 0
+   // let willysPrices=0
+    let hemkopProducts = []
+    //let willysProducts=[]
+    
    
       for (let product of list.products) {
          let productCodeWithoutStoreName = product.productCode.substring(0, 12);
-         let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
-         let snapshot = await firestore
+        let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
+        //let willysProductCode = productCodeWithoutStoreName + "willys"
+        
+
+         //Hemkop
+        let snapshot = await firestore
            .collection("test-products-hemkop") //Change this to "products" later
            .where("productCode", "==", hemkopProductCode)
            .limit(1)
            .get();
         snapshot.forEach((doc) => {
-          let stringPrice =doc.data().price;
          
-         hemkopPrices += parseFloat(stringPrice);
-         });
-       }
+          hemkopProducts.push(doc.data())
+          let stringPrice = doc.data().price;
+          hemkopPrices += parseFloat(stringPrice);
+         
+        });
+        
+
+
+      //Willys
+      /*   let snapshot2 = await firestore
+           .collection("products") //Change this to "products" later
+           .where("productCode", "==", willysProductCode)
+           .limit(1)
+           .get();
+        snapshot2.forEach((doc) => {
+         
+          willysProducts.push(doc.data())
+          let stringPrice = doc.data().price;
+          willysPrices += parseFloat(stringPrice);
+         }); */
+    }
+
+
+  
+
+    
+
+    //If products were not found
+    if (hemkopProducts.length < list.products.length) {
+      console.log("products not found")
+      setProductNotFound(...productNotFound, "hemkop")
+    }
+   /*  if (willysProducts.length < list.products.length) {
+      setProductNotFound(...productNotFound, "willys")
+    } */
+   
      
-       setHemkopTotalPrice(hemkopPrices + " kr");
+    setHemkopTotalPrice(hemkopPrices + " kr");
+  //setWillysTotalPrice(willysPrices + " kr")
     
      
    
@@ -96,12 +139,10 @@ const ProductListProvider = (props) => {
       if (lists.length > 0) {
         await setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
-        
-       
-        
+      
       }
     } else {
-      console.log("there is no current list");
+     
       createFavoriteList(userId);
       fetchAllLists(userId);
     }
@@ -200,6 +241,8 @@ const ProductListProvider = (props) => {
     getTotalPriceOfProducts,
     fetchProductLists,
     fetchListById,
+    willysTotalPrice,
+    productNotFound,
   };
 
   return (

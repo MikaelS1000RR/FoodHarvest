@@ -7,7 +7,8 @@ const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
-  const { hemkopTotalPrice, getTotalPriceOfProducts } = useProductList();
+  const { hemkopTotalPrice, willysTotalPrice, getTotalPriceOfProducts } =
+    useProductList();
 
   useEffect(() => {
     
@@ -15,6 +16,7 @@ const FooterPriceContainer = (props) => {
 
         if (currentProductList && currentUser)
         {
+         
           await getTotalPriceOfProducts(currentProductList);
         
         }
@@ -62,7 +64,7 @@ const FooterPriceContainer = (props) => {
           className="willysImg"
           style={styles.storeImg}
         />
-        <p>2 kr</p>
+        <p> {currentProductList === null ? "loading..." : willysTotalPrice}</p>
       </div>
 
       <div className="hemkop" style={styles.storeSection}>
@@ -76,7 +78,7 @@ const FooterPriceContainer = (props) => {
           {currentProductList === null ? "loading..." : hemkopTotalPrice}
         </p>
         <p style={currentUser ? styles.hide : styles.show}>
-         {hemkopTotalPrice}
+          {hemkopTotalPrice}
         </p>
       </div>
 
