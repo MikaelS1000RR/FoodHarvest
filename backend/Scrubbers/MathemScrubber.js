@@ -149,8 +149,11 @@ export class MathemScrubber extends Scrubber {
 
       })
     }
-
-    return scrubbedPreferences;
+    if (scrubbedPreferences.length > 0) {
+      return scrubbedPreferences;
+    } else {
+      return null;
+    }
   }
 
   static async setQuantityUnit(quantity) {

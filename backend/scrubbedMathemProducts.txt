@@ -102,7 +102,7 @@
     "brand": "LOTUS",
     "imageUrl": "//static.mathem.se/shared/images/products/original/07322541303406_c1n1.jpg",
     "category": "m59dkrUPBfWfBDPJjkwD",
-    "preferences": [],
+    "preferences": null,
     "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {
