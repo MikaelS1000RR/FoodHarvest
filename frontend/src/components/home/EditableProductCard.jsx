@@ -1,12 +1,11 @@
 import FavoriteButton from "./FavoriteButton";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
-import AddProductButton from "./AddProductButton";
 
-const ProductCard = (props) => {
+const EditableProductCard = (props) => {
   const { product, classNames, index } = props;
 
-  const { toggleDetailModal } = useModal()
+  const { toggleDetailModal } = useModal();
   const { setCurrentProduct } = useProductInfo();
 
   return (
@@ -28,6 +27,7 @@ const ProductCard = (props) => {
             />
           </div>
           <div className="card-body">
+            <h3>{ product.brand }</h3>
             <div>
               <h5 className="card-title">{product.productName}</h5>
               <p className="card-title">{product.brand}</p>
@@ -35,15 +35,12 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button}>
-          <AddProductButton product={product} />
-        </div>
       </div>
     </div>
   );
 };
 
-export default ProductCard;
+export default EditableProductCard;
 
 const styles = {
   container: {

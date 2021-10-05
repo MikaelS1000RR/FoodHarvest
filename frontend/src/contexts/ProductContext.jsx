@@ -9,6 +9,15 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
 
+  const fetchProductsByCode = async (productCodes) => {
+    const docs = [];
+    await productCodes.forEach((code) => {
+      let snapshot = firestore.collection("products").where("productCode", "==", code).get();
+      snapshot.forEach((doc) => { docs.push({ id: doc.id, ...doc.data() }); })
+    })
+    return docs;
+  }
+
   const fetchProductsByCategory = async (category) => {
     // const productCollection = "products-test"
     const productCollection = "test-products-hemkop"
@@ -26,6 +35,7 @@ const ProductProvider = (props) => {
 
   const values = {
     fetchProductsByCategory,
+    fetchProductsByCode,
   };
 
   return (

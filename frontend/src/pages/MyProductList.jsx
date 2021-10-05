@@ -1,25 +1,35 @@
-import ProductListCard from "../components/ProductListCard";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext.jsx";
-import ProductCard from "../components/home/ProductCard";
-import firestore from "../database_config/firestore";
+import { useProduct } from "../contexts/ProductContext.jsx";
+import EditableProductCard from "../components/home/EditableProductCard";
 import { useParams } from "react-router";
 
 const MyProductList = () => {
   let { id } = useParams();
   const { fetchListById } = useProductList();
+  const { fetchProductsByCode } = useProduct();
   const [products, setproducts] = useState(null);
   const [list, setList] = useState(null);
 
   useEffect(() => {
-    const getProducts = async () => {
+    let productCodes = [];
+    const getList = async () => {
       let list = await fetchListById(id);
       setList(list);
-      let products = list.products;
-      setproducts(products);
+      for (let product of list.products) {
+        productCodes.push(product.productCode);
+      }
+      console.log(productCodes)
     };
-    getProducts();
+    const getProducts = async () => {
+      let products = await fetchProductsByCode(productCodes);
+      setproducts(products);
+      console.log(products);
+    }
+    getList().then(getProducts());
   }, []);
+
+
 
   if (!list) {
     return <div>Loading...</div>;
@@ -30,13 +40,13 @@ const MyProductList = () => {
         <div className="row gy-3">
           {products &&
             products.map((p, index) => (
-              <ProductCard
+              <EditableProductCard
                 index={index}
                 key={index}
                 product={p}
                 classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
                 buttonText="Lägg till"
-              />
+                />
             ))}
         </div>
       </div>
