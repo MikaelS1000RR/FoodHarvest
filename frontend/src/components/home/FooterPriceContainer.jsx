@@ -7,16 +7,15 @@ const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
-  const {hemkopTotalPrice, fetchPrice}=useProductList()
+  const { hemkopTotalPrice, getTotalPriceOfProducts } = useProductList();
 
   useEffect(() => {
     if (currentProductList) {
        const getPrice = async () => {
-         await fetchPrice(currentProductList);
+         await getTotalPriceOfProducts(currentProductList);
        };
        getPrice();
    }
- 
  }, );
   
   

@@ -39,7 +39,7 @@ const ProductListProvider = (props) => {
     setProductLists(null)
   }
 
-  const fetchPrice = async (list) => {
+  const getTotalPriceOfProducts = async (list) => {
     let hemkopPrices = 0
    
       for (let product of list.products) {
@@ -174,7 +174,7 @@ const ProductListProvider = (props) => {
     addIsFavorite,
     resetLists,
     hemkopTotalPrice,
-    fetchPrice
+    getTotalPriceOfProducts,
   };
 
   return (
