@@ -24,8 +24,11 @@ const ProductProvider = (props) => {
     return docs;
   };
 
+
+
   const values = {
     fetchProductsByCategory,
+    
   };
 
   return (
