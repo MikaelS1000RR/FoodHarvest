@@ -14,7 +14,7 @@ export class MathemScrubber extends Scrubber {
     productCode: (x) => x.id + " Mathem",
     productName: (x) => x.name,
     price: (x) => x.price,
-    quantity: (x) => x.quantity, //300g
+    quantity: (x) => x.quantity + this.setQuantityUnit(x.unit), //300g
 
     // quantityUnit: (x) => + x.unit,
     quantityUnit: (x) => this.setQuantityUnit(x.unit),
