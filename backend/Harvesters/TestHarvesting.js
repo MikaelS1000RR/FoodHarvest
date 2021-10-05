@@ -10,14 +10,6 @@ export class TestHarvesting {
 
     // let rawData = await WillysHarvester.getCategories();
     // let categories = rawData.children; //Getting all BASIC categories of willys
-
-      // Categories 
-    MathemScrubber.getInformationFromDb();
-    // ----------------------------------------------------------
-      let mathemsCategories = await MathemHarvester.getCategories();
-    let getMathemsProducts = await MathemHarvester.getProductsFromCategories(mathemsCategories);
-    let scrubbedMathemProducts = await MathemScrubber.scrubAll(getMathemsProducts);
-    
     function writeToFile(fileName, data) {
       try {
         fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
@@ -26,6 +18,18 @@ export class TestHarvesting {
         console.log(err);
       }
     }
+      // Categories 
+    MathemScrubber.getInformationFromDb();
+    // ----------------------------------------------------------
+      let mathemsCategories = await MathemHarvester.getCategories();
+    let getMathemsProducts = await MathemHarvester.getProductsFromCategories(mathemsCategories);
+    let scrubbedMathemProducts = await MathemScrubber.scrubAll(getMathemsProducts);
+    
+    writeToFile(
+      "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/getMathemsProducts.txt", getMathemsProducts
+    );
+    
+    
       writeToFile(
         "C:/Users/Jonathan/Documents/GitHub/FoodHarvest/backend/scrubbedMathemProducts.txt", scrubbedMathemProducts
     );

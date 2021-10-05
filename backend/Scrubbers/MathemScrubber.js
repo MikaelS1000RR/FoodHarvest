@@ -47,12 +47,10 @@ export class MathemScrubber extends Scrubber {
 
   static async setCategory(categoryName) {
     let categoriesFromDb = this.categoriesFromDb;
-    // console.log(categoriesFromDb.name, "categoriesFromDb")
     let result = categoryName;
-    
+
     categoriesFromDb.forEach((category) => {
       if (category.name == categoryName) {
-        // console.log(category.id, "categoriesFromDb")
         result = category.id;
       }
       
