@@ -62,9 +62,9 @@ function App() {
                       <AddListModal />
                     </main>
                   
-                      <FooterPriceContainer />
+                      <FooterPriceContainer 
                       <div className="space" style={styles.space}></div>
-                    
+                       />
                   </Router>
                 </ProductInfoProvider>
               </ProductListProvider>
