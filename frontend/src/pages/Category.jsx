@@ -10,6 +10,7 @@ import { useAuth } from "../contexts/AuthContext";
 const Category = (props) => {
   // console.log(props, "In categories")
   const categoryName = props.match.params.name;
+  const [category, setCategory] = useState(null)
   const [products, setProducts] = useState([])
   const { fetchProducts } = useProduct();
   const { getCategoryByName } = useCategory();
@@ -18,22 +19,24 @@ const Category = (props) => {
   const { currentUser } = useAuth()
   
   useEffect(() => {
-    const getCategory = async () => {
+    const getCategoryProducts = async () => {
       let category = await getCategoryByName(categoryName);
-      console.log("current user:", currentUser);
-      console.log("favorites");
-      console.log(favoriteList);
+      setCategory(category)
       let docs = await fetchProducts({ category, favoriteList });
       setProducts(docs);
-      console.log("fetching products DONE");
     }
-    getCategory();
-  }, [categoryName, currentUser, favoriteList])
+    getCategoryProducts();
+  }, [categoryName])
 
   useEffect(() => {
-    console.log("favoriteList change");
-      // let docs = addIsFavorite(products);
-      // setProducts(docs);
+    const getCategoryProducts = async () => {
+      if (currentUser && currentUser.uid === favoriteList.uid) {
+        let docs = await fetchProducts({ category, favoriteList });
+        setProducts(docs);
+      }
+    }
+    getCategoryProducts();
+    
   }, [favoriteList])
 
   return (
