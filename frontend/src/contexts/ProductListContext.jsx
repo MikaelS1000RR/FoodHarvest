@@ -1,6 +1,6 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import firestore from "../database_config/firestore";
-import { auth } from "../database_config/firestore"
+import { auth } from "../database_config/firestore";
 
 const ProductListContext = createContext();
 
@@ -52,7 +52,7 @@ const ProductListProvider = (props) => {
         fetchAllLists(list.uid);
         return true;
       }
-    } catch {}
+    } catch { }
     return false;
   };
 
@@ -77,6 +77,41 @@ const ProductListProvider = (props) => {
       createFavoriteList(userId);
       fetchAllLists(userId);
     }
+  };
+
+  const fetchLists = async (userId, isFavorite) => {
+    const snapshot = await firestore
+      .collection("product-lists")
+      .where("uid", "==", userId)
+      .where("isFavorite", "==", isFavorite)
+      .get();
+    let lists = [];
+    snapshot.forEach((doc) => {
+      if (isFavorite) {
+        lists = { id: doc.id, ...doc.data() };
+        return;
+      }
+      lists.push({ id: doc.id, ...doc.data() });
+    });
+    return lists;
+  };
+
+  const createFavoriteList = async (userId) => {
+    let newFavoriteList = {
+      uid: userId,
+      name: "Favorite",
+      isFavorite: true,
+    };
+    addProductList(newFavoriteList);
+  };
+
+  const updateProductToList = async (list, product, toAdd, currentUser) => {
+    let data = {
+      list: list,
+      product: product,
+      toAdd: toAdd,
+      user: currentUser,
+    };
     try {
       let res = await fetch("/api/product-list", {
         method: "PUT",
@@ -95,7 +130,7 @@ const ProductListProvider = (props) => {
         }
         return true;
       }
-    } catch {}
+    } catch { }
     return false;
   };
 
@@ -105,13 +140,8 @@ const ProductListProvider = (props) => {
       let isFavorite = !!favorites.products.find((p) => p === product.id);
       product.isFavorite = isFavorite;
     }
-    catch {
-      console.log("adding list failed");
-      return false;
-    }
-    fetchProductLists(newProductList.uid);
-    return true;
-  }
+    return products;
+  };
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
@@ -125,6 +155,7 @@ const ProductListProvider = (props) => {
   }, []);
 
   const values = {
+    favoriteList,
     currentProductList,
     setCurrentProductList,
     productLists,
@@ -142,6 +173,6 @@ const ProductListProvider = (props) => {
       {props.children}
     </ProductListContext.Provider>
   );
-}
- 
+};
+
 export default ProductListProvider;
