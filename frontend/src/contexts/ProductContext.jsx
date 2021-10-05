@@ -9,23 +9,30 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
 
-  const fetchProductsByCategory = async (category) => {
-    // const productCollection = "products-test"
-    const productCollection = "test-products-hemkop"
-    const docs = [];
-    let snapshot = await firestore
-      .collection(productCollection)
-      .where("category", "==", category.id)
-      .limit(20)
-      .get();
-    snapshot.forEach((doc) => {
-      docs.push({ id: doc.id, ...doc.data() });
-    })
-    return docs;
+  const fetchProducts = async (options) => {
+    console.log("hämta produkter by kategorier");
+    let data = {
+      categoryId: options.category.id,
+      favoriteList: options.favoriteList
+    };
+    let res = await fetch("/rest/products", {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    res = await res.json();
+    console.log(res);
+    if (res.success && res.products) {
+      return res.products;
+    }
+    return [];
   };
 
   const values = {
-    fetchProductsByCategory,
+    fetchProducts,
   };
 
   return (
