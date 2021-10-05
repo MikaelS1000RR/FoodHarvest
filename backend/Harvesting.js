@@ -15,8 +15,8 @@ export class Harvesting {
     const productCollection = "test-products";
     await FirebaseHandler.deleteCollection(productCollection);
 
-    // WillysHandler.run(productCollection);
-    // HemkopHandler.run(productCollection);
+    WillysHandler.run(productCollection);
+    HemkopHandler.run(productCollection);
     MathemHandler.run(productCollection);
   }
 
