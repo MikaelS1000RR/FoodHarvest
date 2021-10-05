@@ -26,22 +26,25 @@ const CategoryProvider = (props) => {
     )
   };
 
-  const getCategoryDocRef = async (categoryName) => {
-    let docs = await firestore.collection('categories').where('name', '==', categoryName).get();
+  const getCategoryByName = async (categoryName) => {
+    let docs = await firestore
+      .collection("categories")
+      .where("name", "==", categoryName)
+      .get();
     let toReturn = "";
-    docs.forEach(doc => {
-      if (doc.ref) {
-        toReturn = doc.ref;
+    docs.forEach((doc) => {
+      if (doc) {
+        toReturn = {id: doc.id, ...doc.data()}};
         return;
       }
-    })
+    );
     return toReturn;
-  }
+  };
   
   const values = {
     categories,
     fetchCategories,
-    getCategoryDocRef,
+    getCategoryByName,
   };
 
   return (

@@ -41,7 +41,7 @@ const Home = () => {
         <Search />
 
         <div className="row gy-3">
-          {products.map((p, index) => (
+          {/* {products.map((p, index) => (
             <ProductCard
               index={index}
               key={index}
@@ -49,7 +49,7 @@ const Home = () => {
               classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
               buttonText="Lägg till"
             />
-          ))}
+          ))} */}
         </div>
       </div>
     );

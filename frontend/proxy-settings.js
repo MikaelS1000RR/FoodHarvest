@@ -16,13 +16,13 @@ module.exports = {
     // where you want to run the react-dev-server
     react: 3456,
     // where you serve your api (make sure to serve it on that port)
-    api: 3001
+    api: 4000
   },
   // a path to an optional script to run after builds
   postBuildScript: './postBuildScript.js',
   // a function that should return true if the backend-api 
   // is to handle the request (add your own logic here as needed)
   handleWithAPI(url) {
-    return url.indexOf('/api/') === 0;
+    return url.indexOf("/api/") === 0 || url.indexOf("/rest/") === 0;
   }
 };

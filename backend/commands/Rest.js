@@ -16,7 +16,7 @@ export class Rest {
       try {
         let products = [];
         let snapshot = await firestore
-          .collection("products")
+          .collection("test-products")
           .where("category", "==", categoryId)
           .limit(limit)
           .get();
@@ -38,9 +38,10 @@ export class Rest {
       try {
         let products = [];  
         let snapshot = await firestore
-          .collection("products")
+          .collection("test-products")
           .where("productName", ">=", search)
-          .orderBy("productName").startAt(search)
+          .orderBy("productName")
+          .startAt(search)
           .limit(limit)
           .get();
         snapshot.forEach((doc) => {

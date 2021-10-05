@@ -3,7 +3,7 @@ import { MathemScrubber } from "../Scrubbers/MathemScrubber.js";
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class MathemHandler {
-  static async run() {
+  static async run(collection) {
     
     // Categories 
     MathemScrubber.getInformationFromDb();
@@ -16,7 +16,7 @@ export class MathemHandler {
     let scrubbedMathemProducts = await MathemScrubber.scrubAll(getMathemsProducts);
 
     //Posting
-    FirebaseHandler.postProduct(scrubbedMathemProducts);
+    FirebaseHandler.postProduct(collection, scrubbedMathemProducts);
 
   }
 }

@@ -101,10 +101,10 @@ export class FirebaseHandler {
   }
   //Another way to post products
 
-  static async postProduct(products) {
+  static async postProduct(collection, products) {
     for (let i = 0; i < products.length; i++) {
       let productToPost = products[i];
-      firestore.collection("mathemTest").doc().set(productToPost);
+      firestore.collection(collection).doc().set(productToPost);
     }
     console.log("Posted product in db!");
   }
