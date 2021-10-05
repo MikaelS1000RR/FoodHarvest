@@ -7,7 +7,8 @@ const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
-  //const { fetchProductByStoreAndProductId } = useProduct()
+  const {hemkopTotalPrice}=useProductList()
+
  
 
 
@@ -62,8 +63,11 @@ const FooterPriceContainer = (props) => {
           style={styles.hemkopImg}
         />
         <p className="pHemkop" style={styles.pHemkop}>
-        {currentProductList===null? "loading...": "not loading"}
+          {currentProductList === null
+            ? "loading..."
+            : hemkopTotalPrice}
         </p>
+      
       </div>
 
       <div className="mathem" style={styles.storeSection}>

@@ -12,6 +12,7 @@ const ProductListProvider = (props) => {
   const [favoriteList, setFavoriteList] = useState({ products: [], isFavorite: true });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
+  const [hemkopTotalPrice, setHemkopTotalPrice]=useState(0)
 
   const addProductList = async (list) => {
     try {
@@ -28,7 +29,7 @@ const ProductListProvider = (props) => {
         fetchAllLists(list.uid);
         return true;
       }
-    } catch {}
+    } catch { }
     return false;
   };
   
@@ -37,6 +38,30 @@ const ProductListProvider = (props) => {
     setCurrentProductList(null)
     setProductLists(null)
   }
+
+  const fetchPrice = async () => {
+    let hemkopPrices = 0
+   
+      for (let product of currentProductList.products) {
+         let productCodeWithoutStoreName = product.productCode.substring(0, 12);
+         let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
+         let snapshot = await firestore
+           .collection("test-products-hemkop")
+           .where("productCode", "==", hemkopProductCode)
+           .limit(1)
+           .get();
+        snapshot.forEach((doc) => {
+          let stringPrice =doc.data().price;
+         
+         hemkopPrices += parseFloat(stringPrice);
+         });
+       }
+     
+      await setHemkopTotalPrice(hemkopPrices + " kr");
+    
+     
+   
+ }
 
   const fetchAllLists = async (userId) => {
     let favorite = await fetchLists(userId, true);
@@ -47,6 +72,8 @@ const ProductListProvider = (props) => {
       if (lists.length > 0) {
         console.log("setting current list ", lists[0])
         await setCurrentProductList(lists[0])
+        fetchPrice()
+        
       }
     } else {
       console.log("there is no current list");
@@ -121,9 +148,11 @@ const ProductListProvider = (props) => {
   };
 
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
+    const unsubscribe = auth.onAuthStateChanged( async (user) => {
       if (user != null) {
-        fetchAllLists(user.uid);
+        await fetchAllLists(user.uid);
+       
+       
       } else {
         resetLists()
       }
@@ -141,6 +170,7 @@ const ProductListProvider = (props) => {
     updateProductToList,
     addIsFavorite,
     resetLists,
+    hemkopTotalPrice,
   };
 
   return (
