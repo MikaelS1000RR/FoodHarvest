@@ -1,10 +1,10 @@
 import fs from "fs";
-import { HemkopHarvester } from "../Harvesters/HemkopHarvester.js";
+import { HemkopHarvester } from "./HemkopHarvester.js";
 import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
-export class HemkopHandler {
-  static async run(collection) {
+export class HemkopHarvestScrub {
+  static async run() {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
 
@@ -18,6 +18,6 @@ export class HemkopHandler {
     });
 
     // Posting scrubbed products into db
-    FirebaseHandler.postProductsInBatch(collection, scrubbedHemkopProducts);
+    FirebaseHandler.postProductsInBatch(scrubbedHemkopProducts);
   }
 }

@@ -1,5 +1,5 @@
-import firestore from "../database_config/firestore.js";
-import { ProductList } from "../Models/ProductList.js";
+import firestore from "./database_config/firestore.js";
+import { ProductList } from "./Models/ProductList.js";
 
 export class Api {
   constructor(app) {

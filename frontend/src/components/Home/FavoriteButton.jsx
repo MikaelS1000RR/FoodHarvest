@@ -1,20 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext"
 
 const FavoriteButton = (props) => {
-  const { styles, product } = props
-  const [isToggle, setIsToggle] = useState(product.isFavorite || false);
+  const { styles, product} = props
+  const [ isToggle, setIsToggle ] = useState(product.isFavorite || false);
   const { favoriteList, updateProductToList } =
     useProductList();
   const { currentUser } = useAuth();
-
-  useEffect(() => {
-    if (product.isFavorite !== undefined) {
-      setIsToggle(product.isFavorite)
-    }
-    
-  }, [product])
 
   const toggle = async () => {
     let toAdd = !isToggle
@@ -28,8 +21,6 @@ const FavoriteButton = (props) => {
       setIsToggle(!isToggle);
     }
   }
-
-
 
   return (
     <div className="favorite-button" style={styles.container}>

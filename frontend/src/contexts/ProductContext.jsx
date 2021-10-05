@@ -1,4 +1,5 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useContext, useEffect } from "react";
+import firestore from '../database_config/firestore'
 
 const ProductContext = createContext();
 
@@ -8,30 +9,23 @@ export const useProduct = () => {
 
 const ProductProvider = (props) => {
 
-  const fetchProducts = async (options) => {
-    if (!options.category) {
-      return [];
-    }
-    let data = {
-      categoryId: options.category.id,
-    };
-    let res = await fetch("/rest/products", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    res = await res.json();
-    if (res.success && res.products) {
-      return res.products;
-    }
-    return [];
+  const fetchProductsByCategory = async (category) => {
+    // const productCollection = "products-test"
+    const productCollection = "test-products-hemkop"
+    const docs = [];
+    let snapshot = await firestore
+      .collection(productCollection)
+      .where("category", "==", category.id)
+      .limit(1)
+      .get();
+    snapshot.forEach((doc) => {
+      docs.push({ id: doc.id, ...doc.data() });
+    })
+    return docs;
   };
 
   const values = {
-    fetchProducts,
+    fetchProductsByCategory,
   };
 
   return (

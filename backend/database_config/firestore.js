@@ -1,5 +1,4 @@
 import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
 // Initialize Firebase
@@ -22,8 +21,6 @@ const backupConfig = {
   messagingSenderId: "860549266983",
   appId: "1:860549266983:web:4cbe3cf5dc1b45d6ffd802",
 };
-const app = firebase.initializeApp(backupConfig);
+const app = firebase.initializeApp(config);
 
-let firestore = firebase.firestore();
-
-export default firestore;
+export default firebase.firestore();
