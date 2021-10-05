@@ -32,11 +32,13 @@ export class HemkopHarvester {
 
       // for (let i = 0; i < hemkopProducts.length; i++)
       // *************temp looping 3 products in each category**************
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < hemkopProducts.length; i++) {
         hemkopProducts[i].category = this.refineCategory(
           hemkopCategory.title,
           foodHarvesterCategories
         );
+        console.log("after ");
+        console.log(hemkopProducts[i].category);
 
         console.log("Hemkop category: ", hemkopCategory.title);
         hemkopProductsRefinedCat.push(hemkopProducts[i]);

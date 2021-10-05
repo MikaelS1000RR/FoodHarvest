@@ -40,8 +40,6 @@ const ProductListProvider = (props) => {
 
   const fetchAllLists = async (userId) => {
     let favorite = await fetchLists(userId, true);
-    console.log("fetching fave lists");
-    console.log(favorite);
     if (favorite.products) {
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
@@ -111,6 +109,19 @@ const ProductListProvider = (props) => {
     return false;
   };
 
+  const addIsFavorite = (products) => {
+    let newProducts = products;
+    if (favoriteList) {
+      for (let product of newProducts) {
+        let isFavorite = !!favoriteList.products.find(
+          (p) => p.productCode === product.productCode
+        );
+        product.isFavorite = isFavorite;
+      }
+    }
+    return newProducts;
+  };
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
@@ -130,6 +141,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToList,
+    addIsFavorite,
     resetLists,
   };
 

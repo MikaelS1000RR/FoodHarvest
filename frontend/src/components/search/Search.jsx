@@ -1,20 +1,26 @@
 import React, { useState } from 'react';
 import {Container, Row} from "reactstrap" 
 
-
 import SearchBar from './SearchBar';
-import { requestQuotes } from '../../firestoreSearchProducts';
 import ProductCard from '../home/ProductCard';
+import { requestQuotes } from '../../configs/firestoreSearchProducts';
+import { useProductList } from '../../contexts/ProductListContext';
 
 const Search = () => {
   const [searchResults, setQuotes] = useState([]);
   const [noResults, setNoResults] = useState(false);
+  const { favoriteList, currentList, addIsFavorite } = useProductList()
 
   const onSearchSubmit = async term => {
     console.log('New Search submit:', term);
 
     //await requestQuotes(term); wait on matches db products collection
-    const quotesArray = await requestQuotes(term.toLowerCase());
+    let options = {
+      favoriteList: favoriteList,
+      currentList: currentList
+    }
+    let quotesArray = await requestQuotes(term.toLowerCase(), options);
+    quotesArray = addIsFavorite(quotesArray)
     setNoResults(quotesArray.length === 0);
     setQuotes(quotesArray);
   };

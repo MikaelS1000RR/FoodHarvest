@@ -10,6 +10,8 @@ const FavoriteButton = (props) => {
   const { currentUser } = useAuth();
 
   useEffect(() => {
+    console.log("product change", product.isFavorite);
+    console.log(product);
     setIsToggle(product.isFavorite)
   }, [product])
 

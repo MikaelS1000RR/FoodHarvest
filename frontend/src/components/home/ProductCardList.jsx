@@ -1,12 +1,7 @@
-import { useEffect } from "react";
 import ProductCard from "./ProductCard";
-import { useProductList } from "../../contexts/ProductListContext";
-
 
 const ProductCardList = (props) => {
   const { products } = props;
-  console.log("productChange");
-  console.log(products);
 
   return (
     <>

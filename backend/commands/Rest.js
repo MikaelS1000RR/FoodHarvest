@@ -7,34 +7,52 @@ export class Rest {
   }
 
   start() {
-    // createProductList
-    this.app.put("/rest/products", async (req, res) => {
+    // get products
+    this.app.post("/rest/products", async (req, res) => {
       let categoryId = req.body.categoryId;
-      let favoriteList = req.body.favoriteList;
+      let currentList = req.body.currentList;
       let limit = req.body.limit || 20;
 
-      console.log("faves");
-      console.log(favoriteList);
-
-      let products = []
-      let snapshot = await firestore
-        .collection("products")
-        .where("category", "==", categoryId)
-        .limit(limit)
-        .get();
-      snapshot.forEach((doc) => {
-        products.push({ id: doc.id, ...doc.data() });
-      })
-
-      if (favoriteList) {
-        for (let product of products) {
-          let isFavorite = !!favoriteList.products.find(p => p.productCode === product.productCode)
-          product.isFavorite = isFavorite
-        }
+      try {
+        let products = [];
+        let snapshot = await firestore
+          .collection("products")
+          .where("category", "==", categoryId)
+          .limit(limit)
+          .get();
+        snapshot.forEach((doc) => {
+          products.push({ id: doc.id, ...doc.data() });
+        });
+        res.json({ success: "Fetching successful", products: products });
       }
-
-      res.json({ success: "Fetching successful", products: products });
+      catch (error) {
+        res.json({ error: "Fetch failed" });
+      }
     });
 
+    this.app.post("/rest/products/search", async (req, res) => {
+      let search = req.body.search;
+      let currentList = req.body.currentList;
+      let limit = req.body.limit || 10;
+
+      try {
+        let products = [];  
+        let snapshot = await firestore
+          .collection("products")
+          .where("productName", ">=", search)
+          .orderBy("productName").startAt(search)
+          .limit(limit)
+          .get();
+        snapshot.forEach((doc) => {
+          products.push({ id: doc.id, ...doc.data() })
+        }
+        );
+        res.json({success: "Searching successful", products: products})
+      }
+      catch (error) {
+        res.json({error: "Fetch failed"})
+      }
+    })
   }
+
 }

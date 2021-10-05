@@ -15,15 +15,17 @@ const Category = (props) => {
   const { fetchProducts } = useProduct();
   const { getCategoryByName } = useCategory();
   // should move to anothe context for favourite
-  const { favoriteList } = useProductList();
+  const { favoriteList, addIsFavorite } = useProductList();
   const { currentUser } = useAuth()
   
   useEffect(() => {
     const getCategoryProducts = async () => {
-      let category = await getCategoryByName(categoryName);
-      setCategory(category)
-      let docs = await fetchProducts({ category, favoriteList });
-      setProducts(docs);
+      let newCategory = await getCategoryByName(categoryName);
+      setCategory(newCategory)
+      let newProducts = await fetchProducts({ category: newCategory, favoriteList });
+      newProducts = addIsFavorite(newProducts);
+      console.log(newProducts);
+      setProducts(newProducts);
     }
     getCategoryProducts();
   }, [categoryName])
@@ -31,12 +33,13 @@ const Category = (props) => {
   useEffect(() => {
     const getCategoryProducts = async () => {
       if (currentUser && currentUser.uid === favoriteList.uid) {
-        let docs = await fetchProducts({ category, favoriteList });
-        setProducts(docs);
+        let newProducts = await fetchProducts({ category, favoriteList });
+        newProducts = addIsFavorite(newProducts);
+        console.log(newProducts);
+        setProducts(newProducts);
       }
     }
     getCategoryProducts();
-    
   }, [favoriteList])
 
   return (
