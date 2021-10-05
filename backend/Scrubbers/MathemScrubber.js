@@ -26,7 +26,7 @@ export class MathemScrubber extends Scrubber {
     category: (x) => this.setCategory(x.category.name),
 
     // category: (x) => x.category.name, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.preferences, x.name),
+    preferences: (x) => this.setPreferences(x.preferences, x.name, x.badges),
     //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
     //discount: (x) =>this.setDiscount(x.code)
@@ -59,20 +59,42 @@ export class MathemScrubber extends Scrubber {
     return result;
   }
 
-  static async setPreferences(preferencesToBeScrubbed,productName) {
+  static async setPreferences(preferencesToBeScrubbed,productName, badges) {
     // console.log(preferencesToBeScrubbed, "preferencesToBeScrubbed")
     // console.log(productName, "productName")
+    console.log(badges, "badges")
+
     const thePreferencesFromDb = this.preferencesFromDb;
     // console.log(thePreferencesFromDb, "TPFD")
     let scrubbedPreferences = [];
+    let vegetarianSearch = ["vegetarianer", "Vegetarisk", "vegetarisk"];
     //console.log(pref.name, "forEachtest")
 
-    if (productName.includes("Vegetarisk")) {
-        let scrubbedPreference = thePreferencesFromDb.find(
-          (preference) => preference.name === "Vegetariskt"
-        )
-        scrubbedPreferences.push(scrubbedPreference.id);
+    // if (productName.includes("Vegetarisk")) {
+    //     let scrubbedPreference = thePreferencesFromDb.find(
+    //       (preference) => preference.name === "Vegetariskt"
+    //     )
+    //     scrubbedPreferences.push(scrubbedPreference.id);
+    // }
+
+    //badges
+    if (badges.length > 0) {
+      badges.forEach((badge) => {
+        console.log(badge, "badge")
+        if (badge.toolTip.includes("vegetarianer") ||
+          badge.toolTip.includes("Vegetarisk") ||
+          badge.toolTip.includes("vegetarisk")) {
+          
+          let scrubbedPreference = thePreferencesFromDb.find(
+            (preference) => preference.name === "Vegetariskt"
+          )
+          scrubbedPreferences.push(scrubbedPreference.id);
+        }
+        
+      })
     }
+
+
 
     //If there is nothing to scrub return.
     if (preferencesToBeScrubbed.dietary.length == 0

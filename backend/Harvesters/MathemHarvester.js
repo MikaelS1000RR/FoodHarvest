@@ -18,7 +18,7 @@ export class MathemHarvester {
         let raw = await fetch(
             "https://api.mathem.io/product-search/noauth/categorylist/" 
             + categoryURL + 
-            "?storeId=16&productSizePerCategory=1&categorySize=200"
+            "?storeId=16&productSizePerCategory=20&categorySize=200"
         );
         return await raw.json();
     }

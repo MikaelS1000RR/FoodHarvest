@@ -18,7 +18,7 @@ export class MathemHandler {
     let scrubbedMathemProducts = await MathemScrubber.scrubAll(getMathemsProducts);
 
     //Posting
-    FirebaseHandler.postProduct(scrubbedMathemProducts);
+    // FirebaseHandler.postProduct(scrubbedMathemProducts);
 
 
     function writeToFile(fileName, data) {
