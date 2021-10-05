@@ -107,7 +107,7 @@ const styles = {
     alignItems: "center",
     fontWeight: "bold",
     borderBottom: "solid",
-    borderColor: "#bfcad4",
+    borderColor: "#346494",
   },
   storeImg: {
     width: "100%",

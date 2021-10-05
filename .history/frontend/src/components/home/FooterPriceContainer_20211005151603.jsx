@@ -88,7 +88,7 @@ const styles = {
     alignItems: "center",
     fontWeight: "bold",
     borderBottom: "solid",
-    borderColor: "#bfcad4",
+    borderColor: "#0b5fb3",
   },
 
   amountOfProducts: {
@@ -106,8 +106,8 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontWeight: "bold",
-    borderBottom: "solid",
-    borderColor: "#bfcad4",
+    borderRight: "solid",
+    borderColor: "#dee2e6",
   },
   storeImg: {
     width: "100%",

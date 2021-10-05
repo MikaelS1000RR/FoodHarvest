@@ -66,17 +66,16 @@ export default FooterPriceContainer;
 const styles = {
   container: {
     position: "relative",
-    width: "50%",
-    height: "200px",
+    width: "100%",
+    height: "400px",
     border: "solid",
-    display: "table",
+    display: "grid",
     borderColor: "#dee2e6",
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",
-   
   
     
   },
@@ -87,10 +86,10 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontWeight: "bold",
-    borderBottom: "solid",
-    borderColor: "#bfcad4",
+    borderRight: "solid",
+    borderColor: "#dee2e6",
   },
-
+  
   amountOfProducts: {
     marginBottom: "5vh",
   },
@@ -106,8 +105,8 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     fontWeight: "bold",
-    borderBottom: "solid",
-    borderColor: "#bfcad4",
+    borderRight: "solid",
+    borderColor: "#dee2e6",
   },
   storeImg: {
     width: "100%",
