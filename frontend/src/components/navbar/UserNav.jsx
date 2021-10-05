@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { NavItem, Button } from "reactstrap";
-import { useModal } from "../contexts/ModalContext";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
+import { useModal } from "../../contexts/ModalContext";
+
 
 const UserNav = (props) => {
   const { styles } = props;
   const { toggleCategoryModal } = useModal()
-  const { logout } = useAuth();
+  const { logout } = useAuth()
   return (
     <>
       <Button

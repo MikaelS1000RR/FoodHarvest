@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
 import { Link } from 'react-router-dom';
 import {
   Collapse,
@@ -7,13 +6,11 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  DropdownToggle,
-  DropdownMenu,
-  Dropdown
 } from 'reactstrap';
 import GuestNav from './GuestNav';
 import UserNav from './UserNav';
 import ProductListDropdown from './ProductListDropdown';
+import { useAuth } from '../../contexts/AuthContext';
 
 const Navigationbar = (props) => {
   const { currentUser } = useAuth();
