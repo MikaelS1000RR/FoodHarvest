@@ -1,12 +1,5 @@
-import fetch from 'node-fetch'
 import { Scrubber } from './Scrubber.js'
-import { WillysHarvester } from '../Harvesters/WillysHarvester.js'
 import { FirebaseHandler } from "../FirebaseHandler.js";
-import { Store } from '../Models/Store.js'
-import { Preference } from "../Models/Preference.js"
-import { Discount } from '../Models/Discount.js';
-import { MathemHarvester } from '../Harvesters/MathemHarvester.js';
-import { Category } from '../Models/Category.js';
 
 export class MathemScrubber extends Scrubber {
 
@@ -14,22 +7,15 @@ export class MathemScrubber extends Scrubber {
     productCode: (x) => x.id + " Mathem",
     productName: (x) => x.name,
     price: (x) => x.price + " kr",
-    
     quantityUnit: (x) => x.unit,
     quantity: (x) => x.quantity + x.unit, //300g
-    // quantityUnit: (x) => this.setQuantityUnit(x.unit),
     comparisonUnit: (x) => x.comparisonUnit, //kg
     comparisonPrice: (x) => x.comparisonPrice + " kr", //86.9 kr
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
-    // category: (x) => this.setCategory(x.category.name),
     category: (x) => this.setCategory(x.category.name),
-
-    // category: (x) => x.category.name, //This is gonna be a list??
     preferences: (x) => this.setPreferences(x.preferences, x.name, x.badges),
-    //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    //discount: (x) =>this.setDiscount(x.code)
   };
 
   static async getInformationFromDb() {

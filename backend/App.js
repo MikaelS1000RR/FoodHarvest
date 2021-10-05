@@ -9,7 +9,6 @@ const app = express();
 app.use(express.json());
 
 
-// TestHarvesting.test();
 
 Harvesting.run();
 
