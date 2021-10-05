@@ -49,7 +49,7 @@ const ProductListProvider = (props) => {
          let productCodeWithoutStoreName = product.productCode.substring(0, 12);
          let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
          let snapshot = await firestore
-           .collection("test-products-hemkop")
+           .collection("test-products-hemkop") //Change this to "products" later
            .where("productCode", "==", hemkopProductCode)
            .limit(1)
            .get();
