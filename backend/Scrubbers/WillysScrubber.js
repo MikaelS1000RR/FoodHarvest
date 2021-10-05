@@ -8,6 +8,7 @@ import { Discount } from '../Models/Discount.js';
 
 export class WillysScrubber extends Scrubber {
   static translateSchema = {
+    productCode: (x) => x.code + "willys",
     productName: (x) => x.name,
     price: (x) => x.priceNoUnit,
     quantity: (x) => x.displayVolume, //300g
@@ -17,13 +18,27 @@ export class WillysScrubber extends Scrubber {
     comparisonPrice: (x) => x.comparePrice, //86.9 kr
     brand: (x) => x.manufacturer,
     imageUrl: (x) => x.thumbnail.url,
-
-    category: (x) => x.category, //This is gonna be a list??
-    preferences: (x) => this.setPreferences(x.labels),
-    //ean: (x) => this.getEan(x.code),
+    category: (x) => x.category.id, //This is gonna be a list??
+    preferences: (x) => this.setPreferenceIds(x.labels),
     store: (x) => this.getStore(),
+    //ean: (x) => this.getEan(x.code),
+    // discount: (x) => this.getDiscount(x.potentialPromotions, x),
     //discount: (x) =>this.setDiscount(x.code)
   };
+  static async setDBinfo() {
+    const willysStore = await FirebaseHandler.getStore("Willys");
+    const dbPreferences = await FirebaseHandler.getPreferences();
+    this.store = willysStore;
+    this.preferencesFromDB = dbPreferences;
+  }
+
+  static getStore() {
+    if (this.store != undefined) {
+      return this.store.id;
+    } else {
+      return null;
+    }
+  }
 
   static async setQuantityUnit(quantity) {
     if (quantity.charAt(quantity.length - 2) === "k") {
@@ -33,6 +48,25 @@ export class WillysScrubber extends Scrubber {
     }
   }
 
+  static async getDiscount(promotions, product) {
+    if (promotions.length != 0) {
+      let discount = new Discount(
+        promotions[0].campaignType,
+        promotions[0].qualifyingCount,
+        product.price,
+        product.savingsAmount,
+        Math.round(
+          (parseFloat(product.savingsAmount) /
+            parseFloat(product.priceNoUnit)) *
+            100
+        ),
+        false
+      );
+      return discount;
+    } else {
+      return null;
+    }
+  }
 
   static async setDiscount(productCode) {
     let type = null
@@ -83,24 +117,17 @@ export class WillysScrubber extends Scrubber {
   
   }
 
-  //Setting store as Willys
-  static async getStore() {
-    const willysStore = new Store(
-      "Willys",
-      "https://digitalatjanster.se/wp-content/uploads/2020/04/willys-logo.png"
-    );
-    return willysStore;
-  }
-
   //Setting preferences for a product
-  static async setPreferences(preferences) {
-
+  static async setPreferenceIds(preferences) {
     //If product has any references then scrub them
     if (preferences.length != 0) {
-       let result = Preference.scrubPreferences(preferences);
-       return result;
-  }
- //If not, return null
+      let preferenceIds = Preference.scrubPreferenceIds(
+        preferences,
+        this.preferencesFromDB
+      );
+      return preferenceIds;
+    }
+    //If not, return null
     else {
       return null
     }

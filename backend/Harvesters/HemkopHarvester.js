@@ -15,7 +15,7 @@ export class HemkopHarvester {
 
   static async getProductsByCategory(categoryUrl) {
     let raw = await fetch(
-      "https://www.hemkop.se/c/" + categoryUrl + this.bustCache() + "&size=2200"
+      "https://www.hemkop.se/c/" + categoryUrl + this.bustCache() + "&size=2"
     );
     return (await raw.json()).results;
   }
