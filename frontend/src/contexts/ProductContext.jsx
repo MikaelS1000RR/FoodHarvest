@@ -16,7 +16,7 @@ const ProductProvider = (props) => {
     let snapshot = await firestore
       .collection(productCollection)
       .where("category", "==", category.id)
-      .limit(1)
+      .limit(20)
       .get();
     snapshot.forEach((doc) => {
       docs.push({ id: doc.id, ...doc.data() });
