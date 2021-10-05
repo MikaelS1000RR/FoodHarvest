@@ -25,41 +25,6 @@ const ProductListDropdown = (props) => {
     }
   };
 
-  const lastCreatidList = () => {
-    productLists.map((list, index) => {
-      // Last element
-      if(index === productLists.length -1) {
-        return list
-      }
-      return list
-    })
-  }
-
-  // const lastCreatedList = () => {
-  //   productLists.mao((list, index) => {
-  //     // Last element
-  //     if (index === productLists.length -1) {
-
-  //     }
-  //   }
-  
-
-  /* 
-       {productLists
-            ? productLists.map((list) => (
-              <DropdownItem
-                key={list.id}
-                onClick={() => setCurrentProductList(list)}
-              >
-                {list.name}
-              </DropdownItem>
-            ))
-            : null}
-  */
-
-          
-            
-
   if (currentProductList === undefined) {
     return (
       <div>Loading...</div>
@@ -69,7 +34,7 @@ const ProductListDropdown = (props) => {
     return (
       <Dropdown isOpen={isOpen} toggle={toggle}>
         <DropdownToggle color="warning" caret>
-          {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : lastCreatidList}
+          {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : "❤️ Välj lista"}
         </DropdownToggle>
         <DropdownMenu>
           {currentProductList ? (
@@ -95,6 +60,5 @@ const ProductListDropdown = (props) => {
     );
   }
 };
-
 
 export default ProductListDropdown;

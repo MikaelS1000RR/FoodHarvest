@@ -26,13 +26,7 @@ const ProductListDropdown = (props) => {
   };
 
   const lastCreatidList = () => {
-    productLists.map((list, index) => {
-      // Last element
-      if(index === productLists.length -1) {
-        return list
-      }
-      return list
-    })
+    productLists
   }
 
   // const lastCreatedList = () => {
@@ -69,7 +63,7 @@ const ProductListDropdown = (props) => {
     return (
       <Dropdown isOpen={isOpen} toggle={toggle}>
         <DropdownToggle color="warning" caret>
-          {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : lastCreatidList}
+          {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : "❤️ Välj lista"}
         </DropdownToggle>
         <DropdownMenu>
           {currentProductList ? (
