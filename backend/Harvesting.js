@@ -10,7 +10,7 @@ export class Harvesting {
     await FirebaseHandler.deleteCollection("products");
 
     WillysHandler.run();
-    HemkopHandler.run();
+    //HemkopHandler.run();
   }
 
 
