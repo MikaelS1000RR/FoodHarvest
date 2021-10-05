@@ -66,13 +66,12 @@ export default FooterPriceContainer;
 const styles = {
   container: {
     position: "relative",
-    width: "10%",
+    width: "1%",
     border: "solid",
     display: "table",
     borderColor: "#dee2e6",
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
-    float: "right",
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",

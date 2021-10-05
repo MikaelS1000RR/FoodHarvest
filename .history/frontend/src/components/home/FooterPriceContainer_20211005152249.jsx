@@ -72,7 +72,6 @@ const styles = {
     borderColor: "#dee2e6",
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
-    float: "right",
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",

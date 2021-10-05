@@ -71,8 +71,8 @@ const styles = {
     display: "table",
     borderColor: "#dee2e6",
     gridTemplateColumns: "repeat(4, 1fr)",
-    margin: "0",
-    float: "right",
+    marginLeft: "0",
+
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",
