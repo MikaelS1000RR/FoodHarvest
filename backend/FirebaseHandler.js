@@ -1,9 +1,22 @@
 import firestore from "./database_config/firestore.js";
-import { Preference } from "./Models/Preference.js";
-import { Product } from "./Models/Product.js";
 
 export class FirebaseHandler {
-  //Getting stores from db
+
+  // Posting products in batch (still creates separate writes to DB..)
+  static postProductsInBatch(productArray) {
+    let batch = firestore.batch();
+    productArray.forEach((product) => {
+      let docRef = firestore.collection("products").doc();
+      batch.set(docRef, product);
+    });
+    try {
+      batch.commit();
+      console.log("Write to DB succeeded")
+    }
+    catch (err) {
+      console.log("Write to DB failed: ", err)
+     }
+  }
 
   //Delete products in collection
   static async deleteCollection(path) {
@@ -36,57 +49,43 @@ export class FirebaseHandler {
     return id;
   };
 
-  // returns the reference of the document in the collection, key is the name of property
-  static getOneRef = async (doc, collection, key) => {
-    let property = doc[key];
-    if (doc != null && property) {
-      let id = await this.getIdByProperty(collection, key, property);
-      if (id) {
-        let ref = firestore.doc(collection + "/" + id);
-        return ref;
-      }
-    }
-    return null;
-  };
-
-  // returns an array of references of the documents
-  static getAllRefs = async (docs, collection, key) => {
-    let refs = [];
-    if (docs != null && docs.length > 0) {
-      for (let doc of docs) {
-        let ref = await this.getOneRef(doc, collection, key);
-        if (ref != null) {
-          refs.push(ref);
-        }
-      }
-    }
-    return refs;
-  };
-
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();
     let categories = [];
     querySnapshot.forEach((document) => {
-      categories.push(document.data());
+      categories.push({ id: document.id, ...document.data() });
     });
 
     return categories;
   }
 
+  static async getStore(storeName) {
+    let querySnapshot = await firestore
+      .collection("stores")
+      .where("name", "==", storeName)
+      .get();
+    let dataFromDB = [];
+    querySnapshot.forEach((document) => {
+      let doc = { id: document.id, ...document.data() };
+      dataFromDB.push(doc);
+    });
+    return dataFromDB[0];
+  }
+
   static async getPreferences() {
     let querySnapshot = await firestore.collection("preferences").get();
-    let preferences = [];
+    let dataFromDB = [];
     querySnapshot.forEach((document) => {
-      preferences.push(document.data());
+      let doc = { id: document.id, ...document.data() };
+      dataFromDB.push(doc);
     });
 
-    return preferences;
+    return dataFromDB;
   }
 
   static setDiscount(product) {
-    let discount=product.discount
-    if(product.discount!=null){
-
+    let discount = product.discount;
+    if (product.discount != null) {
       let discountObj = {
         discountType: product.discount.discountType,
         quantityToBeBought: product.discount.quantityToBeBought,
@@ -96,51 +95,17 @@ export class FirebaseHandler {
         isMemberDiscount: product.discount.isMemberDiscount,
       };
       return discountObj;
-    }
-    else{
-      return null
+    } else {
+      return null;
     }
   }
   //Another way to post products
 
   static async postProduct(products) {
     for (let i = 0; i < products.length; i++) {
-      let product = products[i];
-      let productToPost = {
-        productName: product.productName,
-        price: product.price,
-        quantity: product.quantity,
-        quantityUnit: product.quantityUnit,
-        comparisonUnit: product.comparisonUnit,
-        comparisonPrice: product.comparisonPrice,
-        brand: product.brand,
-        imageUrl: product.imageUrl,
-        category: await this.getOneRef(product.category, "categories", "name"),
-        preferences: await this.getAllRefs(
-          product.preferences,
-          "preferences",
-          "name"
-        ),
-        //ean: product.ean,
-        store: await this.getOneRef(product.store, "stores", "name"),
-        discount: this.setDiscount(product)
-      };
-      // console.log(productToPost);
+      let productToPost = products[i];
       firestore.collection("products").doc().set(productToPost);
     }
     console.log("Posted product in db!");
   }
 }
-
-
-
-const getRefs = async (docs, collection, property) => {
-  let refs = [];
-  if (docs != null && docs.length > 0) {
-    for (let doc of docs) {
-      let ref = getOneRef(collection, doc, property);
-      refs.push(ref);
-    }
-  }
-  return refs;
-};

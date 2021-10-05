@@ -10,7 +10,8 @@ const MyListsPage = () => {
   const { productLists } = useProductList();
  const { currentUser } = useAuth();
   const [lists, setLists] = useState([]);
-  
+
+
   useEffect(() => {
     const getList = async () => {
      
@@ -39,9 +40,15 @@ const MyListsPage = () => {
         </div>
 
         <div className="productLists" style={styles.productLists}>
-          {lists.length > 0
-            ? lists.map((list) => <ProductListCard props={list.name} />)
-            : <p>Du har inga listor</p>}
+          
+            {lists.length > 0
+              ? lists.map((list) => (
+                <ProductListCard props={list}/>
+                ))
+              : null}
+        
+
+          <p></p>
         </div>
       </div>
     </div>
