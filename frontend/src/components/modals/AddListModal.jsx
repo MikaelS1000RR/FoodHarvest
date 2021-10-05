@@ -9,19 +9,19 @@ const AddListModal = () => {
   const title = "Skapa ny lista";
   const { currentUser } = useAuth();
   const { showAddListModal, toggleAddListModal } = useModal();
-  const { addProductList } = useProductList();
+  const { addProductList, setCurrentProductList } = useProductList();
   const [newListName, setNewListName] = useState('')
 
   const addNewList = async (e) => {
     e.preventDefault();
     if (newListName.trim().length > 0) {
-      const newList = {
+      const newProductList = {
         uid: currentUser.uid,
-        name: newListName,
-        isFavorite: false
+        name: newListName
       }
-      const result = await addProductList(newList);
+      const result = await addProductList(newProductList);
       if (result) {
+        
         toggleAddListModal();
       }
     }
