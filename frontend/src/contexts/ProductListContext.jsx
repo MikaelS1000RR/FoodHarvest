@@ -9,10 +9,34 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
-  const [favoriteList, setFavoriteList] = useState({ products: [], isFavorite: true });
+  const [favoriteList, setFavoriteList] = useState({
+    products: [],
+    isFavorite: true,
+  });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
   const [hemkopTotalPrice, setHemkopTotalPrice]=useState(0)
+
+  const fetchProductLists = async (userId) => {
+    const ref = firestore.collection("product-lists");
+    const query = await ref.where("uid", "==", userId).get();
+    let data = [];
+
+    query.forEach((doc) => {
+      data.push({ id: doc.id, ...doc.data() });
+    });
+    setCurrentProductList(data[0]);
+    setProductLists(data);
+    console.log(data);
+    return data;
+  };
+
+  const fetchListById = async (listId) => {
+    const ref = await firestore.collection("product-lists").doc(listId).get();
+    let data = ref.data();
+
+    return data;
+  };
 
   const addProductList = async (list) => {
     try {
@@ -32,15 +56,12 @@ const ProductListProvider = (props) => {
     } catch { }
     return false;
   };
-  
+
   const resetLists = () => {
-    setFavoriteList({
-      products: [],
-      isFavorite: true,
-    });
-    setCurrentProductList(null)
-    setProductLists(null)
-  }
+    setFavoriteList({ products: [], isFavorite: true });
+    setCurrentProductList(null);
+    setProductLists(null);
+  };
 
   const getTotalPriceOfProducts = async (list) => {
     let hemkopPrices = 0
@@ -131,10 +152,9 @@ const ProductListProvider = (props) => {
       res = await res.json();
       if (res.success) {
         if (!res.newList.isFavorite) {
-          setCurrentProductList(res.newList)
-        }
-        else {
-          setFavoriteList(res.newList)
+          setCurrentProductList(res.newList);
+        } else {
+          setFavoriteList(res.newList);
         }
         return true;
       }
@@ -160,7 +180,7 @@ const ProductListProvider = (props) => {
        
        
       } else {
-        resetLists()
+        resetLists();
       }
     });
     return unsubscribe;
@@ -178,6 +198,8 @@ const ProductListProvider = (props) => {
     resetLists,
     hemkopTotalPrice,
     getTotalPriceOfProducts,
+    fetchProductLists,
+    fetchListById,
   };
 
   return (
