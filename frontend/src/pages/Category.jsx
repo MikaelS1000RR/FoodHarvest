@@ -20,7 +20,6 @@ const Category = (props) => {
   
   useEffect(() => {
     const getCategoryProducts = async () => {
-      console.log("fetch prod by cat");
       let newCategory = await getCategoryByName(categoryName);
       setCategory(newCategory)
       let newProducts = await fetchProducts({ category: newCategory, favoriteList });
