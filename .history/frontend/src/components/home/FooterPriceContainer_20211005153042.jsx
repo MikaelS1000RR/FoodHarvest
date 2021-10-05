@@ -66,7 +66,7 @@ export default FooterPriceContainer;
 const styles = {
   container: {
     position: "relative",
-    width: "16%",
+    width: "12%",
     border: "solid",
     display: "table",
     borderColor: "#dee2e6",

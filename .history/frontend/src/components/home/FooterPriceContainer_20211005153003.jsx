@@ -66,7 +66,7 @@ export default FooterPriceContainer;
 const styles = {
   container: {
     position: "relative",
-    width: "16%",
+    width: "5%",
     border: "solid",
     display: "table",
     borderColor: "#dee2e6",
@@ -110,10 +110,10 @@ const styles = {
     borderColor: "#bfcad4",
   },
   storeImg: {
-    width: "100%",
+    width: "50%",
   },
   hemkopImg: {
-    width: "80%",
+    width: "90%",
   },
   pHemkop: {
     marginBottom: "1.5vh",
