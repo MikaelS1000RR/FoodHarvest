@@ -3,7 +3,7 @@ import {Container, Row} from "reactstrap"
 
 
 import SearchBar from './SearchBar';
-import { requestQuotes } from '../../firestoreSearchProducts';
+import { requestProducts } from '../../firestoreSearchProducts';
 import ProductCard from '../home/ProductCard';
 
 const Search = () => {
@@ -13,8 +13,8 @@ const Search = () => {
   const onSearchSubmit = async term => {
     console.log('New Search submit:', term);
 
-    //await requestQuotes(term); wait on matches db products collection
-    const quotesArray = await requestQuotes(term.toLowerCase());
+    //await requestProducts(term); wait on matches db products collection
+    const quotesArray = await requestProducts(term.toLowerCase());
     setNoResults(quotesArray.length === 0);
     setQuotes(quotesArray);
   };

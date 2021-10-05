@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import firestore from "./database_config/firestore";
 
-export const requestQuotes = _.memoize(async productNameSearch => {
+export const requestProducts = _.memoize(async productNameSearch => {
     console.log(productNameSearch)
 
     const docs = [];
