@@ -9,28 +9,101 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
+  const [favoriteList, setFavoriteList] = useState({
+    products: [],
+    isFavorite: true,
+  });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
   const fetchProductLists = async (userId) => {
-    const ref = firestore.collection('product-lists');
-    const query = await ref.where('uid', '==', userId).get();
+    const ref = firestore.collection("product-lists");
+    const query = await ref.where("uid", "==", userId).get();
     let data = [];
+
     query.forEach((doc) => {
-      data.push({id: doc.id, ...doc.data()})
-    })
+      data.push({ id: doc.id, ...doc.data() });
+    });
     setCurrentProductList(data[0]);
     setProductLists(data);
-  }
+    console.log(data);
+    return data;
+  };
+
+  const fetchListById = async (listId) => {
+    const ref = await firestore.collection("product-lists").doc(listId).get();
+    let data = ref.data();
+
+    return data;
+  };
 
   const addProductList = async (list) => {
-    const newProductList = {
-      uid: list.uid,
-      name: list.name
+    try {
+      let res = await fetch("/api/product-list", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(list),
+      });
+      res = await res.json();
+      if (res.success) {
+        fetchAllLists(list.uid);
+        return true;
+      }
+    } catch {}
+    return false;
+  };
+
+  const resetLists = () => {
+    setFavoriteList({ products: [], isFavorite: true });
+    setCurrentProductList(null);
+    setProductLists(null);
+  };
+
+  const fetchAllLists = async (userId) => {
+    let favorite = await fetchLists(userId, true);
+    if (favorite.products) {
+      setFavoriteList(favorite);
+      let lists = await fetchLists(userId, false);
+      setProductLists(lists);
+      if (lists.length > 0) {
+        console.log("setting current list ", lists[0])
+        await setCurrentProductList(lists[0])
+      }
+    } else {
+      console.log("there is no current list");
+      createFavoriteList(userId);
+      fetchAllLists(userId);
     }
     try {
-      // using set() at the moment to add product to collection
-      const docRef = await firestore.collection('product-lists').doc().set(newProductList);
+      let res = await fetch("/api/product-list", {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+      res = await res.json();
+      if (res.success) {
+        if (!res.newList.isFavorite) {
+          setCurrentProductList(res.newList);
+        } else {
+          setFavoriteList(res.newList);
+        }
+        return true;
+      }
+    } catch {}
+    return false;
+  };
+
+  const addIsFavorite = (products) => {
+    let favorites = favoriteList;
+    for (let product of products) {
+      let isFavorite = !!favorites.products.find((p) => p === product.id);
+      product.isFavorite = isFavorite;
     }
     catch {
       console.log("adding list failed");
@@ -43,12 +116,9 @@ const ProductListProvider = (props) => {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       if (user != null) {
-        fetchProductLists(user.uid)
-      }
-      else {
-        console.log("user logged out");
-        setCurrentProductList(null);
-        setProductLists(null);
+        fetchAllLists(user.uid);
+      } else {
+        resetLists();
       }
     });
     return unsubscribe;
@@ -58,9 +128,14 @@ const ProductListProvider = (props) => {
     currentProductList,
     setCurrentProductList,
     productLists,
+    fetchAllLists,
+    addProductList,
+    updateProductToList,
+    addIsFavorite,
+    resetLists,
     fetchProductLists,
-    addProductList
-  }
+    fetchListById,
+  };
 
   return (
     <ProductListContext.Provider value={values}>

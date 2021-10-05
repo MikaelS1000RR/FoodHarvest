@@ -25,17 +25,23 @@ const ProductListDropdown = (props) => {
     }
   }
 
-  return (
-    <Dropdown isOpen={isOpen} toggle={toggle}>
-      <DropdownToggle color="warning" caret>
-        {currentProductList ? currentProductList.name : "❤️ Välj lista"}
-      </DropdownToggle>
-      <DropdownMenu>
-        {currentProductList ? (
-          <DropdownItem header>Välj lista</DropdownItem>
-        ) : null}
-        {productLists
-          ? productLists.map((list) => (
+  if (currentProductList === undefined) {
+    return (
+      <div>Loading...</div>
+    )
+  } else {
+
+    return (
+      <Dropdown isOpen={isOpen} toggle={toggle}>
+        <DropdownToggle color="warning" caret>
+          {currentProductList ? currentProductList.name + "-" + currentProductList.products.length : "❤️ Välj lista"}
+        </DropdownToggle>
+        <DropdownMenu>
+          {currentProductList ? (
+            <DropdownItem header>Välj lista</DropdownItem>
+          ) : null}
+          {productLists
+            ? productLists.map((list) => (
               <DropdownItem
                 key={list.id}
                 onClick={() => setCurrentProductList(list)}
@@ -43,15 +49,16 @@ const ProductListDropdown = (props) => {
                 {list.name}
               </DropdownItem>
             ))
-          : null}
-        <DropdownItem divider></DropdownItem>
-        <DropdownItem onClick={toggleAddListModal}>
-          <span className="material-icons">add</span>
-          Lägg till lista
-        </DropdownItem>
-      </DropdownMenu>
-    </Dropdown>
-  );
+            : null}
+          <DropdownItem divider></DropdownItem>
+          <DropdownItem onClick={toggleAddListModal}>
+            <span className="material-icons">add</span>
+            Lägg till lista
+          </DropdownItem>
+        </DropdownMenu>
+      </Dropdown>
+    );
+  }
 };
 
 export default ProductListDropdown;
