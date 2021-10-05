@@ -70,13 +70,6 @@ export class MathemScrubber extends Scrubber {
     let vegetarianSearch = ["vegetarianer", "Vegetarisk", "vegetarisk"];
     //console.log(pref.name, "forEachtest")
 
-    // if (productName.includes("Vegetarisk")) {
-    //     let scrubbedPreference = thePreferencesFromDb.find(
-    //       (preference) => preference.name === "Vegetariskt"
-    //     )
-    //     scrubbedPreferences.push(scrubbedPreference.id);
-    // }
-
     //badges
     if (badges.length > 0) {
       badges.forEach((badge) => {
@@ -92,7 +85,12 @@ export class MathemScrubber extends Scrubber {
         }
         
       })
-    }
+    } else if (productName.includes("Vegetarisk") || productName.includes("vegetarisk")) {
+         let scrubbedPreference = thePreferencesFromDb.find(
+           (preference) => preference.name === "Vegetariskt"
+         )
+         scrubbedPreferences.push(scrubbedPreference.id);
+     }
 
 
 
