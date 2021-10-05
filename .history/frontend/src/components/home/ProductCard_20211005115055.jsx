@@ -17,7 +17,7 @@ const clickedHere = () => {
 const fetchStoreAndProduct = async (products) => {
   const productCodes = [];
   for(let product of products) {
-    let pCode = product.productCode.substring(0, 12)
+    let pCode = product.productCode.substring(0,12)
     console.log('Here is the product code ', pCode);
   }
     return productCodes

@@ -14,13 +14,10 @@ const clickedHere = () => {
   console.log('Clicked on "Lägg till" button.');
 }
 
-const fetchStoreAndProduct = async (products) => {
+const fetchStoreAndProduct = async (product) => {
   const productCodes = [];
-  for(let product of products) {
-    let pCode = product.productCode.substring(0, 12)
-    console.log('Here is the product code ', pCode);
-  }
-    return productCodes
+  const price = 0;
+  for(let product of pr)
 } 
 
   return (
@@ -50,7 +47,7 @@ const fetchStoreAndProduct = async (products) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div style={styles.button} onClick={fetchStoreAndProduct}> {/* Add onClick. Create a function that adds prices.*/}
+        <div style={styles.button} onClick={clickedHere}> {/* Add onClick. Create a function that adds prices.*/}
           
           <AddProductButton product={product}/>
           
