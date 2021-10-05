@@ -11,9 +11,9 @@ const ProductProvider = (props) => {
 
   const fetchProductsByCode = async (productCodes) => {
     const docs = [];
-    await productCodes.forEach((code) => {
-      let snapshot = firestore.collection("products").where("productCode", "==", code).get();
-      snapshot.forEach((doc) => { docs.push({ id: doc.id, ...doc.data() }); })
+    await productCodes.forEach(async (code) => {
+        let snapshot = await firestore.collection("products").where("productCode", "==", code).get();
+        snapshot.forEach((doc) => { docs.push({ id: doc.id, ...doc.data() }); })  
     })
     return docs;
   }

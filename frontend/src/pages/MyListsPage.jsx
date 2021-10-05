@@ -36,18 +36,18 @@ const MyListsPage = () => {
             className="plusImg"
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            alt=""
           />
         </div>
 
         <div className="productLists" style={styles.productLists}>
           
             {lists.length > 0
-              ? lists.map((list) => (
-                <ProductListCard props={list}/>
+              ? lists.map((list, index) => (
+                <ProductListCard props={list} key={index} />
                 ))
               : null}
         
-
           <p></p>
         </div>
       </div>
