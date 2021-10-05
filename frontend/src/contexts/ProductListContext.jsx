@@ -135,12 +135,16 @@ const ProductListProvider = (props) => {
   };
 
   const addIsFavorite = (products) => {
-    let favorites = favoriteList;
-    for (let product of products) {
-      let isFavorite = !!favorites.products.find((p) => p === product.id);
-      product.isFavorite = isFavorite;
+    let newProducts = products;
+    if (favoriteList) {
+      for (let product of newProducts) {
+        let isFavorite = !!favoriteList.products.find(
+          (p) => p.productCode === product.productCode
+        );
+        product.isFavorite = isFavorite;
+      }
     }
-    return products;
+    return newProducts;
   };
 
   useEffect(() => {

@@ -1,5 +1,4 @@
 import FavoriteButton from "./FavoriteButton";
-import DetailModal from "../DetailModal";
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
@@ -41,7 +40,6 @@ const ProductCard = (props) => {
           {buttonText}
         </div>
       </div>
-      <DetailModal product={product} index={index} />
     </div>
   );
 };
