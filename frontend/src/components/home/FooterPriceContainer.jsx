@@ -1,19 +1,14 @@
 import { useEffect, useState } from "react";
 import { useProductList } from "../../contexts/ProductListContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 const FooterPriceContainer = (props) => {
-  const currentList=''
   const { currentProductList } = useProductList();
-
-  useEffect(() => {
-    const getCurrentList = async () => {
-      console.log('currentList is ', currentProductList)
-    };
-    getCurrentList();
-  }, [currentList]);
+  const { favoriteList } = useProductList();
+  const { currentUser } = useAuth();
 
   return (
-    <div className="container" style={styles.container}>
+    <div className="container fixed-bottom" style={styles.container}>
       <div className="cart" style={styles.cartSection}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
@@ -22,7 +17,15 @@ const FooterPriceContainer = (props) => {
           style={styles.cart}
         />
         <div className="amountOfProducts" style={styles.amountOfProducts}>
-          <p>2</p>
+          <p style={currentUser ? styles.show : styles.hide}>
+            {currentProductList === null
+              ? "loading..."
+              : currentProductList.products.length}
+          </p>
+
+          <p style={currentUser ? styles.hide : styles.show}>
+            {favoriteList.products.length}
+          </p>
         </div>
       </div>
       
@@ -74,6 +77,7 @@ const styles = {
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
     padding: "0",
+    background:"white"
   },
   cartSection: {
     display: "flex",
@@ -112,5 +116,11 @@ const styles = {
   pHemkop: {
     marginBottom: "1.5vh",
     paddingTop: "1.5vh",
+  },
+  hide: {
+    display: "none",
+  },
+  show: {
+    display: "inline",
   },
 };
