@@ -1,5 +1,5 @@
 import { createContext, useState, useContext, useEffect } from "react";
-import firestore from '../database_config/firestore'
+import firestore from "../database_config/firestore";
 
 const CategoryContext = createContext();
 
@@ -9,7 +9,7 @@ export const useCategory = () => {
 
 const CategoryProvider = (props) => {
   const [categories, setCategories] = useState([]);
-  
+
   useEffect(() => {
     if (categories.length <= 0) {
       fetchCategories();
@@ -17,31 +17,32 @@ const CategoryProvider = (props) => {
   }, []);
 
   const fetchCategories = () => {
-    firestore.collection('categories').onSnapshot(
-      (snapshot) => {
+    firestore
+      .collection("categories")
+      .orderBy("name")
+      .onSnapshot((snapshot) => {
         const docs = [];
-        snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }))
-        setCategories(docs)
-      }
-    )
+        snapshot.forEach((doc) => docs.push({ id: doc.id, ...doc.data() }));
+        setCategories(docs);
+      });
   };
 
-  const getCategoryDocRef = async (categoryName) => {
-    let docs = await firestore.collection('categories').where('name', '==', categoryName).get();
-    let toReturn = "";
-    docs.forEach(doc => {
-      if (doc.ref) {
-        toReturn = doc.ref;
-        return;
-      }
-    })
-    return toReturn;
-  }
-  
+  const getCategoryByName = async (categoryName) => {
+    let category = {};
+    const snapshot = await firestore
+      .collection("categories")
+      .where("name", "==", categoryName)
+      .get();
+    snapshot.forEach((doc) => {
+      category = { id: doc.id, ...doc.data() };
+    });
+    return category;
+  };
+
   const values = {
     categories,
     fetchCategories,
-    getCategoryDocRef,
+    getCategoryByName,
   };
 
   return (
