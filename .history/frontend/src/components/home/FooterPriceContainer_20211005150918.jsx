@@ -75,7 +75,6 @@ const styles = {
     margin: "0",
     padding: "0",
     background:"white",
-    transform: "ranslateY(-50%)",
   
     
   },
@@ -88,8 +87,7 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
-    
+    transform: ""
   },
   amountOfProducts: {
     marginBottom: "5vh",

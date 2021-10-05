@@ -65,7 +65,7 @@ export default FooterPriceContainer;
 
 const styles = {
   container: {
-    position: "relative",
+    position: ""
     width: "100%",
     height: "400px",
     border: "solid",
@@ -75,7 +75,6 @@ const styles = {
     margin: "0",
     padding: "0",
     background:"white",
-    transform: "ranslateY(-50%)",
   
     
   },
@@ -88,8 +87,6 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
-    
   },
   amountOfProducts: {
     marginBottom: "5vh",

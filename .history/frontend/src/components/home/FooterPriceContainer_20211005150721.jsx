@@ -65,9 +65,8 @@ export default FooterPriceContainer;
 
 const styles = {
   container: {
-    position: "relative",
     width: "100%",
-    height: "400px",
+    height: "15vh",
     border: "solid",
     display: "grid",
     borderColor: "#dee2e6",
@@ -75,9 +74,7 @@ const styles = {
     margin: "0",
     padding: "0",
     background:"white",
-    transform: "ranslateY(-50%)",
-  
-    
+    boxSizing: "border"
   },
   cartSection: {
     display: "flex",
@@ -88,8 +85,6 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
-    
   },
   amountOfProducts: {
     marginBottom: "5vh",

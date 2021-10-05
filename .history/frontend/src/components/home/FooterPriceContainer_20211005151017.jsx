@@ -75,7 +75,6 @@ const styles = {
     margin: "0",
     padding: "0",
     background:"white",
-    transform: "ranslateY(-50%)",
   
     
   },
@@ -88,8 +87,10 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
-    
+    top: "50%",
+    position: "absolute",
+    transform: "ranslateY(-50%)",
+    margin: "0"
   },
   amountOfProducts: {
     marginBottom: "5vh",

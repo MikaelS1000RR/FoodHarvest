@@ -76,7 +76,7 @@ const styles = {
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",
-  
+    top: "50%",
     
   },
   cartSection: {

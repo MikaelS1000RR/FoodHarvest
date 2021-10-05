@@ -88,7 +88,7 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
+    top: "50%",
     
   },
   amountOfProducts: {

@@ -76,7 +76,7 @@ const styles = {
     padding: "0",
     background:"white",
     transform: "ranslateY(-50%)",
-  
+    top: "50%",
     
   },
   cartSection: {
@@ -88,7 +88,7 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
-    
+    top: "50%",
     
   },
   amountOfProducts: {
