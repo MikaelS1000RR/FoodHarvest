@@ -48,7 +48,9 @@
     "brand": "Grilstad",
     "imageUrl": "//static.mathem.se/shared/images/products/original/vitloksalami-skivad-100g-grilstad.jpg",
     "category": "wmNKMOpxJo8x1tOsOoiQ",
-    "preferences": [],
+    "preferences": [
+      "zKIo7hqrDzd64uj2nucg"
+    ],
     "store": "Sx7pI35xki2RJW9fQa2g"
   },
   {

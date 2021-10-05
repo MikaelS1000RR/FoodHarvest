@@ -89,7 +89,7 @@ export class MathemScrubber extends Scrubber {
           scrubbedPreferences.push(scrubbedPreference.id);
         }
         
-        if (pref.name == "Svenskt ursprung") {
+        if (pref.name == "Svenskt ursprung" || pref.name == "Kött från Sverige") {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Svensk Flagga"
           )
