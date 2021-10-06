@@ -18,6 +18,7 @@ const ProductListProvider = (props) => {
   const [hemkopTotalPrice, setHemkopTotalPrice] = useState(0)
   const [willysTotalPrice, setWillysTotalPrice] = useState(0)
   const [mathemTotalPrice, setMathemTotalPrice] = useState(0)
+  const [productsNotFound, setProductsNotFound]=useState([])
   
 
   const fetchProductLists = async (userId) => {
@@ -78,7 +79,8 @@ const ProductListProvider = (props) => {
     let mathemPrices=0
     let hemkopProductsArr = []
     let willysProductsArr = []
-    let mathemProductsArr=[]
+    let mathemProductsArr = []
+    let productsNotFoundArr=[]
    
     
     for (let product of list.products) {
@@ -137,9 +139,19 @@ const ProductListProvider = (props) => {
          
         }
    
-      }
- 
+    }
+    
+    if (willysProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("willys");
+    }
+    if (hemkopProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("hemkop");
+    }
+    if (mathemProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("mathem");
+    }
   
+    setProductsNotFound([...productsNotFoundArr]);
      
     setHemkopTotalPrice(hemkopPrices);
     
@@ -291,6 +303,7 @@ const ProductListProvider = (props) => {
     fetchListById,
     willysTotalPrice,
     mathemTotalPrice,
+    productsNotFound
   
 
   };

@@ -12,8 +12,19 @@ const FooterPriceContainer = (props) => {
     willysTotalPrice,
     getTotalPriceOfProducts,
     mathemTotalPrice,
-   
+    productsNotFound,
   } = useProductList();
+
+
+  
+
+  const checkIfProductsAreNotFound = (storeName) => {
+    if (productsNotFound.includes(storeName)) {
+      return "Vissa produkter kunde inte hittas"
+    }
+  }
+
+
 
   useEffect(() => {
     
@@ -80,7 +91,9 @@ const FooterPriceContainer = (props) => {
           {willysTotalPrice}
         </p>
 
-        <p className="productNotFound" style={styles.productNotFound}></p>
+        <p className="productNotFound" style={styles.productNotFound}>
+          {checkIfProductsAreNotFound("willys")}
+        </p>
       </div>
 
       <div className="hemkop" style={styles.storeSection}>
@@ -111,9 +124,7 @@ const FooterPriceContainer = (props) => {
           {mathemTotalPrice}
         </p>
 
-        <p className="productNotFound" style={styles.productNotFound}>
-
-        </p>
+        <p className="productNotFound" style={styles.productNotFound}></p>
       </div>
     </div>
   );
