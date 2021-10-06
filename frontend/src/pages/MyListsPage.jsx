@@ -1,28 +1,25 @@
-import { Row } from "reactstrap";
+// import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
-import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
 import { useAuth } from "../contexts/AuthContext";
 
 const MyListsPage = () => {
-  const listName = "list Name";
-  const { fetchProductLists } = useProductList();
-  const { productLists } = useProductList();
- const { currentUser } = useAuth();
-  const [lists, setLists] = useState([]);
+  const { favoriteList, productLists } = useProductList();
+  const { currentUser } = useAuth();
+  // const [lists, setLists] = useState([]);
 
 
-  useEffect(() => {
-    const getList = async () => {
+  // useEffect(() => {
+  //   const getList = async () => {
      
-      let list = await fetchProductLists(currentUser.uid);
-     /*  console.log("lists in pages are ", list);
-      console.log('current user is', currentUser) */
-      setLists(list);
+  //     let list = await fetchProductLists(currentUser.uid);
+  //    /*  console.log("lists in pages are ", list);
+  //     console.log('current user is', currentUser) */
+  //     setLists(list);
       
-    };
-    getList();
-  }, [listName]);
+  //   };
+  //   getList();
+  // }, [listName]);
 
   return (
     <div className="container" style={styles.container}>
@@ -31,24 +28,21 @@ const MyListsPage = () => {
           <p className="sparadeListor" style={styles.sparadeListor}>
             Sparade listor
           </p>
-
           <img
             className="plusImg"
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
           />
         </div>
 
         <div className="productLists" style={styles.productLists}>
-          
-            {lists.length > 0
-              ? lists.map((list) => (
-                <ProductListCard props={list}/>
-                ))
-              : null}
-        
-
-          <p></p>
+          <ProductListCard props={favoriteList}/>
+          {productLists && productLists.length > 0
+            ? productLists.map((list) => (
+              <ProductListCard props={list}/>
+              ))
+            : null}
         </div>
       </div>
     </div>

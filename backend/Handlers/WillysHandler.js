@@ -3,7 +3,8 @@ import { WillysScrubber } from "../Scrubbers/WillysScrubber.js";
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class WillysHandler {
-  static async run(collection) {
+  static async run(collection, productPerCategory) {
+    const size = productPerCategory || 2;
     let rawData = await WillysHarvester.getCategories();
     let categories = rawData.children;
 
@@ -11,7 +12,10 @@ export class WillysHandler {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
     console.log("Harvesting Willys products has started");
-    let allProductsOfWillys = await WillysHarvester.getAllProducts(categories); //This is all products of Willys
+    let allProductsOfWillys = await WillysHarvester.getAllProducts(
+      categories,
+      size
+    ); //This is all products of Willys
 
     //Scrubbing all products
     let scrubbedProducts = [];

@@ -51,6 +51,7 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list),
       });
       res = await res.json();
+      console.log(res);
       if (res.success) {
         fetchAllLists(list.uid);
         return true;
@@ -219,14 +220,30 @@ const ProductListProvider = (props) => {
     return false;
   };
 
-  const addIsFavorite = (products) => {
+  const addIsInList = (products) => {
     let newProducts = products;
-    if (favoriteList) {
-      for (let product of newProducts) {
+    for (let product of newProducts) {
+      if (favoriteList) {
         let isFavorite = !!favoriteList.products.find(
           (p) => p.productCode === product.productCode
         );
         product.isFavorite = isFavorite;
+      }
+      if (currentProductList) {
+        let isInCurrentList = !!currentProductList.products.find((p) => p.productCode === product.productCode);
+        product.isInCurrentList = isInCurrentList;   
+      }
+    }
+    return newProducts;
+  };
+  const addIsInCurrentList = (products) => {
+    let newProducts = products;
+    if (currentProductList) {
+      for (let product of newProducts) {
+        let isInCurrentList = !!currentProductList.products.find(
+          (p) => p.productCode === product.productCode
+        );
+        product.isInCurrentList = isInCurrentList;
       }
     }
     return newProducts;
@@ -252,7 +269,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToList,
-    addIsFavorite,
+    addIsInList,
     resetLists,
     hemkopTotalPrice,
     getTotalPriceOfProducts,

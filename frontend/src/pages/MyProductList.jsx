@@ -1,7 +1,7 @@
 // import ProductListCard from "../components/ProductListCard";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext.jsx";
-import ProductCard from "../components/home/ProductCard";
+import ProductCard from "../components/productCard/ProductCard";
 // import firestore from "../database_config/firestore";
 import { useParams } from "react-router";
 

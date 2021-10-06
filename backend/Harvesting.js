@@ -12,12 +12,13 @@ export class Harvesting {
     }
 
     // const productCollection = "products"
-    const productCollection = "test-products";
+    const productCollection = "products";
+    // const productPerCategory = 2
   /*   await FirebaseHandler.deleteCollection(productCollection);
 
     WillysHandler.run(productCollection);
     HemkopHandler.run(productCollection);
-    MathemHandler.run(productCollection); */
+    MathemHandler.run(productCollection);  */
   }
 
 
