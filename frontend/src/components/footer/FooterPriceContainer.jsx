@@ -1,13 +1,25 @@
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
+import { useHistory } from "react-router-dom";
 
 const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
+  const history = useHistory();
+
+  const toggleCurrentList = (e) => {
+    if(currentProductList !== null){
+    console.log(currentUser)
+    console.log("toggleCurrentList: ",currentProductList)
+    console.log("favoriteList: ",favoriteList)
+    history.push(`/myListsPage/${currentProductList.id}`)
+    }
+    
+  }
 
   return (
-    <div className="container fixed-bottom" style={styles.container}>
+    <div className="container fixed-bottom" style={styles.container} onClick={toggleCurrentList}>
       <div className="cart" style={styles.cartSection}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
