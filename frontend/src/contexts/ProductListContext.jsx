@@ -38,7 +38,6 @@ const ProductListProvider = (props) => {
   };
 
   const addProductList = async (list) => {
-    console.log("adding list", list);
     try {
       let res = await fetch("/api/product-list", {
         method: "POST",
@@ -71,11 +70,9 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        console.log("setting current list ", lists[0])
-        await setCurrentProductList(lists[0])
+        setCurrentProductList(lists[0])
       }
     } else {
-      console.log("there is no current list");
       createFavoriteList(userId);
       fetchAllLists(userId);
     }
@@ -136,14 +133,30 @@ const ProductListProvider = (props) => {
     return false;
   };
 
-  const addIsFavorite = (products) => {
+  const addIsInList = (products) => {
     let newProducts = products;
-    if (favoriteList) {
-      for (let product of newProducts) {
+    for (let product of newProducts) {
+      if (favoriteList) {
         let isFavorite = !!favoriteList.products.find(
           (p) => p.productCode === product.productCode
         );
         product.isFavorite = isFavorite;
+      }
+      if (currentProductList) {
+        let isInCurrentList = !!currentProductList.products.find((p) => p.productCode === product.productCode);
+        product.isInCurrentList = isInCurrentList;   
+      }
+    }
+    return newProducts;
+  };
+  const addIsInCurrentList = (products) => {
+    let newProducts = products;
+    if (currentProductList) {
+      for (let product of newProducts) {
+        let isInCurrentList = !!currentProductList.products.find(
+          (p) => p.productCode === product.productCode
+        );
+        product.isInCurrentList = isInCurrentList;
       }
     }
     return newProducts;
@@ -168,7 +181,7 @@ const ProductListProvider = (props) => {
     fetchAllLists,
     addProductList,
     updateProductToList,
-    addIsFavorite,
+    addIsInList,
     resetLists,
     fetchProductLists,
     fetchListById,

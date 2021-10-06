@@ -13,21 +13,21 @@ export class HemkopHarvester {
     return await raw.json();
   }
 
-  static async getProductsByCategory(categoryUrl) {
+  static async getProductsByCategory(categoryUrl, size) {
     let raw = await fetch(
-      "https://www.hemkop.se/c/" + categoryUrl + this.bustCache() + "&size=2"
+      "https://www.hemkop.se/c/" + categoryUrl + this.bustCache() + "&size=" + size
     );
     return (await raw.json()).results;
   }
 
 
-  static async getAllProducts(hemkopCategories) {
+  static async getAllProducts(hemkopCategories, size) {
     let hemkopProductsRefinedCat = [];
     let foodHarvesterCategories = await FirebaseHandler.getCategories();
 
     for (let i = 0; i < hemkopCategories.length; i++) {
       let hemkopCategory = hemkopCategories[i];
-      let hemkopProducts = await this.getProductsByCategory(hemkopCategory.url);
+      let hemkopProducts = await this.getProductsByCategory(hemkopCategory.url, size);
 
       // for (let i = 0; i < hemkopProducts.length; i++)
       // *************temp looping 3 products in each category**************
