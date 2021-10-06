@@ -1,10 +1,11 @@
 import _ from 'lodash';
 
-export const requestQuotes = _.memoize(async (search, options) => {
+export const requestProducts = _.memoize(async (search, options) => {
   let data = {
-    search: capitalizeFirstLetter(search),
-    favoriteList: options.favoriteList,
-    currentList: options.currentList
+    searchCodeStart: adaptStringToDbData(search),
+    searchCodeEnd: endCodeString(search),
+    // favoriteList: options.favoriteList,
+    // currentList: options.currentList
   }
   try {
     let res = await fetch("/rest/products/search", {
@@ -26,8 +27,33 @@ export const requestQuotes = _.memoize(async (search, options) => {
   return []
 });
 
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+function adaptStringToDbData(searchStr) {
+  let startString = ""
+  const trimSearchStr = searchStr.trim()
+  const words = trimSearchStr.split(" ");
+  for (let i = 0; i < words.length; i++) {
+      console.log("words[i]: ", words[i])
+      if(!words[i][0]){
+        startString = " "
+        return startString;
+      }
+      words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+  }
+
+  startString = words.join(" ");
+  console.log(startString)
+  return startString
+}
+
+function endCodeString(searchStr) {
+  let strSearch = adaptStringToDbData(searchStr)
+  let strlength = adaptStringToDbData(searchStr).length;
+  let strFrontCode = strSearch.slice(0, strlength-1);
+  let strEndCode = strSearch.slice(strlength-1, strSearch.length);
+  let endCode = strFrontCode + String.fromCharCode(strEndCode.charCodeAt(0) + 1);
+    
+  console.log(endCode)
+  return endCode
 }
 
 

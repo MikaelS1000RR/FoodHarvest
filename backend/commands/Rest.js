@@ -31,22 +31,24 @@ export class Rest {
     });
 
     this.app.post("/rest/products/search", async (req, res) => {
-      let search = req.body.search;
-      let currentList = req.body.currentList;
-      let limit = req.body.limit || 10;
-
+      console.log("req.body.search ",req.body.searchCodeStart)
+      let productNameStart = req.body.searchCodeStart;
+      let productNameEnd = req.body.searchCodeEnd;
+      // let favoriteList = req.body.favoriteList;
+      // let currentList = req.body.currentList;
+      
       try {
-        let products = [];  
+        const products = [];
         let snapshot = await firestore
-          .collection("test-products")
-          .where("productName", ">=", search)
-          .orderBy("productName")
-          .startAt(search)
-          .limit(limit)
+          .collection("products")
+          .where("productName", ">=", productNameStart)
+          .where("productName", "<", productNameEnd)
+          .limit(20)
           .get();
-        snapshot.forEach((doc) => {
+        
+        snapshot.forEach((doc) => {          
           products.push({ id: doc.id, ...doc.data() })
-        }
+          }
         );
         res.json({success: "Searching successful", products: products})
       }
@@ -57,3 +59,8 @@ export class Rest {
   }
 
 }
+
+
+
+
+
