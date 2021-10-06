@@ -50,7 +50,6 @@ export class MathemScrubber extends Scrubber {
     //badges
     if (badges.length > 0) {
       badges.forEach((badge) => {
-        console.log(badge, "badge")
         if (badge.toolTip.includes("vegetarianer") ||
           badge.toolTip.includes("Vegetarisk") ||
           badge.toolTip.includes("vegetarisk")) {
@@ -90,8 +89,6 @@ export class MathemScrubber extends Scrubber {
           let scrubbedPreference = thePreferencesFromDb.find(
             (preference) => preference.name === "Svensk Flagga"
           )
-          console.log(scrubbedPreference, "scrubbedPreference")
-          console.log(scrubbedPreference.id,"scrubbedPreference.id")
           scrubbedPreferences.push(scrubbedPreference.id);
         }
 

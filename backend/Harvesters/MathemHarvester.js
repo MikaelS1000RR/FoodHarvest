@@ -55,7 +55,6 @@ export class MathemHarvester {
         productStorage.push(productsArr[j]);
       }
     }
-    console.log("length of prodcuts is ", productStorage.length);
     console.log("Harvesting of mathem is done!");
 
     return productStorage;
