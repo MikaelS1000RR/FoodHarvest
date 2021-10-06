@@ -23,7 +23,8 @@ const backupConfig = {
   appId: "1:860549266983:web:4cbe3cf5dc1b45d6ffd802",
 };
 
-const app = firebase.initializeApp(config);
+const app = firebase.initializeApp(backupConfig);
 
 export const auth = app.auth();
 export default firebase.firestore();
+
