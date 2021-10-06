@@ -1,29 +1,27 @@
 import React, { useState } from 'react';
 import {Container, Row} from "reactstrap" 
-
 import SearchBar from './SearchBar';
 import { requestProducts } from '../../configs/firestoreSearchProducts';
 import ProductCard from '../productCard/ProductCard';
 import { useProductList } from '../../contexts/ProductListContext';
 
 const Search = () => {
-  const [searchResults, setQuotes] = useState([]);
+  const [searchResults, setProducts] = useState([]);
   const [noResults, setNoResults] = useState(false);
   const { addIsInList } = useProductList()
 
   const onSearchSubmit = async (term) => {
-    console.log("New Search submit:", term);
 
     //await requestProducts(term); wait on matches db products collection
-    const quotesArray = await requestProducts(term.toLowerCase());
-    setQuotes(addIsInList(quotesArray))
-    setNoResults(quotesArray.length === 0);
-    setQuotes(quotesArray);
+    const productsArray = await requestProducts(term.toLowerCase());
+    setProducts(addIsInList(productsArray))
+    setNoResults(productsArray.length === 0);
+    setProducts(productsArray);
   };
 
-  const clearResults = () => setQuotes([]);
+  const clearResults = () => setProducts([]);
 
-  const renderedQuotes = searchResults.map((searchResult, i) => {
+  const renderedProducts = searchResults.map((searchResult, i) => {
     return (
       <ProductCard
         classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
@@ -38,17 +36,13 @@ const Search = () => {
       <div className="disclaimer-container">
         <p className="disclaimer"></p>
       </div>
-
       <SearchBar onSearchSubmit={onSearchSubmit} clearResults={clearResults} />
-
       {noResults && <p className="no-results">No results found.</p>}
       <Container>
-        <Row>{renderedQuotes}</Row>
+        <Row>{renderedProducts}</Row>
       </Container>
     </div>
   );
 };
-
-
 
 export default Search;
