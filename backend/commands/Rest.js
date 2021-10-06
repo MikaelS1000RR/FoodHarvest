@@ -31,7 +31,6 @@ export class Rest {
     });
 
     this.app.post("/rest/products/search", async (req, res) => {
-      console.log("req.body.search ",req.body.searchCodeStart)
       let productNameStart = req.body.searchCodeStart;
       let productNameEnd = req.body.searchCodeEnd;
       // let favoriteList = req.body.favoriteList;
