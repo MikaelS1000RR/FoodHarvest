@@ -3,7 +3,7 @@ import { Row } from "reactstrap";
 import { useProduct } from "../contexts/ProductContext";
 import { Container } from "reactstrap";
 import { useCategory } from "../contexts/CategoryContext";
-import ProductCardList from "../components/home/ProductCardList";
+import ProductCardList from "../components/productCard/ProductCardList";
 import { useProductList } from "../contexts/ProductListContext";
 import { useAuth } from "../contexts/AuthContext";
 
