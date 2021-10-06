@@ -38,6 +38,7 @@ const ProductListProvider = (props) => {
   };
 
   const addProductList = async (list) => {
+    console.log("adding list", list);
     try {
       let res = await fetch("/api/product-list", {
         method: "POST",
@@ -48,6 +49,7 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list),
       });
       res = await res.json();
+      console.log(res);
       if (res.success) {
         fetchAllLists(list.uid);
         return true;

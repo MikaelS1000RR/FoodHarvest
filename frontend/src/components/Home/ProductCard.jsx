@@ -1,4 +1,5 @@
 import FavoriteButton from "./FavoriteButton";
+import AddProductButton from "./AddProductButton"
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
@@ -34,9 +35,7 @@ const ProductCard = (props) => {
             <h3>{product.price}kr</h3>
           </div>
         </div>
-        <div className="btn btn-primary" style={styles.button}>
-          {buttonText}
-        </div>
+        <AddProductButton product={product}/>
       </div>
     </div>
   );

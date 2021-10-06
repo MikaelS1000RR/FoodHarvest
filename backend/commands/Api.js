@@ -10,12 +10,16 @@ export class Api {
   start() {
     // createProductList
     this.app.post("/api/product-list", async (req, res) => {
-      let productList = new ProductList(req.body.uid, req.body.name, [], req.body.isFavorite);
+      let uid = req.body.uid
+      let name = req.body.name
+      let products = req.body.products || []
+      let isFavorite = req.body.isFavorite || false;
+      let productList = new ProductList(uid, name, products, isFavorite);
       if (productList.isFavorite) {
         const snapshot = await firestore
           .collection("product-lists")
-          .where("uid", "==", req.body.uid)
-          .where("isFavorite", "==", req.body.isFavorite)
+          .where("uid", "==", uid)
+          .where("isFavorite", "==", isFavorite)
           .get();
         const favoriteExist = !snapshot.empty;
         if (favoriteExist) {
@@ -25,7 +29,8 @@ export class Api {
       }
       try {
         let addedList = await firestore.collection("product-lists").add(Object.assign({}, productList));
-        res.json({success: "Posting successful"})
+        console.log(addedList);
+        res.json({ success: "Posting successful" })
       }
       catch (error) {
         res.json({error: "Posting of productlist unsuccessful"})
