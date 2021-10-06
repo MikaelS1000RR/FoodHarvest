@@ -93,7 +93,7 @@ const ProductListProvider = (props) => {
              snapshot.forEach((doc) => {
               
                let stringPrice = doc.data().price;
-               mathemPrices += parseFloat(stringPrice);
+               mathemPrices += parseInt(stringPrice);
               
              });
       }
