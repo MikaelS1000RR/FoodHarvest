@@ -109,7 +109,9 @@ const FooterPriceContainer = (props) => {
         <p style={currentUser ? styles.hide : styles.show}>
           {hemkopTotalPrice}
         </p>
-        <p className="productNotFound" style={styles.productNotFound}></p>
+        <p className="productNotFound" style={styles.productNotFound}>
+          {checkIfProductsAreNotFound("hemkop")}
+        </p>
       </div>
 
       <div className="mathem" style={styles.storeSection}>
@@ -117,14 +119,16 @@ const FooterPriceContainer = (props) => {
           src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"
           alt=""
           className="mathemImg"
-          style={styles.storeImg}
+          style={styles.mathemImg}
         />
         <p>{currentProductList === null ? "0 kr" : mathemTotalPrice + " kr"}</p>
         <p style={currentUser ? styles.hide : styles.show}>
           {mathemTotalPrice}
         </p>
 
-        <p className="productNotFound" style={styles.productNotFound}></p>
+        <p className="productNotFound" style={styles.productNotFound}>
+          {checkIfProductsAreNotFound("mathem")}
+        </p>
       </div>
     </div>
   );
@@ -135,7 +139,7 @@ export default FooterPriceContainer;
 const styles = {
   container: {
     width: "100%",
-    height: "15vh",
+    height: "18vh",
     border: "solid",
     display: "grid",
     borderColor: "#dee2e6",
@@ -177,9 +181,11 @@ const styles = {
     fontWeight: "bold",
     borderRight: "solid",
     borderColor: "#dee2e6",
+  
   },
   storeImg: {
     width: "100%",
+    height:"5vh"
   },
   hemkopImg: {
     width: "90%",
@@ -187,6 +193,9 @@ const styles = {
   pHemkop: {
    
     paddingTop: "1.5vh",
+  },
+  mathemImg: {
+    height:"5vh",
   },
   hide: {
     display: "none",
