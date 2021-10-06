@@ -20,12 +20,12 @@ const Category = (props) => {
   
   useEffect(() => {
     const getCategoryProducts = async () => {
-      console.log("gett category before");
+      //console.log("gett category before");
       let newCategory = await getCategoryByName(categoryName);
       setCategory(newCategory)
       let newProducts = await fetchProducts({ category: newCategory, favoriteList });
       newProducts = addIsInList(newProducts);
-      console.log(newProducts);
+      //console.log(newProducts);
       setProducts(newProducts);
     }
     getCategoryProducts();
@@ -36,7 +36,7 @@ const Category = (props) => {
       if (currentUser && currentUser.uid === favoriteList.uid) {
         let newProducts = await fetchProducts({ category, favoriteList });
         newProducts = addIsInList(newProducts);
-        console.log(newProducts);
+        //console.log(newProducts);
         setProducts(newProducts);
       }
     }

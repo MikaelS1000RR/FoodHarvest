@@ -24,7 +24,7 @@ const ProductProvider = (props) => {
       body: JSON.stringify(data),
     });
     res = await res.json();
-    console.log(res);
+    
     if (res.success && res.products) {
       return res.products;
     }

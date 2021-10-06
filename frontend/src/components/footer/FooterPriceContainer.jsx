@@ -12,6 +12,7 @@ const FooterPriceContainer = (props) => {
     willysTotalPrice,
     getTotalPriceOfProducts,
     productNotFound,
+    mathemTotalPrice,
   } = useProductList();
 
   useEffect(() => {
@@ -127,7 +128,7 @@ const FooterPriceContainer = (props) => {
           className="mathemImg"
           style={styles.storeImg}
         />
-        <p>2 kr</p>
+        <p>{currentProductList === null ? "0 kr" : mathemTotalPrice + " kr"}</p>
       </div>
     </div>
   );
