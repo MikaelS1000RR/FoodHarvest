@@ -1,23 +1,24 @@
 import FavoriteButton from "./FavoriteButton";
+import AddProductButton from "./AddProductButton"
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
 const ProductCard = (props) => {
-  const { product, classNames, buttonText, index } = props;
+  const { product, classNames} = props;
   const { toggleDetailModal } = useModal()
   const { setCurrentProduct } = useProductInfo();
 
   return (
-    <div className={classNames} index={index}>
+    <div className={classNames} >
       <div className={"card text-center"} style={styles.container}>
-        <FavoriteButton
-          styles={styles.favorite}
-          product={product}
-        />
-        <div className="openModal" onClick={() => {
-          setCurrentProduct(product) 
-          toggleDetailModal()
-        }}>
+        <FavoriteButton styles={styles.favorite} product={product} />
+        <div
+          className="openModal"
+          onClick={() => {
+            setCurrentProduct(product);
+            toggleDetailModal();
+          }}
+        >
           <div className="card-img-top" style={styles.image}>
             <img
               className=""
@@ -28,15 +29,13 @@ const ProductCard = (props) => {
           </div>
           <div className="card-body">
             <div>
-              <h5 className="card-title">{product.foodType}</h5>
+              <h6 className="card-title">{product.productName}</h6>
               <p className="card-title">{product.brand}</p>
             </div>
-            <h3>{product.price}kr</h3>
+            <h4>{product.price}kr</h4>
           </div>
         </div>
-        <div className="btn btn-primary" style={styles.button}>
-          {buttonText}
-        </div>
+        <AddProductButton product={product} />
       </div>
     </div>
   );
