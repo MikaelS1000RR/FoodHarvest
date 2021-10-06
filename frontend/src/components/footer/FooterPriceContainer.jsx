@@ -1,6 +1,7 @@
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { useProduct } from "../../contexts/ProductContext";
+import { createContext, useContext, useState, useEffect } from "react";
 
 const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
@@ -71,7 +72,7 @@ const FooterPriceContainer = (props) => {
           style={styles.storeImg}
         />
         <p className="pWillys" style={currentUser ? styles.show : styles.hide}>
-          {currentProductList === null ? "0" : willysTotalPrice}
+          {currentProductList === null ? "0 kr " : willysTotalPrice + " kr"}
         </p>
 
         <p style={currentUser ? styles.hide : styles.show}>
@@ -100,7 +101,7 @@ const FooterPriceContainer = (props) => {
           style={styles.hemkopImg}
         />
         <p className="pHemkop" style={currentUser ? styles.show : styles.hide}>
-          {currentProductList === null ? "0" : hemkopTotalPrice}
+          {currentProductList === null ? "0 kr" : hemkopTotalPrice + " kr"}
         </p>
         <p style={currentUser ? styles.hide : styles.show}>
           {hemkopTotalPrice}

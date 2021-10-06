@@ -71,7 +71,7 @@ const ProductListProvider = (props) => {
   };
 
   const getTotalPriceOfProducts = async (list) => {
-    
+    console.log("list is ", list)
     let hemkopPrices = 0
    let willysPrices=0
     let hemkopProducts = []
@@ -130,9 +130,9 @@ const ProductListProvider = (props) => {
     }
    
      
-    setHemkopTotalPrice(hemkopPrices + " kr");
+    setHemkopTotalPrice(hemkopPrices);
     
-  setWillysTotalPrice(willysPrices + " kr")
+  setWillysTotalPrice(willysPrices)
     
      
    
@@ -151,7 +151,7 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
      
       setProductLists(lists);
-    
+    console.log("lists are ", lists)
       if (lists.length > 0) {
         setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
@@ -192,6 +192,7 @@ const ProductListProvider = (props) => {
   };
 
   const updateProductToList = async (list, product, toAdd, currentUser) => {
+    console.log("updating list")
     let data = {
       list: list,
       product: product,
@@ -210,6 +211,7 @@ const ProductListProvider = (props) => {
       res = await res.json();
       if (res.success) {
         if (!res.newList.isFavorite) {
+          getTotalPriceOfProducts(res.newList)
           setCurrentProductList(res.newList);
         } else {
           setFavoriteList(res.newList);
