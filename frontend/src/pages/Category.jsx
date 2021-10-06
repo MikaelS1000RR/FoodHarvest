@@ -8,40 +8,27 @@ import { useProductList } from "../contexts/ProductListContext";
 import { useAuth } from "../contexts/AuthContext";
 
 const Category = (props) => {
-  // console.log(props, "In categories")
   const categoryName = props.match.params.name;
   const [category, setCategory] = useState(null)
   const [products, setProducts] = useState([])
   const { fetchProducts } = useProduct();
   const { getCategoryByName } = useCategory();
   // should move to anothe context for favourite
-  const { favoriteList, addIsInList } = useProductList();
-  const { currentUser } = useAuth()
+  const { favoriteList, currentProductList, addIsInList } = useProductList();
   
   useEffect(() => {
     const getCategoryProducts = async () => {
-      console.log("gett category before");
       let newCategory = await getCategoryByName(categoryName);
-      setCategory(newCategory)
-      let newProducts = await fetchProducts({ category: newCategory, favoriteList });
-      newProducts = addIsInList(newProducts);
-      console.log(newProducts);
-      setProducts(newProducts);
-    }
-    getCategoryProducts();
-  }, [categoryName])
-
-  useEffect(() => {
-    const getCategoryProducts = async () => {
-      if (currentUser && currentUser.uid === favoriteList.uid) {
-        let newProducts = await fetchProducts({ category, favoriteList });
-        newProducts = addIsInList(newProducts);
-        console.log(newProducts);
-        setProducts(newProducts);
+      setCategory(newCategory);
+      let newProducts = products;
+      if (!products || products.length <= 0) {
+        newProducts = await fetchProducts({ category: newCategory });
       }
-    }
+      newProducts = await addIsInList(newProducts);
+      setProducts(newProducts);
+    };
     getCategoryProducts();
-  }, [favoriteList])
+  }, [categoryName, favoriteList, currentProductList]);
 
   return (
     <div>

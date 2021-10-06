@@ -1,11 +1,9 @@
 import _ from 'lodash';
 
-export const requestProducts = _.memoize(async (search, options) => {
+export const requestProducts = _.memoize(async (search) => {
   let data = {
     searchCodeStart: adaptStringToDbData(search),
     searchCodeEnd: endCodeString(search),
-    // favoriteList: options.favoriteList,
-    // currentList: options.currentList
   }
   try {
     let res = await fetch("/rest/products/search", {
@@ -17,7 +15,6 @@ export const requestProducts = _.memoize(async (search, options) => {
       body: JSON.stringify(data)
     })
     res = await res.json();
-    console.log(res);
     if (res.success && res.products)
     {
       return res.products
@@ -32,7 +29,7 @@ function adaptStringToDbData(searchStr) {
   const trimSearchStr = searchStr.trim()
   const words = trimSearchStr.split(" ");
   for (let i = 0; i < words.length; i++) {
-      console.log("words[i]: ", words[i])
+      // console.log("words[i]: ", words[i])
       if(!words[i][0]){
         startString = " "
         return startString;
@@ -41,7 +38,7 @@ function adaptStringToDbData(searchStr) {
   }
 
   startString = words.join(" ");
-  console.log(startString)
+  // console.log(startString)
   return startString
 }
 

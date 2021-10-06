@@ -6,20 +6,6 @@ import { useAuth } from "../contexts/AuthContext";
 const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
   const { currentUser } = useAuth();
-  // const [lists, setLists] = useState([]);
-
-
-  // useEffect(() => {
-  //   const getList = async () => {
-     
-  //     let list = await fetchProductLists(currentUser.uid);
-  //    /*  console.log("lists in pages are ", list);
-  //     console.log('current user is', currentUser) */
-  //     setLists(list);
-      
-  //   };
-  //   getList();
-  // }, [listName]);
 
   return (
     <div className="container" style={styles.container}>
