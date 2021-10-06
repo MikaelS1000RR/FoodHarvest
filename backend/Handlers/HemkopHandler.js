@@ -4,12 +4,16 @@ import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class HemkopHandler {
-  static async run(collection) {
+  static async run(collection, productPerCategory) {
+    const size = productPerCategory || 2;
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
 
     // Harvesting
-    let unscrubbedHemkopProducts = await HemkopHarvester.getAllProducts(categories);
+    let unscrubbedHemkopProducts = await HemkopHarvester.getAllProducts(
+      categories,
+      size
+    );
 
     //Scrubbing
     let scrubbedHemkopProducts = [];
