@@ -4,7 +4,7 @@ import { HemkopScrubber } from "../Scrubbers/HemkopScrubber.js"
 import { FirebaseHandler } from "../FirebaseHandler.js";
 
 export class HemkopHandler {
-  static async run() {
+  static async run(collection) {
     let rawData = await HemkopHarvester.getCategories();
     let categories = rawData.children;
 
@@ -18,6 +18,6 @@ export class HemkopHandler {
     });
 
     // Posting scrubbed products into db
-    FirebaseHandler.postProductsInBatch(scrubbedHemkopProducts);
+    FirebaseHandler.postProductsInBatch(collection, scrubbedHemkopProducts);
   }
 }
