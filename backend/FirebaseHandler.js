@@ -3,10 +3,10 @@ import firestore from "./database_config/firestore.js";
 export class FirebaseHandler {
 
   // Posting products in batch (still creates separate writes to DB..)
-  static postProductsInBatch(productArray) {
+  static postProductsInBatch(collection, productArray) {
     let batch = firestore.batch();
     productArray.forEach((product) => {
-      let docRef = firestore.collection("products").doc();
+      let docRef = firestore.collection(collection).doc();
       batch.set(docRef, product);
     });
     try {
@@ -15,7 +15,7 @@ export class FirebaseHandler {
     }
     catch (err) {
       console.log("Write to DB failed: ", err)
-     }
+    }
   }
 
   //Delete products in collection
@@ -101,10 +101,10 @@ export class FirebaseHandler {
   }
   //Another way to post products
 
-  static async postProduct(products) {
+  static async postProduct(collection, products) {
     for (let i = 0; i < products.length; i++) {
       let productToPost = products[i];
-      firestore.collection("products").doc().set(productToPost);
+      firestore.collection(collection).doc().set(productToPost);
     }
     console.log("Posted product in db!");
   }
