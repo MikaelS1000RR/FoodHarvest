@@ -1,10 +1,5 @@
-const scheduler = require('node-schedule');
+import scheduler from 'node-schedule';
 
-const ruleScheduler = new scheduler.RecurrenceRule();
-
-ruleScheduler.hour = 00;
-ruleScheduler.minute = 00;
-ruleScheduler.second = 00;
-
-//From 0 (monday) to 6 (sunday)
-ruleScheduler.dayOfWeek = new scheduler.Range(0, 6);
+const dailyJob = scheduler.scheduleJob('0 40 13 * * *', () => {
+  console.log("Test av scheduler")
+})
