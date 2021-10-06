@@ -35,7 +35,6 @@ const ProductListProvider = (props) => {
         body: JSON.stringify(list),
       });
       res = await res.json();
-      console.log(res);
       if (res.success) {
         fetchAllLists(list.uid);
         return true;
@@ -57,7 +56,6 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        console.log("currentList exist");
         setCurrentProductList(lists[0])
       }
     } else {
@@ -126,8 +124,6 @@ const ProductListProvider = (props) => {
     if (!products || products.length <= 0) {
       return products
     }
-    console.log(currentProductList);
-    console.log(!!favoriteList, !!currentProductList);
     for (let product of newProducts) {
       if (favoriteList) {
         let isFavorite = !!favoriteList.products.find((p) => p.productCode === product.productCode);
