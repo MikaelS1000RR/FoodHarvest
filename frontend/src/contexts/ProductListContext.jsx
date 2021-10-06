@@ -67,16 +67,16 @@ const ProductListProvider = (props) => {
 
   const getTotalPriceOfProducts = async (list) => {
     let hemkopPrices = 0
-   // let willysPrices=0
+   let willysPrices=0
     let hemkopProducts = []
-    //let willysProducts=[]
+    let willysProducts=[]
    
     
    
       for (let product of list.products) {
          let productCodeWithoutStoreName = product.productCode.substring(0, 12);
         let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
-        //let willysProductCode = productCodeWithoutStoreName + "willys"
+        let willysProductCode = productCodeWithoutStoreName + "willys"
         
 
          //Hemkop
@@ -96,7 +96,7 @@ const ProductListProvider = (props) => {
 
 
       //Willys
-      /*   let snapshot2 = await firestore
+        let snapshot2 = await firestore
            .collection("products") //Change this to "products" later
            .where("productCode", "==", willysProductCode)
            .limit(1)
@@ -106,7 +106,7 @@ const ProductListProvider = (props) => {
           willysProducts.push(doc.data())
           let stringPrice = doc.data().price;
           willysPrices += parseFloat(stringPrice);
-         }); */
+         });
     }
 
 
@@ -119,14 +119,14 @@ const ProductListProvider = (props) => {
       console.log("products not found")
       setProductNotFound(...productNotFound, "h")
     }
-   /*  if (willysProducts.length < list.products.length) {
-      setProductNotFound(...productNotFound, "willys")
-    } */
+    if (willysProducts.length < list.products.length) {
+      setProductNotFound(...productNotFound, "w")
+    }
    
      
     setHemkopTotalPrice(hemkopPrices + " kr");
     
-  //setWillysTotalPrice(willysPrices + " kr")
+  setWillysTotalPrice(willysPrices + " kr")
     
      
    

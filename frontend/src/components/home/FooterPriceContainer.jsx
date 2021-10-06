@@ -69,8 +69,27 @@ const FooterPriceContainer = (props) => {
           className="willysImg"
           style={styles.storeImg}
         />
-        <p> {currentProductList === null ? "loading..." : willysTotalPrice}</p>
+        <p className="pWillys" style={currentUser ? styles.show : styles.hide}>
+          {currentProductList === null ? "loading..." : willysTotalPrice}
+        </p>
+
+        <p style={currentUser ? styles.hide : styles.show}>
+          {willysTotalPrice}
+        </p>
+
+        <p className="productNotFound" style={styles.productNotFound}>
+          {productNotFound.includes("w")
+            ? "vissa produkter kunde inte hittas"
+            : ""}
+        </p>
       </div>
+
+      
+
+
+
+
+
 
       <div className="hemkop" style={styles.storeSection}>
         <img
@@ -92,6 +111,13 @@ const FooterPriceContainer = (props) => {
         </p>
       </div>
 
+      
+
+
+
+
+
+      
       <div className="mathem" style={styles.storeSection}>
         <img
           src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"
