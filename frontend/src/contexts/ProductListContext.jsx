@@ -70,6 +70,7 @@ const ProductListProvider = (props) => {
    // let willysPrices=0
     let hemkopProducts = []
     //let willysProducts=[]
+   
     
    
       for (let product of list.products) {
@@ -116,7 +117,7 @@ const ProductListProvider = (props) => {
     //If products were not found
     if (hemkopProducts.length < list.products.length) {
       console.log("products not found")
-      setProductNotFound(...productNotFound, "hemkop")
+      setProductNotFound(...productNotFound, "h")
     }
    /*  if (willysProducts.length < list.products.length) {
       setProductNotFound(...productNotFound, "willys")
@@ -124,6 +125,7 @@ const ProductListProvider = (props) => {
    
      
     setHemkopTotalPrice(hemkopPrices + " kr");
+    
   //setWillysTotalPrice(willysPrices + " kr")
     
      
@@ -131,13 +133,15 @@ const ProductListProvider = (props) => {
  }
 
   const fetchAllLists = async (userId) => {
+   
     let favorite = await fetchLists(userId, true);
     if (favorite.products) {
+      
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
-        await setCurrentProductList(lists[0]);
+        setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
       
       }

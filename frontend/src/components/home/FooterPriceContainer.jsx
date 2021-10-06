@@ -7,8 +7,12 @@ const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
-  const { hemkopTotalPrice, willysTotalPrice, getTotalPriceOfProducts } =
-    useProductList();
+  const {
+    hemkopTotalPrice,
+    willysTotalPrice,
+    getTotalPriceOfProducts,
+    productNotFound,
+  } = useProductList();
 
   useEffect(() => {
     
@@ -24,6 +28,7 @@ const FooterPriceContainer = (props) => {
        
           await getTotalPriceOfProducts(favoriteList);
         }
+       
           
       }
     
@@ -80,6 +85,11 @@ const FooterPriceContainer = (props) => {
         <p style={currentUser ? styles.hide : styles.show}>
           {hemkopTotalPrice}
         </p>
+        <p className="productNotFound" style={styles.productNotFound}>
+          {productNotFound.includes("h")
+            ? "vissa produkter kunde inte hittas"
+            : ""}
+        </p>
       </div>
 
       <div className="mathem" style={styles.storeSection}>
@@ -107,7 +117,8 @@ const styles = {
     gridTemplateColumns: "repeat(4, 1fr)",
     margin: "0",
     padding: "0",
-    background:"white"
+    background: "white",
+    paddingBottom:"20vh"
   },
   cartSection: {
     display: "flex",
@@ -127,6 +138,11 @@ const styles = {
     width: "12vw",
   },
 
+  productNotFound: {
+    fontSize: "10px",
+    paddingBottom:"40px"
+  },
+
   storeSection: {
     display: "flex",
     flexDirection: "column",
@@ -144,7 +160,7 @@ const styles = {
     width: "90%",
   },
   pHemkop: {
-    marginBottom: "1.5vh",
+   
     paddingTop: "1.5vh",
   },
   hide: {
