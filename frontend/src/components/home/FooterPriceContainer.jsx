@@ -24,10 +24,12 @@ const FooterPriceContainer = (props) => {
           await getTotalPriceOfProducts(currentProductList);
         
         }
+        //If currentProduct list inte finns med currentUser finns => get price of favoriteList
         if (!currentUser) {
        
           await getTotalPriceOfProducts(favoriteList);
         }
+      
        
           
       }
@@ -53,7 +55,7 @@ const FooterPriceContainer = (props) => {
         <div className="amountOfProducts" style={styles.amountOfProducts}>
           <p style={currentUser ? styles.show : styles.hide}>
             {currentProductList === null
-              ? "loading..."
+              ? "0"
               : currentProductList.products.length}
           </p>
 
@@ -70,7 +72,7 @@ const FooterPriceContainer = (props) => {
           style={styles.storeImg}
         />
         <p className="pWillys" style={currentUser ? styles.show : styles.hide}>
-          {currentProductList === null ? "loading..." : willysTotalPrice}
+          {currentProductList === null ? "0" : willysTotalPrice}
         </p>
 
         <p style={currentUser ? styles.hide : styles.show}>
@@ -99,7 +101,7 @@ const FooterPriceContainer = (props) => {
           style={styles.hemkopImg}
         />
         <p className="pHemkop" style={currentUser ? styles.show : styles.hide}>
-          {currentProductList === null ? "loading..." : hemkopTotalPrice}
+          {currentProductList === null ? "0" : hemkopTotalPrice}
         </p>
         <p style={currentUser ? styles.hide : styles.show}>
           {hemkopTotalPrice}
