@@ -81,6 +81,6 @@ export default App;
 const styles = {
   space: {
     height: "20vh",
-    background:"pink"
+    background:"white"
   }
 }
