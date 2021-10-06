@@ -61,52 +61,56 @@ const ProductListProvider = (props) => {
 
   const resetLists = () => {
     
-    setFavoriteList({ products: [], isFavorite: true });
+    setFavoriteList({
+      products: [],
+      isFavorite: true,
+    });
     setCurrentProductList(null);
     setProductLists(null);
   };
 
   const getTotalPriceOfProducts = async (list) => {
+    
     let hemkopPrices = 0
    let willysPrices=0
     let hemkopProducts = []
     let willysProducts=[]
    
     
-      for (let product of list.products) {
-        let productCodeWithoutStoreName = product.productCode.substring(0, 12);
-        let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
-        let willysProductCode = productCodeWithoutStoreName + "willys"
-        
+    for (let product of list.products) {
+      if (product.productCode !== undefined) {
+               let productCodeWithoutStoreName = product.productCode.substring(
+                 0,
+                 12
+               );
+               let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
+               let willysProductCode = productCodeWithoutStoreName + "willys";
 
-        //Hemkop
-        let snapshot = await firestore
-          .collection("test-products-hemkop") //Change this to "products" later
-          .where("productCode", "==", hemkopProductCode)
-          .limit(1)
-          .get();
-        snapshot.forEach((doc) => {
-         
-          hemkopProducts.push(doc.data())
-          let stringPrice = doc.data().price;
-          hemkopPrices += parseFloat(stringPrice);
-         
-        });
-        
+               //Hemkop
+               let snapshot = await firestore
+                 .collection("test-products-hemkop") //Change this to "products" later
+                 .where("productCode", "==", hemkopProductCode)
+                 .limit(1)
+                 .get();
+               snapshot.forEach((doc) => {
+                 hemkopProducts.push(doc.data());
+                 let stringPrice = doc.data().price;
+                 hemkopPrices += parseFloat(stringPrice);
+               });
 
-
-        //Willys
-        let snapshot2 = await firestore
-          .collection("products") //Change this to "products" later
-          .where("productCode", "==", willysProductCode)
-          .limit(1)
-          .get();
-        snapshot2.forEach((doc) => {
-         
-          willysProducts.push(doc.data())
-          let stringPrice = doc.data().price;
-          willysPrices += parseFloat(stringPrice);
-        });
+               //Willys
+               let snapshot2 = await firestore
+                 .collection("products") //Change this to "products" later
+                 .where("productCode", "==", willysProductCode)
+                 .limit(1)
+                 .get();
+               snapshot2.forEach((doc) => {
+                 willysProducts.push(doc.data());
+                 let stringPrice = doc.data().price;
+                 willysPrices += parseFloat(stringPrice);
+               });
+        }
+   
       }
 
     
@@ -117,7 +121,7 @@ const ProductListProvider = (props) => {
 
     //If products were not found
     if (hemkopProducts.length < list.products.length) {
-      console.log("products not found")
+     
       setProductNotFound(...productNotFound, "h")
     }
     if (willysProducts.length < list.products.length) {
@@ -135,22 +139,28 @@ const ProductListProvider = (props) => {
 
   const fetchAllLists = async (userId) => {
    
+    //Fetching favorite list of user with userId and favorite == true
     let favorite = await fetchLists(userId, true);
+    
+
+    //If such list exists set this list as favorite
     if (favorite.products) {
       
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
+     
       setProductLists(lists);
-      console.log(lists)
+    
       if (lists.length > 0) {
         setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
       
       }
     } else {
-     
+      
       createFavoriteList(userId);
       fetchAllLists(userId);
+
     }
   };
 
@@ -227,9 +237,6 @@ const ProductListProvider = (props) => {
       if (user != null) {
         await fetchAllLists(user.uid);
       
-       
-       
-       
       } else {
         resetLists();
       }
