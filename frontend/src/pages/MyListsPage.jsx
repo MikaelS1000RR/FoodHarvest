@@ -1,4 +1,4 @@
-import { Row } from "reactstrap";
+// import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
@@ -7,7 +7,7 @@ import { useAuth } from "../contexts/AuthContext";
 const MyListsPage = () => {
   const listName = "list Name";
   const { fetchProductLists } = useProductList();
-  const { productLists } = useProductList();
+  // const { productLists } = useProductList();
  const { currentUser } = useAuth();
   const [lists, setLists] = useState([]);
 
@@ -36,6 +36,7 @@ const MyListsPage = () => {
             className="plusImg"
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
           />
         </div>
 

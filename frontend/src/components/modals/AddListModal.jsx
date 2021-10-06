@@ -9,7 +9,7 @@ const AddListModal = () => {
   const title = "Skapa ny lista";
   const { currentUser } = useAuth();
   const { showAddListModal, toggleAddListModal } = useModal();
-  const { addProductList, setCurrentProductList } = useProductList();
+  const { addProductList } = useProductList();
   const [newListName, setNewListName] = useState('')
 
   const addNewList = async (e) => {
