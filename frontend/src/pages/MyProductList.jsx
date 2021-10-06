@@ -10,11 +10,14 @@ const MyProductList = () => {
   const { fetchProductsByCode } = useProduct();
   const [products, setproducts] = useState(null);
   const [list, setList] = useState(null);
-  let [key, setKey] = useState(88);
+  let [key, setKey] = useState(1288);
   const productCodes = [];
 
-    useEffect(() => {
+  useEffect(() => {
+    console.log("UseEffect")
+    if (products === null) {
       getList();
+    }
     }, []);
 
   const getList = async () => {
@@ -33,28 +36,25 @@ const MyProductList = () => {
   };
   
 
-  if (!list) {
+  if (!list || !products) {
     return <div>Loading...</div>;
   } else {
-    return (
-      <div className="container">
-        <h1>{list.name}</h1>
-        <div className="row gy-3">
-          { products &&
-            products.map((p, index) => (
-              <div key={ key }>
-              <EditableProductCard
-                index={index}
-                key={index}
-                product={p}
-                classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
-                buttonText="Lägg till"
+      return (
+        <div className="container">
+          <h1>{list.name}</h1>
+          <div className="row gy-3" key={key}>
+            {products &&
+              products.map((p, index) => (
+                <EditableProductCard
+                  key={index}
+                  product={p}
+                  classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
+                  buttonText="Lägg till"
                 />
-                </div>
-            ))}
+              ))}
+          </div>
         </div>
-      </div>
-    );
+      );
   }
 };
 
