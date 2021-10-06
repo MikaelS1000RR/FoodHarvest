@@ -8,30 +8,28 @@ const MyProductList = () => {
   let { id } = useParams();
   const { fetchListById } = useProductList();
   const { fetchProductsByCode } = useProduct();
-  const [products, setproducts] = useState(null);
-  const [list, setList] = useState(null);
-  let [key, setKey] = useState(1288);
-  const productCodes = [];
+  const [products, setproducts] = useState();
+  const [list, setList] = useState();
+  
 
   useEffect(() => {
-    console.log("UseEffect")
-    if (products === null) {
       getList();
-    }
+      console.log("UseEffect");
     }, []);
 
   const getList = async () => {
+    const productCodes = [];
     let list = await fetchListById(id);
     setList(list);
       for (let product of list.products) {
         productCodes.push(product.productCode);
       }
-      await getProducts(productCodes).then(setKey(key + 1));
+      await getProducts(productCodes);
   };
 
   const getProducts = async (productCodes) => {
-    let products = await fetchProductsByCode(productCodes);
-      setproducts(products);
+    let newProducts = await fetchProductsByCode(productCodes);
+      setproducts(newProducts);
     console.log(products);
   };
   
@@ -42,8 +40,8 @@ const MyProductList = () => {
       return (
         <div className="container">
           <h1>{list.name}</h1>
-          <div className="row gy-3" key={key}>
-            {products &&
+          <div className="row gy-3">
+            { (products.length !== 0) &&
               products.map((p, index) => (
                 <EditableProductCard
                   key={index}
