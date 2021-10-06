@@ -60,6 +60,7 @@ const ProductListProvider = (props) => {
   };
 
   const resetLists = () => {
+    
     setFavoriteList({ products: [], isFavorite: true });
     setCurrentProductList(null);
     setProductLists(null);
@@ -72,19 +73,18 @@ const ProductListProvider = (props) => {
     let willysProducts=[]
    
     
-   
       for (let product of list.products) {
-         let productCodeWithoutStoreName = product.productCode.substring(0, 12);
+        let productCodeWithoutStoreName = product.productCode.substring(0, 12);
         let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
         let willysProductCode = productCodeWithoutStoreName + "willys"
         
 
-         //Hemkop
+        //Hemkop
         let snapshot = await firestore
-           .collection("test-products-hemkop") //Change this to "products" later
-           .where("productCode", "==", hemkopProductCode)
-           .limit(1)
-           .get();
+          .collection("test-products-hemkop") //Change this to "products" later
+          .where("productCode", "==", hemkopProductCode)
+          .limit(1)
+          .get();
         snapshot.forEach((doc) => {
          
           hemkopProducts.push(doc.data())
@@ -95,20 +95,21 @@ const ProductListProvider = (props) => {
         
 
 
-      //Willys
+        //Willys
         let snapshot2 = await firestore
-           .collection("products") //Change this to "products" later
-           .where("productCode", "==", willysProductCode)
-           .limit(1)
-           .get();
+          .collection("products") //Change this to "products" later
+          .where("productCode", "==", willysProductCode)
+          .limit(1)
+          .get();
         snapshot2.forEach((doc) => {
          
           willysProducts.push(doc.data())
           let stringPrice = doc.data().price;
           willysPrices += parseFloat(stringPrice);
-         });
-    }
+        });
+      }
 
+    
 
   
 
@@ -140,6 +141,7 @@ const ProductListProvider = (props) => {
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
+      console.log(lists)
       if (lists.length > 0) {
         setCurrentProductList(lists[0]);
         console.log("setting current list ", lists[0])
