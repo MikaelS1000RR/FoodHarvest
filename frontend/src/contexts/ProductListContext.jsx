@@ -17,8 +17,8 @@ const ProductListProvider = (props) => {
   const [productLists, setProductLists] = useState(null);
   const [hemkopTotalPrice, setHemkopTotalPrice] = useState(0)
   const [willysTotalPrice, setWillysTotalPrice] = useState(0)
-  const [productNotFound, setProductNotFound] = useState([])
-  const [mathemTotalPrice, setMathemTotalPrice]=useState(0)
+  const [mathemTotalPrice, setMathemTotalPrice] = useState(0)
+  
 
   const fetchProductLists = async (userId) => {
     const ref = firestore.collection("product-lists");
@@ -72,41 +72,43 @@ const ProductListProvider = (props) => {
   };
 
   const getTotalPriceOfProducts = async (list) => {
-    
+    //setNotFound...
     let hemkopPrices = 0
     let willysPrices = 0
     let mathemPrices=0
-    let hemkopProducts = []
-    let willysProducts=[]
+    let hemkopProductsArr = []
+    let willysProductsArr = []
+    let mathemProductsArr=[]
    
     
     for (let product of list.products) {
       if (product.productCode !== undefined) {
 
         if (product.productCode.includes("Mathem")) {
-          console.log("includes")
+         
              let snapshot = await firestore
                .collection("products") //Change this to "products" later
                .where("productCode", "==", product.productCode)
                .limit(1)
                .get();
              snapshot.forEach((doc) => {
-              
+              mathemProductsArr.push(doc.data())
                let stringPrice = doc.data().price;
                mathemPrices += parseInt(stringPrice);
+
+             
               
              });
-      }
-         
-
-
+        }
+        
+        else {
+          
                let productCodeWithoutStoreName = product.productCode.substring(
                  0,
                  12
                );
                let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
-        let willysProductCode = productCodeWithoutStoreName + "willys";
-       
+               let willysProductCode = productCodeWithoutStoreName + "willys";
 
                //Hemkop
                let snapshot = await firestore
@@ -115,7 +117,7 @@ const ProductListProvider = (props) => {
                  .limit(1)
                  .get();
                snapshot.forEach((doc) => {
-                 hemkopProducts.push(doc.data());
+                 hemkopProductsArr.push(doc.data());
                  let stringPrice = doc.data().price;
                  hemkopPrices += parseFloat(stringPrice);
                });
@@ -127,41 +129,23 @@ const ProductListProvider = (props) => {
                  .limit(1)
                  .get();
                snapshot2.forEach((doc) => {
-                 willysProducts.push(doc.data());
+                 willysProductsArr.push(doc.data());
                  let stringPrice = doc.data().price;
                  willysPrices += parseFloat(stringPrice);
                });
-        
-        
-        
-        
-        
+        }
+         
         }
    
       }
-
-    
-
+ 
   
-
-    
-
-    //If products were not found
-    if (hemkopProducts.length < list.products.length) {
-     
-      setProductNotFound(...productNotFound, "h")
-    }
-    if (willysProducts.length < list.products.length) {
-      setProductNotFound(...productNotFound, "w")
-    }
-   
      
     setHemkopTotalPrice(hemkopPrices);
     
-    setWillysTotalPrice(willysPrices)
-    setMathemTotalPrice(mathemPrices)
-    
-     
+    setWillysTotalPrice(willysPrices);
+    setMathemTotalPrice(mathemPrices);
+  
    
  }
 
@@ -220,7 +204,7 @@ const ProductListProvider = (props) => {
   };
 
   const updateProductToList = async (list, product, toAdd, currentUser) => {
-    console.log("updating list")
+  
     let data = {
       list: list,
       product: product,
@@ -306,8 +290,8 @@ const ProductListProvider = (props) => {
     fetchProductLists,
     fetchListById,
     willysTotalPrice,
-    productNotFound,
     mathemTotalPrice,
+  
 
   };
 

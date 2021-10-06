@@ -11,8 +11,8 @@ const FooterPriceContainer = (props) => {
     hemkopTotalPrice,
     willysTotalPrice,
     getTotalPriceOfProducts,
-    productNotFound,
     mathemTotalPrice,
+   
   } = useProductList();
 
   useEffect(() => {
@@ -80,19 +80,8 @@ const FooterPriceContainer = (props) => {
           {willysTotalPrice}
         </p>
 
-        <p className="productNotFound" style={styles.productNotFound}>
-          {productNotFound.includes("w")
-            ? "vissa produkter kunde inte hittas"
-            : ""}
-        </p>
+        <p className="productNotFound" style={styles.productNotFound}></p>
       </div>
-
-      
-
-
-
-
-
 
       <div className="hemkop" style={styles.storeSection}>
         <img
@@ -107,20 +96,9 @@ const FooterPriceContainer = (props) => {
         <p style={currentUser ? styles.hide : styles.show}>
           {hemkopTotalPrice}
         </p>
-        <p className="productNotFound" style={styles.productNotFound}>
-          {productNotFound.includes("h")
-            ? "vissa produkter kunde inte hittas"
-            : ""}
-        </p>
+        <p className="productNotFound" style={styles.productNotFound}></p>
       </div>
 
-      
-
-
-
-
-
-      
       <div className="mathem" style={styles.storeSection}>
         <img
           src="https://dynassets1.gavekortet.dk/2/products/presentation_nxt/main_100899.jpg"
@@ -129,6 +107,13 @@ const FooterPriceContainer = (props) => {
           style={styles.storeImg}
         />
         <p>{currentProductList === null ? "0 kr" : mathemTotalPrice + " kr"}</p>
+        <p style={currentUser ? styles.hide : styles.show}>
+          {mathemTotalPrice}
+        </p>
+
+        <p className="productNotFound" style={styles.productNotFound}>
+
+        </p>
       </div>
     </div>
   );
@@ -147,7 +132,7 @@ const styles = {
     margin: "0",
     padding: "0",
     background: "white",
-    paddingBottom:"20vh"
+    //paddingBottom:"20vh"
   },
   cartSection: {
     display: "flex",
