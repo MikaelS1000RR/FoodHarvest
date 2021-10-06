@@ -36,7 +36,6 @@ export class HemkopHarvester {
           hemkopCategory.title,
           foodHarvesterCategories
         );
-        console.log("after ");
         console.log(hemkopProducts[i].category);
 
         console.log("Hemkop category: ", hemkopCategory.title);

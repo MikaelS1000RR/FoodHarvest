@@ -3,10 +3,8 @@ import firestore from "./database_config/firestore.js";
 export class DbInit {
   // initialize db
   static run() {
-    console.log("hej");
-    // console.log(data.categories);
-    // initStore()
-    // this.initCategories();
+    this.initStore()
+    this.initCategories();
   }
 
   static initStores = () => {

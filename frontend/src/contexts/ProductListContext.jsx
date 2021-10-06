@@ -16,19 +16,6 @@ const ProductListProvider = (props) => {
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
 
-  const fetchProductLists = async (userId) => {
-    const ref = firestore.collection("product-lists");
-    const query = await ref.where("uid", "==", userId).get();
-    let data = [];
-
-    query.forEach((doc) => {
-      data.push({ id: doc.id, ...doc.data() });
-    });
-    setCurrentProductList(data[0]);
-    setProductLists(data);
-    console.log(data);
-    return data;
-  };
 
   const fetchListById = async (listId) => {
     const ref = await firestore.collection("product-lists").doc(listId).get();
@@ -70,6 +57,7 @@ const ProductListProvider = (props) => {
       let lists = await fetchLists(userId, false);
       setProductLists(lists);
       if (lists.length > 0) {
+        console.log("currentList exist");
         setCurrentProductList(lists[0])
       }
     } else {
@@ -135,28 +123,19 @@ const ProductListProvider = (props) => {
 
   const addIsInList = (products) => {
     let newProducts = products;
+    if (!products || products.length <= 0) {
+      return products
+    }
+    console.log(currentProductList);
+    console.log(!!favoriteList, !!currentProductList);
     for (let product of newProducts) {
       if (favoriteList) {
-        let isFavorite = !!favoriteList.products.find(
-          (p) => p.productCode === product.productCode
-        );
+        let isFavorite = !!favoriteList.products.find((p) => p.productCode === product.productCode);
         product.isFavorite = isFavorite;
       }
       if (currentProductList) {
         let isInCurrentList = !!currentProductList.products.find((p) => p.productCode === product.productCode);
         product.isInCurrentList = isInCurrentList;   
-      }
-    }
-    return newProducts;
-  };
-  const addIsInCurrentList = (products) => {
-    let newProducts = products;
-    if (currentProductList) {
-      for (let product of newProducts) {
-        let isInCurrentList = !!currentProductList.products.find(
-          (p) => p.productCode === product.productCode
-        );
-        product.isInCurrentList = isInCurrentList;
       }
     }
     return newProducts;
@@ -183,7 +162,6 @@ const ProductListProvider = (props) => {
     updateProductToList,
     addIsInList,
     resetLists,
-    fetchProductLists,
     fetchListById,
   };
 
