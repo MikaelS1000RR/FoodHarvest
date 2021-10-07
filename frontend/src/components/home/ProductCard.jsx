@@ -32,12 +32,10 @@ const ProductCard = (props) => {
               <h6 className="card-title">{product.productName}</h6>
               <p className="card-title">{product.brand}</p>
             </div>
+            <h4>{product.price}kr</h4>
           </div>
         </div>
-        <div className="p-3 mt-auto">
-            <h4>{product.price}kr</h4>
-          <AddProductButton product={product} />
-        </div>
+        <AddProductButton product={product} />
       </div>
     </div>
   );
@@ -52,10 +50,14 @@ const styles = {
     width: "100%",
     minHeight: "400px",
     display: "flex",
+    flexFlow: "row wrap",
     justifyContent: "flex-start",
-    boxShadow:
-      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-    margin:"4px"
+    
+  },
+  button: {
+    width: "80%",
+    minWidth: "100%",
+    borderRadius: "100px",
   },
   image: {
     width: "100%",
@@ -67,7 +69,6 @@ const styles = {
       maxWidth: "100%",
       maxHeight: "100%",
       margin: "0 auto",
-      marginTop: "2rem",
     },
   },
   favorite: {

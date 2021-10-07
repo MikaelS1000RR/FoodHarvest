@@ -1,46 +1,58 @@
-// import ProductListCard from "../components/ProductListCard";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext.jsx";
-import ProductCard from "../components/productCard/ProductCard";
-// import firestore from "../database_config/firestore";
+import { useProduct } from "../contexts/ProductContext.jsx";
+import EditableProductCard from "../components/productCard/EditableProductCard";
 import { useParams } from "react-router";
 
 const MyProductList = () => {
   let { id } = useParams();
   const { fetchListById } = useProductList();
-  const [products, setproducts] = useState(null);
-  const [list, setList] = useState(null);
+  const { fetchProductsByCode } = useProduct();
+  const [products, setproducts] = useState();
+  const [list, setList] = useState();
+  
 
   useEffect(() => {
-    const getProducts = async () => {
-      let list = await fetchListById(id);
-      setList(list);
-      let products = list.products;
-      setproducts(products);
-    };
-    getProducts();
-  }, []);
+      getList();
+      console.log("UseEffect");
+    }, []);
 
-  if (!list) {
+  const getList = async () => {
+    const productCodes = [];
+    let list = await fetchListById(id);
+    setList(list);
+      for (let product of list.products) {
+        productCodes.push(product.productCode);
+      }
+      await getProducts(productCodes);
+  };
+
+  const getProducts = async (productCodes) => {
+    let newProducts = await fetchProductsByCode(productCodes);
+      setproducts(newProducts);
+    console.log(products);
+  };
+  
+
+  if (list == null || products == null) {
     return <div>Loading...</div>;
   } else {
-    return (
-      <div className="container">
-        <h1>{list.name}</h1>
-        <div className="row gy-3">
-          {products &&
-            products.map((p, index) => (
-              <ProductCard
-                index={index}
-                key={index}
-                product={p}
-                classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
-                buttonText="Lägg till"
-              />
-            ))}
+      return (
+        <div className="container">
+          <h1>{list.name}</h1>
+          <div className="row gy-3">
+            { (products.length !== 0) &&
+              products.map((p, index) => (
+                <EditableProductCard
+                  key={index}
+                  product={p}
+                  classNames={"col-6 col-sm-4 col-md-3 col-lg-2"}
+                  buttonText="Lägg till"
+                />
+              ))}
+          </div>
         </div>
-      </div>
-    );
+      );
   }
 };
 

@@ -22,7 +22,6 @@ const backupConfig = {
   messagingSenderId: "860549266983",
   appId: "1:860549266983:web:4cbe3cf5dc1b45d6ffd802",
 };
-
 const backupConfig2 = {
   apiKey: "AIzaSyB4LXsCA_GmiHDc6J5gt-Qv-DsWYL3VXpc",
   authDomain: "food-harvest-firestore-backup2.firebaseapp.com",
@@ -32,7 +31,8 @@ const backupConfig2 = {
   appId: "1:276857637753:web:643aa13fcb484427633da8",
 };
 
-const app = firebase.initializeApp(backupConfig2);
+
+const app = firebase.initializeApp(config);
 
 export const auth = app.auth();
 export default firebase.firestore();
