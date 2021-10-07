@@ -198,7 +198,7 @@ const styles = {
     paddingTop: "1.5vh",
   },
   mathemImg: {
-    height:"8vh",
+    height:"6vh",
   },
   hide: {
     display: "none",
