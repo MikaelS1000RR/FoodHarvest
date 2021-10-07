@@ -32,7 +32,7 @@ const backupConfig2 = {
   appId: "1:276857637753:web:643aa13fcb484427633da8",
 };
 
-const app = firebase.initializeApp(backupConfig2);
+const app = firebase.initializeApp(config);
 
 let firestore = firebase.firestore();
 
