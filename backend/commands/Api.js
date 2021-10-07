@@ -82,8 +82,5 @@ export class Api {
       }
     })
 
-    this.app.put("/api/product-list/product", async (req, res) => {
-      // to update products in productlist
-    })
   }
 }

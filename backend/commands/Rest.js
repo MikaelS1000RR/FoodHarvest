@@ -32,8 +32,6 @@ export class Rest {
     this.app.post("/rest/products/search", async (req, res) => {
       let productNameStart = req.body.searchCodeStart;
       let productNameEnd = req.body.searchCodeEnd;
-      // let favoriteList = req.body.favoriteList;
-      // let currentList = req.body.currentList;
       
       try {
         const products = [];

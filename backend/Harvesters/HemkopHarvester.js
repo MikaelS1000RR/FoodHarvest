@@ -29,21 +29,17 @@ export class HemkopHarvester {
       let hemkopCategory = hemkopCategories[i];
       let hemkopProducts = await this.getProductsByCategory(hemkopCategory.url, size);
 
-      // for (let i = 0; i < hemkopProducts.length; i++)
-      // *************temp looping 3 products in each category**************
       for (let i = 0; i < hemkopProducts.length; i++) {
         hemkopProducts[i].category = this.refineCategory(
           hemkopCategory.title,
           foodHarvesterCategories
         );
-        console.log(hemkopProducts[i].category);
-
-        console.log("Hemkop category: ", hemkopCategory.title);
+    
         hemkopProductsRefinedCat.push(hemkopProducts[i]);
       }
     }
 
-    console.log("Harvesting of Hemkop is done!");
+  
     return hemkopProductsRefinedCat;
   }
 
