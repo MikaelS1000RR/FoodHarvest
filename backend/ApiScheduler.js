@@ -1,4 +1,6 @@
 import scheduler from 'node-schedule';
+import { Harvesting } from "./Harvesting.js";
+
 
 export class ApiScheduler{
   static run() {
