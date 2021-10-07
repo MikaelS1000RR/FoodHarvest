@@ -1,34 +1,31 @@
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { useHistory } from "react-router-dom";
-import { useProduct } from "../../contexts/ProductContext";
-import { createContext, useContext, useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const FooterPriceContainer = (props) => {
-  const { currentProductList } = useProductList();
-  const { favoriteList } = useProductList();
-  const { currentUser } = useAuth();
   const history = useHistory();
-
-  const toggleCurrentList = (e) => {
-    if(currentProductList !== null){
-    console.log(currentUser)
-    console.log("toggleCurrentList: ",currentProductList)
-    console.log("favoriteList: ",favoriteList)
-    history.push(`/myListsPage/${currentProductList.id}`)
-    }
-    
-  }
+  const { currentUser } = useAuth();
   const {
     hemkopTotalPrice,
     willysTotalPrice,
     getTotalPriceOfProducts,
     mathemTotalPrice,
     productsNotFound,
+    currentProductList,
+    favoriteList
   } = useProductList();
-
-
   
+  const toggleCurrentList = (e) => {
+    console.log("toggleCurrentList: ",currentProductList)
+    if(!currentProductList){
+    history.push(`/myProductList/${favoriteList.id}`)
+    return;
+    }
+    history.push(`/myProductList/${currentProductList.id}`)
+  }
+
+
 
   const checkIfProductsAreNotFound = (storeName) => {
     if (productsNotFound.includes(storeName)) {
@@ -61,7 +58,7 @@ const FooterPriceContainer = (props) => {
       getPrice();
       
    
- }, [currentProductList]);
+ }, [currentProductList, currentUser, favoriteList, getTotalPriceOfProducts]);
   
   
  

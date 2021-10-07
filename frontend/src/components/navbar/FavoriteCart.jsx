@@ -1,10 +1,13 @@
 import { useProductList } from "../../contexts/ProductListContext";
+import { useHistory } from "react-router-dom";
+
 
 const FavoriteCart = () => {
   const { favoriteList } = useProductList();
+  const history = useHistory();
 
   const toFavorites = async () => {
-    console.log("Clicked favorite icon");
+    history.push(`/myProductList/${favoriteList.id}`)
   };
 
   return (

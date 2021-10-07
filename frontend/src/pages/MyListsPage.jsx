@@ -1,11 +1,9 @@
 // import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
 import { useProductList } from "../contexts/ProductListContext";
-import { useAuth } from "../contexts/AuthContext";
 
 const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
-  const { currentUser } = useAuth();
 
   return (
     <div className="container" style={styles.container}>
