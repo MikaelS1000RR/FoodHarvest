@@ -8,6 +8,7 @@ const FavoriteCart = () => {
 
   const toFavorites = async () => {
     history.push(`/myProductList/${favoriteList.id}`)
+    window.location.reload();
   };
 
   return (

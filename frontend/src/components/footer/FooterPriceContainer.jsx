@@ -20,9 +20,11 @@ const FooterPriceContainer = (props) => {
     console.log("toggleCurrentList: ",currentProductList)
     if(!currentProductList){
     history.push(`/myProductList/${favoriteList.id}`)
+    window.location.reload();
     return;
     }
     history.push(`/myProductList/${currentProductList.id}`)
+    window.location.reload();
   }
 
 
