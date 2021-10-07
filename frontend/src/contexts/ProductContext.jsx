@@ -1,3 +1,4 @@
+import _ from "lodash";
 import { createContext, useContext } from "react";
 
 const ProductContext = createContext();
@@ -7,8 +8,7 @@ export const useProduct = () => {
 };
 
 const ProductProvider = (props) => {
-
-  const fetchProducts = async (options) => {
+  const fetchProducts = _.memoize(async (options) => {
     if (!options.category) {
       return [];
     }
@@ -24,12 +24,11 @@ const ProductProvider = (props) => {
       body: JSON.stringify(data),
     });
     res = await res.json();
-    
     if (res.success && res.products) {
       return res.products;
     }
     return [];
-  };
+  });
 
 
 
