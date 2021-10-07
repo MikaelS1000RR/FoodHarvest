@@ -1,5 +1,6 @@
 import { createContext, useContext } from "react";
 import firestore from "../database_config/firestore";
+import _ from "lodash";
 
 const ProductContext = createContext();
 
@@ -50,7 +51,7 @@ const ProductProvider = (props) => {
     return docs;
   };
 
-  const fetchProducts = async (options) => {
+  const fetchProducts = _.memoize(async (options) => {
     if (!options.category) {
       return [];
     }
@@ -70,7 +71,9 @@ const ProductProvider = (props) => {
       return res.products;
     }
     return [];
-  };
+  });
+
+
 
   const values = {
     fetchProductsByCategory,

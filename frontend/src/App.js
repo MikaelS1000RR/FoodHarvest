@@ -18,7 +18,7 @@ import CategoryModal from "./components/modals/CategoryModal";
 import DetailModal from "./components/modals/DetailModal";
 import AddListModal from "./components/modals/AddListModal";
 import ProductProvider from "./contexts/ProductContext";
-import FooterPriceContainer from "./components/home/FooterPriceContainer";
+import FooterPriceContainer from "./components/footer/FooterPriceContainer";
 import MyListsPage from "./pages/MyListsPage";
 
 function App() {
