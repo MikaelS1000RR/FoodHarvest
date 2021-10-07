@@ -35,7 +35,9 @@ const ProductCard = (props) => {
             <h4>{product.price}kr</h4>
           </div>
         </div>
-        <AddProductButton product={product} />
+        <div className="p-3 mt-auto">
+          <AddProductButton product={product} />
+        </div>
       </div>
     </div>
   );
@@ -50,13 +52,8 @@ const styles = {
     width: "100%",
     minHeight: "400px",
     display: "flex",
-    flexFlow: "row wrap",
+    // flexFlow: "row wrap",
     justifyContent: "flex-start",
-  },
-  button: {
-    width: "80%",
-    minWidth: "100%",
-    borderRadius: "100px",
   },
   image: {
     width: "100%",
