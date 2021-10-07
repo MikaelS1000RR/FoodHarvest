@@ -18,7 +18,8 @@ const FooterPriceContainer = (props) => {
   
   const toggleCurrentList = (e) => {
     console.log("toggleCurrentList: ",currentProductList)
-    if(!currentProductList){
+    console.log("currentUser: ",currentUser)
+    if(!currentProductList || !currentUser){
     history.push(`/myProductList/${favoriteList.id}`)
     window.location.reload();
     return;
