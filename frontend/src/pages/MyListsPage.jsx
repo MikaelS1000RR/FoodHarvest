@@ -7,6 +7,10 @@ const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
   const { currentUser } = useAuth();
 
+  const refreshPage = ()=>{
+    window.location.reload();
+ }
+  
   return (
     <div className="container" style={styles.container}>
       <div className="listsContainer" style={styles.listsContainer}>
@@ -22,18 +26,21 @@ const MyListsPage = () => {
           />
         </div>
 
-        <div className="productLists" style={styles.productLists}>
-          <ProductListCard props={favoriteList}/>
-          {productLists && productLists.length > 0
-            ? productLists.map((list) => (
-              <ProductListCard props={list}/>
-              ))
-            : null}
+        <div onClick={refreshPage} className="productLists" style={styles.productLists}>
+          
+            {productLists && productLists.length > 0
+              ? productLists.map((list, index) => (
+               <ProductListCard props={list} key={index} />
+                ))
+              : null}
+
+          
         </div>
       </div>
     </div>
   );
 };
+
 
 export default MyListsPage;
 
@@ -44,7 +51,6 @@ const styles = {
     marginTop: "8vh",
   },
   listsContainer: {
-    //background: "pink",
     height: "100%",
     display: "flex",
     flexDirection: "Column",

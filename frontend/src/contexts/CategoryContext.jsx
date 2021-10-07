@@ -14,7 +14,7 @@ const CategoryProvider = (props) => {
     if (categories.length <= 0) {
       fetchCategories();
     }
-  }, []);
+  }, [categories.length]);
 
   const fetchCategories = () => {
     firestore.collection('categories').onSnapshot(

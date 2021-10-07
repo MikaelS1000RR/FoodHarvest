@@ -1,15 +1,15 @@
 import FavoriteButton from "./FavoriteButton";
-import AddProductButton from "./AddProductButton"
 import { useProductInfo } from "../../contexts/ProductInfoContext";
 import { useModal } from "../../contexts/ModalContext";
 
-const ProductCard = (props) => {
-  const { product, classNames} = props;
-  const { toggleDetailModal } = useModal()
+const EditableProductCard = (props) => {
+  const { product, classNames, index } = props;
+
+  const { toggleDetailModal } = useModal();
   const { setCurrentProduct } = useProductInfo();
 
   return (
-    <div className={classNames} >
+    <div className={classNames} index={index}>
       <div className={"card text-center"} style={styles.container}>
         <FavoriteButton styles={styles.favorite} product={product} />
         <div
@@ -21,29 +21,26 @@ const ProductCard = (props) => {
         >
           <div className="card-img-top" style={styles.image}>
             <img
-              className=""
               style={styles.image.content}
               src={product.imageUrl}
               alt={product.imageUrl}
             />
           </div>
           <div className="card-body">
+            <h3>{ product.brand }</h3>
             <div>
-              <h6 className="card-title">{product.productName}</h6>
+              <h5 className="card-title">{product.productName}</h5>
               <p className="card-title">{product.brand}</p>
             </div>
+            <h3>{product.price}kr</h3>
           </div>
-        </div>
-        <div className="p-3 mt-auto">
-            <h4>{product.price}kr</h4>
-          <AddProductButton product={product} />
         </div>
       </div>
     </div>
   );
 };
 
-export default ProductCard;
+export default EditableProductCard;
 
 const styles = {
   container: {
@@ -52,10 +49,12 @@ const styles = {
     width: "100%",
     minHeight: "400px",
     display: "flex",
+    flexFlow: "row wrap",
     justifyContent: "flex-start",
-    boxShadow:
-      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
-    margin:"4px"
+  },
+  button: {
+    margin: "0 auto",
+    width: "80%",
   },
   image: {
     width: "100%",
@@ -67,7 +66,6 @@ const styles = {
       maxWidth: "100%",
       maxHeight: "100%",
       margin: "0 auto",
-      marginTop: "2rem",
     },
   },
   favorite: {

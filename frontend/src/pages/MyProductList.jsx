@@ -1,56 +1,57 @@
-// import ProductListCard from "../components/ProductListCard";
+import { useParams } from "react-router";
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext.jsx";
-// import firestore from "../database_config/firestore";
-import { useParams } from "react-router";
 import { useProduct } from "../contexts/ProductContext.jsx";
 import EditableProductCard from "../components/editableProductCard/EditableProductCard.jsx";
 
 const MyProductList = () => {
   let { id } = useParams();
   const { fetchListById } = useProductList();
-  const [products, setProducts] = useState(null);
-  const [list, setList] = useState(null);
-  const { fetchProducts } = useProduct();
+  const { fetchProductsByCode } = useProduct();
+  const [products, setproducts] = useState();
+  const [list, setList] = useState();
+  
 
   useEffect(() => {
-    const getProducts = async () => {
-      console.log("fetching");
-      // let list = await fetchListById(id);
-      // setList(list);
-      // let products = list.products;
-      // setproducts(products);
-      let options = {
-        category: {
-          id: "IlSvBi8NtSSs8u4Gybxj",
-        },
-      };
+      getList();
+      console.log("UseEffect");
+    }, []);
 
-      let newProducts = await fetchProducts(options);
-      setProducts(newProducts)
-      console.log(newProducts);
-    };
-    getProducts();
-  }, [id]);
+  const getList = async () => {
+    const productCodes = [];
+    let list = await fetchListById(id);
+    setList(list);
+      for (let product of list.products) {
+        productCodes.push(product.productCode);
+      }
+      await getProducts(productCodes);
+  };
 
-  if (!products) {
+  const getProducts = async (productCodes) => {
+    let newProducts = await fetchProductsByCode(productCodes);
+      setproducts(newProducts);
+    console.log(products);
+  };
+  
+
+  if (list == null || products == null) {
     return <div>Loading...</div>;
   } else {
-    return (
-      <div className="container">
-        {/* <h1>{list.name}</h1> */}
-          {products &&
+      return (
+        <div className="container">
+          <h1>{list.name}</h1>
+          <div className="row gy-3">
+            {products &&
             products.map((p, index) => (
               <EditableProductCard
-                index={index}
-                key={index}
+                key={p.productCode + index}
                 product={p}
                 classNames={""}
-                buttonText="Lägg till"
               />
             ))}
-      </div>
-    );
+          </div>
+        </div>
+      );
   }
 };
 
