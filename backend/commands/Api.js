@@ -29,7 +29,6 @@ export class Api {
       }
       try {
         let addedList = await firestore.collection("product-lists").add(Object.assign({}, productList));
-        console.log(addedList);
         res.json({ success: "Posting successful" })
       }
       catch (error) {
@@ -83,8 +82,5 @@ export class Api {
       }
     })
 
-    this.app.put("/api/product-list/product", async (req, res) => {
-      // to update products in productlist
-    })
   }
 }

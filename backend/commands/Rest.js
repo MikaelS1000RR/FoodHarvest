@@ -9,7 +9,6 @@ export class Rest {
   start() {
     // get products
     this.app.post("/rest/products", async (req, res) => {
-      console.log("fetching products");
       let categoryId = req.body.categoryId;
       let limit = req.body.limit || 20;
 
@@ -33,8 +32,6 @@ export class Rest {
     this.app.post("/rest/products/search", async (req, res) => {
       let productNameStart = req.body.searchCodeStart;
       let productNameEnd = req.body.searchCodeEnd;
-      // let favoriteList = req.body.favoriteList;
-      // let currentList = req.body.currentList;
       
       try {
         const products = [];
