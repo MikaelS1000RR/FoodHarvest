@@ -49,7 +49,7 @@ const FooterPriceContainer = (props) => {
       getPrice();
       
    
- }, );
+ }, [currentProductList]);
   
   
  

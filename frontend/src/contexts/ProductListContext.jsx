@@ -9,10 +9,7 @@ export const useProductList = () => {
 };
 
 const ProductListProvider = (props) => {
-  const [favoriteList, setFavoriteList] = useState({
-    products: [],
-    isFavorite: true,
-  });
+  const [favoriteList, setFavoriteList] = useState({ products: [], isFavorite: true });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
   const [hemkopTotalPrice, setHemkopTotalPrice] = useState(0)
@@ -20,8 +17,6 @@ const ProductListProvider = (props) => {
   const [mathemTotalPrice, setMathemTotalPrice] = useState(0)
   const [productsNotFound, setProductsNotFound]=useState([])
   
-
-
   const fetchListById = async (listId) => {
     const ref = await firestore.collection("product-lists").doc(listId).get();
     let data = ref.data();
@@ -84,8 +79,6 @@ const ProductListProvider = (props) => {
                let stringPrice = doc.data().price;
                mathemPrices += parseInt(stringPrice);
 
-             
-              
              });
         }
         
@@ -154,24 +147,19 @@ const ProductListProvider = (props) => {
     
 
     //If such list exists set this list as favorite
-    if (favorite.products) {
+    if (favorite.uid && favorite.products) {
       
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
      
       setProductLists(lists);
    
-
       if (lists.length > 0) {
         setCurrentProductList(lists[0]);
-        console.log("setting current list ", lists[0])
-      
       }
     } else {
-      
       createFavoriteList(userId);
       fetchAllLists(userId);
-
     }
   };
 
@@ -279,8 +267,6 @@ const ProductListProvider = (props) => {
     willysTotalPrice,
     mathemTotalPrice,
     productsNotFound
-  
-
   };
 
   return (
