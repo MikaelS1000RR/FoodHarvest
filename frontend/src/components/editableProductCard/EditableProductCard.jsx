@@ -12,17 +12,19 @@ const EditableProductCard = (props) => {
             style={styles.image}
           />
         </div>
-        <div className="col-10">
+        <div className="col-6">
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
+            <h5 className="card-title">{product.productName}</h5>
+            <p className="card-text">{product.brand}</p>
+            <h3 className="card-text">{product.price} kr</h3>
+          </div>
+        </div>
+        <div className="col-2">
+          <div className="card-body">hej</div>
+        </div>
+        <div className="col-2">
+          <div className="card-body">
+            <span className="material-icons">delete</span>
           </div>
         </div>
       </div>
