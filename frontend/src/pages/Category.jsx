@@ -5,7 +5,6 @@ import { Container } from "reactstrap";
 import { useCategory } from "../contexts/CategoryContext";
 import ProductCardList from "../components/productCard/ProductCardList";
 import { useProductList } from "../contexts/ProductListContext";
-import { useAuth } from "../contexts/AuthContext";
 
 const Category = (props) => {
   const categoryName = props.match.params.name;
