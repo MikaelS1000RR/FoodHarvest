@@ -1,18 +1,16 @@
 // import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
-import { useProductList } from "../contexts/ProductListContext";
-import { useAuth } from "../contexts/AuthContext";
 import { useModal } from "../contexts/ModalContext";
+import { useProductList } from "../contexts/ProductListContext";
 
 const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
-  const { currentUser } = useAuth();
-  const { toggleAddListModal } = useModal()
+  const { toggleAddListModal } = useModal();
 
-  const refreshPage = ()=>{
+  const refreshPage = () => {
     window.location.reload();
- }
-  
+  };
+
   return (
     <div className="container" style={styles.container}>
       <div className="listsContainer" style={styles.listsContainer}>
@@ -20,29 +18,32 @@ const MyListsPage = () => {
           <p className="sparadeListor" style={styles.sparadeListor}>
             Sparade listor
           </p>
-          <img
-            className="plusImg"
-            style={styles.plusImg}
-            src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-            alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-           onClick={toggleAddListModal}/>
+          <div onClick={toggleAddListModal}>
+            <img
+              className="plusImg"
+              style={styles.plusImg}
+              src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+              alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
+            />
+          </div>
         </div>
 
-        <div onClick={refreshPage} className="productLists" style={styles.productLists}>
-          
-            {productLists && productLists.length > 0
-              ? productLists.map((list, index) => (
-               <ProductListCard props={list} key={index} />
-                ))
-              : null}
-
-          
+        <div
+          onClick={refreshPage}
+          className="productLists"
+          style={styles.productLists}
+        >
+          <ProductListCard props={favoriteList} key={favoriteList.id} />
+          {productLists && productLists.length > 0
+            ? productLists.map((list) => (
+                <ProductListCard props={list} key={list.id} />
+              ))
+            : null}
         </div>
       </div>
     </div>
   );
 };
-
 
 export default MyListsPage;
 
@@ -58,7 +59,7 @@ const styles = {
     flexDirection: "Column",
     textAlign: "center",
     itemsAlign: "center",
-    gridGap: "5vh"
+    gridGap: "5vh",
   },
 
   sparadeListor: {
