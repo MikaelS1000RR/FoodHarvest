@@ -15,18 +15,18 @@ const EditableProductCard = (props) => {
             style={styles.image}
           />
         </div>
-        <div className="col-4">
-            <h5 className="card-title">{product.productName}</h5>
-            <p className="card-text">{product.brand}</p>
-            <h3 className="card-text">{product.price} kr</h3>
+        <div className="col-4 col-md-5 col-lg-6">
+          <h5 className="card-title">{product.productName}</h5>
+          <p className="card-text">{product.brand}</p>
+          <h3 className="card-text">{product.price} kr</h3>
         </div>
-        <div className="col-4">
-            <EditQuantityButton product={product} />
+        <div className="col-4 col-md-3 col-lg-2">
+          <EditQuantityButton product={product} />
         </div>
         <div className="col-2">
-            <Button>
-              <span className="material-icons">delete</span>
-            </Button>
+          <button className="btn btn-secondary" style={styles.delete}>
+            <span className="material-icons">delete</span>
+          </button>
         </div>
       </div>
     </div>
@@ -42,6 +42,12 @@ const styles = {
   },
   spread: {
     height: "100%"
+  },
+  delete: {
+    width: "100%",
+    height: "100%",
+    textAlign: "center",
+    padding: "0"
   },
   image: {
     width: "100%",
