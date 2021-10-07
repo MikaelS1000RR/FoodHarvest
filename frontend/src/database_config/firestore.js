@@ -32,7 +32,7 @@ const backupConfig2 = {
 };
 
 
-const app = firebase.initializeApp(config);
+const app = firebase.initializeApp(backupConfig2);
 
 export const auth = app.auth();
 export default firebase.firestore();

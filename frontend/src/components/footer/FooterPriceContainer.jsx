@@ -1,9 +1,10 @@
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
-import { useProduct } from "../../contexts/ProductContext";
-import { createContext, useContext, useState, useEffect } from "react";
+import { useEffect } from "react";
+import {useHistory} from "react-router-dom"
 
 const FooterPriceContainer = (props) => {
+  const history = useHistory();
   const { currentProductList } = useProductList();
   const { favoriteList } = useProductList();
   const { currentUser } = useAuth();
@@ -15,13 +16,20 @@ const FooterPriceContainer = (props) => {
     productsNotFound,
   } = useProductList();
 
-
-  
-
   const checkIfProductsAreNotFound = (storeName) => {
     if (productsNotFound.includes(storeName)) {
       return "Vissa produkter kunde inte hittas"
     }
+  }
+
+  const redirectToMyList = (e) => {
+    if(!currentProductList || !currentUser){
+    history.push(`/myProductList/${favoriteList.id}`)
+    window.location.reload();
+    return;
+    }
+    history.push(`/myProductList/${currentProductList.id}`)
+    window.location.reload();
   }
 
 
@@ -41,22 +49,20 @@ const FooterPriceContainer = (props) => {
        
           await getTotalPriceOfProducts(favoriteList);
         }
-      
-       
-          
+
       }
     
       getPrice();
       
    
- }, [currentProductList]);
+ }, []);
   
   
  
    
 
   return (
-    <div className="container fixed-bottom" style={styles.container}>
+    <div className="container fixed-bottom" style={styles.container} onClick={redirectToMyList}>
       <div className="cart" style={styles.cartSection}>
         <img
           src="https://cdn-icons-png.flaticon.com/512/879/879815.png"
