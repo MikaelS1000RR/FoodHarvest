@@ -15,6 +15,11 @@ const ProductListProvider = (props) => {
   });
   const [currentProductList, setCurrentProductList] = useState(null);
   const [productLists, setProductLists] = useState(null);
+  const [hemkopTotalPrice, setHemkopTotalPrice] = useState(0)
+  const [willysTotalPrice, setWillysTotalPrice] = useState(0)
+  const [mathemTotalPrice, setMathemTotalPrice] = useState(0)
+  const [productsNotFound, setProductsNotFound]=useState([])
+  
 
 
   const fetchListById = async (listId) => {
@@ -44,23 +49,129 @@ const ProductListProvider = (props) => {
   };
 
   const resetLists = () => {
-    setFavoriteList({ products: [], isFavorite: true });
+    
+    setFavoriteList({
+      products: [],
+      isFavorite: true,
+    });
     setCurrentProductList(null);
     setProductLists(null);
   };
 
+  const getTotalPriceOfProducts = async (list) => {
+    //setNotFound...
+    let hemkopPrices = 0
+    let willysPrices = 0
+    let mathemPrices=0
+    let hemkopProductsArr = []
+    let willysProductsArr = []
+    let mathemProductsArr = []
+    let productsNotFoundArr=[]
+   
+    
+    for (let product of list.products) {
+      if (product.productCode !== undefined) {
+
+        if (product.productCode.includes("Mathem")) {
+         
+             let snapshot = await firestore
+               .collection("products") //Change this to "products" later
+               .where("productCode", "==", product.productCode)
+               .limit(1)
+               .get();
+             snapshot.forEach((doc) => {
+              mathemProductsArr.push(doc.data())
+               let stringPrice = doc.data().price;
+               mathemPrices += parseInt(stringPrice);
+
+             
+              
+             });
+        }
+        
+        else {
+          
+               let productCodeWithoutStoreName = product.productCode.substring(
+                 0,
+                 12
+               );
+               let hemkopProductCode = productCodeWithoutStoreName + "hemkop";
+               let willysProductCode = productCodeWithoutStoreName + "willys";
+
+               //Hemkop
+               let snapshot = await firestore
+                 .collection("test-products-hemkop") //Change this to "products" later
+                 .where("productCode", "==", hemkopProductCode)
+                 .limit(1)
+                 .get();
+               snapshot.forEach((doc) => {
+                 hemkopProductsArr.push(doc.data());
+                 let stringPrice = doc.data().price;
+                 hemkopPrices += parseFloat(stringPrice);
+               });
+
+               //Willys
+               let snapshot2 = await firestore
+                 .collection("products") //Change this to "products" later
+                 .where("productCode", "==", willysProductCode)
+                 .limit(1)
+                 .get();
+               snapshot2.forEach((doc) => {
+                 willysProductsArr.push(doc.data());
+                 let stringPrice = doc.data().price;
+                 willysPrices += parseFloat(stringPrice);
+               });
+        }
+         
+        }
+   
+    }
+    
+    if (willysProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("willys");
+    }
+    if (hemkopProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("hemkop");
+    }
+    if (mathemProductsArr.length < list.products.length) {
+      productsNotFoundArr.push("mathem");
+    }
+  
+    setProductsNotFound([...productsNotFoundArr]);
+     
+    setHemkopTotalPrice(hemkopPrices);
+    
+    setWillysTotalPrice(willysPrices);
+    setMathemTotalPrice(mathemPrices);
+  
+   
+ }
+
   const fetchAllLists = async (userId) => {
+   
+    //Fetching favorite list of user with userId and favorite == true
     let favorite = await fetchLists(userId, true);
+    
+
+    //If such list exists set this list as favorite
     if (favorite.products) {
+      
       setFavoriteList(favorite);
       let lists = await fetchLists(userId, false);
+     
       setProductLists(lists);
+   
+
       if (lists.length > 0) {
-        setCurrentProductList(lists[0])
+        setCurrentProductList(lists[0]);
+        console.log("setting current list ", lists[0])
+      
       }
     } else {
+      
       createFavoriteList(userId);
       fetchAllLists(userId);
+
     }
   };
 
@@ -91,6 +202,7 @@ const ProductListProvider = (props) => {
   };
 
   const updateProductToList = async (list, product, toAdd, currentUser) => {
+  
     let data = {
       list: list,
       product: product,
@@ -109,6 +221,7 @@ const ProductListProvider = (props) => {
       res = await res.json();
       if (res.success) {
         if (!res.newList.isFavorite) {
+          await getTotalPriceOfProducts(res.newList)
           setCurrentProductList(res.newList);
         } else {
           setFavoriteList(res.newList);
@@ -138,9 +251,10 @@ const ProductListProvider = (props) => {
   };
 
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((user) => {
+    const unsubscribe = auth.onAuthStateChanged( async (user) => {
       if (user != null) {
-        fetchAllLists(user.uid);
+        await fetchAllLists(user.uid);
+      
       } else {
         resetLists();
       }
@@ -158,7 +272,15 @@ const ProductListProvider = (props) => {
     updateProductToList,
     addIsInList,
     resetLists,
+    hemkopTotalPrice,
+    getTotalPriceOfProducts,
+   // fetchProductLists,
     fetchListById,
+    willysTotalPrice,
+    mathemTotalPrice,
+    productsNotFound
+  
+
   };
 
   return (

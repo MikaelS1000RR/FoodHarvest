@@ -36,3 +36,4 @@ const app = firebase.initializeApp(backupConfig2);
 
 export const auth = app.auth();
 export default firebase.firestore();
+

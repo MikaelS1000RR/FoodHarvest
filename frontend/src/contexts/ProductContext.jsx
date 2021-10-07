@@ -30,6 +30,8 @@ const ProductProvider = (props) => {
     return [];
   });
 
+
+
   const values = {
     fetchProducts,
   };

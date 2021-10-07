@@ -14,6 +14,7 @@ export class HemkopHandler {
       categories,
       size
     );
+    console.log("Harvesting of Hemkop is done!");
 
     //Scrubbing
     let scrubbedHemkopProducts = [];
