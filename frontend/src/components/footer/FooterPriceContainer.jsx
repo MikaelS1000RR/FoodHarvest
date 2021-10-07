@@ -88,7 +88,7 @@ const FooterPriceContainer = (props) => {
         </p>
 
         <p style={currentUser ? styles.hide : styles.show}>
-          {willysTotalPrice}
+          {willysTotalPrice + " kr"}
         </p>
 
         <p className="productNotFound" style={styles.productNotFound}>
@@ -107,7 +107,7 @@ const FooterPriceContainer = (props) => {
           {currentProductList === null ? "0 kr" : hemkopTotalPrice + " kr"}
         </p>
         <p style={currentUser ? styles.hide : styles.show}>
-          {hemkopTotalPrice}
+          {hemkopTotalPrice + " kr"}
         </p>
         <p className="productNotFound" style={styles.productNotFound}>
           {checkIfProductsAreNotFound("hemkop")}
