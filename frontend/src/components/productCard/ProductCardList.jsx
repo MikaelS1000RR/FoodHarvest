@@ -7,7 +7,7 @@ const ProductCardList = (props) => {
 
   return (
     <>
-      {products.length > 0
+      {products && products.length > 0
         ? products.map((product) => (
           <ProductCard key={product.id} product={product} classNames={"col-6 col-sm-4 col-md-3 col-lg-2"} />
         ))

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "reactstrap";
 import { useAuth } from "../../contexts/AuthContext";
 import { useModal } from "../../contexts/ModalContext";
@@ -10,6 +10,12 @@ const AddProductButton = (props) => {
   const { currentProductList, updateProductToList } = useProductList();
   const { toggleAddListModal, toggleLoginModal } = useModal();
   const { currentUser } = useAuth();
+
+  useEffect(() => {
+    if (product.isInCurrentList !== undefined) {
+      setIsInProductList(product.isInCurrentList);
+    }
+  }, [product]);
 
   const updateProduct = async (toAdd) => {
     if (!currentUser) {

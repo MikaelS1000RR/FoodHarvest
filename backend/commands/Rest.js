@@ -10,13 +10,12 @@ export class Rest {
     // get products
     this.app.post("/rest/products", async (req, res) => {
       let categoryId = req.body.categoryId;
-      let currentList = req.body.currentList;
       let limit = req.body.limit || 20;
 
       try {
         let products = [];
         let snapshot = await firestore
-          .collection("test-products")
+          .collection("products")
           .where("category", "==", categoryId)
           .limit(limit)
           .get();
@@ -33,8 +32,6 @@ export class Rest {
     this.app.post("/rest/products/search", async (req, res) => {
       let productNameStart = req.body.searchCodeStart;
       let productNameEnd = req.body.searchCodeEnd;
-      // let favoriteList = req.body.favoriteList;
-      // let currentList = req.body.currentList;
       
       try {
         const products = [];

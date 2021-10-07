@@ -1,38 +1,15 @@
-import { Row } from "reactstrap";
+// import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
-import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext";
 import { useAuth } from "../contexts/AuthContext";
 
 const MyListsPage = () => {
-  const listName = "list Name";
-  const { fetchProductLists } = useProductList();
-  const { productLists } = useProductList();
- const { currentUser } = useAuth();
-  const [lists, setLists] = useState([]);
+  const { favoriteList, productLists } = useProductList();
+  const { currentUser } = useAuth();
 
   const refreshPage = ()=>{
     window.location.reload();
  }
-
-
-  useEffect(() => {
-    const getList = async () => {
-     
-      /*  console.log("lists in pages are ", list);
-      console.log('current user is', currentUser) */
-
-      if(currentUser !== null) {
-        let list = await fetchProductLists(currentUser.uid);
-        setLists(list);
-      } 
-      
-    }
-    getList();
-    
-  },    [currentUser, fetchProductLists, listName, productLists]); // included currentUser.uid and fetchProductLists
-
-
   
   return (
     <div className="container" style={styles.container}>
@@ -41,22 +18,18 @@ const MyListsPage = () => {
           <p className="sparadeListor" style={styles.sparadeListor}>
             Sparade listor
           </p>
-
           <img
             className="plusImg"
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-            alt=""
+            alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
           />
         </div>
 
         <div onClick={refreshPage} className="productLists" style={styles.productLists}>
           
-
-        {/* <button onClick={refreshPage}>BOB</button> */}
-
-            {lists.length > 0
-              ? lists.map((list, index) => (
+            {productLists && productLists.length > 0
+              ? productLists.map((list, index) => (
                <ProductListCard props={list} key={index} />
                 ))
               : null}
