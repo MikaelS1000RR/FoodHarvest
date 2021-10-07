@@ -45,7 +45,7 @@ const MyProductList = () => {
                 index={index}
                 key={index}
                 product={p}
-                classNames={"row"}
+                classNames={""}
                 buttonText="Lägg till"
               />
             ))}

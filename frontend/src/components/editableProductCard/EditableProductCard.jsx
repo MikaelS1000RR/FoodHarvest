@@ -1,9 +1,12 @@
+import { Button } from "reactstrap";
+import EditQuantityButton from "./EditQuantityButton";
+
 const EditableProductCard = (props) => {
   const { product, classNames} = props;
 
   return (
     <div className={"card mb-3 " + classNames} style={styles.container}>
-      <div className="row g-0" style={styles.spread}>
+      <div className="row" style={styles.spread}>
         <div className="col-2" style={styles.spread}>
           <img
             src={product.imageUrl}
@@ -12,20 +15,18 @@ const EditableProductCard = (props) => {
             style={styles.image}
           />
         </div>
-        <div className="col-6">
-          <div className="card-body">
+        <div className="col-4">
             <h5 className="card-title">{product.productName}</h5>
             <p className="card-text">{product.brand}</p>
             <h3 className="card-text">{product.price} kr</h3>
-          </div>
+        </div>
+        <div className="col-4">
+            <EditQuantityButton product={product} />
         </div>
         <div className="col-2">
-          <div className="card-body">hej</div>
-        </div>
-        <div className="col-2">
-          <div className="card-body">
-            <span className="material-icons">delete</span>
-          </div>
+            <Button>
+              <span className="material-icons">delete</span>
+            </Button>
         </div>
       </div>
     </div>
