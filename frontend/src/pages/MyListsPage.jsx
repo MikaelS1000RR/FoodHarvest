@@ -15,15 +15,23 @@ const MyListsPage = () => {
   useEffect(() => {
     const getList = async () => {
      
-      let list = await fetchProductLists(currentUser.uid);
-     /*  console.log("lists in pages are ", list);
+      /*  console.log("lists in pages are ", list);
       console.log('current user is', currentUser) */
-      setLists(list);
-      
-    };
-    getList();
-  }, [listName]);
 
+      if(currentUser !== null) {
+
+        let list = await fetchProductLists(currentUser.uid);
+        setLists(list);
+
+      } 
+      
+    }
+    getList();
+    
+  },    [currentUser, fetchProductLists, listName, productLists]); // included currentUser.uid and fetchProductLists
+
+
+  
   return (
     <div className="container" style={styles.container}>
       <div className="listsContainer" style={styles.listsContainer}>

@@ -34,7 +34,7 @@ const MyProductList = () => {
   };
   
 
-  if (!list || !products) {
+  if (list == null || products == null) {
     return <div>Loading...</div>;
   } else {
       return (
