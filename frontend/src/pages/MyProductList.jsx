@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useProductList } from "../contexts/ProductListContext.jsx";
 import { useProduct } from "../contexts/ProductContext.jsx";
-import EditableProductCard from "../components/home/EditableProductCard";
+import EditableProductCard from "../components/productCard/EditableProductCard";
 import { useParams } from "react-router";
 
 const MyProductList = () => {
