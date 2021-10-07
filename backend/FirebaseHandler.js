@@ -1,20 +1,31 @@
 import firestore from "./database_config/firestore.js";
 
 export class FirebaseHandler {
-
   // Posting products in batch (still creates separate writes to DB..)
   static postProductsInBatch(collection, productArray) {
     let batch = firestore.batch();
+    let i = 0;
     productArray.forEach((product) => {
+      i++;
       let docRef = firestore.collection(collection).doc();
       batch.set(docRef, product);
+      if (i >= 300) {
+        try {
+          batch.commit();
+          console.log("Write to DB succeeded");
+          i = 0;
+          batch = firestore.batch();
+        } catch (err) {
+          console.log("Write to DB failed: ", err);
+        }
+      }
     });
+
     try {
       batch.commit();
-      console.log("Write to DB succeeded")
-    }
-    catch (err) {
-      console.log("Write to DB failed: ", err)
+      console.log("Write to DB succeeded");
+    } catch (err) {
+      console.log("Write to DB failed: ", err);
     }
   }
 

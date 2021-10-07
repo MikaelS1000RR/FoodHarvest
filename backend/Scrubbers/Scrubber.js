@@ -9,7 +9,7 @@ export class Scrubber {
     static async scrubOne(product) {
        let scrubbed = {};
         let tschema = this.translateSchema;
-          console.log("scrubbing product with code ", product.id);
+          //console.log("scrubbing product with code ", product.id);
         for (let key in tschema) {
          
            let scrubFunc = tschema[key];

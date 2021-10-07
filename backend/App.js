@@ -15,9 +15,9 @@ let rest = new Rest(app);
 
 // DbInit.run();
 
-ApiScheduler.run();
+//ApiScheduler.run();
 
 //Use this if you want to update database now
-// Harvesting.run();
+ //Harvesting.run();
 
 app.listen(4000, () => console.log("Listening on port 4000"));
