@@ -121,9 +121,12 @@ const FooterPriceContainer = (props) => {
           className="mathemImg"
           style={styles.mathemImg}
         />
-        <p>{currentProductList === null ? "0 kr" : mathemTotalPrice + " kr"}</p>
+        <p style={currentUser ? styles.show : styles.hide}>
+          {currentProductList === null ? "0 kr" : mathemTotalPrice + " kr"}
+        </p>
+
         <p style={currentUser ? styles.hide : styles.show}>
-          {mathemTotalPrice}
+          {mathemTotalPrice + " kr"}
         </p>
 
         <p className="productNotFound" style={styles.productNotFound}>
@@ -195,7 +198,7 @@ const styles = {
     paddingTop: "1.5vh",
   },
   mathemImg: {
-    height:"5vh",
+    height:"8vh",
   },
   hide: {
     display: "none",
