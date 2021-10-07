@@ -12,7 +12,6 @@ export default Home;
 
 const styles = {
   container: {
-    minWidth: "100vw",
-    background: "pink",
+    minWidth: "50vw",
   },
 };

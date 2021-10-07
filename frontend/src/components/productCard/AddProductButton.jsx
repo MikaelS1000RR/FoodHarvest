@@ -66,5 +66,7 @@ const styles = {
   button: {
     borderRadius: "100px",
     width: "100%",
+    height: "70%",
+ 
   },
 };

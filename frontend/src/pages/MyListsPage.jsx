@@ -51,7 +51,6 @@ const styles = {
     marginTop: "8vh",
   },
   listsContainer: {
-    //background: "pink",
     height: "100%",
     display: "flex",
     flexDirection: "Column",
