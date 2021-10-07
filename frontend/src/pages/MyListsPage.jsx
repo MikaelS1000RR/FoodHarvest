@@ -1,11 +1,11 @@
 // import { Row } from "reactstrap";
 import ProductListCard from "../components/ProductListCard";
+import { useModal } from "../contexts/ModalContext";
 import { useProductList } from "../contexts/ProductListContext";
-import { useAuth } from "../contexts/AuthContext";
 
 const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
-  const { currentUser } = useAuth();
+  const { toggleAddListModal } = useModal();
 
   const refreshPage = ()=>{
     window.location.reload();
@@ -18,23 +18,28 @@ const MyListsPage = () => {
           <p className="sparadeListor" style={styles.sparadeListor}>
             Sparade listor
           </p>
+          <div onClick={toggleAddListModal}>
           <img
+            
             className="plusImg"
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
             alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-          />
+            />
+            </div>
         </div>
 
-        <div onClick={refreshPage} className="productLists" style={styles.productLists}>
-          
-            {productLists && productLists.length > 0
-              ? productLists.map((list, index) => (
-               <ProductListCard props={list} key={index} />
-                ))
-              : null}
-
-          
+        <div
+          onClick={refreshPage}
+          className="productLists"
+          style={styles.productLists}
+        >
+          <ProductListCard props={favoriteList} key={favoriteList.id} />
+          {productLists && productLists.length > 0
+            ? productLists.map((list) => (
+                <ProductListCard props={list} key={list.id} />
+              ))
+            : null}
         </div>
       </div>
     </div>

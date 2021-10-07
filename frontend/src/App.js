@@ -80,6 +80,8 @@ export default App;
 
 const styles = {
   space: {
-    background:"white"
+    background: "white",
+    height:"10%",
+    minHeight: "200px"
   }
 }

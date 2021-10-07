@@ -46,7 +46,6 @@ const MyProductList = () => {
               <EditableProductCard
                 key={p.productCode + index}
                 product={p}
-                classNames={""}
               />
             ))}
           </div>
