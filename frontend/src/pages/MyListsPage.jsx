@@ -11,6 +11,10 @@ const MyListsPage = () => {
  const { currentUser } = useAuth();
   const [lists, setLists] = useState([]);
 
+  const refreshPage = ()=>{
+    window.location.reload();
+ }
+
 
   useEffect(() => {
     const getList = async () => {
@@ -19,10 +23,8 @@ const MyListsPage = () => {
       console.log('current user is', currentUser) */
 
       if(currentUser !== null) {
-
         let list = await fetchProductLists(currentUser.uid);
         setLists(list);
-
       } 
       
     }
@@ -48,20 +50,24 @@ const MyListsPage = () => {
           />
         </div>
 
-        <div className="productLists" style={styles.productLists}>
+        <div onClick={refreshPage} className="productLists" style={styles.productLists}>
           
+
+        {/* <button onClick={refreshPage}>BOB</button> */}
+
             {lists.length > 0
               ? lists.map((list, index) => (
-                <ProductListCard props={list} key={index} />
+               <ProductListCard props={list} key={index} />
                 ))
               : null}
-        
-          <p></p>
+
+          
         </div>
       </div>
     </div>
   );
 };
+
 
 export default MyListsPage;
 
