@@ -2,10 +2,12 @@
 import ProductListCard from "../components/ProductListCard";
 import { useProductList } from "../contexts/ProductListContext";
 import { useAuth } from "../contexts/AuthContext";
+import { useModal } from "../contexts/ModalContext";
 
 const MyListsPage = () => {
   const { favoriteList, productLists } = useProductList();
   const { currentUser } = useAuth();
+  const { toggleAddListModal } = useModal()
 
   const refreshPage = ()=>{
     window.location.reload();
@@ -23,7 +25,7 @@ const MyListsPage = () => {
             style={styles.plusImg}
             src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
             alt="https://cdn-icons-png.flaticon.com/512/1828/1828817.png"
-          />
+           onClick={toggleAddListModal}/>
         </div>
 
         <div onClick={refreshPage} className="productLists" style={styles.productLists}>
