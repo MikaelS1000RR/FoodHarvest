@@ -32,10 +32,10 @@ const ProductCard = (props) => {
               <h6 className="card-title">{product.productName}</h6>
               <p className="card-title">{product.brand}</p>
             </div>
-            <h4>{product.price}kr</h4>
           </div>
         </div>
         <div className="p-3 mt-auto">
+            <h4>{product.price}kr</h4>
           <AddProductButton product={product} />
         </div>
       </div>
@@ -52,7 +52,6 @@ const styles = {
     width: "100%",
     minHeight: "400px",
     display: "flex",
-    // flexFlow: "row wrap",
     justifyContent: "flex-start",
   },
   image: {
