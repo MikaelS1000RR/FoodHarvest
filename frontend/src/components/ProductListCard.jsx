@@ -8,9 +8,15 @@ const ProductListCard = (props) => {
   return (
     <>
       <div>
-        <Link to={`/myProductList/${props.props.id}`}>
+        <Link
+          to={`/myProductList/${props.props.id}`}
+          style={{ textDecoration: "none" }}
+        >
           <div className="productCardContainer" style={styles.productCard}>
-            <p className="listName" style={styles.listName}>{props.props.name}</p>
+            <div style={styles.circle}></div>
+            <p className="listName" style={styles.listName}>
+              {props.props.name}
+            </p>
           </div>
         </Link>
       </div>
