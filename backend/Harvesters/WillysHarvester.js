@@ -25,11 +25,6 @@ export class WillysHarvester {
     return (await raw.json()).results;
   }
 
-  static setCategory(categoryName) {
-    let newCategory = new Category(categoryName);
-    return newCategory;
-  }
-
   //Getting all products from all categories
   static async getAllProducts(categories, size) {
 
