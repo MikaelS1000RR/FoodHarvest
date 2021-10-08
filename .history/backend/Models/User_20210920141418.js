@@ -1,8 +1,0 @@
-
-    class User  {
-
-        
-    
-        User()
-
-    }; 
