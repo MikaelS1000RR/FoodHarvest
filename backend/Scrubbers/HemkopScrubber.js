@@ -1,5 +1,4 @@
 import { FirebaseHandler } from "../FirebaseHandler.js";
-import { HemkopHarvester } from "../Harvesters/HemkopHarvester.js";
 import { Scrubber } from "./Scrubber.js";
 
 export class HemkopScrubber extends Scrubber {

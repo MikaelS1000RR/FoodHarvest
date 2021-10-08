@@ -47,10 +47,6 @@ export class MathemHarvester {
     return productStorage;
   }
 
-  static setCategory(categoryName) {
-    let newCategory = new Category(categoryName);
-    return newCategory;
-  }
 }
 
      
