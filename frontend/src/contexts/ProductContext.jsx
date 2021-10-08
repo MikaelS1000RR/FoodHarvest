@@ -11,24 +11,7 @@ export const useProduct = () => {
 const ProductProvider = (props) => {
 
   const fetchProductsByCode = async (productCodes) => {
-    const docs = [
-      // For testing only. Make docs to empty array for use with db
-      // {
-      //   imageUrl:
-      //     "//static.mathem.se/shared/images/products/original/07331746202360_c1c1.jpg",
-      //   brand: "Favorit",
-      //   productName: "Gouda Skivad EKO",
-      //   price: 33,
-      // },
-      // {
-      //   imageUrl:
-      //     "//static.mathem.se/shared/images/products/original/07310941801066_g1r1.jpg",
-      //   brand: "Pastejköket",
-      //   productName: "Leverpastej",
-      //   price: 24,
-      // },
-    ];
-
+    const docs = [];
     await productCodes.forEach(async (code) => {
         let snapshot = await firestore.collection("products").where("productCode", "==", code).get();
         snapshot.forEach((doc) => { docs.push({ id: doc.id, ...doc.data() }); })  
@@ -37,8 +20,7 @@ const ProductProvider = (props) => {
   }
 
   const fetchProductsByCategory = async (category) => {
-    // const productCollection = "products-test"
-    const productCollection = "test-products"
+    const productCollection = "products"
     const docs = [];
     let snapshot = await firestore
       .collection(productCollection)
@@ -72,8 +54,6 @@ const ProductProvider = (props) => {
     }
     return [];
   });
-
-
 
   const values = {
     fetchProductsByCategory,

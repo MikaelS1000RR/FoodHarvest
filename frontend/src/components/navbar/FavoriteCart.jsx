@@ -5,7 +5,7 @@ const FavoriteCart = () => {
 
   return (
     <div>
-      <div className="btn btn-light bg-transparent" onClick={toFavorites}>
+      <div className="btn btn-light bg-transparent">
         <span className="material-icons">favorite</span>
         {favoriteList.products ? favoriteList.products.length : null}
       </div>

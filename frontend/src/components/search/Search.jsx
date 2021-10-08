@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {Container, Row} from "reactstrap" 
 
 import SearchBar from './SearchBar';
-import { requestProducts } from '../../configs/firestoreSearchProducts';
+import { requestProducts } from '../../search/firestoreSearchProducts';
 import ProductCard from '../productCard/ProductCard';
 import { useProductList } from '../../contexts/ProductListContext';
 

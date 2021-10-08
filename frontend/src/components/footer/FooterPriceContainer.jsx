@@ -1,7 +1,6 @@
 import { useProductList } from "../../contexts/ProductListContext";
 import { useAuth } from "../../contexts/AuthContext";
-import { useProduct } from "../../contexts/ProductContext";
-import { createContext, useContext, useState, useEffect } from "react";
+import { useEffect } from "react";
 
 const FooterPriceContainer = (props) => {
   const { currentProductList } = useProductList();

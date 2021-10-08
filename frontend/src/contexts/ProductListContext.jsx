@@ -93,7 +93,7 @@ const ProductListProvider = (props) => {
 
                //Hemkop
                let snapshot = await firestore
-                 .collection("test-products-hemkop") //Change this to "products" later
+                 .collection("products") //Change this to "products" later
                  .where("productCode", "==", hemkopProductCode)
                  .limit(1)
                  .get();
@@ -262,7 +262,6 @@ const ProductListProvider = (props) => {
     resetLists,
     hemkopTotalPrice,
     getTotalPriceOfProducts,
-   // fetchProductLists,
     fetchListById,
     willysTotalPrice,
     mathemTotalPrice,

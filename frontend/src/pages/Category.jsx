@@ -8,7 +8,6 @@ import { useProductList } from "../contexts/ProductListContext";
 
 const Category = (props) => {
   const categoryName = props.match.params.name;
-  const [category, setCategory] = useState(null)
   const [products, setProducts] = useState([])
   const { fetchProducts } = useProduct();
   const { getCategoryByName } = useCategory();
@@ -18,7 +17,6 @@ const Category = (props) => {
   useEffect(() => {
     const getCategoryProducts = async () => {
       let newCategory = await getCategoryByName(categoryName);
-      setCategory(newCategory);
       let newProducts = products;
       if (!products || products.length <= 0) {
         newProducts = await fetchProducts({ category: newCategory });

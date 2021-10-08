@@ -1,10 +1,6 @@
-// import { Button } from "reactstrap"
-// import { useEffect, useState } from "react";
-// import { useProductList } from "../contexts/ProductListContext";
 import { Link } from "react-router-dom";
 
 const ProductListCard = (props) => {
-  // const randomColor = Math.floor(Math.random() * 16777215).toString(16);
   return (
     <>
       <div>
