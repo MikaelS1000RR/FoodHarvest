@@ -48,7 +48,6 @@ export class WillysHarvester {
       }
     
     }
-    console.log('Harvesting of willys is done!');
     return allProductsOfWillys;
   }
 

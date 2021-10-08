@@ -57,7 +57,6 @@ export class HemkopHarvester {
 
     let foundCategory = false; 
      
-    // console.log("Hemkop Category: ", storeCategoryName, " wordArr: ", wordArr2 );
 
     for (let i = 0; i < dbCategories.length; i++) {
       for (let j = 0; j < wordArr2.length; j++) {

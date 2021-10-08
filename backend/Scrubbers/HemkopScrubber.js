@@ -32,7 +32,6 @@ export class HemkopScrubber extends Scrubber {
   static async setDBinfo() {
     const hemkopStore = await FirebaseHandler.getStore("Hemköp");
     const dbPreferences = await FirebaseHandler.getPreferences();
-    console.log("Store set");
     this.storeFromDB = hemkopStore;
     this.preferencesFromDB = dbPreferences;
   }
@@ -49,7 +48,6 @@ export class HemkopScrubber extends Scrubber {
     const dbPreferences = this.preferencesFromDB;
     let refinedHemkopPreferences = [];
 
-    console.log("productPreferences: ", productPreferences);
 
     if (productPreferences != undefined && productPreferences.length != 0) {
       for (let j = 0; j < productPreferences.length; j++) {

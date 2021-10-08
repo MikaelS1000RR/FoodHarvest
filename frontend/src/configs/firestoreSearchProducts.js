@@ -29,7 +29,6 @@ function adaptStringToDbData(searchStr) {
   const trimSearchStr = searchStr.trim()
   const words = trimSearchStr.split(" ");
   for (let i = 0; i < words.length; i++) {
-      // console.log("words[i]: ", words[i])
       if(!words[i][0]){
         startString = " "
         return startString;
@@ -38,7 +37,6 @@ function adaptStringToDbData(searchStr) {
   }
 
   startString = words.join(" ");
-  // console.log(startString)
   return startString
 }
 
@@ -49,7 +47,6 @@ function endCodeString(searchStr) {
   let strEndCode = strSearch.slice(strlength-1, strSearch.length);
   let endCode = strFrontCode + String.fromCharCode(strEndCode.charCodeAt(0) + 1);
     
-  console.log(endCode)
   return endCode
 }
 

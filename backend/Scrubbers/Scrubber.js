@@ -9,7 +9,6 @@ export class Scrubber {
     static async scrubOne(product) {
        let scrubbed = {};
         let tschema = this.translateSchema;
-          //console.log("scrubbing product with code ", product.id);
         for (let key in tschema) {
          
            let scrubFunc = tschema[key];
@@ -30,13 +29,11 @@ export class Scrubber {
                     scrubbed.push(await this.scrubOne(product));
                 }
                 catch (ex) {
-                    console.log(ex);;
                 }
             
             
 
             }
-            console.log('scrubbing products done!');
             return scrubbed;
         }
 }
