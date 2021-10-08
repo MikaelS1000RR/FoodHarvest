@@ -39,6 +39,21 @@ export class FirebaseHandler {
       });
   }
 
+  // gets the reference id from db
+  static getIdByProperty = async (collection, key, property) => {
+    let querySnapshot = await firestore
+      .collection(collection)
+      .where(key, "==", property)
+      .get();
+    let id = "";
+    querySnapshot.forEach((doc) => {
+      if (doc.id) {
+        id = doc.id;
+        return;
+      }
+    });
+    return id;
+  };
 
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();

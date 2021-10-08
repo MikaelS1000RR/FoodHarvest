@@ -39,6 +39,7 @@ export class FirebaseHandler {
       });
   }
 
+;
 
   static async getCategories() {
     let querySnapshot = await firestore.collection("categories").get();
