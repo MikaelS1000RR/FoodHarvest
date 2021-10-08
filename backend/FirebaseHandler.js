@@ -12,20 +12,16 @@ export class FirebaseHandler {
       if (i >= 300) {
         try {
           batch.commit();
-          console.log("Write to DB succeeded");
           i = 0;
           batch = firestore.batch();
         } catch (err) {
-          console.log("Write to DB failed: ", err);
         }
       }
     });
 
     try {
       batch.commit();
-      console.log("Write to DB succeeded");
     } catch (err) {
-      console.log("Write to DB failed: ", err);
     }
   }
 
@@ -40,7 +36,6 @@ export class FirebaseHandler {
         });
       })
       .then(() => {
-        console.log("Collection has been deleted");
       });
   }
 
@@ -101,6 +96,5 @@ export class FirebaseHandler {
       let productToPost = products[i];
       firestore.collection(collection).doc().set(productToPost);
     }
-    console.log("Posted product in db!");
   }
 }

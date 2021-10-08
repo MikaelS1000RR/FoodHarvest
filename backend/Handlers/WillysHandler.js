@@ -11,7 +11,6 @@ export class WillysHandler {
     function writeToFile(fileName, data) {
       fs.writeFileSync(fileName, JSON.stringify(data, null, "  "), "utf-8");
     }
-    console.log("Harvesting Willys products has started");
     let allProductsOfWillys = await WillysHarvester.getAllProducts(
       categories,
       size
@@ -22,8 +21,6 @@ export class WillysHandler {
     await WillysScrubber.setDBinfo().then(async () => {
       scrubbedProducts = await WillysScrubber.scrubAll(allProductsOfWillys);
     });
-
-    console.log("length of willys products is ", scrubbedProducts.length);
 
     //Posting scrubbed products into db
     FirebaseHandler.postProduct(collection, scrubbedProducts);

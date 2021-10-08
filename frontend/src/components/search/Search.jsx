@@ -12,9 +12,7 @@ const Search = () => {
   const { addIsInList } = useProductList()
 
   const onSearchSubmit = async (term) => {
-    console.log("New Search submit:", term);
 
-    //await requestProducts(term); wait on matches db products collection
     const quotesArray = await requestProducts(term.toLowerCase());
     setQuotes(addIsInList(quotesArray))
     setNoResults(quotesArray.length === 0);

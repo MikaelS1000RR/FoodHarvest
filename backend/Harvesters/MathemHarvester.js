@@ -24,7 +24,6 @@ export class MathemHarvester {
   static async getProductsFromCategories(mCategories, size) {
     let productStorage = [];
     let categoriesOfDb = await FirebaseHandler.getCategories();
-    console.log("Harvesting of Mathem has started");
 
     for (let i = 0; i < mCategories.length; i++) {
       let category = mCategories[i];
@@ -44,7 +43,6 @@ export class MathemHarvester {
         productStorage.push(productsArr[j]);
       }
     }
-    console.log("Harvesting of mathem is done!");
 
     return productStorage;
   }

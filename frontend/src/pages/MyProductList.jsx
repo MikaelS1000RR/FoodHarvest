@@ -14,7 +14,6 @@ const MyProductList = () => {
 
   useEffect(() => {
       getList();
-      console.log("UseEffect");
     }, []);
 
   const getList = async () => {
@@ -30,7 +29,6 @@ const MyProductList = () => {
   const getProducts = async (productCodes) => {
     let newProducts = await fetchProductsByCode(productCodes);
       setproducts(newProducts);
-    console.log(products);
   };
   
 

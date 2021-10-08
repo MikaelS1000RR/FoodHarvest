@@ -29,13 +29,11 @@ export class Scrubber {
                     scrubbed.push(await this.scrubOne(product));
                 }
                 catch (ex) {
-                    console.log(ex);;
                 }
             
             
 
             }
-            console.log('scrubbing products done!');
             return scrubbed;
         }
 }

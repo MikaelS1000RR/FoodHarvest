@@ -53,7 +53,7 @@ export class HemkopHarvester {
       let wordCopy = word.trim()
       wordArr2.push(wordCopy)
     }
-    
+
     let foundCategory = false; 
 
     for (let i = 0; i < dbCategories.length; i++) {
