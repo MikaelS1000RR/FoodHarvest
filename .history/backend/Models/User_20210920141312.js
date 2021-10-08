@@ -1,4 +1,0 @@
-
-    
-    const name;
-    const email; 
