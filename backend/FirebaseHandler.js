@@ -93,23 +93,7 @@ export class FirebaseHandler {
 
     return dataFromDB;
   }
-
-  static setDiscount(product) {
-    let discount = product.discount;
-    if (product.discount != null) {
-      let discountObj = {
-        discountType: product.discount.discountType,
-        quantityToBeBought: product.discount.quantityToBeBought,
-        displayPrice: product.discount.displayPrice,
-        savings: product.discount.savings,
-        percentageSavings: product.discount.percentageSavings,
-        isMemberDiscount: product.discount.isMemberDiscount,
-      };
-      return discountObj;
-    } else {
-      return null;
-    }
-  }
+  
   //Another way to post products
 
   static async postProduct(collection, products) {

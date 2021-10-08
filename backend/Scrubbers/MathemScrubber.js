@@ -8,9 +8,9 @@ export class MathemScrubber extends Scrubber {
     productName: (x) => x.name,
     price: (x) => x.price,
     quantityUnit: (x) => x.unit,
-    quantity: (x) => x.quantity + x.unit, //300g
-    comparisonUnit: (x) => x.comparisonUnit, //kg
-    comparisonPrice: (x) => x.comparisonPrice, //86.9 kr
+    quantity: (x) => x.quantity + x.unit,
+    comparisonUnit: (x) => x.comparisonUnit, 
+    comparisonPrice: (x) => x.comparisonPrice, 
     brand: (x) => x.brand.name,
     imageUrl: (x) => x.images.ORIGINAL,
     category: (x) => this.setCategory(x.category.name),

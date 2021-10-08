@@ -16,9 +16,7 @@ export class HemkopScrubber extends Scrubber {
     imageUrl: (x) => x.thumbnail.url,
     category: (x) => x.category,
     preferences: (x) => this.getPreferences(x.labels),
-    //ean: (x) => this.getEan(x.code),
     store: (x) => this.getStore(),
-    //discount: (x) => this.getDiscount(x.potentialPromotions, x)
   };
 
   static async setQuantityUnit(quantity) {
@@ -107,14 +105,4 @@ export class HemkopScrubber extends Scrubber {
       return null;
     }
   }
-
-  // static async getEan(code) {
-  //   let raw = await fetch(
-  //     "https://www.hemkop.se/axfood/rest/p/" +
-  //       code +
-  //       HemkopHarvester.bustCache()
-  //   );
-  //   let formatted = await raw.json();
-  //   return formatted.ean;
-  // }
 }

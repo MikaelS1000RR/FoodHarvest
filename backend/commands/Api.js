@@ -28,7 +28,7 @@ export class Api {
         }
       }
       try {
-        let addedList = await firestore.collection("product-lists").add(Object.assign({}, productList));
+        await firestore.collection("product-lists").add(Object.assign({}, productList));
         res.json({ success: "Posting successful" })
       }
       catch (error) {
