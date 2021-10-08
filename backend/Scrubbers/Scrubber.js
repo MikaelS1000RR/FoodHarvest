@@ -1,11 +1,5 @@
 export class Scrubber {
 
-    static sleep(ms) {
-        return new Promise((resolve) => {
-        setTimeout(resolve, ms);
-    });
-}
-
     static async scrubOne(product) {
        let scrubbed = {};
         let tschema = this.translateSchema;
